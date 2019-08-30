@@ -24,7 +24,7 @@ This application convert tables FML32 from Tuxedo to files Java and generate a p
         - **opge** _dir example simulating package java_
         - **ppcs** _dir example simulating package java_
         - **ppga** _dir example simulating package java_
-- generateTuxedoTransformFML.sh _Shell script to initiate the convert process_
+- **generateTuxedoTransformFML.sh** _Shell script to initiate the convert process_
 
 # Execute Process
 

@@ -1,0 +1,40 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gesaltasfija.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gesaltasfija_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3278000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_AABOFIJA
+# INICIO DE SERVICIO GA_AABOFIJA
+GA_AABOFIJA_snum_telefono		0	string	-	-
+GA_AABOFIJA_scod_moneda		1	string	-	-
+GA_AABOFIJA_ssaldo_inicial		2	double	-	-
+GA_AABOFIJA_sperfil_tarifario		3	string	-	-
+GA_AABOFIJA_snum_nir		4	string	-	-
+GA_AABOFIJA_scod_taxid		5	string	-	-
+GA_AABOFIJA_scod_sdp		6	string	-	-
+GA_AABOFIJA_scod_usuario		7	string	-	-
+GA_AABOFIJA_ssec_actuacion		8	string	-	-
+GA_AABOFIJA__rpr_ret		9	long	-	-
+# FIN DE SERVICIO GA_AABOFIJA
+
+# Identificadores para el servicio GA_AABOFIJA2
+# INICIO DE SERVICIO GA_AABOFIJA2
+GA_AABOFIJA2_snum_telefono		10	string	-	-
+GA_AABOFIJA2_scod_moneda		11	string	-	-
+GA_AABOFIJA2_ssaldo_inicial		12	double	-	-
+GA_AABOFIJA2_sperfil_tarifario		13	string	-	-
+GA_AABOFIJA2_snum_nir		14	string	-	-
+GA_AABOFIJA2_scod_taxid		15	string	-	-
+GA_AABOFIJA2_scod_sdp		16	string	-	-
+GA_AABOFIJA2_scod_usuario		17	string	-	-
+GA_AABOFIJA2_scod_diaciclo		18	string	-	-
+GA_AABOFIJA2_ssec_actuacion		19	string	-	-
+GA_AABOFIJA2__rpr_ret		20	long	-	-
+# FIN DE SERVICIO GA_AABOFIJA2
+

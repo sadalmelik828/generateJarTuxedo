@@ -1,0 +1,39 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_conperval.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_conperval_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2910000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_CONPERVAL
+# INICIO DE SERVICIO PO_GE_CONPERVAL
+PO_GE_CONPERVAL_msisdn		0	string	-	-
+PO_GE_CONPERVAL_estado_destino		1	string	-	-
+PO_GE_CONPERVALsubestado_des01		2	string	-	-
+PO_GE_CONPERVAL_periodo_cambio		3	long	-	-
+PO_GE_CONPERVAL__rpr_ret		4	short	-	-
+# FIN DE SERVICIO PO_GE_CONPERVAL
+
+# Identificadores para el servicio PO_GE_CONPERVA2
+# INICIO DE SERVICIO PO_GE_CONPERVA2
+PO_GE_CONPERVA2_msisdn		5	string	-	-
+PO_GE_CONPERVA2_formato_fecha		6	string	-	-
+PO_GE_CONPERVA2_estado_destino		7	string	-	-
+PO_GE_CONPERVA2subestado_des01		8	string	-	-
+PO_GE_CONPERVA2_fecha		9	string	-	-
+PO_GE_CONPERVA2__rpr_ret		10	short	-	-
+# FIN DE SERVICIO PO_GE_CONPERVA2
+
+# Identificadores para el servicio PO_GE_CONVALOP
+# INICIO DE SERVICIO PO_GE_CONVALOP
+PO_GE_CONVALOP_cod_operacion		11	string	-	-
+PO_GE_CONVALOP_val_operacion		12	long	-	-
+PO_GE_CONVALOP_seg_validez		13	long	-	-
+PO_GE_CONVALOP_flag_incremento		14	short	-	-
+PO_GE_CONVALOP__rpr_ret		15	short	-	-
+# FIN DE SERVICIO PO_GE_CONVALOP
+

@@ -1,0 +1,207 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_dependencias.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_dependencias_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3279000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_SUMADEP
+# INICIO DE SERVICIO GA_SUMADEP
+GA_SUMADEP_snum_madre		0	string	-	-
+GA_SUMADEP_scod_depende		1	string	-	-
+GA_SUMADEP_scod_moneda		2	string	-	-
+GA_SUMADEP_dcoste		3	double	-	-
+GA_SUMADEP_scod_usuario		4	string	-	-
+GA_SUMADEP_lhijas		5	long	-	-
+GA_SUMADEP_snum_hijas		6	string	-	-
+GA_SUMADEP_sSecActuacion		7	string	-	-
+GA_SUMADEP__rpr_ret		8	long	-	-
+# FIN DE SERVICIO GA_SUMADEP
+
+# Identificadores para el servicio GA_MODIDEP
+# INICIO DE SERVICIO GA_MODIDEP
+GA_MODIDEP_scod_depende		9	string	-	-
+GA_MODIDEP_scod_moneda		10	string	-	-
+GA_MODIDEP_dcoste		11	double	-	-
+GA_MODIDEP_scod_usuario		12	string	-	-
+GA_MODIDEP_lhijas		13	long	-	-
+GA_MODIDEP_snum_hijas		14	string	-	-
+GA_MODIDEP_sSecActuacion		15	string	-	-
+GA_MODIDEP__rpr_ret		16	long	-	-
+# FIN DE SERVICIO GA_MODIDEP
+
+# Identificadores para el servicio GA_BAJADEP
+# INICIO DE SERVICIO GA_BAJADEP
+GA_BAJADEP_scod_moneda		17	string	-	-
+GA_BAJADEP_dcoste		18	double	-	-
+GA_BAJADEP_scod_usuario		19	string	-	-
+GA_BAJADEP_lhijas		20	long	-	-
+GA_BAJADEP_snum_hijas		21	string	-	-
+GA_BAJADEP_sSecActuacion		22	string	-	-
+GA_BAJADEP__rpr_ret		23	long	-	-
+# FIN DE SERVICIO GA_BAJADEP
+
+# Identificadores para el servicio GA_CONHIJA
+# INICIO DE SERVICIO GA_CONHIJA
+GA_CONHIJA_snum_hija		24	string	-	-
+GA_CONHIJA_scod_depende		25	string	-	-
+GA_CONHIJA_snum_madre		26	string	-	-
+GA_CONHIJA__rpr_ret		27	long	-	-
+# FIN DE SERVICIO GA_CONHIJA
+
+# Identificadores para el servicio GA_CONMADRE
+# INICIO DE SERVICIO GA_CONMADRE
+GA_CONMADRE_snum_madre		28	string	-	-
+GA_CONMADRE_token		29	string	-	-
+GA_CONMADRE_n_regs		30	long	-	-
+GA_CONMADRE_scod_depende		31	string	-	-
+GA_CONMADRE_snum_hija		32	string	-	-
+GA_CONMADRE__rpr_ret		33	long	-	-
+# FIN DE SERVICIO GA_CONMADRE
+
+# Identificadores para el servicio GA_CONDEPENDE
+# INICIO DE SERVICIO GA_CONDEPENDE
+GA_CONDEPENDE_scod_depende		34	string	-	-
+GA_CONDEPENDE_token		35	string	-	-
+GA_CONDEPENDE_n_regs		36	long	-	-
+GA_CONDEPENDE_scod_dependes		37	string	-	-
+GA_CONDEPENDE_sdes_depende		38	string	-	-
+GA_CONDEPENDE__rpr_ret		39	long	-	-
+# FIN DE SERVICIO GA_CONDEPENDE
+
+# Identificadores para el servicio GA_CONDEPENDE2
+# INICIO DE SERVICIO GA_CONDEPENDE2
+GA_CONDEPENDE2_scod_depende		40	string	-	-
+GA_CONDEPENDE2_token		41	string	-	-
+GA_CONDEPENDE2_n_regs		42	long	-	-
+GA_CONDEPENDE2_scod_idioma		43	string	-	-
+GA_CONDEPENDE2_scod_dependes		44	string	-	-
+GA_CONDEPENDE2_sdes_depende		45	string	-	-
+GA_CONDEPENDE2__rpr_ret		46	long	-	-
+# FIN DE SERVICIO GA_CONDEPENDE2
+
+# Identificadores para el servicio GA_SUMADEP2
+# INICIO DE SERVICIO GA_SUMADEP2
+GA_SUMADEP2_num_telefono		47	string	-	-
+GA_SUMADEP2_scod_moneda		48	string	-	-
+GA_SUMADEP2_dcoste		49	double	-	-
+GA_SUMADEP2_lmod_cobro		50	long	-	-
+GA_SUMADEP2_scod_usuario		51	string	-	-
+GA_SUMADEP2_lhijas		52	long	-	-
+GA_SUMADEP2_snum_hijas		53	string	-	-
+GA_SUMADEP2_ltipo_dependencia		54	long	-	-
+GA_SUMADEP2_lcod_servicio		55	long	-	-
+GA_SUMADEP2_smedia_type		56	string	-	-
+GA_SUMADEP2_stransaction_id		57	string	-	-
+GA_SUMADEP2_ser_reference		58	string	-	-
+GA_SUMADEP2_sSecActuacion		59	string	-	-
+GA_SUMADEP2__rpr_ret		60	long	-	-
+# FIN DE SERVICIO GA_SUMADEP2
+
+# Identificadores para el servicio GA_MODIDEP2
+# INICIO DE SERVICIO GA_MODIDEP2
+GA_MODIDEP2_num_telefono		61	string	-	-
+GA_MODIDEP2_scod_moneda		62	string	-	-
+GA_MODIDEP2_dcoste		63	double	-	-
+GA_MODIDEP2_lmod_cobro		64	long	-	-
+GA_MODIDEP2_scod_usuario		65	string	-	-
+GA_MODIDEP2_lhijas		66	long	-	-
+GA_MODIDEP2_snum_hijas		67	string	-	-
+GA_MODIDEP2_ltipo_dependencia		68	long	-	-
+GA_MODIDEP2_lcod_servicio		69	long	-	-
+GA_MODIDEP2_smedia_type		70	string	-	-
+GA_MODIDEP2_stransaction_id		71	string	-	-
+GA_MODIDEP2_ser_reference		72	string	-	-
+GA_MODIDEP2_sSecActuacion		73	string	-	-
+GA_MODIDEP2__rpr_ret		74	long	-	-
+# FIN DE SERVICIO GA_MODIDEP2
+
+# Identificadores para el servicio GA_BAJADEP2
+# INICIO DE SERVICIO GA_BAJADEP2
+GA_BAJADEP2_num_telefono		75	string	-	-
+GA_BAJADEP2_scod_moneda		76	string	-	-
+GA_BAJADEP2_dcoste		77	double	-	-
+GA_BAJADEP2_lmod_cobro		78	long	-	-
+GA_BAJADEP2_scod_usuario		79	string	-	-
+GA_BAJADEP2_lhijas		80	long	-	-
+GA_BAJADEP2_snum_hijas		81	string	-	-
+GA_BAJADEP2_lcod_servicio		82	long	-	-
+GA_BAJADEP2_smedia_type		83	string	-	-
+GA_BAJADEP2_stransaction_id		84	string	-	-
+GA_BAJADEP2_ser_reference		85	string	-	-
+GA_BAJADEP2_sSecActuacion		86	string	-	-
+GA_BAJADEP2__rpr_ret		87	long	-	-
+# FIN DE SERVICIO GA_BAJADEP2
+
+# Identificadores para el servicio GA_CONHIJA2
+# INICIO DE SERVICIO GA_CONHIJA2
+GA_CONHIJA2_num_telefono		88	string	-	-
+GA_CONHIJA2_lservicioin		89	long	-	-
+GA_CONHIJA2_lnum_madres		90	long	-	-
+GA_CONHIJA2_stoken		91	string	-	-
+GA_CONHIJA2_lcod_dependencia		92	long	-	-
+GA_CONHIJA2_lcod_servicio		93	long	-	-
+GA_CONHIJA2_snum_madre		94	string	-	-
+GA_CONHIJA2__rpr_ret		95	long	-	-
+# FIN DE SERVICIO GA_CONHIJA2
+
+# Identificadores para el servicio GA_CONMADRE2
+# INICIO DE SERVICIO GA_CONMADRE2
+GA_CONMADRE2_num_telefono		96	string	-	-
+GA_CONMADRE2_ldependenciain		97	long	-	-
+GA_CONMADRE2_stoken		98	string	-	-
+GA_CONMADRE2_lnum_hijas		99	long	-	-
+GA_CONMADRE2_lcod_dependencia		100	long	-	-
+GA_CONMADRE2_lcod_servicio		101	long	-	-
+GA_CONMADRE2_snum_hija		102	string	-	-
+GA_CONMADRE2__rpr_ret		103	long	-	-
+# FIN DE SERVICIO GA_CONMADRE2
+
+# Identificadores para el servicio GA_BAJADEP3
+# INICIO DE SERVICIO GA_BAJADEP3
+GA_BAJADEP3_num_telefono		104	string	-	-
+GA_BAJADEP3_scod_moneda		105	string	-	-
+GA_BAJADEP3_dcoste		106	double	-	-
+GA_BAJADEP3_lmod_cobro		107	long	-	-
+GA_BAJADEP3_scod_usuario		108	string	-	-
+GA_BAJADEP3_lhijas		109	long	-	-
+GA_BAJADEP3_snum_hijas		110	string	-	-
+GA_BAJADEP3_lcod_servicio		111	long	-	-
+GA_BAJADEP3_sSecActuacion		112	string	-	-
+GA_BAJADEP3__rpr_ret		113	long	-	-
+# FIN DE SERVICIO GA_BAJADEP3
+
+# Identificadores para el servicio GA_MODIDEP3
+# INICIO DE SERVICIO GA_MODIDEP3
+GA_MODIDEP3_num_telefono		114	string	-	-
+GA_MODIDEP3_scod_moneda		115	string	-	-
+GA_MODIDEP3_dcoste		116	double	-	-
+GA_MODIDEP3_lmod_cobro		117	long	-	-
+GA_MODIDEP3_scod_usuario		118	string	-	-
+GA_MODIDEP3_lhijas		119	long	-	-
+GA_MODIDEP3_snum_hijas		120	string	-	-
+GA_MODIDEP3_ltipo_dependencia		121	long	-	-
+GA_MODIDEP3_lcod_servicio		122	long	-	-
+GA_MODIDEP3_sSecActuacion		123	string	-	-
+GA_MODIDEP3__rpr_ret		124	long	-	-
+# FIN DE SERVICIO GA_MODIDEP3
+
+# Identificadores para el servicio GA_SUMADEP3
+# INICIO DE SERVICIO GA_SUMADEP3
+GA_SUMADEP3_num_telefono		125	string	-	-
+GA_SUMADEP3_scod_moneda		126	string	-	-
+GA_SUMADEP3_dcoste		127	double	-	-
+GA_SUMADEP3_lmod_cobro		128	long	-	-
+GA_SUMADEP3_scod_usuario		129	string	-	-
+GA_SUMADEP3_lhijas		130	long	-	-
+GA_SUMADEP3_snum_hijas		131	string	-	-
+GA_SUMADEP3_ltipo_dependencia		132	long	-	-
+GA_SUMADEP3_lcod_servicio		133	long	-	-
+GA_SUMADEP3_sSecActuacion		134	string	-	-
+GA_SUMADEP3__rpr_ret		135	long	-	-
+# FIN DE SERVICIO GA_SUMADEP3
+

@@ -1,0 +1,427 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_awgeneral.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_awgeneral_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz Activa versión 1.0 
+#
+
+*base		3237000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_OBTCATEGORIAS
+# INICIO DE SERVICIO PP_GA_OBTCAT
+PP_GA_OBTCAT_cod_idioma		0	string	-	-
+PP_GA_OBTCAT_num_items		1	long	-	-
+PP_GA_OBTCAT_ult_reg		2	string	-	-
+PP_GA_OBTCAT_categoria		3	string	-	-
+PP_GA_OBTCAT_descripcion		4	string	-	-
+PP_GA_OBTCAT_visible		5	string	-	-
+PP_GA_OBTCAT_flag_concred		6	string	-	-
+PP_GA_OBTCAT_hay_mas		7	long	-	-
+PP_GA_OBTCAT__rpr_ret		8	long	-	-
+# FIN DE SERVICIO PP_GA_OBTCAT
+
+# Identificadores para el servicio PP_GA_FECMINMAX
+# INICIO DE SERVICIO PP_GA_FMM
+PP_GA_FMM_num_telefono		9	string	-	-
+PP_GA_FMM_fecha_min		10	string	-	-
+PP_GA_FMM_fecha_max		11	string	-	-
+PP_GA_FMM_cod_retorno		12	long	-	-
+PP_GA_FMM__rpr_ret		13	long	-	-
+# FIN DE SERVICIO PP_GA_FMM
+
+# Identificadores para el servicio PP_GA_ACUMU
+# INICIO DE SERVICIO PP_GA_ACUMU
+PP_GA_ACUMU_num_telefono		14	string	-	-
+PP_GA_ACUMU_cod_moneda		15	string	-	-
+PP_GA_ACUMU_num_meses		16	long	-	-
+PP_GA_ACUMU_n_regs		17	long	-	-
+PP_GA_ACUMU_token		18	string	-	-
+PP_GA_ACUMU_fecha		19	string	-	-
+PP_GA_ACUMU_categoria		20	string	-	-
+PP_GA_ACUMU_importe		21	double	-	-
+PP_GA_ACUMU_cod_retorno		22	long	-	-
+PP_GA_ACUMU_hayMas		23	long	-	-
+PP_GA_ACUMU__rpr_ret		24	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMU
+
+# Identificadores para el servicio PP_GA_DATOS
+# INICIO DE SERVICIO PP_GA_DATOS
+PP_GA_DATOS_num_telefonoA		25	string	-	-
+PP_GA_DATOS_fecha_desde		26	string	-	-
+PP_GA_DATOS_fecha_hasta		27	string	-	-
+PP_GA_DATOS_mascara		28	string	-	-
+PP_GA_DATOS_importe_min		29	double	-	-
+PP_GA_DATOS_orden		30	long	-	-
+PP_GA_DATOS_cod_moneda		31	string	-	-
+PP_GA_DATOS_cod_idioma		32	string	-	-
+PP_GA_DATOS_n_regs		33	long	-	-
+PP_GA_DATOS_max_categorias		34	long	-	-
+PP_GA_DATOS_categoria_in		35	string	-	-
+PP_GA_DATOS_ult_categoria		36	string	-	-
+PP_GA_DATOS_ult_fecha		37	string	-	-
+PP_GA_DATOS_ult_clave_registro		38	string	-	-
+PP_GA_DATOS_num_telefonoB		39	string	-	-
+PP_GA_DATOS_tipo_activa		40	string	-	-
+PP_GA_DATOS_descripcion		41	string	-	-
+PP_GA_DATOS_cod_descripcion		42	string	-	-
+PP_GA_DATOS_fecha_op		43	string	-	-
+PP_GA_DATOS_duracion		44	long	-	-
+PP_GA_DATOS_importe_pts		45	double	-	-
+PP_GA_DATOS_clave_registro		46	string	-	-
+PP_GA_DATOS_categoria		47	string	-	-
+PP_GA_DATOS_inf_adicional		48	string	-	-
+PP_GA_DATOS_reserva		49	string	-	-
+PP_GA_DATOS_hay_mas		50	long	-	-
+PP_GA_DATOS_cod_retorno		51	long	-	-
+PP_GA_DATOS__rpr_ret		52	long	-	-
+# FIN DE SERVICIO PP_GA_DATOS
+
+# Identificadores para el servicio PP_GA_DATOSX
+# INICIO DE SERVICIO PP_GA_DATOSX
+PP_GA_DATOSX_num_telefonoA		53	string	-	-
+PP_GA_DATOSX_fecha_desde		54	string	-	-
+PP_GA_DATOSX_fecha_hasta		55	string	-	-
+PP_GA_DATOSX_mascara		56	string	-	-
+PP_GA_DATOSX_importe_min		57	double	-	-
+PP_GA_DATOSX_orden		58	long	-	-
+PP_GA_DATOSX_cod_moneda		59	string	-	-
+PP_GA_DATOSX_cod_idioma		60	string	-	-
+PP_GA_DATOSX_n_regs		61	long	-	-
+PP_GA_DATOSX_max_categorias		62	long	-	-
+PP_GA_DATOSX_categoria_in		63	string	-	-
+PP_GA_DATOSX_ult_categoria		64	string	-	-
+PP_GA_DATOSX_ult_fecha		65	string	-	-
+PP_GA_DATOSXult_clave_regist01		66	string	-	-
+PP_GA_DATOSX_num_telefonoB		67	string	-	-
+PP_GA_DATOSX_tipo_activa		68	string	-	-
+PP_GA_DATOSX_descripcion		69	string	-	-
+PP_GA_DATOSX_cod_descripcion		70	string	-	-
+PP_GA_DATOSX_fecha_op		71	string	-	-
+PP_GA_DATOSX_duracion		72	long	-	-
+PP_GA_DATOSX_importe_pts		73	double	-	-
+PP_GA_DATOSX_clave_registro		74	string	-	-
+PP_GA_DATOSX_categoria		75	string	-	-
+PP_GA_DATOSX_inf_adicional		76	string	-	-
+PP_GA_DATOSX_reserva		77	string	-	-
+PP_GA_DATOSX_hay_mas		78	long	-	-
+PP_GA_DATOSX_cod_retorno		79	long	-	-
+PP_GA_DATOSX__rpr_ret		80	long	-	-
+# FIN DE SERVICIO PP_GA_DATOSX
+
+# Identificadores para el servicio PP_GA_FMM2
+# INICIO DE SERVICIO PP_GA_FMM2
+PP_GA_FMM2_num_telefono		81	string	-	-
+PP_GA_FMM2_imax_categorias		82	long	-	-
+PP_GA_FMM2_scategorias		83	string	-	-
+PP_GA_FMM2_fecha_min		84	string	-	-
+PP_GA_FMM2_fecha_max		85	string	-	-
+PP_GA_FMM2__rpr_ret		86	long	-	-
+# FIN DE SERVICIO PP_GA_FMM2
+
+# Identificadores para el servicio PP_GA_DATOSX2
+# INICIO DE SERVICIO PP_GA_DATOSX2
+PP_GA_DATOSX2_concatenado		87	long	-	-
+PP_GA_DATOSX2_num_telefonoA		88	string	-	-
+PP_GA_DATOSX2_fecha_desde		89	string	-	-
+PP_GA_DATOSX2_fecha_hasta		90	string	-	-
+PP_GA_DATOSX2_mascara		91	string	-	-
+PP_GA_DATOSX2_importe_min		92	double	-	-
+PP_GA_DATOSX2_orden		93	long	-	-
+PP_GA_DATOSX2_cod_moneda		94	string	-	-
+PP_GA_DATOSX2_cod_idioma		95	string	-	-
+PP_GA_DATOSX2_max_categorias		96	long	-	-
+PP_GA_DATOSX2_categorias_in		97	string	-	-
+PP_GA_DATOSX2_n_regs		98	long	-	-
+PP_GA_DATOSX2_token		99	string	-	-
+PP_GA_DATOSX2_num_telefonoB		100	string	-	-
+PP_GA_DATOSX2_tipo_activa		101	string	-	-
+PP_GA_DATOSX2_descripcion		102	string	-	-
+PP_GA_DATOSX2_cod_descripcion		103	string	-	-
+PP_GA_DATOSX2_fecha_op		104	string	-	-
+PP_GA_DATOSX2_duracion		105	long	-	-
+PP_GA_DATOSX2_importe		106	double	-	-
+PP_GA_DATOSX2importe_adicion01		107	double	-	-
+PP_GA_DATOSX2_area_origen		108	long	-	-
+PP_GA_DATOSX2_area_destino		109	long	-	-
+PP_GA_DATOSX2_clv_concat		110	string	-	-
+PP_GA_DATOSX2_cambio_tarifa		111	string	-	-
+PP_GA_DATOSX2_clave_registro		112	string	-	-
+PP_GA_DATOSX2_inf_adicional		113	string	-	-
+PP_GA_DATOSX2_categoria		114	string	-	-
+PP_GA_DATOSX2_reserva		115	string	-	-
+PP_GA_DATOSX2_hay_mas		116	long	-	-
+PP_GA_DATOSX2_cod_retorno		117	long	-	-
+PP_GA_DATOSX2__rpr_ret		118	long	-	-
+# FIN DE SERVICIO PP_GA_DATOSX2
+
+# Identificadores para el servicio PP_GA_FMM3
+# INICIO DE SERVICIO PP_GA_FMM3
+PP_GA_FMM3_num_telefono		119	string	-	-
+PP_GA_FMM3_imax_categorias		120	long	-	-
+PP_GA_FMM3_scategorias		121	string	-	-
+PP_GA_FMM3_fecha_min		122	string	-	-
+PP_GA_FMM3_fecha_max		123	string	-	-
+PP_GA_FMM3__rpr_ret		124	long	-	-
+# FIN DE SERVICIO PP_GA_FMM3
+
+# Identificadores para el servicio PP_GA_ACUM_CAT
+# INICIO DE SERVICIO PP_GA_ACUM_CAT
+PP_GA_ACUM_CAT_num_telefono		125	string	-	-
+PP_GA_ACUM_CAT_cod_moneda		126	string	-	-
+PP_GA_ACUM_CAT_fec_inicio		127	string	-	-
+PP_GA_ACUM_CAT_fec_fin		128	string	-	-
+PP_GA_ACUM_CAT_num_categorias		129	long	-	-
+PP_GA_ACUM_CAT_categorias_in		130	string	-	-
+PP_GA_ACUM_CAT_categorias_out		131	string	-	-
+PP_GA_ACUM_CAT_importe		132	double	-	-
+PP_GA_ACUM_CAT__rpr_ret		133	long	-	-
+# FIN DE SERVICIO PP_GA_ACUM_CAT
+
+# Identificadores para el servicio PP_GA_INF_ADIC
+# INICIO DE SERVICIO PP_GA_INF_ADIC
+PP_GA_INF_ADIC_numTelefono		134	string	-	-
+PP_GA_INF_ADIC_fecha		135	string	-	-
+PP_GA_INF_ADIC_cid		136	string	-	-
+PP_GA_INF_ADIC_codIdioma		137	string	-	-
+PP_GA_INF_ADIC_infAdicional		138	string	-	-
+PP_GA_INF_ADIC_tipoUlt		139	string	-	-
+PP_GA_INF_ADIC_secUlt		140	long	-	-
+PP_GA_INF_ADIC_nRegs		141	long	-	-
+PP_GA_INF_ADIC_descripcion		142	string	-	-
+PP_GA_INF_ADIC_fechaEvento		143	string	-	-
+PP_GA_INF_ADIC_duracion		144	long	-	-
+PP_GA_INF_ADIC_descuento		145	double	-	-
+PP_GA_INF_ADIC_codListaDestino		146	long	-	-
+PP_GA_INF_ADIC_hayMas		147	long	-	-
+PP_GA_INF_ADIC__rpr_ret		148	long	-	-
+# FIN DE SERVICIO PP_GA_INF_ADIC
+
+# Identificadores para el servicio PP_GA_DATOSX3
+# INICIO DE SERVICIO PP_GA_DATOSX3
+PP_GA_DATOSX3_concatenado		149	long	-	-
+PP_GA_DATOSX3_num_telefonoA		150	string	-	-
+PP_GA_DATOSX3_fecha_desde		151	string	-	-
+PP_GA_DATOSX3_fecha_hasta		152	string	-	-
+PP_GA_DATOSX3_mascara		153	string	-	-
+PP_GA_DATOSX3_importe_min		154	double	-	-
+PP_GA_DATOSX3_orden		155	long	-	-
+PP_GA_DATOSX3_cod_moneda		156	string	-	-
+PP_GA_DATOSX3_cod_idioma		157	string	-	-
+PP_GA_DATOSX3_max_categorias		158	long	-	-
+PP_GA_DATOSX3_categorias_in		159	string	-	-
+PP_GA_DATOSX3_n_regs		160	long	-	-
+PP_GA_DATOSX3_token		161	string	-	-
+PP_GA_DATOSX3_num_telefonoB		162	string	-	-
+PP_GA_DATOSX3_tipo_activa		163	string	-	-
+PP_GA_DATOSX3_tipo_llamada		164	string	-	-
+PP_GA_DATOSX3_descripcion		165	string	-	-
+PP_GA_DATOSX3_cod_descripcion		166	string	-	-
+PP_GA_DATOSX3_fecha_op		167	string	-	-
+PP_GA_DATOSX3_duracion		168	long	-	-
+PP_GA_DATOSX3_dur_fact		169	long	-	-
+PP_GA_DATOSX3_importe		170	double	-	-
+PP_GA_DATOSX3importe_adicion01		171	double	-	-
+PP_GA_DATOSX3_area_origen		172	long	-	-
+PP_GA_DATOSX3_area_destino		173	long	-	-
+PP_GA_DATOSX3_clv_concat		174	string	-	-
+PP_GA_DATOSX3_cambio_tarifa		175	string	-	-
+PP_GA_DATOSX3_clave_registro		176	string	-	-
+PP_GA_DATOSX3_inf_adicional		177	string	-	-
+PP_GA_DATOSX3_categoria		178	string	-	-
+PP_GA_DATOSX3_reserva		179	string	-	-
+PP_GA_DATOSX3_hay_mas		180	long	-	-
+PP_GA_DATOSX3_cod_retorno		181	long	-	-
+PP_GA_DATOSX3__rpr_ret		182	long	-	-
+# FIN DE SERVICIO PP_GA_DATOSX3
+
+# Identificadores para el servicio PP_GA_FMM4
+# INICIO DE SERVICIO PP_GA_FMM4
+PP_GA_FMM4_snum_telefono		183	string	-	-
+PP_GA_FMM4_lmax_categorias		184	long	-	-
+PP_GA_FMM4_scategorias		185	string	-	-
+PP_GA_FMM4_scod_idioma		186	string	-	-
+PP_GA_FMM4_sfecha_min		187	string	-	-
+PP_GA_FMM4_sfecha_max		188	string	-	-
+PP_GA_FMM4__rpr_ret		189	long	-	-
+# FIN DE SERVICIO PP_GA_FMM4
+
+# Identificadores para el servicio PP_GA_ACUMCAT2
+# INICIO DE SERVICIO PP_GA_ACUMCAT2
+PP_GA_ACUMCAT2_snum_telefono		190	string	-	-
+PP_GA_ACUMCAT2_scod_moneda		191	string	-	-
+PP_GA_ACUMCAT2_sfec_inicio		192	string	-	-
+PP_GA_ACUMCAT2_sfec_fin		193	string	-	-
+PP_GA_ACUMCAT2_lnum_categorias		194	long	-	-
+PP_GA_ACUMCAT2_scategorias_in		195	string	-	-
+PP_GA_ACUMCAT2_scod_idioma		196	string	-	-
+PP_GA_ACUMCAT2_categorias_out		197	string	-	-
+PP_GA_ACUMCAT2_dimporte		198	double	-	-
+PP_GA_ACUMCAT2__rpr_ret		199	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMCAT2
+
+# Identificadores para el servicio PP_GA_DATOSX4
+# INICIO DE SERVICIO PP_GA_DATOSX4
+PP_GA_DATOSX4_snum_telefonoA		200	string	-	-
+PP_GA_DATOSX4_sfecha_desde		201	string	-	-
+PP_GA_DATOSX4_sfecha_hasta		202	string	-	-
+PP_GA_DATOSX4_smascara		203	string	-	-
+PP_GA_DATOSX4_dimporte_min		204	double	-	-
+PP_GA_DATOSX4_lorden		205	long	-	-
+PP_GA_DATOSX4_scod_moneda		206	string	-	-
+PP_GA_DATOSX4_scod_idioma		207	string	-	-
+PP_GA_DATOSX4_lmax_categorias		208	long	-	-
+PP_GA_DATOSX4_scategorias_in		209	string	-	-
+PP_GA_DATOSX4_ln_regs		210	long	-	-
+PP_GA_DATOSX4_stoken		211	string	-	-
+PP_GA_DATOSX4_cocultar		212	carray	-	-
+PP_GA_DATOSX4_snum_telefonoB		213	string	-	-
+PP_GA_DATOSX4_stipo_activa		214	string	-	-
+PP_GA_DATOSX4_stipo_llamada		215	string	-	-
+PP_GA_DATOSX4_sdescripcion		216	string	-	-
+PP_GA_DATOSX4_scod_descripcion		217	string	-	-
+PP_GA_DATOSX4_sfecha_op		218	string	-	-
+PP_GA_DATOSX4_lduracion		219	long	-	-
+PP_GA_DATOSX4_dimporte		220	double	-	-
+PP_GA_DATOSX4dimporte_adicio01		221	double	-	-
+PP_GA_DATOSX4_sclv_concat		222	string	-	-
+PP_GA_DATOSX4_sclave_registro		223	string	-	-
+PP_GA_DATOSX4_sinf_adicional		224	string	-	-
+PP_GA_DATOSX4_scategoria		225	string	-	-
+PP_GA_DATOSX4_sreserva		226	string	-	-
+PP_GA_DATOSX4_lhay_mas		227	long	-	-
+PP_GA_DATOSX4_lcod_retorno		228	long	-	-
+PP_GA_DATOSX4__rpr_ret		229	long	-	-
+# FIN DE SERVICIO PP_GA_DATOSX4
+
+# Identificadores para el servicio PP_GA_INF_ADI2
+# INICIO DE SERVICIO PP_GA_INF_ADI2
+PP_GA_INF_ADI2_snum_telefono		230	string	-	-
+PP_GA_INF_ADI2_sfecha		231	string	-	-
+PP_GA_INF_ADI2_scid		232	string	-	-
+PP_GA_INF_ADI2_scod_idioma		233	string	-	-
+PP_GA_INF_ADI2_sinf_adicional		234	string	-	-
+PP_GA_INF_ADI2_scategorias		235	string	-	-
+PP_GA_INF_ADI2_sult_elemento		236	string	-	-
+PP_GA_INF_ADI2_lnregs		237	long	-	-
+PP_GA_INF_ADI2_sdescripcion		238	string	-	-
+PP_GA_INF_ADI2_stipo_llamada		239	string	-	-
+PP_GA_INF_ADI2_sfecha_evento		240	string	-	-
+PP_GA_INF_ADI2_stip_event_prom		241	string	-	-
+PP_GA_INF_ADI2_lid_event_prom		242	long	-	-
+PP_GA_INF_ADI2_lval_prom		243	long	-	-
+PP_GA_INF_ADI2_lduracion		244	long	-	-
+PP_GA_INF_ADI2_dval_event_prom		245	double	-	-
+PP_GA_INF_ADI2lcod_lista_des01		246	long	-	-
+PP_GA_INF_ADI2_lhay_mas		247	long	-	-
+PP_GA_INF_ADI2__rpr_ret		248	long	-	-
+# FIN DE SERVICIO PP_GA_INF_ADI2
+
+# Identificadores para el servicio PP_GA_OBTACTGA
+# INICIO DE SERVICIO PP_GA_OBTACTGA
+PP_GA_OBTACTGA_scod_idioma		249	string	-	-
+PP_GA_OBTACTGA_lnum_items		250	long	-	-
+PP_GA_OBTACTGA_scod_actuacion		251	string	-	-
+PP_GA_OBTACTGA_sdescripcion		252	string	-	-
+PP_GA_OBTACTGA_svisible		253	string	-	-
+PP_GA_OBTACTGA_sflag_concred		254	string	-	-
+PP_GA_OBTACTGA__rpr_ret		255	long	-	-
+# FIN DE SERVICIO PP_GA_OBTACTGA
+
+# Identificadores para el servicio PP_GA_DATOSX5
+# INICIO DE SERVICIO PP_GA_DATOSX5
+PP_GA_DATOSX5_snum_telefonoA		256	string	-	-
+PP_GA_DATOSX5_sfecha_desde		257	string	-	-
+PP_GA_DATOSX5_sfecha_hasta		258	string	-	-
+PP_GA_DATOSX5_smascara		259	string	-	-
+PP_GA_DATOSX5_dimporte_min		260	double	-	-
+PP_GA_DATOSX5_lorden		261	long	-	-
+PP_GA_DATOSX5_scod_moneda		262	string	-	-
+PP_GA_DATOSX5_scod_idioma		263	string	-	-
+PP_GA_DATOSX5_lmax_categorias		264	long	-	-
+PP_GA_DATOSX5_scategorias_in		265	string	-	-
+PP_GA_DATOSX5_ln_regs		266	long	-	-
+PP_GA_DATOSX5_stoken		267	string	-	-
+PP_GA_DATOSX5_cocultar		268	carray	-	-
+PP_GA_DATOSX5_snum_telefonoB		269	string	-	-
+PP_GA_DATOSX5_stipo_activa		270	string	-	-
+PP_GA_DATOSX5_stipo_llamada		271	string	-	-
+PP_GA_DATOSX5sdes_tipo_llama01		272	string	-	-
+PP_GA_DATOSX5_scod_descripcion		273	string	-	-
+PP_GA_DATOSX5sdes_cod_servic01		274	string	-	-
+PP_GA_DATOSX5sdes_tipo_regis01		275	string	-	-
+PP_GA_DATOSX5_sdes_tipo_tarifa		276	string	-	-
+PP_GA_DATOSX5sdes_cod_tipo_b01		277	string	-	-
+PP_GA_DATOSX5_sfecha_op		278	string	-	-
+PP_GA_DATOSX5_lduracion		279	long	-	-
+PP_GA_DATOSX5_dimporte		280	double	-	-
+PP_GA_DATOSX5dimporte_no_dct01		281	double	-	-
+PP_GA_DATOSX5_lvolumen		282	long	-	-
+PP_GA_DATOSX5_sfecha_caducidad		283	string	-	-
+PP_GA_DATOSX5_sclave_registro		284	string	-	-
+PP_GA_DATOSX5_sinf_adicional		285	string	-	-
+PP_GA_DATOSX5_scid		286	string	-	-
+PP_GA_DATOSX5_sloc_celula		287	string	-	-
+PP_GA_DATOSX5_scategoria		288	string	-	-
+PP_GA_DATOSX5_sreserva		289	string	-	-
+PP_GA_DATOSX5_lhay_mas		290	long	-	-
+PP_GA_DATOSX5_lcod_retorno		291	long	-	-
+PP_GA_DATOSX5__rpr_ret		292	long	-	-
+# FIN DE SERVICIO PP_GA_DATOSX5
+
+# Identificadores para el servicio PP_GA_DETACTU
+# INICIO DE SERVICIO PP_GA_DETACTU
+PP_GA_DETACTU_snum_telefono		293	string	-	-
+PP_GA_DETACTU_lnum_orden		294	long	-	-
+PP_GA_DETACTU_lnum_categorias		295	long	-	-
+PP_GA_DETACTU_scategorias_in		296	string	-	-
+PP_GA_DETACTU_sfecha_desde		297	string	-	-
+PP_GA_DETACTU_sfecha_hasta		298	string	-	-
+PP_GA_DETACTU_dimporte_min		299	double	-	-
+PP_GA_DETACTU_lorden		300	long	-	-
+PP_GA_DETACTU_scod_moneda		301	string	-	-
+PP_GA_DETACTU_scod_idioma		302	string	-	-
+PP_GA_DETACTU_stoken_in		303	string	-	-
+PP_GA_DETACTU_ln_regs		304	long	-	-
+PP_GA_DETACTU_stoken_out		305	string	-	-
+PP_GA_DETACTU_scod_tiprepa		306	string	-	-
+PP_GA_DETACTU_scod_categoria		307	string	-	-
+PP_GA_DETACTU_ssec_actuacion		308	string	-	-
+PP_GA_DETACTU_sdescripcion		309	string	-	-
+PP_GA_DETACTU_scod_descripcion		310	string	-	-
+PP_GA_DETACTU_sfecha_instalac		311	string	-	-
+PP_GA_DETACTU_dimporte		312	double	-	-
+PP_GA_DETACTU_sinf_adicional		313	string	-	-
+PP_GA_DETACTU_sreserva		314	string	-	-
+PP_GA_DETACTU_lhay_mas		315	long	-	-
+PP_GA_DETACTU__rpr_ret		316	long	-	-
+# FIN DE SERVICIO PP_GA_DETACTU
+
+# Identificadores para el servicio PP_GA_FMM5
+# INICIO DE SERVICIO PP_GA_FMM5
+PP_GA_FMM5_snum_telefono		317	string	-	-
+PP_GA_FMM5_lmax_categorias		318	long	-	-
+PP_GA_FMM5_scategorias		319	string	-	-
+PP_GA_FMM5_scod_idioma		320	string	-	-
+PP_GA_FMM5_sfecha_min		321	string	-	-
+PP_GA_FMM5_sfecha_max		322	string	-	-
+PP_GA_FMM5__rpr_ret		323	long	-	-
+# FIN DE SERVICIO PP_GA_FMM5
+
+# Identificadores para el servicio PP_GA_ACUMCAT3
+# INICIO DE SERVICIO PP_GA_ACUMCAT3
+PP_GA_ACUMCAT3_snum_telefono		324	string	-	-
+PP_GA_ACUMCAT3_scod_moneda		325	string	-	-
+PP_GA_ACUMCAT3_sfec_inicio		326	string	-	-
+PP_GA_ACUMCAT3_sfec_fin		327	string	-	-
+PP_GA_ACUMCAT3_lnum_categorias		328	long	-	-
+PP_GA_ACUMCAT3_scategorias_in		329	string	-	-
+PP_GA_ACUMCAT3_scod_idioma		330	string	-	-
+PP_GA_ACUMCAT3_categorias_out		331	string	-	-
+PP_GA_ACUMCAT3_dimporte		332	double	-	-
+PP_GA_ACUMCAT3__rpr_ret		333	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMCAT3
+

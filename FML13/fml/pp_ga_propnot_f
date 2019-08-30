@@ -1,0 +1,357 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_propnot.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_propnot_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3220000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_GETIDIOMA
+# INICIO DE SERVICIO PP_GA_GETIDIOMA
+PP_GA_GETIDIOMA_num_telefono		0	string	-	-
+PP_GA_GETIDIOMA_cod_idioma		1	string	-	-
+PP_GA_GETIDIOMAse_puede_camb01		2	string	-	-
+PP_GA_GETIDIOMA_esta_pendiente		3	string	-	-
+PP_GA_GETIDIOMA_tiene_saldo		4	string	-	-
+PP_GA_GETIDIOMA__rpr_ret		5	long	-	-
+# FIN DE SERVICIO PP_GA_GETIDIOMA
+
+# Identificadores para el servicio PP_GA_SETIDIOMA
+# INICIO DE SERVICIO PP_GA_SETIDIOMA
+PP_GA_SETIDIOMA_num_telefono		6	string	-	-
+PP_GA_SETIDIOMA_cod_idioma		7	string	-	-
+PP_GA_SETIDIOMA_imp_coste		8	double	-	-
+PP_GA_SETIDIOMA_cod_moneda		9	string	-	-
+PP_GA_SETIDIOMA_cod_causa		10	string	-	-
+PP_GA_SETIDIOMA_cod_usuario		11	string	-	-
+PP_GA_SETIDIOMA__rpr_ret		12	long	-	-
+# FIN DE SERVICIO PP_GA_SETIDIOMA
+
+# Identificadores para el servicio PP_GA_GETMECCON
+# INICIO DE SERVICIO PP_GA_GETMECCON
+PP_GA_GETMECCON_num_telefono		13	string	-	-
+PP_GA_GETMECCON_flg_mecconsal		14	short	-	-
+PP_GA_GETMECCONse_puede_camb01		15	string	-	-
+PP_GA_GETMECCON_esta_pendiente		16	string	-	-
+PP_GA_GETMECCON_tiene_saldo		17	string	-	-
+PP_GA_GETMECCON__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_GETMECCON
+
+# Identificadores para el servicio PP_GA_SETMECCON
+# INICIO DE SERVICIO PP_GA_SETMECCON
+PP_GA_SETMECCON_num_telefono		19	string	-	-
+PP_GA_SETMECCON_flg_mecconsal		20	short	-	-
+PP_GA_SETMECCON_imp_coste		21	double	-	-
+PP_GA_SETMECCON_cod_moneda		22	string	-	-
+PP_GA_SETMECCON_cod_causa		23	string	-	-
+PP_GA_SETMECCON_cod_usuario		24	string	-	-
+PP_GA_SETMECCON__rpr_ret		25	long	-	-
+# FIN DE SERVICIO PP_GA_SETMECCON
+
+# Identificadores para el servicio PP_GA_GETUSSDTL
+# INICIO DE SERVICIO PP_GA_GETUSSDTL
+PP_GA_GETUSSDTL_num_telefono		26	string	-	-
+PP_GA_GETUSSDTL_flg_ussdtll		27	string	-	-
+PP_GA_GETUSSDTLse_puede_camb01		28	string	-	-
+PP_GA_GETUSSDTL_esta_pendiente		29	string	-	-
+PP_GA_GETUSSDTL_tiene_saldo		30	string	-	-
+PP_GA_GETUSSDTL__rpr_ret		31	long	-	-
+# FIN DE SERVICIO PP_GA_GETUSSDTL
+
+# Identificadores para el servicio PP_GA_SETUSSDTL
+# INICIO DE SERVICIO PP_GA_SETUSSDTL
+PP_GA_SETUSSDTL_num_telefono		32	string	-	-
+PP_GA_SETUSSDTL_flg_ussdtll		33	string	-	-
+PP_GA_SETUSSDTL_imp_coste		34	double	-	-
+PP_GA_SETUSSDTL_cod_moneda		35	string	-	-
+PP_GA_SETUSSDTL_cod_causa		36	string	-	-
+PP_GA_SETUSSDTL_cod_usuario		37	string	-	-
+PP_GA_SETUSSDTL__rpr_ret		38	long	-	-
+# FIN DE SERVICIO PP_GA_SETUSSDTL
+
+# Identificadores para el servicio PP_GA_GETIDIO2
+# INICIO DE SERVICIO PP_GA_GETIDIO2
+PP_GA_GETIDIO2_num_telefono		39	string	-	-
+PP_GA_GETIDIO2_num_orden		40	long	-	-
+PP_GA_GETIDIO2_cod_idioma		41	string	-	-
+PP_GA_GETIDIO2se_puede_cambi01		42	string	-	-
+PP_GA_GETIDIO2_esta_pendiente		43	string	-	-
+PP_GA_GETIDIO2_tiene_saldo		44	string	-	-
+PP_GA_GETIDIO2__rpr_ret		45	long	-	-
+# FIN DE SERVICIO PP_GA_GETIDIO2
+
+# Identificadores para el servicio PP_GA_GETMECC2
+# INICIO DE SERVICIO PP_GA_GETMECC2
+PP_GA_GETMECC2_num_telefono		46	string	-	-
+PP_GA_GETMECC2_num_orden		47	long	-	-
+PP_GA_GETMECC2_flg_mecconsal		48	short	-	-
+PP_GA_GETMECC2se_puede_cambi01		49	string	-	-
+PP_GA_GETMECC2_esta_pendiente		50	string	-	-
+PP_GA_GETMECC2_tiene_saldo		51	string	-	-
+PP_GA_GETMECC2__rpr_ret		52	long	-	-
+# FIN DE SERVICIO PP_GA_GETMECC2
+
+# Identificadores para el servicio PP_GA_GETUSSD2
+# INICIO DE SERVICIO PP_GA_GETUSSD2
+PP_GA_GETUSSD2_num_telefono		53	string	-	-
+PP_GA_GETUSSD2_num_orden		54	long	-	-
+PP_GA_GETUSSD2_flg_ussdtll		55	string	-	-
+PP_GA_GETUSSD2se_puede_cambi01		56	string	-	-
+PP_GA_GETUSSD2_esta_pendiente		57	string	-	-
+PP_GA_GETUSSD2_tiene_saldo		58	string	-	-
+PP_GA_GETUSSD2__rpr_ret		59	long	-	-
+# FIN DE SERVICIO PP_GA_GETUSSD2
+
+# Identificadores para el servicio PP_GA_GETUMBRAL
+# INICIO DE SERVICIO PP_GA_GETUMBRAL
+PP_GA_GETUMBRAL_num_telefono		60	string	-	-
+PP_GA_GETUMBRAL_num_orden		61	long	-	-
+PP_GA_GETUMBRAL_cod_moneda		62	string	-	-
+PP_GA_GETUMBRAL_imp_umbral		63	double	-	-
+PP_GA_GETUMBRAL_num_avisos		64	long	-	-
+PP_GA_GETUMBRALse_puede_camb01		65	string	-	-
+PP_GA_GETUMBRAL_esta_pendiente		66	string	-	-
+PP_GA_GETUMBRAL_tiene_saldo		67	string	-	-
+PP_GA_GETUMBRAL__rpr_ret		68	long	-	-
+# FIN DE SERVICIO PP_GA_GETUMBRAL
+
+# Identificadores para el servicio PP_GA_SETUMBRAL
+# INICIO DE SERVICIO PP_GA_SETUMBRAL
+PP_GA_SETUMBRAL_num_telefono		69	string	-	-
+PP_GA_SETUMBRAL_imp_umbral		70	double	-	-
+PP_GA_SETUMBRAL_num_avisos		71	long	-	-
+PP_GA_SETUMBRAL_imp_coste		72	double	-	-
+PP_GA_SETUMBRAL_cod_moneda		73	string	-	-
+PP_GA_SETUMBRAL_cod_causa		74	string	-	-
+PP_GA_SETUMBRAL_cod_usuario		75	string	-	-
+PP_GA_SETUMBRAL__rpr_ret		76	long	-	-
+# FIN DE SERVICIO PP_GA_SETUMBRAL
+
+# Identificadores para el servicio PP_GA_CONIMEI
+# INICIO DE SERVICIO PP_GA_CONIMEI
+PP_GA_CONIMEI_num_telefono		77	string	-	-
+PP_GA_CONIMEI_num_imei		78	string	-	-
+PP_GA_CONIMEI__rpr_ret		79	long	-	-
+# FIN DE SERVICIO PP_GA_CONIMEI
+
+# Identificadores para el servicio PP_GA_CBIMEI
+# INICIO DE SERVICIO PP_GA_CBIMEI
+PP_GA_CBIMEI_num_telefono		80	string	-	-
+PP_GA_CBIMEI_num_imei_ant		81	string	-	-
+PP_GA_CBIMEI_num_imei_act		82	string	-	-
+PP_GA_CBIMEI_importe		83	double	-	-
+PP_GA_CBIMEI_cod_moneda		84	string	-	-
+PP_GA_CBIMEI_cod_causa		85	string	-	-
+PP_GA_CBIMEI_cod_usuario		86	string	-	-
+PP_GA_CBIMEI_secuencia		87	long	-	-
+PP_GA_CBIMEI__rpr_ret		88	long	-	-
+# FIN DE SERVICIO PP_GA_CBIMEI
+
+# Identificadores para el servicio PP_GA_ABOIDIOMA
+# INICIO DE SERVICIO PP_GA_ABOIDIOMA
+PP_GA_ABOIDIOMA_num_telefono		89	string	-	-
+PP_GA_ABOIDIOMA_cod_idioma		90	string	-	-
+PP_GA_ABOIDIOMA__rpr_ret		91	long	-	-
+# FIN DE SERVICIO PP_GA_ABOIDIOMA
+
+# Identificadores para el servicio PP_GA_SETRINLL
+# INICIO DE SERVICIO PP_GA_SETRINLL
+PP_GA_SETRINLL_num_telefono		92	string	-	-
+PP_GA_SETRINLL_flg_rinll		93	string	-	-
+PP_GA_SETRINLL_imp_coste		94	double	-	-
+PP_GA_SETRINLL_cod_moneda		95	string	-	-
+PP_GA_SETRINLL_cod_causa		96	string	-	-
+PP_GA_SETRINLL_cod_usuario		97	string	-	-
+PP_GA_SETRINLL_secuenia		98	long	-	-
+PP_GA_SETRINLL__rpr_ret		99	long	-	-
+# FIN DE SERVICIO PP_GA_SETRINLL
+
+# Identificadores para el servicio PP_GA_GETRINLL
+# INICIO DE SERVICIO PP_GA_GETRINLL
+PP_GA_GETRINLL_num_telefono		100	string	-	-
+PP_GA_GETRINLL_num_orden		101	long	-	-
+PP_GA_GETRINLL_flg_rinll		102	string	-	-
+PP_GA_GETRINLLse_puede_cambi01		103	string	-	-
+PP_GA_GETRINLL_esta_pendiente		104	string	-	-
+PP_GA_GETRINLL__rpr_ret		105	long	-	-
+# FIN DE SERVICIO PP_GA_GETRINLL
+
+# Identificadores para el servicio PP_GA_GETIDIO3
+# INICIO DE SERVICIO PP_GA_GETIDIO3
+PP_GA_GETIDIO3_num_telefono		106	string	-	-
+PP_GA_GETIDIO3_num_orden		107	long	-	-
+PP_GA_GETIDIO3_cod_idioma		108	string	-	-
+PP_GA_GETIDIO3__rpr_ret		109	long	-	-
+# FIN DE SERVICIO PP_GA_GETIDIO3
+
+# Identificadores para el servicio PP_GA_GETUMBCAD
+# INICIO DE SERVICIO PP_GA_GETUMBCAD
+PP_GA_GETUMBCAD_num_telefono		110	string	-	-
+PP_GA_GETUMBCAD_num_orden		111	long	-	-
+PP_GA_GETUMBCAD_num_diascadu		112	long	-	-
+PP_GA_GETUMBCADse_puede_camb01		113	string	-	-
+PP_GA_GETUMBCAD_esta_pendiente		114	string	-	-
+PP_GA_GETUMBCAD__rpr_ret		115	long	-	-
+# FIN DE SERVICIO PP_GA_GETUMBCAD
+
+# Identificadores para el servicio PP_GA_SETUMBCAD
+# INICIO DE SERVICIO PP_GA_SETUMBCAD
+PP_GA_SETUMBCAD_num_telefono		116	string	-	-
+PP_GA_SETUMBCAD_num_diascadu		117	long	-	-
+PP_GA_SETUMBCAD_imp_coste		118	double	-	-
+PP_GA_SETUMBCAD_cod_moneda		119	string	-	-
+PP_GA_SETUMBCAD_cod_causa		120	string	-	-
+PP_GA_SETUMBCAD_cod_usuario		121	string	-	-
+PP_GA_SETUMBCAD__rpr_ret		122	long	-	-
+# FIN DE SERVICIO PP_GA_SETUMBCAD
+
+# Identificadores para el servicio PP_GA_CONRINLL
+# INICIO DE SERVICIO PP_GA_CONRINLL
+PP_GA_CONRINLL_sec_actuacion		123	long	-	-
+PP_GA_CONRINLL_num_telefono		124	string	-	-
+PP_GA_CONRINLL_flg_rinllant		125	string	-	-
+PP_GA_CONRINLL_flg_rinllpos		126	string	-	-
+PP_GA_CONRINLL_fec_instalac		127	string	-	-
+PP_GA_CONRINLL__rpr_ret		128	long	-	-
+# FIN DE SERVICIO PP_GA_CONRINLL
+
+# Identificadores para el servicio PP_GA_SMSNOSAL
+# INICIO DE SERVICIO PP_GA_SMSNOSAL
+PP_GA_SMSNOSAL_num_telefono		129	string	-	-
+PP_GA_SMSNOSAL_imp_coste		130	double	-	-
+PP_GA_SMSNOSAL_cod_moneda		131	string	-	-
+PP_GA_SMSNOSAL_cod_usuario		132	string	-	-
+PP_GA_SMSNOSAL_estado_servicio		133	carray	-	-
+PP_GA_SMSNOSAL_sec_actuacion		134	string	-	-
+PP_GA_SMSNOSAL__rpr_ret		135	long	-	-
+# FIN DE SERVICIO PP_GA_SMSNOSAL
+
+# Identificadores para el servicio PP_GA_CBIMEI2
+# INICIO DE SERVICIO PP_GA_CBIMEI2
+PP_GA_CBIMEI2_num_telefono		136	string	-	-
+PP_GA_CBIMEI2_num_imei_ant		137	string	-	-
+PP_GA_CBIMEI2_num_imei_act		138	string	-	-
+PP_GA_CBIMEI2_importe		139	double	-	-
+PP_GA_CBIMEI2_cod_moneda		140	string	-	-
+PP_GA_CBIMEI2_cod_causa		141	string	-	-
+PP_GA_CBIMEI2_cod_usuario		142	string	-	-
+PP_GA_CBIMEI2_secuencia		143	string	-	-
+PP_GA_CBIMEI2__rpr_ret		144	long	-	-
+# FIN DE SERVICIO PP_GA_CBIMEI2
+
+# Identificadores para el servicio PP_GA_SETRINL2
+# INICIO DE SERVICIO PP_GA_SETRINL2
+PP_GA_SETRINL2_num_telefono		145	string	-	-
+PP_GA_SETRINL2_flg_rinll		146	string	-	-
+PP_GA_SETRINL2_imp_coste		147	double	-	-
+PP_GA_SETRINL2_cod_moneda		148	string	-	-
+PP_GA_SETRINL2_cod_causa		149	string	-	-
+PP_GA_SETRINL2_cod_usuario		150	string	-	-
+PP_GA_SETRINL2_secuencia		151	string	-	-
+PP_GA_SETRINL2__rpr_ret		152	long	-	-
+# FIN DE SERVICIO PP_GA_SETRINL2
+
+# Identificadores para el servicio PP_GA_CONRINL2
+# INICIO DE SERVICIO PP_GA_CONRINL2
+PP_GA_CONRINL2_sec_actuacion		153	string	-	-
+PP_GA_CONRINL2_num_telefono		154	string	-	-
+PP_GA_CONRINL2_flg_rinllant		155	string	-	-
+PP_GA_CONRINL2_flg_rinllpos		156	string	-	-
+PP_GA_CONRINL2_fec_instalac		157	string	-	-
+PP_GA_CONRINL2__rpr_ret		158	long	-	-
+# FIN DE SERVICIO PP_GA_CONRINL2
+
+# Identificadores para el servicio GA_MOD_PRESUS
+# INICIO DE SERVICIO GA_MOD_PRESUS
+GA_MOD_PRESUS_msisdn		159	string	-	-
+GA_MOD_PRESUS_imp_coste		160	double	-	-
+GA_MOD_PRESUS_cod_moneda		161	string	-	-
+GA_MOD_PRESUS_operadoraLD		162	string	-	-
+GA_MOD_PRESUS_asociar		163	carray	-	-
+GA_MOD_PRESUS_cod_usuario		164	string	-	-
+GA_MOD_PRESUS_sec_actuacion		165	string	-	-
+GA_MOD_PRESUS__rpr_ret		166	long	-	-
+# FIN DE SERVICIO GA_MOD_PRESUS
+
+# Identificadores para el servicio GA_OBT_OPERLD
+# INICIO DE SERVICIO GA_OBT_OPERLD
+GA_OBT_OPERLD_msisdn		167	string	-	-
+GA_OBT_OPERLD_operadoraLD		168	string	-	-
+GA_OBT_OPERLD__rpr_ret		169	long	-	-
+# FIN DE SERVICIO GA_OBT_OPERLD
+
+# Identificadores para el servicio GA_SETUMBRAL2
+# INICIO DE SERVICIO GA_SETUMBRAL2
+GA_SETUMBRAL2_num_telefono		170	string	-	-
+GA_SETUMBRAL2_imp_umbral		171	double	-	-
+GA_SETUMBRAL2_num_avisos		172	long	-	-
+GA_SETUMBRAL2_imp_coste		173	double	-	-
+GA_SETUMBRAL2_cod_moneda		174	string	-	-
+GA_SETUMBRAL2_cod_causa		175	string	-	-
+GA_SETUMBRAL2_cod_usuario		176	string	-	-
+GA_SETUMBRAL2_id_umbral		177	short	-	-
+GA_SETUMBRAL2__rpr_ret		178	long	-	-
+# FIN DE SERVICIO GA_SETUMBRAL2
+
+# Identificadores para el servicio GA_MODLIMITE
+# INICIO DE SERVICIO GA_MODLIMITE
+GA_MODLIMITE_snum_telefono		179	string	-	-
+GA_MODLIMITE_dimp_limite		180	double	-	-
+GA_MODLIMITE_dimp_coste		181	double	-	-
+GA_MODLIMITE_scod_moneda		182	string	-	-
+GA_MODLIMITE_scod_usuario		183	string	-	-
+GA_MODLIMITE_sSecActuacion		184	string	-	-
+GA_MODLIMITE__rpr_ret		185	long	-	-
+# FIN DE SERVICIO GA_MODLIMITE
+
+# Identificadores para el servicio GA_ANULIMITE
+# INICIO DE SERVICIO GA_ANULIMITE
+GA_ANULIMITE_snum_telefono		186	string	-	-
+GA_ANULIMITE_dimp_coste		187	double	-	-
+GA_ANULIMITE_scod_moneda		188	string	-	-
+GA_ANULIMITE_scod_usuario		189	string	-	-
+GA_ANULIMITE_sSecActuacion		190	string	-	-
+GA_ANULIMITE__rpr_ret		191	long	-	-
+# FIN DE SERVICIO GA_ANULIMITE
+
+# Identificadores para el servicio GA_CONAUTORE
+# INICIO DE SERVICIO GA_CONAUTORE
+GA_CONAUTORE_num_telefono		192	string	-	-
+GA_CONAUTORE_icod_modrecarga		193	short	-	-
+GA_CONAUTORE_sflg_estado		194	string	-	-
+GA_CONAUTORE_dimp_umbral		195	double	-	-
+GA_CONAUTORE_dimp_recarga		196	double	-	-
+GA_CONAUTORE_inum_limite		197	long	-	-
+GA_CONAUTORE__rpr_ret		198	long	-	-
+# FIN DE SERVICIO GA_CONAUTORE
+
+# Identificadores para el servicio GA_AUTORECARGA
+# INICIO DE SERVICIO GA_AUTORECARGA
+GA_AUTORECARGA_num_telefono		199	string	-	-
+GA_AUTORECARGA_sflg_estado		200	string	-	-
+GA_AUTORECARGA_icod_modrecarga		201	short	-	-
+GA_AUTORECARGA_dimp_umbral		202	double	-	-
+GA_AUTORECARGA_dimp_recarga		203	double	-	-
+GA_AUTORECARGA_inum_limite		204	long	-	-
+GA_AUTORECARGA_scod_usuario		205	string	-	-
+GA_AUTORECARGA_scod_moneda		206	string	-	-
+GA_AUTORECARGA_dimp_coste		207	double	-	-
+GA_AUTORECARGA_sSecActuacion		208	string	-	-
+GA_AUTORECARGA__rpr_ret		209	long	-	-
+# FIN DE SERVICIO GA_AUTORECARGA
+
+# Identificadores para el servicio GA_CONAUTORE2
+# INICIO DE SERVICIO GA_CONAUTORE2
+GA_CONAUTORE2_num_telefono		210	string	-	-
+GA_CONAUTORE2_icod_modrecarga		211	short	-	-
+GA_CONAUTORE2_scod_moneda		212	string	-	-
+GA_CONAUTORE2_sflg_estado		213	string	-	-
+GA_CONAUTORE2_dimp_umbral		214	double	-	-
+GA_CONAUTORE2_dimp_recarga		215	double	-	-
+GA_CONAUTORE2_inum_limite		216	long	-	-
+GA_CONAUTORE2__rpr_ret		217	long	-	-
+# FIN DE SERVICIO GA_CONAUTORE2
+

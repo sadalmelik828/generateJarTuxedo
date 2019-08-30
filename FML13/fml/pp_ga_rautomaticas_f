@@ -1,0 +1,334 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_rautomaticas.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_rautomaticas_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3208000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_RAUALTA
+# INICIO DE SERVICIO PP_GA_RAUALTA
+PP_GA_RAUALTA_cod_idcuenta		0	string	-	-
+PP_GA_RAUALTA_cod_origreca		1	string	-	-
+PP_GA_RAUALTA_imp_maximo		2	double	-	-
+PP_GA_RAUALTA__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_GA_RAUALTA
+
+# Identificadores para el servicio PP_GA_RAUBAJA
+# INICIO DE SERVICIO PP_GA_RAUBAJA
+PP_GA_RAUBAJA_cod_idcuenta		4	string	-	-
+PP_GA_RAUBAJA__rpr_ret		5	long	-	-
+# FIN DE SERVICIO PP_GA_RAUBAJA
+
+# Identificadores para el servicio PP_GA_RAUMODIF
+# INICIO DE SERVICIO PP_GA_RAUMODIF
+PP_GA_RAUMODIF_cod_idcuenta		6	string	-	-
+PP_GA_RAUMODIF_cod_origreca		7	string	-	-
+PP_GA_RAUMODIF_imp_maximo		8	double	-	-
+PP_GA_RAUMODIF__rpr_ret		9	long	-	-
+# FIN DE SERVICIO PP_GA_RAUMODIF
+
+# Identificadores para el servicio PP_GA_RAUHABIL
+# INICIO DE SERVICIO PP_GA_RAUHABIL
+PP_GA_RAUHABIL_cod_idcuenta		10	string	-	-
+PP_GA_RAUHABIL_cod_inactivo		11	string	-	-
+PP_GA_RAUHABIL__rpr_ret		12	long	-	-
+# FIN DE SERVICIO PP_GA_RAUHABIL
+
+# Identificadores para el servicio PP_GA_RAUALTACT
+# INICIO DE SERVICIO PP_GA_RAUALTACT
+PP_GA_RAUALTACT_num_telefono		13	string	-	-
+PP_GA_RAUALTACT_tel_contrato		14	string	-	-
+PP_GA_RAUALTACT_cod_idcuenta		15	string	-	-
+PP_GA_RAUALTACT_cod_modrau		16	string	-	-
+PP_GA_RAUALTACT_flag_mc		17	string	-	-
+PP_GA_RAUALTACT_imp_recarga		18	double	-	-
+PP_GA_RAUALTACT_max_recargas		19	long	-	-
+PP_GA_RAUALTACT_max_importe		20	double	-	-
+PP_GA_RAUALTACT_val_umbral		21	double	-	-
+PP_GA_RAUALTACT_tmp_caducidad		22	long	-	-
+PP_GA_RAUALTACT_tmp_periodo		23	long	-	-
+PP_GA_RAUALTACT_dia_mes		24	long	-	-
+PP_GA_RAUALTACT_cod_ventasesc1		25	string	-	-
+PP_GA_RAUALTACT_cod_ventasesc2		26	string	-	-
+PP_GA_RAUALTACT_cod_ventasesc3		27	string	-	-
+PP_GA_RAUALTACT_cod_ventasesc4		28	string	-	-
+PP_GA_RAUALTACT__rpr_ret		29	long	-	-
+# FIN DE SERVICIO PP_GA_RAUALTACT
+
+# Identificadores para el servicio PP_GA_RAUBAJACT
+# INICIO DE SERVICIO PP_GA_RAUBAJACT
+PP_GA_RAUBAJACT_num_telefono		30	string	-	-
+PP_GA_RAUBAJACT_cod_causbaja		31	string	-	-
+PP_GA_RAUBAJACT__rpr_ret		32	long	-	-
+# FIN DE SERVICIO PP_GA_RAUBAJACT
+
+# Identificadores para el servicio PP_GA_RAUMODACT
+# INICIO DE SERVICIO PP_GA_RAUMODACT
+PP_GA_RAUMODACT_num_telefono		33	string	-	-
+PP_GA_RAUMODACT_tel_contrato		34	string	-	-
+PP_GA_RAUMODACT_cod_idcuenta		35	string	-	-
+PP_GA_RAUMODACT_cod_modrau		36	string	-	-
+PP_GA_RAUMODACT_flag_mc		37	string	-	-
+PP_GA_RAUMODACT_imp_recarga		38	double	-	-
+PP_GA_RAUMODACT_max_recargas		39	long	-	-
+PP_GA_RAUMODACT_max_importe		40	double	-	-
+PP_GA_RAUMODACT_val_umbral		41	double	-	-
+PP_GA_RAUMODACT_tmp_caducidad		42	long	-	-
+PP_GA_RAUMODACT_tmp_periodo		43	long	-	-
+PP_GA_RAUMODACT_dia_mes		44	long	-	-
+PP_GA_RAUMODACT__rpr_ret		45	long	-	-
+# FIN DE SERVICIO PP_GA_RAUMODACT
+
+# Identificadores para el servicio PP_GA_RAUMODA2
+# INICIO DE SERVICIO PP_GA_RAUMODA2
+PP_GA_RAUMODA2_num_telefono		46	string	-	-
+PP_GA_RAUMODA2_tel_contrato		47	string	-	-
+PP_GA_RAUMODA2_cod_idcuenta		48	string	-	-
+PP_GA_RAUMODA2_cod_modrau		49	string	-	-
+PP_GA_RAUMODA2_flag_mc		50	string	-	-
+PP_GA_RAUMODA2_imp_recarga		51	double	-	-
+PP_GA_RAUMODA2_max_recargas		52	long	-	-
+PP_GA_RAUMODA2_max_importe		53	double	-	-
+PP_GA_RAUMODA2_val_umbral		54	double	-	-
+PP_GA_RAUMODA2_tmp_caducidad		55	long	-	-
+PP_GA_RAUMODA2_tmp_periodo		56	long	-	-
+PP_GA_RAUMODA2_dia_mes		57	long	-	-
+PP_GA_RAUMODA2_cod_moneda		58	string	-	-
+PP_GA_RAUMODA2__rpr_ret		59	long	-	-
+# FIN DE SERVICIO PP_GA_RAUMODA2
+
+# Identificadores para el servicio PP_GA_RAUMODNIV
+# INICIO DE SERVICIO PP_GA_RAUMODNIV
+PP_GA_RAUMODNIV_num_telefono		60	string	-	-
+PP_GA_RAUMODNIV_cod_ventasesc1		61	string	-	-
+PP_GA_RAUMODNIV_cod_ventasesc2		62	string	-	-
+PP_GA_RAUMODNIV_cod_ventasesc3		63	string	-	-
+PP_GA_RAUMODNIV_cod_ventasesc4		64	string	-	-
+PP_GA_RAUMODNIV__rpr_ret		65	long	-	-
+# FIN DE SERVICIO PP_GA_RAUMODNIV
+
+# Identificadores para el servicio PP_GA_RAUHABACT
+# INICIO DE SERVICIO PP_GA_RAUHABACT
+PP_GA_RAUHABACT_num_telefono		66	string	-	-
+PP_GA_RAUHABACT_cod_inactivo		67	string	-	-
+PP_GA_RAUHABACT_fec_inidesac		68	string	-	-
+PP_GA_RAUHABACT_fec_findesac		69	string	-	-
+PP_GA_RAUHABACT_cod_causus		70	string	-	-
+PP_GA_RAUHABACT__rpr_ret		71	long	-	-
+# FIN DE SERVICIO PP_GA_RAUHABACT
+
+# Identificadores para el servicio PP_GA_RAUVAL
+# INICIO DE SERVICIO PP_GA_RAUVAL
+PP_GA_RAUVAL_num_telefono		72	string	-	-
+PP_GA_RAUVAL_flg_listaneg		73	string	-	-
+PP_GA_RAUVAL_num_icc		74	string	-	-
+PP_GA_RAUVAL__rpr_ret		75	long	-	-
+# FIN DE SERVICIO PP_GA_RAUVAL
+
+# Identificadores para el servicio PP_GA_RAUMODCON
+# INICIO DE SERVICIO PP_GA_RAUMODCON
+PP_GA_RAUMODCONnum_telefono_01		76	string	-	-
+PP_GA_RAUMODCONnum_telefono_02		77	string	-	-
+PP_GA_RAUMODCON__rpr_ret		78	long	-	-
+# FIN DE SERVICIO PP_GA_RAUMODCON
+
+# Identificadores para el servicio PP_GA_RAUCONACT
+# INICIO DE SERVICIO PP_GA_RAUCONACT
+PP_GA_RAUCONACT_num_telefono		79	string	-	-
+PP_GA_RAUCONACT_tel_contrato		80	string	-	-
+PP_GA_RAUCONACT_cod_idcuenta		81	string	-	-
+PP_GA_RAUCONACT_cod_modrau		82	string	-	-
+PP_GA_RAUCONACT_fec_ultreca		83	string	-	-
+PP_GA_RAUCONACT_cod_inactivo		84	string	-	-
+PP_GA_RAUCONACT_cod_causus		85	string	-	-
+PP_GA_RAUCONACT_fec_inidesac		86	string	-	-
+PP_GA_RAUCONACT_fec_findesac		87	string	-	-
+PP_GA_RAUCONACT_flag_mc		88	string	-	-
+PP_GA_RAUCONACT_num_recargas		89	long	-	-
+PP_GA_RAUCONACT_imp_acumrecar		90	double	-	-
+PP_GA_RAUCONACT_imp_regarga		91	double	-	-
+PP_GA_RAUCONACT_max_recargas		92	long	-	-
+PP_GA_RAUCONACT_max_importe		93	double	-	-
+PP_GA_RAUCONACT_val_umbral		94	double	-	-
+PP_GA_RAUCONACT_tmp_caducidad		95	long	-	-
+PP_GA_RAUCONACT_tmp_periodo		96	long	-	-
+PP_GA_RAUCONACT_dia_mes		97	long	-	-
+PP_GA_RAUCONACT_cod_ventasesc1		98	string	-	-
+PP_GA_RAUCONACT_cod_ventasesc2		99	string	-	-
+PP_GA_RAUCONACT_cod_ventasesc3		100	string	-	-
+PP_GA_RAUCONACT_cod_ventasesc4		101	string	-	-
+PP_GA_RAUCONACT_fec_alta		102	string	-	-
+PP_GA_RAUCONACT_fec_modifica		103	string	-	-
+PP_GA_RAUCONACT__rpr_ret		104	long	-	-
+# FIN DE SERVICIO PP_GA_RAUCONACT
+
+# Identificadores para el servicio PP_GA_RAUCONAC2
+# INICIO DE SERVICIO PP_GA_RAUCONAC2
+PP_GA_RAUCONAC2_num_telefono		105	string	-	-
+PP_GA_RAUCONAC2_tel_contrato		106	string	-	-
+PP_GA_RAUCONAC2_cod_idcuenta		107	string	-	-
+PP_GA_RAUCONAC2_cod_modrau		108	string	-	-
+PP_GA_RAUCONAC2_fec_ultreca		109	string	-	-
+PP_GA_RAUCONAC2_cod_inactivo		110	string	-	-
+PP_GA_RAUCONAC2_cod_causus		111	string	-	-
+PP_GA_RAUCONAC2_fec_inidesac		112	string	-	-
+PP_GA_RAUCONAC2_fec_findesac		113	string	-	-
+PP_GA_RAUCONAC2_flag_mc		114	string	-	-
+PP_GA_RAUCONAC2_num_recargas		115	long	-	-
+PP_GA_RAUCONAC2_imp_acumrecar		116	double	-	-
+PP_GA_RAUCONAC2_imp_regarga		117	double	-	-
+PP_GA_RAUCONAC2_max_recargas		118	long	-	-
+PP_GA_RAUCONAC2_max_importe		119	double	-	-
+PP_GA_RAUCONAC2_val_umbral		120	double	-	-
+PP_GA_RAUCONAC2_tmp_caducidad		121	long	-	-
+PP_GA_RAUCONAC2_tmp_periodo		122	long	-	-
+PP_GA_RAUCONAC2_dia_mes		123	long	-	-
+PP_GA_RAUCONAC2_cod_ventasesc1		124	string	-	-
+PP_GA_RAUCONAC2_cod_ventasesc2		125	string	-	-
+PP_GA_RAUCONAC2_cod_ventasesc3		126	string	-	-
+PP_GA_RAUCONAC2_cod_ventasesc4		127	string	-	-
+PP_GA_RAUCONAC2_fec_alta		128	string	-	-
+PP_GA_RAUCONAC2_fec_modifica		129	string	-	-
+PP_GA_RAUCONAC2_fec_baja		130	string	-	-
+PP_GA_RAUCONAC2_cod_causbaja		131	string	-	-
+PP_GA_RAUCONAC2__rpr_ret		132	long	-	-
+# FIN DE SERVICIO PP_GA_RAUCONAC2
+
+# Identificadores para el servicio PP_GA_RAUCONAC3
+# INICIO DE SERVICIO PP_GA_RAUCONAC3
+PP_GA_RAUCONAC3_num_telefono		133	string	-	-
+PP_GA_RAUCONAC3_cod_moneda		134	string	-	-
+PP_GA_RAUCONAC3_tel_contrato		135	string	-	-
+PP_GA_RAUCONAC3_cod_idcuenta		136	string	-	-
+PP_GA_RAUCONAC3_cod_modrau		137	string	-	-
+PP_GA_RAUCONAC3_fec_ultreca		138	string	-	-
+PP_GA_RAUCONAC3_cod_inactivo		139	string	-	-
+PP_GA_RAUCONAC3_cod_causus		140	string	-	-
+PP_GA_RAUCONAC3_fec_inidesac		141	string	-	-
+PP_GA_RAUCONAC3_fec_findesac		142	string	-	-
+PP_GA_RAUCONAC3_flag_mc		143	string	-	-
+PP_GA_RAUCONAC3_num_recargas		144	long	-	-
+PP_GA_RAUCONAC3_imp_acumrecar		145	double	-	-
+PP_GA_RAUCONAC3_imp_regarga		146	double	-	-
+PP_GA_RAUCONAC3_max_recargas		147	long	-	-
+PP_GA_RAUCONAC3_max_importe		148	double	-	-
+PP_GA_RAUCONAC3_val_umbral		149	double	-	-
+PP_GA_RAUCONAC3_tmp_caducidad		150	long	-	-
+PP_GA_RAUCONAC3_tmp_periodo		151	long	-	-
+PP_GA_RAUCONAC3_dia_mes		152	long	-	-
+PP_GA_RAUCONAC3_cod_ventasesc1		153	string	-	-
+PP_GA_RAUCONAC3_cod_ventasesc2		154	string	-	-
+PP_GA_RAUCONAC3_cod_ventasesc3		155	string	-	-
+PP_GA_RAUCONAC3_cod_ventasesc4		156	string	-	-
+PP_GA_RAUCONAC3_fec_alta		157	string	-	-
+PP_GA_RAUCONAC3_fec_modifica		158	string	-	-
+PP_GA_RAUCONAC3_fec_baja		159	string	-	-
+PP_GA_RAUCONAC3_cod_causbaja		160	string	-	-
+PP_GA_RAUCONAC3_cod_ususus		161	string	-	-
+PP_GA_RAUCONAC3_cod_usubaja		162	string	-	-
+PP_GA_RAUCONAC3__rpr_ret		163	long	-	-
+# FIN DE SERVICIO PP_GA_RAUCONAC3
+
+# Identificadores para el servicio PP_GA_RAULISACT
+# INICIO DE SERVICIO PP_GA_RAULISACT
+PP_GA_RAULISACTcta_facturaci01		164	string	-	-
+PP_GA_RAULISACT_plNumItems		165	short	-	-
+PP_GA_RAULISACTtRefnum_telef01		166	string	-	-
+PP_GA_RAULISACT_num_telefono		167	string	-	-
+PP_GA_RAULISACT_pcHayMas		168	short	-	-
+PP_GA_RAULISACT__rpr_ret		169	long	-	-
+# FIN DE SERVICIO PP_GA_RAULISACT
+
+# Identificadores para el servicio PP_GA_RAUALTA2
+# INICIO DE SERVICIO PP_GA_RAUALTA2
+PP_GA_RAUALTA2_cod_idcuenta		170	string	-	-
+PP_GA_RAUALTA2_cod_origreca		171	string	-	-
+PP_GA_RAUALTA2_imp_maximo		172	double	-	-
+PP_GA_RAUALTA2_cod_cuentcli		173	string	-	-
+PP_GA_RAUALTA2__rpr_ret		174	long	-	-
+# FIN DE SERVICIO PP_GA_RAUALTA2
+
+# Identificadores para el servicio PP_GA_CONRAUCUE
+# INICIO DE SERVICIO PP_GA_CONRAUCUE
+PP_GA_CONRAUCUE_cod_idcuenta		175	string	-	-
+PP_GA_CONRAUCUE_cod_origreca		176	string	-	-
+PP_GA_CONRAUCUE_cod_cuentcli		177	string	-	-
+PP_GA_CONRAUCUE_imp_maximo		178	double	-	-
+PP_GA_CONRAUCUE_cod_inactivo		179	string	-	-
+PP_GA_CONRAUCUE_fec_alta		180	string	-	-
+PP_GA_CONRAUCUE__rpr_ret		181	long	-	-
+# FIN DE SERVICIO PP_GA_CONRAUCUE
+
+# Identificadores para el servicio PP_GA_LSTRAUCLI
+# INICIO DE SERVICIO PP_GA_LSTRAUCLI
+PP_GA_LSTRAUCLI_cod_cuentcli		182	string	-	-
+PP_GA_LSTRAUCLI_plNumItems		183	short	-	-
+PP_GA_LSTRAUCLItRefcod_idcue01		184	string	-	-
+PP_GA_LSTRAUCLI_cod_idcuenta		185	string	-	-
+PP_GA_LSTRAUCLI_pcHayMas		186	short	-	-
+PP_GA_LSTRAUCLI__rpr_ret		187	long	-	-
+# FIN DE SERVICIO PP_GA_LSTRAUCLI
+
+# Identificadores para el servicio PP_GA_RAUCBJACT
+# INICIO DE SERVICIO PP_GA_RAUCBJACT
+PP_GA_RAUCBJACT_num_telefono		188	string	-	-
+PP_GA_RAUCBJACT__rpr_ret		189	long	-	-
+# FIN DE SERVICIO PP_GA_RAUCBJACT
+
+# Identificadores para el servicio PP_GA_RAUALTC2
+# INICIO DE SERVICIO PP_GA_RAUALTC2
+PP_GA_RAUALTC2_num_telefono		190	string	-	-
+PP_GA_RAUALTC2_tel_contrato		191	string	-	-
+PP_GA_RAUALTC2_cod_idcuenta		192	string	-	-
+PP_GA_RAUALTC2_cod_modrau		193	string	-	-
+PP_GA_RAUALTC2_flag_mc		194	string	-	-
+PP_GA_RAUALTC2_imp_recarga		195	double	-	-
+PP_GA_RAUALTC2_max_recargas		196	long	-	-
+PP_GA_RAUALTC2_max_importe		197	double	-	-
+PP_GA_RAUALTC2_val_umbral		198	double	-	-
+PP_GA_RAUALTC2_tmp_caducidad		199	long	-	-
+PP_GA_RAUALTC2_tmp_periodo		200	long	-	-
+PP_GA_RAUALTC2_dia_mes		201	long	-	-
+PP_GA_RAUALTC2_cod_ventasesc1		202	string	-	-
+PP_GA_RAUALTC2_cod_ventasesc2		203	string	-	-
+PP_GA_RAUALTC2_cod_ventasesc3		204	string	-	-
+PP_GA_RAUALTC2_cod_ventasesc4		205	string	-	-
+PP_GA_RAUALTC2_cod_moneda		206	string	-	-
+PP_GA_RAUALTC2__rpr_ret		207	long	-	-
+# FIN DE SERVICIO PP_GA_RAUALTC2
+
+# Identificadores para el servicio PP_GA_RAUALTFAM
+# INICIO DE SERVICIO PP_GA_RAUALTFAM
+PP_GA_RAUALTFAM_snum_telefono		208	string	-	-
+PP_GA_RAUALTFAM_stel_contrato		209	string	-	-
+PP_GA_RAUALTFAM_scod_idcuenta		210	string	-	-
+PP_GA_RAUALTFAM_scod_grupo		211	string	-	-
+PP_GA_RAUALTFAM_sflag_mc		212	string	-	-
+PP_GA_RAUALTFAM_dimp_recarga		213	double	-	-
+PP_GA_RAUALTFAM_ldia_mes		214	long	-	-
+PP_GA_RAUALTFAM_scod_moneda		215	string	-	-
+PP_GA_RAUALTFAM_lsec_actuacion		216	carray	-	-
+PP_GA_RAUALTFAM__rpr_ret		217	long	-	-
+# FIN DE SERVICIO PP_GA_RAUALTFAM
+
+# Identificadores para el servicio PP_GA_RAUMODFAM
+# INICIO DE SERVICIO PP_GA_RAUMODFAM
+PP_GA_RAUMODFAM_snum_telefono		218	string	-	-
+PP_GA_RAUMODFAM_stel_contrato		219	string	-	-
+PP_GA_RAUMODFAM_dimp_recarga		220	double	-	-
+PP_GA_RAUMODFAM_scod_moneda		221	string	-	-
+PP_GA_RAUMODFAM_lsec_actuacion		222	carray	-	-
+PP_GA_RAUMODFAM__rpr_ret		223	long	-	-
+# FIN DE SERVICIO PP_GA_RAUMODFAM
+
+# Identificadores para el servicio PP_GA_RAUMODIF2
+# INICIO DE SERVICIO PP_GA_RAUMODIF2
+PP_GA_RAUMODIF2_cod_idcuenta		224	string	-	-
+PP_GA_RAUMODIF2_imp_maximo		225	double	-	-
+PP_GA_RAUMODIF2__rpr_ret		226	long	-	-
+# FIN DE SERVICIO PP_GA_RAUMODIF2
+

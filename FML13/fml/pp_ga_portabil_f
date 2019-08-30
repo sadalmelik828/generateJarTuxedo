@@ -1,0 +1,49 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_portabil.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_portabil_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz Portabilidad versión 1.0 
+#
+
+*base		3280000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_NOTIFPORTAB
+# INICIO DE SERVICIO GA_NOTIFPORTAB
+GA_NOTIFPORTAB_num_telefono		0	string	-	-
+GA_NOTIFPORTAB_tipo_operacion		1	string	-	-
+GA_NOTIFPORTAB_cod_ope_orig		2	long	-	-
+GA_NOTIFPORTAB_cod_ope_dest		3	long	-	-
+GA_NOTIFPORTAB_cod_usuario		4	string	-	-
+GA_NOTIFPORTAB_sec_actuacion		5	string	-	-
+GA_NOTIFPORTAB__rpr_ret		6	long	-	-
+# FIN DE SERVICIO GA_NOTIFPORTAB
+
+# Identificadores para el servicio GA_NOTIFPORTAB2
+# INICIO DE SERVICIO GA_NOTIFPORTAB2
+GA_NOTIFPORTAB2_num_telefono		7	string	-	-
+GA_NOTIFPORTAB2_tipo_operacion		8	string	-	-
+GA_NOTIFPORTAB2_cod_ope_orig		9	long	-	-
+GA_NOTIFPORTAB2_cod_ope_dest		10	long	-	-
+GA_NOTIFPORTAB2_cod_usuario		11	string	-	-
+GA_NOTIFPORTAB2_mediaType		12	string	-	-
+GA_NOTIFPORTAB2_erReference		13	string	-	-
+GA_NOTIFPORTAB2_transaction_id		14	string	-	-
+GA_NOTIFPORTAB2_sec_actuacion		15	string	-	-
+GA_NOTIFPORTAB2__rpr_ret		16	long	-	-
+# FIN DE SERVICIO GA_NOTIFPORTAB2
+
+# Identificadores para el servicio GA_NOTIFPORTAB3
+# INICIO DE SERVICIO GA_NOTIFPORTAB3
+GA_NOTIFPORTAB3_num_telefono		17	string	-	-
+GA_NOTIFPORTAB3_tipo_operacion		18	string	-	-
+GA_NOTIFPORTAB3_cod_ope_orig		19	long	-	-
+GA_NOTIFPORTAB3_cod_ope_dest		20	long	-	-
+GA_NOTIFPORTAB3_cod_usuario		21	string	-	-
+GA_NOTIFPORTAB3_sec_actuacion		22	string	-	-
+GA_NOTIFPORTAB3__rpr_ret		23	long	-	-
+# FIN DE SERVICIO GA_NOTIFPORTAB3
+

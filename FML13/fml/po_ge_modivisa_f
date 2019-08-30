@@ -1,0 +1,19 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_modivisa.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_modivisa_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2924000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_MODIVISA
+# INICIO DE SERVICIO PO_GE_MODIVISA
+PO_GE_MODIVISA_cod_moneda		0	string	-	-
+PO_GE_MODIVISA_cambio_divisa		1	double	-	-
+PO_GE_MODIVISA_validez		2	long	-	-
+PO_GE_MODIVISA__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PO_GE_MODIVISA
+

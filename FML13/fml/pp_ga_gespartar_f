@@ -1,0 +1,105 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gespartar.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gespartar_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3277000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_CONFTAR
+# INICIO DE SERVICIO PP_GA_CONFTAR
+PP_GA_CONFTAR_snum_telefono		0	string	-	-
+PP_GA_CONFTAR_scod_tipprepa		1	string	-	-
+PP_GA_CONFTAR_scod_moneda		2	string	-	-
+PP_GA_CONFTAR_dcoste		3	double	-	-
+PP_GA_CONFTAR_scod_causa		4	string	-	-
+PP_GA_CONFTAR_scod_usuario		5	string	-	-
+PP_GA_CONFTAR_n_bolsas		6	long	-	-
+PP_GA_CONFTAR_scod_bolsa		7	string	-	-
+PP_GA_CONFTAR_dimporte		8	double	-	-
+PP_GA_CONFTAR_ssec_actuacion		9	string	-	-
+PP_GA_CONFTAR__rpr_ret		10	long	-	-
+# FIN DE SERVICIO PP_GA_CONFTAR
+
+# Identificadores para el servicio GA_ALTCCTF
+# INICIO DE SERVICIO GA_ALTCCTF
+GA_ALTCCTF_num_telefono		11	string	-	-
+GA_ALTCCTF_num_ccard		12	string	-	-
+GA_ALTCCTF_cod_moneda		13	string	-	-
+GA_ALTCCTF_imp_coste		14	double	-	-
+GA_ALTCCTF_cod_usuario		15	string	-	-
+GA_ALTCCTF_sec_actuacion		16	string	-	-
+GA_ALTCCTF__rpr_ret		17	long	-	-
+# FIN DE SERVICIO GA_ALTCCTF
+
+# Identificadores para el servicio GA_BAJCCTF
+# INICIO DE SERVICIO GA_BAJCCTF
+GA_BAJCCTF_sec_actuacion_baja		18	string	-	-
+GA_BAJCCTF_cod_moneda		19	string	-	-
+GA_BAJCCTF_imp_coste		20	double	-	-
+GA_BAJCCTF_cod_usuario		21	string	-	-
+GA_BAJCCTF_sec_actuacion		22	string	-	-
+GA_BAJCCTF__rpr_ret		23	long	-	-
+# FIN DE SERVICIO GA_BAJCCTF
+
+# Identificadores para el servicio GA_CONCCTF
+# INICIO DE SERVICIO GA_CONCCTF
+GA_CONCCTF_num_telefono		24	string	-	-
+GA_CONCCTF_num_ccard		25	string	-	-
+GA_CONCCTF_sec_actuacion		26	string	-	-
+GA_CONCCTF_num_telefono_asoc		27	string	-	-
+GA_CONCCTF_sec_actuacion_asoc		28	string	-	-
+GA_CONCCTF__rpr_ret		29	long	-	-
+# FIN DE SERVICIO GA_CONCCTF
+
+# Identificadores para el servicio GA_CONTELCCARD
+# INICIO DE SERVICIO GA_CONTELCCARD
+GA_CONTELCCARD_cod_admin		30	string	-	-
+GA_CONTELCCARDnum_telefono_a01		31	string	-	-
+GA_CONTELCCARD__rpr_ret		32	long	-	-
+# FIN DE SERVICIO GA_CONTELCCARD
+
+# Identificadores para el servicio GA_CONTELCCAR2
+# INICIO DE SERVICIO GA_CONTELCCAR2
+GA_CONTELCCAR2_cod_admin		33	string	-	-
+GA_CONTELCCAR2num_telefono_a01		34	string	-	-
+GA_CONTELCCAR2_fecha_asoc		35	string	-	-
+GA_CONTELCCAR2__rpr_ret		36	long	-	-
+# FIN DE SERVICIO GA_CONTELCCAR2
+
+# Identificadores para el servicio GA_PROVINCIAS
+# INICIO DE SERVICIO GA_PROVINCIAS
+GA_PROVINCIAS_num_telefono		37	string	-	-
+GA_PROVINCIAS_tip_operacion		38	string	-	-
+GA_PROVINCIAS_cod_provincia		39	string	-	-
+GA_PROVINCIAS_imp_coste		40	double	-	-
+GA_PROVINCIAS_cod_moneda		41	string	-	-
+GA_PROVINCIAS_cod_usuario		42	string	-	-
+GA_PROVINCIAS_sec_actuacion		43	string	-	-
+GA_PROVINCIAS__rpr_ret		44	long	-	-
+# FIN DE SERVICIO GA_PROVINCIAS
+
+# Identificadores para el servicio GA_DETPROVINCIA
+# INICIO DE SERVICIO GA_DETPROVINCIA
+GA_DETPROVINCIA_num_telefono		45	string	-	-
+GA_DETPROVINCIA_sec_actuacion		46	string	-	-
+GA_DETPROVINCIA_fec_inicio		47	string	-	-
+GA_DETPROVINCIA_fec_fin		48	string	-	-
+GA_DETPROVINCIA_cod_moneda		49	string	-	-
+GA_DETPROVINCIA_cod_estado_in		50	string	-	-
+GA_DETPROVINCIA_n_regs		51	long	-	-
+GA_DETPROVINCIA_token		52	string	-	-
+GA_DETPROVINCIA_ssec_actuacion		53	string	-	-
+GA_DETPROVINCIA_fec_modifi		54	string	-	-
+GA_DETPROVINCIA_cod_provant		55	string	-	-
+GA_DETPROVINCIA_cod_provpos		56	string	-	-
+GA_DETPROVINCIA_coste		57	double	-	-
+GA_DETPROVINCIA_cod_usuario		58	string	-	-
+GA_DETPROVINCIA_cod_estado_out		59	string	-	-
+GA_DETPROVINCIA_hay_mas		60	carray	-	-
+GA_DETPROVINCIA__rpr_ret		61	long	-	-
+# FIN DE SERVICIO GA_DETPROVINCIA
+

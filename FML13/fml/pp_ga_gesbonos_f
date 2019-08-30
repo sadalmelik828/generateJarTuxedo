@@ -1,0 +1,1405 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gesbonos.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gesbonos_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3261000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_SOLBONO
+# INICIO DE SERVICIO PP_GA_SOLBONO
+PP_GA_SOLBONO_snum_telefono		0	string	-	-
+PP_GA_SOLBONO_scod_bono		1	string	-	-
+PP_GA_SOLBONO_dimporte		2	double	-	-
+PP_GA_SOLBONO_scod_moneda		3	string	-	-
+PP_GA_SOLBONO_scod_usuario		4	string	-	-
+PP_GA_SOLBONO_dsecuencia		5	long	-	-
+PP_GA_SOLBONO__rpr_ret		6	long	-	-
+# FIN DE SERVICIO PP_GA_SOLBONO
+
+# Identificadores para el servicio PP_GA_CONSBONO
+# INICIO DE SERVICIO PP_GA_CONSBONO
+PP_GA_CONSBONO_num_telefono		7	string	-	-
+PP_GA_CONSBONO_flg_consulta		8	string	-	-
+PP_GA_CONSBONO_tip_bono_in		9	string	-	-
+PP_GA_CONSBONO_token		10	string	-	-
+PP_GA_CONSBONO_n_regs		11	long	-	-
+PP_GA_CONSBONO_ltip_bono		12	string	-	-
+PP_GA_CONSBONO_lestado		13	string	-	-
+PP_GA_CONSBONO_fec_estabono		14	string	-	-
+PP_GA_CONSBONO_lfec_caduca		15	string	-	-
+PP_GA_CONSBONO_lcantidad		16	long	-	-
+PP_GA_CONSBONO__rpr_ret		17	long	-	-
+# FIN DE SERVICIO PP_GA_CONSBONO
+
+# Identificadores para el servicio PP_GA_DETBONOS
+# INICIO DE SERVICIO PP_GA_DETBONOS
+PP_GA_DETBONOS_num_telefono		18	string	-	-
+PP_GA_DETBONOS_fec_inicio		19	string	-	-
+PP_GA_DETBONOS_fec_fin		20	string	-	-
+PP_GA_DETBONOS_secuencia		21	long	-	-
+PP_GA_DETBONOS_tipobono_in		22	string	-	-
+PP_GA_DETBONOS_cod_moneda		23	string	-	-
+PP_GA_DETBONOS_n_regs		24	long	-	-
+PP_GA_DETBONOS_token		25	string	-	-
+PP_GA_DETBONOS_lcod_bono		26	string	-	-
+PP_GA_DETBONOS_lsec_actuacion		27	long	-	-
+PP_GA_DETBONOS_limp_coste		28	double	-	-
+PP_GA_DETBONOS_lfec_alta		29	string	-	-
+PP_GA_DETBONOS_lfec_caduca		30	string	-	-
+PP_GA_DETBONOS_lbonificacion		31	long	-	-
+PP_GA_DETBONOS_tip_bono		32	string	-	-
+PP_GA_DETBONOS__rpr_ret		33	long	-	-
+# FIN DE SERVICIO PP_GA_DETBONOS
+
+# Identificadores para el servicio PP_GA_ANBONO
+# INICIO DE SERVICIO PP_GA_ANBONO
+PP_GA_ANBONO_num_telefono		34	string	-	-
+PP_GA_ANBONO_sec_actanul		35	long	-	-
+PP_GA_ANBONO_importe		36	double	-	-
+PP_GA_ANBONO_cod_moneda		37	string	-	-
+PP_GA_ANBONO_cod_usuario		38	string	-	-
+PP_GA_ANBONO_secuencia		39	long	-	-
+PP_GA_ANBONO__rpr_ret		40	long	-	-
+# FIN DE SERVICIO PP_GA_ANBONO
+
+# Identificadores para el servicio PP_GA_SOLHAPPY
+# INICIO DE SERVICIO PP_GA_SOLHAPPY
+PP_GA_SOLHAPPY_num_telefono		41	string	-	-
+PP_GA_SOLHAPPY_codigo_happy		42	string	-	-
+PP_GA_SOLHAPPY_importe		43	double	-	-
+PP_GA_SOLHAPPY_cod_moneda		44	string	-	-
+PP_GA_SOLHAPPY_cod_usuario		45	string	-	-
+PP_GA_SOLHAPPY_secuencia		46	long	-	-
+PP_GA_SOLHAPPY__rpr_ret		47	long	-	-
+# FIN DE SERVICIO PP_GA_SOLHAPPY
+
+# Identificadores para el servicio PP_GA_CORSOLPY
+# INICIO DE SERVICIO PP_GA_CORSOLPY
+PP_GA_CORSOLPY_snum_telefono		48	string	-	-
+PP_GA_CORSOLPY_lsec_actanul		49	long	-	-
+PP_GA_CORSOLPY_dimporte		50	double	-	-
+PP_GA_CORSOLPY_scod_moneda		51	string	-	-
+PP_GA_CORSOLPY_scod_usuario		52	string	-	-
+PP_GA_CORSOLPY_lsecuencia		53	long	-	-
+PP_GA_CORSOLPY__rpr_ret		54	long	-	-
+# FIN DE SERVICIO PP_GA_CORSOLPY
+
+# Identificadores para el servicio PP_GA_ANHAPPY
+# INICIO DE SERVICIO PP_GA_ANHAPPY
+PP_GA_ANHAPPY_snum_telefono		55	string	-	-
+PP_GA_ANHAPPY_lsec_actanul		56	long	-	-
+PP_GA_ANHAPPY_dimporte		57	double	-	-
+PP_GA_ANHAPPY_scod_moneda		58	string	-	-
+PP_GA_ANHAPPY_scod_usuario		59	string	-	-
+PP_GA_ANHAPPY_lsecuencia		60	long	-	-
+PP_GA_ANHAPPY__rpr_ret		61	long	-	-
+# FIN DE SERVICIO PP_GA_ANHAPPY
+
+# Identificadores para el servicio PP_GA_CORANPY
+# INICIO DE SERVICIO PP_GA_CORANPY
+PP_GA_CORANPY_snum_telefono		62	string	-	-
+PP_GA_CORANPY_lsec_actanul		63	long	-	-
+PP_GA_CORANPY_dimporte		64	double	-	-
+PP_GA_CORANPY_scod_moneda		65	string	-	-
+PP_GA_CORANPY_scod_usuario		66	string	-	-
+PP_GA_CORANPY_lsecuencia		67	long	-	-
+PP_GA_CORANPY__rpr_ret		68	long	-	-
+# FIN DE SERVICIO PP_GA_CORANPY
+
+# Identificadores para el servicio PP_GA_HAPPYABO
+# INICIO DE SERVICIO PP_GA_HAPPYABO
+PP_GA_HAPPYABO_snum_telefono		69	string	-	-
+PP_GA_HAPPYABO_scod_moneda		70	string	-	-
+PP_GA_HAPPYABO_scod_idioma		71	string	-	-
+PP_GA_HAPPYABO_stip_codigo		72	string	-	-
+PP_GA_HAPPYABO_scod_usuario		73	string	-	-
+PP_GA_HAPPYABO_ln_regs		74	long	-	-
+PP_GA_HAPPYABO_stoken		75	string	-	-
+PP_GA_HAPPYABO_slcod_bono		76	string	-	-
+PP_GA_HAPPYABO_dlimp_coste		77	double	-	-
+PP_GA_HAPPYABO_sldes_bono		78	string	-	-
+PP_GA_HAPPYABO__rpr_ret		79	long	-	-
+# FIN DE SERVICIO PP_GA_HAPPYABO
+
+# Identificadores para el servicio PP_GA_ALTHAPPY
+# INICIO DE SERVICIO PP_GA_ALTHAPPY
+PP_GA_ALTHAPPY_scod_bono		80	string	-	-
+PP_GA_ALTHAPPY_lcod_promoSDP		81	long	-	-
+PP_GA_ALTHAPPY_scod_tarifaDest		82	string	-	-
+PP_GA_ALTHAPPY_scod_usuario		83	string	-	-
+PP_GA_ALTHAPPY_lnum_dias		84	long	-	-
+PP_GA_ALTHAPPY_ldia_mes_inicio		85	long	-	-
+PP_GA_ALTHAPPY_ldia_mes_fin		86	long	-	-
+PP_GA_ALTHAPPY_sfec_inicio		87	string	-	-
+PP_GA_ALTHAPPY_sfec_fin		88	string	-	-
+PP_GA_ALTHAPPY_scod_moneda		89	string	-	-
+PP_GA_ALTHAPPY_dimp_coste		90	double	-	-
+PP_GA_ALTHAPPY_ln_rangos		91	long	-	-
+PP_GA_ALTHAPPY_sanno		92	string	-	-
+PP_GA_ALTHAPPY_smsk_mes		93	string	-	-
+PP_GA_ALTHAPPY_smsk_diames		94	string	-	-
+PP_GA_ALTHAPPY_smsk_diasem		95	string	-	-
+PP_GA_ALTHAPPY_smsk_hora		96	string	-	-
+PP_GA_ALTHAPPY_lduracion		97	long	-	-
+PP_GA_ALTHAPPY__rpr_ret		98	long	-	-
+# FIN DE SERVICIO PP_GA_ALTHAPPY
+
+# Identificadores para el servicio PP_GA_BAJHAPPY
+# INICIO DE SERVICIO PP_GA_BAJHAPPY
+PP_GA_BAJHAPPY_scod_bono		99	string	-	-
+PP_GA_BAJHAPPY__rpr_ret		100	long	-	-
+# FIN DE SERVICIO PP_GA_BAJHAPPY
+
+# Identificadores para el servicio PP_GA_MODHAPPY
+# INICIO DE SERVICIO PP_GA_MODHAPPY
+PP_GA_MODHAPPY_scod_bono		101	string	-	-
+PP_GA_MODHAPPY_lcod_promoSDP		102	long	-	-
+PP_GA_MODHAPPY_scod_tarifaDest		103	string	-	-
+PP_GA_MODHAPPY_scod_usuario		104	string	-	-
+PP_GA_MODHAPPY_lnum_dias		105	long	-	-
+PP_GA_MODHAPPY_ldia_mes_inicio		106	long	-	-
+PP_GA_MODHAPPY_ldia_mes_fin		107	long	-	-
+PP_GA_MODHAPPY_sfec_inicio		108	string	-	-
+PP_GA_MODHAPPY_sfec_fin		109	string	-	-
+PP_GA_MODHAPPY_scod_moneda		110	string	-	-
+PP_GA_MODHAPPY_dimp_coste		111	double	-	-
+PP_GA_MODHAPPY_ln_rangos		112	long	-	-
+PP_GA_MODHAPPY_sanno		113	string	-	-
+PP_GA_MODHAPPY_smsk_mes		114	string	-	-
+PP_GA_MODHAPPY_smsk_diames		115	string	-	-
+PP_GA_MODHAPPY_smsk_diasem		116	string	-	-
+PP_GA_MODHAPPY_smsk_hora		117	string	-	-
+PP_GA_MODHAPPY_lduracion		118	long	-	-
+PP_GA_MODHAPPY__rpr_ret		119	long	-	-
+# FIN DE SERVICIO PP_GA_MODHAPPY
+
+# Identificadores para el servicio PP_GA_CONHAPPY
+# INICIO DE SERVICIO PP_GA_CONHAPPY
+PP_GA_CONHAPPY_scod_bono		120	string	-	-
+PP_GA_CONHAPPY_scod_moneda		121	string	-	-
+PP_GA_CONHAPPY_lrango		122	long	-	-
+PP_GA_CONHAPPY_lcod_promoSDP		123	long	-	-
+PP_GA_CONHAPPY_scod_tarifaDest		124	string	-	-
+PP_GA_CONHAPPY_lnum_dias		125	long	-	-
+PP_GA_CONHAPPY_ldia_mes_inicio		126	long	-	-
+PP_GA_CONHAPPY_ldia_mes_fin		127	long	-	-
+PP_GA_CONHAPPY_sfec_inicio		128	string	-	-
+PP_GA_CONHAPPY_sfec_fin		129	string	-	-
+PP_GA_CONHAPPY_dimp_coste		130	double	-	-
+PP_GA_CONHAPPY_sanno		131	string	-	-
+PP_GA_CONHAPPY_smsk_mes		132	string	-	-
+PP_GA_CONHAPPY_smsk_diames		133	string	-	-
+PP_GA_CONHAPPY_smsk_diasem		134	string	-	-
+PP_GA_CONHAPPY_smsk_hora		135	string	-	-
+PP_GA_CONHAPPY_lduracion		136	long	-	-
+PP_GA_CONHAPPY__rpr_ret		137	long	-	-
+# FIN DE SERVICIO PP_GA_CONHAPPY
+
+# Identificadores para el servicio PP_GA_HAPPYACT
+# INICIO DE SERVICIO PP_GA_HAPPYACT
+PP_GA_HAPPYACT_ln_regs		138	long	-	-
+PP_GA_HAPPYACT_stoken		139	string	-	-
+PP_GA_HAPPYACT_slcod_bono		140	string	-	-
+PP_GA_HAPPYACT__rpr_ret		141	long	-	-
+# FIN DE SERVICIO PP_GA_HAPPYACT
+
+# Identificadores para el servicio PP_GA_DETANBON
+# INICIO DE SERVICIO PP_GA_DETANBON
+PP_GA_DETANBON_snum_telefono		142	string	-	-
+PP_GA_DETANBON_sfec_inicio		143	string	-	-
+PP_GA_DETANBON_sfec_fin		144	string	-	-
+PP_GA_DETANBON_lsecuencia		145	long	-	-
+PP_GA_DETANBON_stipobono_in		146	string	-	-
+PP_GA_DETANBON_scod_moneda		147	string	-	-
+PP_GA_DETANBON_ln_regs		148	long	-	-
+PP_GA_DETANBON_stoken		149	string	-	-
+PP_GA_DETANBON_slcod_bono		150	string	-	-
+PP_GA_DETANBON_llsec_actuacion		151	long	-	-
+PP_GA_DETANBON_llsec_baja		152	long	-	-
+PP_GA_DETANBON_dlimp_coste		153	double	-	-
+PP_GA_DETANBON_slfec_alta		154	string	-	-
+PP_GA_DETANBON_slfec_caduca		155	string	-	-
+PP_GA_DETANBON_llbonificacion		156	long	-	-
+PP_GA_DETANBON_stip_bono		157	string	-	-
+PP_GA_DETANBON__rpr_ret		158	long	-	-
+# FIN DE SERVICIO PP_GA_DETANBON
+
+# Identificadores para el servicio PP_GA_HAPPYTOT
+# INICIO DE SERVICIO PP_GA_HAPPYTOT
+PP_GA_HAPPYTOT_ln_regs		159	long	-	-
+PP_GA_HAPPYTOT_stoken		160	string	-	-
+PP_GA_HAPPYTOT_slcod_bono		161	string	-	-
+PP_GA_HAPPYTOT__rpr_ret		162	long	-	-
+# FIN DE SERVICIO PP_GA_HAPPYTOT
+
+# Identificadores para el servicio PP_GA_SOLBONO2
+# INICIO DE SERVICIO PP_GA_SOLBONO2
+PP_GA_SOLBONO2_snum_telefono		163	string	-	-
+PP_GA_SOLBONO2_scod_bono		164	string	-	-
+PP_GA_SOLBONO2_can_bonifica		165	long	-	-
+PP_GA_SOLBONO2_dimporte		166	double	-	-
+PP_GA_SOLBONO2_scod_moneda		167	string	-	-
+PP_GA_SOLBONO2_scod_usuario		168	string	-	-
+PP_GA_SOLBONO2_dsecuencia		169	long	-	-
+PP_GA_SOLBONO2__rpr_ret		170	long	-	-
+# FIN DE SERVICIO PP_GA_SOLBONO2
+
+# Identificadores para el servicio PP_GA_CONSBONOT
+# INICIO DE SERVICIO PP_GA_CONSBONOT
+PP_GA_CONSBONOT_num_telefono		171	string	-	-
+PP_GA_CONSBONOT_sig_bono		172	string	-	-
+PP_GA_CONSBONOT_n_regs		173	long	-	-
+PP_GA_CONSBONOT_mas_datos		174	carray	-	-
+PP_GA_CONSBONOT_cod_bono		175	string	-	-
+PP_GA_CONSBONOT__rpr_ret		176	long	-	-
+# FIN DE SERVICIO PP_GA_CONSBONOT
+
+# Identificadores para el servicio PP_GA_CTIPBONO
+# INICIO DE SERVICIO PP_GA_CTIPBONO
+PP_GA_CTIPBONO_cod_bono		177	string	-	-
+PP_GA_CTIPBONO_tipo_bono		178	string	-	-
+PP_GA_CTIPBONO__rpr_ret		179	long	-	-
+# FIN DE SERVICIO PP_GA_CTIPBONO
+
+# Identificadores para el servicio PP_GA_BAJABONO
+# INICIO DE SERVICIO PP_GA_BAJABONO
+PP_GA_BAJABONO_num_telefono		180	string	-	-
+PP_GA_BAJABONO_tipo_bono		181	string	-	-
+PP_GA_BAJABONO_importe		182	double	-	-
+PP_GA_BAJABONO_cod_moneda		183	string	-	-
+PP_GA_BAJABONO_cod_usuario		184	string	-	-
+PP_GA_BAJABONO_ssec_actuacion		185	string	-	-
+PP_GA_BAJABONO__rpr_ret		186	long	-	-
+# FIN DE SERVICIO PP_GA_BAJABONO
+
+# Identificadores para el servicio PP_GA_CONSBON2
+# INICIO DE SERVICIO PP_GA_CONSBON2
+PP_GA_CONSBON2_num_telefono		187	string	-	-
+PP_GA_CONSBON2_flg_consulta		188	string	-	-
+PP_GA_CONSBON2_tip_bono_in		189	string	-	-
+PP_GA_CONSBON2_token		190	string	-	-
+PP_GA_CONSBON2_n_regs		191	long	-	-
+PP_GA_CONSBON2_ltip_bono		192	string	-	-
+PP_GA_CONSBON2_lestado		193	string	-	-
+PP_GA_CONSBON2_fec_estabono		194	string	-	-
+PP_GA_CONSBON2_lfec_caduca		195	string	-	-
+PP_GA_CONSBON2_lcantidad		196	long	-	-
+PP_GA_CONSBON2_cod_modbono		197	string	-	-
+PP_GA_CONSBON2__rpr_ret		198	long	-	-
+# FIN DE SERVICIO PP_GA_CONSBON2
+
+# Identificadores para el servicio PP_GA_DETBONO2
+# INICIO DE SERVICIO PP_GA_DETBONO2
+PP_GA_DETBONO2_num_telefono		199	string	-	-
+PP_GA_DETBONO2_fec_inicio		200	string	-	-
+PP_GA_DETBONO2_fec_fin		201	string	-	-
+PP_GA_DETBONO2_secuencia		202	long	-	-
+PP_GA_DETBONO2_tipobono_in		203	string	-	-
+PP_GA_DETBONO2_cod_moneda		204	string	-	-
+PP_GA_DETBONO2_n_regs		205	long	-	-
+PP_GA_DETBONO2_token		206	string	-	-
+PP_GA_DETBONO2_lcod_bono		207	string	-	-
+PP_GA_DETBONO2_lsec_actuacion		208	long	-	-
+PP_GA_DETBONO2_limp_coste		209	double	-	-
+PP_GA_DETBONO2_lfec_alta		210	string	-	-
+PP_GA_DETBONO2_lfec_caduca		211	string	-	-
+PP_GA_DETBONO2_lbonificacion		212	long	-	-
+PP_GA_DETBONO2_tip_bono		213	string	-	-
+PP_GA_DETBONO2_lcod_estado		214	string	-	-
+PP_GA_DETBONO2_lcod_modbono		215	string	-	-
+PP_GA_DETBONO2__rpr_ret		216	long	-	-
+# FIN DE SERVICIO PP_GA_DETBONO2
+
+# Identificadores para el servicio PP_GA_SOLBONO3
+# INICIO DE SERVICIO PP_GA_SOLBONO3
+PP_GA_SOLBONO3_snum_telefono		217	string	-	-
+PP_GA_SOLBONO3_scod_bono		218	string	-	-
+PP_GA_SOLBONO3_can_bonifica		219	long	-	-
+PP_GA_SOLBONO3_dimporte		220	double	-	-
+PP_GA_SOLBONO3_scod_moneda		221	string	-	-
+PP_GA_SOLBONO3_scod_usuario		222	string	-	-
+PP_GA_SOLBONO3_sfecha_ini		223	string	-	-
+PP_GA_SOLBONO3_sfecha_fin		224	string	-	-
+PP_GA_SOLBONO3_lnum_dias		225	long	-	-
+PP_GA_SOLBONO3_sSecActuacion		226	string	-	-
+PP_GA_SOLBONO3__rpr_ret		227	long	-	-
+# FIN DE SERVICIO PP_GA_SOLBONO3
+
+# Identificadores para el servicio PP_GA_DETBONO3
+# INICIO DE SERVICIO PP_GA_DETBONO3
+PP_GA_DETBONO3_num_telefono		228	string	-	-
+PP_GA_DETBONO3_fec_inicio		229	string	-	-
+PP_GA_DETBONO3_fec_fin		230	string	-	-
+PP_GA_DETBONO3_secuencia		231	long	-	-
+PP_GA_DETBONO3_tipobono_in		232	string	-	-
+PP_GA_DETBONO3_cod_moneda		233	string	-	-
+PP_GA_DETBONO3_n_regs		234	long	-	-
+PP_GA_DETBONO3_token		235	string	-	-
+PP_GA_DETBONO3_lcod_bono		236	string	-	-
+PP_GA_DETBONO3_lsec_actuacion		237	long	-	-
+PP_GA_DETBONO3_limp_coste		238	double	-	-
+PP_GA_DETBONO3_lfec_alta		239	string	-	-
+PP_GA_DETBONO3_lfec_caduca		240	string	-	-
+PP_GA_DETBONO3_lbonificacion		241	long	-	-
+PP_GA_DETBONO3_tip_bono		242	string	-	-
+PP_GA_DETBONO3_lcod_estado		243	string	-	-
+PP_GA_DETBONO3_lcod_modbono		244	string	-	-
+PP_GA_DETBONO3_flg_incremento		245	string	-	-
+PP_GA_DETBONO3__rpr_ret		246	long	-	-
+# FIN DE SERVICIO PP_GA_DETBONO3
+
+# Identificadores para el servicio PP_GA_DETBONO4
+# INICIO DE SERVICIO PP_GA_DETBONO4
+PP_GA_DETBONO4_num_telefono		247	string	-	-
+PP_GA_DETBONO4_fec_inicio		248	string	-	-
+PP_GA_DETBONO4_fec_fin		249	string	-	-
+PP_GA_DETBONO4_secuencia		250	long	-	-
+PP_GA_DETBONO4_tipobono_in		251	string	-	-
+PP_GA_DETBONO4_cod_moneda		252	string	-	-
+PP_GA_DETBONO4_n_regs		253	long	-	-
+PP_GA_DETBONO4_token		254	string	-	-
+PP_GA_DETBONO4_lcod_bono		255	string	-	-
+PP_GA_DETBONO4_lsec_actuacion		256	long	-	-
+PP_GA_DETBONO4_limp_coste		257	double	-	-
+PP_GA_DETBONO4_lfec_alta		258	string	-	-
+PP_GA_DETBONO4_lfec_caduca		259	string	-	-
+PP_GA_DETBONO4_lbonificacion		260	long	-	-
+PP_GA_DETBONO4_tip_bono		261	string	-	-
+PP_GA_DETBONO4_lcod_estado		262	string	-	-
+PP_GA_DETBONO4_lcod_modbono		263	string	-	-
+PP_GA_DETBONO4_flg_incremento		264	string	-	-
+PP_GA_DETBONO4_lcan_bonifica		265	long	-	-
+PP_GA_DETBONO4_lfec_inicio		266	string	-	-
+PP_GA_DETBONO4_lfec_fin		267	string	-	-
+PP_GA_DETBONO4__rpr_ret		268	long	-	-
+# FIN DE SERVICIO PP_GA_DETBONO4
+
+# Identificadores para el servicio PP_GA_ANBONO2
+# INICIO DE SERVICIO PP_GA_ANBONO2
+PP_GA_ANBONO2_num_telefono		269	string	-	-
+PP_GA_ANBONO2_sec_actanul		270	string	-	-
+PP_GA_ANBONO2_importe		271	double	-	-
+PP_GA_ANBONO2_cod_moneda		272	string	-	-
+PP_GA_ANBONO2_cod_usuario		273	string	-	-
+PP_GA_ANBONO2_secuencia		274	string	-	-
+PP_GA_ANBONO2__rpr_ret		275	long	-	-
+# FIN DE SERVICIO PP_GA_ANBONO2
+
+# Identificadores para el servicio PP_GA_SOLHAPP2
+# INICIO DE SERVICIO PP_GA_SOLHAPP2
+PP_GA_SOLHAPP2_num_telefono		276	string	-	-
+PP_GA_SOLHAPP2_codigo_happy		277	string	-	-
+PP_GA_SOLHAPP2_importe		278	double	-	-
+PP_GA_SOLHAPP2_cod_moneda		279	string	-	-
+PP_GA_SOLHAPP2_cod_usuario		280	string	-	-
+PP_GA_SOLHAPP2_secuencia		281	string	-	-
+PP_GA_SOLHAPP2__rpr_ret		282	long	-	-
+# FIN DE SERVICIO PP_GA_SOLHAPP2
+
+# Identificadores para el servicio PP_GA_CORSOLP2
+# INICIO DE SERVICIO PP_GA_CORSOLP2
+PP_GA_CORSOLP2_snum_telefono		283	string	-	-
+PP_GA_CORSOLP2_sec_actanul		284	string	-	-
+PP_GA_CORSOLP2_dimporte		285	double	-	-
+PP_GA_CORSOLP2_scod_moneda		286	string	-	-
+PP_GA_CORSOLP2_scod_usuario		287	string	-	-
+PP_GA_CORSOLP2_secuencia		288	string	-	-
+PP_GA_CORSOLP2__rpr_ret		289	long	-	-
+# FIN DE SERVICIO PP_GA_CORSOLP2
+
+# Identificadores para el servicio PP_GA_ANHAPPY2
+# INICIO DE SERVICIO PP_GA_ANHAPPY2
+PP_GA_ANHAPPY2_snum_telefono		290	string	-	-
+PP_GA_ANHAPPY2_sec_actanul		291	string	-	-
+PP_GA_ANHAPPY2_dimporte		292	double	-	-
+PP_GA_ANHAPPY2_scod_moneda		293	string	-	-
+PP_GA_ANHAPPY2_scod_usuario		294	string	-	-
+PP_GA_ANHAPPY2_secuencia		295	string	-	-
+PP_GA_ANHAPPY2__rpr_ret		296	long	-	-
+# FIN DE SERVICIO PP_GA_ANHAPPY2
+
+# Identificadores para el servicio PP_GA_CORANPY2
+# INICIO DE SERVICIO PP_GA_CORANPY2
+PP_GA_CORANPY2_snum_telefono		297	string	-	-
+PP_GA_CORANPY2_sec_actanul		298	string	-	-
+PP_GA_CORANPY2_dimporte		299	double	-	-
+PP_GA_CORANPY2_scod_moneda		300	string	-	-
+PP_GA_CORANPY2_scod_usuario		301	string	-	-
+PP_GA_CORANPY2_secuencia		302	string	-	-
+PP_GA_CORANPY2__rpr_ret		303	long	-	-
+# FIN DE SERVICIO PP_GA_CORANPY2
+
+# Identificadores para el servicio PP_GA_DETANBO2
+# INICIO DE SERVICIO PP_GA_DETANBO2
+PP_GA_DETANBO2_snum_telefono		304	string	-	-
+PP_GA_DETANBO2_sfec_inicio		305	string	-	-
+PP_GA_DETANBO2_sfec_fin		306	string	-	-
+PP_GA_DETANBO2_secuencia		307	string	-	-
+PP_GA_DETANBO2_stipobono_in		308	string	-	-
+PP_GA_DETANBO2_scod_moneda		309	string	-	-
+PP_GA_DETANBO2_ln_regs		310	long	-	-
+PP_GA_DETANBO2_stoken		311	string	-	-
+PP_GA_DETANBO2_slcod_bono		312	string	-	-
+PP_GA_DETANBO2_sec_actuacion		313	string	-	-
+PP_GA_DETANBO2_sec_baja		314	string	-	-
+PP_GA_DETANBO2_dlimp_coste		315	double	-	-
+PP_GA_DETANBO2_slfec_alta		316	string	-	-
+PP_GA_DETANBO2_slfec_caduca		317	string	-	-
+PP_GA_DETANBO2_llbonificacion		318	long	-	-
+PP_GA_DETANBO2_stip_bono		319	string	-	-
+PP_GA_DETANBO2__rpr_ret		320	long	-	-
+# FIN DE SERVICIO PP_GA_DETANBO2
+
+# Identificadores para el servicio PP_GA_DETBONO5
+# INICIO DE SERVICIO PP_GA_DETBONO5
+PP_GA_DETBONO5_num_telefono		321	string	-	-
+PP_GA_DETBONO5_fec_inicio		322	string	-	-
+PP_GA_DETBONO5_fec_fin		323	string	-	-
+PP_GA_DETBONO5_secuencia		324	string	-	-
+PP_GA_DETBONO5_tipobono_in		325	string	-	-
+PP_GA_DETBONO5_cod_moneda		326	string	-	-
+PP_GA_DETBONO5_n_regs		327	long	-	-
+PP_GA_DETBONO5_token		328	string	-	-
+PP_GA_DETBONO5_lcod_bono		329	string	-	-
+PP_GA_DETBONO5_sec_actuacion		330	string	-	-
+PP_GA_DETBONO5_limp_coste		331	double	-	-
+PP_GA_DETBONO5_lfec_alta		332	string	-	-
+PP_GA_DETBONO5_lfec_caduca		333	string	-	-
+PP_GA_DETBONO5_lbonificacion		334	long	-	-
+PP_GA_DETBONO5_tip_bono		335	string	-	-
+PP_GA_DETBONO5_lcod_estado		336	string	-	-
+PP_GA_DETBONO5_lcod_modbono		337	string	-	-
+PP_GA_DETBONO5_flg_incremento		338	string	-	-
+PP_GA_DETBONO5_lcan_bonifica		339	long	-	-
+PP_GA_DETBONO5_lfec_inicio		340	string	-	-
+PP_GA_DETBONO5_lfec_fin		341	string	-	-
+PP_GA_DETBONO5__rpr_ret		342	long	-	-
+# FIN DE SERVICIO PP_GA_DETBONO5
+
+# Identificadores para el servicio PP_GA_SOLBONO4
+# INICIO DE SERVICIO PP_GA_SOLBONO4
+PP_GA_SOLBONO4_snum_telefono		343	string	-	-
+PP_GA_SOLBONO4_scod_bono		344	string	-	-
+PP_GA_SOLBONO4_can_bonifica		345	long	-	-
+PP_GA_SOLBONO4_dimporte		346	double	-	-
+PP_GA_SOLBONO4_scod_moneda		347	string	-	-
+PP_GA_SOLBONO4_scod_usuario		348	string	-	-
+PP_GA_SOLBONO4_sfecha_ini		349	string	-	-
+PP_GA_SOLBONO4_sfecha_fin		350	string	-	-
+PP_GA_SOLBONO4_lnum_dias		351	long	-	-
+PP_GA_SOLBONO4_lcan_bonifica2		352	long	-	-
+PP_GA_SOLBONO4_sSecActuacion		353	string	-	-
+PP_GA_SOLBONO4__rpr_ret		354	long	-	-
+# FIN DE SERVICIO PP_GA_SOLBONO4
+
+# Identificadores para el servicio PP_GA_DETBONO6
+# INICIO DE SERVICIO PP_GA_DETBONO6
+PP_GA_DETBONO6_num_telefono		355	string	-	-
+PP_GA_DETBONO6_fec_inicio		356	string	-	-
+PP_GA_DETBONO6_fec_fin		357	string	-	-
+PP_GA_DETBONO6_secuencia		358	string	-	-
+PP_GA_DETBONO6_tipobono_in		359	string	-	-
+PP_GA_DETBONO6_cod_moneda		360	string	-	-
+PP_GA_DETBONO6_n_regs		361	long	-	-
+PP_GA_DETBONO6_token		362	string	-	-
+PP_GA_DETBONO6_lcod_bono		363	string	-	-
+PP_GA_DETBONO6_sec_actuacion		364	string	-	-
+PP_GA_DETBONO6_limp_coste		365	double	-	-
+PP_GA_DETBONO6_lfec_alta		366	string	-	-
+PP_GA_DETBONO6_lfec_caduca		367	string	-	-
+PP_GA_DETBONO6_lbonificacion		368	long	-	-
+PP_GA_DETBONO6_tip_bono		369	string	-	-
+PP_GA_DETBONO6_lcod_estado		370	string	-	-
+PP_GA_DETBONO6_lcod_modbono		371	string	-	-
+PP_GA_DETBONO6_flg_incremento		372	string	-	-
+PP_GA_DETBONO6_lcan_bonifica		373	long	-	-
+PP_GA_DETBONO6_lfec_inicio		374	string	-	-
+PP_GA_DETBONO6_lfec_fin		375	string	-	-
+PP_GA_DETBONO6_lbonificacion2		376	long	-	-
+PP_GA_DETBONO6_lcan_bonifica2		377	long	-	-
+PP_GA_DETBONO6__rpr_ret		378	long	-	-
+# FIN DE SERVICIO PP_GA_DETBONO6
+
+# Identificadores para el servicio PP_GA_SOLBOMIX
+# INICIO DE SERVICIO PP_GA_SOLBOMIX
+PP_GA_SOLBOMIX_snum_telefono		379	string	-	-
+PP_GA_SOLBOMIX_scod_bonomixto		380	string	-	-
+PP_GA_SOLBOMIX_scod_moneda		381	string	-	-
+PP_GA_SOLBOMIX_scod_usuario		382	string	-	-
+PP_GA_SOLBOMIX_sSecActuacion		383	string	-	-
+PP_GA_SOLBOMIX__rpr_ret		384	long	-	-
+# FIN DE SERVICIO PP_GA_SOLBOMIX
+
+# Identificadores para el servicio PP_GA_DETBONO7
+# INICIO DE SERVICIO PP_GA_DETBONO7
+PP_GA_DETBONO7_num_telefono		385	string	-	-
+PP_GA_DETBONO7_fec_inicio		386	string	-	-
+PP_GA_DETBONO7_fec_fin		387	string	-	-
+PP_GA_DETBONO7_secuencia		388	string	-	-
+PP_GA_DETBONO7_tipobono_in		389	string	-	-
+PP_GA_DETBONO7_cod_moneda		390	string	-	-
+PP_GA_DETBONO7_n_regs		391	long	-	-
+PP_GA_DETBONO7_token		392	string	-	-
+PP_GA_DETBONO7_lcod_bono		393	string	-	-
+PP_GA_DETBONO7_sec_actuacion		394	string	-	-
+PP_GA_DETBONO7_limp_coste		395	double	-	-
+PP_GA_DETBONO7_lfec_alta		396	string	-	-
+PP_GA_DETBONO7_lfec_caduca		397	string	-	-
+PP_GA_DETBONO7_lbonificacion		398	double	-	-
+PP_GA_DETBONO7_tip_bono		399	string	-	-
+PP_GA_DETBONO7_lcod_estado		400	string	-	-
+PP_GA_DETBONO7_lcod_modbono		401	string	-	-
+PP_GA_DETBONO7_flg_incremento		402	string	-	-
+PP_GA_DETBONO7_lcan_bonifica		403	double	-	-
+PP_GA_DETBONO7_lfec_inicio		404	string	-	-
+PP_GA_DETBONO7_lfec_fin		405	string	-	-
+PP_GA_DETBONO7_lbonificacion2		406	double	-	-
+PP_GA_DETBONO7_lcan_bonifica2		407	double	-	-
+PP_GA_DETBONO7__rpr_ret		408	long	-	-
+# FIN DE SERVICIO PP_GA_DETBONO7
+
+# Identificadores para el servicio PP_GA_CONSBON3
+# INICIO DE SERVICIO PP_GA_CONSBON3
+PP_GA_CONSBON3_num_telefono		409	string	-	-
+PP_GA_CONSBON3_flg_consulta		410	string	-	-
+PP_GA_CONSBON3_tip_bono_in		411	string	-	-
+PP_GA_CONSBON3_cod_moneda		412	string	-	-
+PP_GA_CONSBON3_token		413	string	-	-
+PP_GA_CONSBON3_n_regs		414	long	-	-
+PP_GA_CONSBON3_ltip_bono		415	string	-	-
+PP_GA_CONSBON3_lestado		416	string	-	-
+PP_GA_CONSBON3_fec_estabono		417	string	-	-
+PP_GA_CONSBON3_lfec_caduca		418	string	-	-
+PP_GA_CONSBON3_lcantidad		419	double	-	-
+PP_GA_CONSBON3_cod_modbono		420	string	-	-
+PP_GA_CONSBON3__rpr_ret		421	long	-	-
+# FIN DE SERVICIO PP_GA_CONSBON3
+
+# Identificadores para el servicio PP_GA_SOLBONO5
+# INICIO DE SERVICIO PP_GA_SOLBONO5
+PP_GA_SOLBONO5_snum_telefono		422	string	-	-
+PP_GA_SOLBONO5_scod_bono		423	string	-	-
+PP_GA_SOLBONO5_can_bonifica		424	double	-	-
+PP_GA_SOLBONO5_dimporte		425	double	-	-
+PP_GA_SOLBONO5_scod_moneda		426	string	-	-
+PP_GA_SOLBONO5_scod_usuario		427	string	-	-
+PP_GA_SOLBONO5_sfecha_ini		428	string	-	-
+PP_GA_SOLBONO5_sfecha_fin		429	string	-	-
+PP_GA_SOLBONO5_lnum_dias		430	long	-	-
+PP_GA_SOLBONO5_lcan_bonifica2		431	double	-	-
+PP_GA_SOLBONO5_sSecActuacion		432	string	-	-
+PP_GA_SOLBONO5__rpr_ret		433	long	-	-
+# FIN DE SERVICIO PP_GA_SOLBONO5
+
+# Identificadores para el servicio GA_DETBONO8
+# INICIO DE SERVICIO GA_DETBONO8
+GA_DETBONO8_num_telefono		434	string	-	-
+GA_DETBONO8_fec_inicio		435	string	-	-
+GA_DETBONO8_fec_fin		436	string	-	-
+GA_DETBONO8_secuencia		437	string	-	-
+GA_DETBONO8_tipobono_in		438	string	-	-
+GA_DETBONO8_cod_moneda		439	string	-	-
+GA_DETBONO8_n_regs		440	long	-	-
+GA_DETBONO8_token		441	string	-	-
+GA_DETBONO8_lcod_bono		442	string	-	-
+GA_DETBONO8_sec_actuacion		443	string	-	-
+GA_DETBONO8_limp_coste		444	double	-	-
+GA_DETBONO8_lfec_alta		445	string	-	-
+GA_DETBONO8_lfec_caduca		446	string	-	-
+GA_DETBONO8_lbonificacion		447	double	-	-
+GA_DETBONO8_tip_bono		448	string	-	-
+GA_DETBONO8_lcod_estado		449	string	-	-
+GA_DETBONO8_lcod_modbono		450	string	-	-
+GA_DETBONO8_flg_incremento		451	string	-	-
+GA_DETBONO8_lcan_bonifica		452	double	-	-
+GA_DETBONO8_lfec_inicio		453	string	-	-
+GA_DETBONO8_lfec_fin		454	string	-	-
+GA_DETBONO8_lbonificacion2		455	double	-	-
+GA_DETBONO8_lcan_bonifica2		456	double	-	-
+GA_DETBONO8_flg_transsaldo		457	string	-	-
+GA_DETBONO8__rpr_ret		458	long	-	-
+# FIN DE SERVICIO GA_DETBONO8
+
+# Identificadores para el servicio GA_DETBONO9
+# INICIO DE SERVICIO GA_DETBONO9
+GA_DETBONO9_num_telefono		459	string	-	-
+GA_DETBONO9_fec_inicio		460	string	-	-
+GA_DETBONO9_fec_fin		461	string	-	-
+GA_DETBONO9_secuencia		462	string	-	-
+GA_DETBONO9_tipobono_in		463	string	-	-
+GA_DETBONO9_cod_moneda		464	string	-	-
+GA_DETBONO9_n_regs		465	long	-	-
+GA_DETBONO9_token		466	string	-	-
+GA_DETBONO9_lcod_bono		467	string	-	-
+GA_DETBONO9_sec_actuacion		468	string	-	-
+GA_DETBONO9_limp_coste		469	double	-	-
+GA_DETBONO9_lfec_alta		470	string	-	-
+GA_DETBONO9_lfec_caduca		471	string	-	-
+GA_DETBONO9_lbonificacion		472	double	-	-
+GA_DETBONO9_tip_bono		473	string	-	-
+GA_DETBONO9_lcod_estado		474	string	-	-
+GA_DETBONO9_lcod_modbono		475	string	-	-
+GA_DETBONO9_flg_incremento		476	string	-	-
+GA_DETBONO9_lcan_bonifica		477	double	-	-
+GA_DETBONO9_lfec_inicio		478	string	-	-
+GA_DETBONO9_lfec_fin		479	string	-	-
+GA_DETBONO9_lbonificacion2		480	double	-	-
+GA_DETBONO9_lcan_bonifica2		481	double	-	-
+GA_DETBONO9_flg_transsaldo		482	string	-	-
+GA_DETBONO9_lnum_max_sesi		483	double	-	-
+GA_DETBONO9_lnum_sesi_ant		484	double	-	-
+GA_DETBONO9_flg_incre_sesi		485	string	-	-
+GA_DETBONO9__rpr_ret		486	long	-	-
+# FIN DE SERVICIO GA_DETBONO9
+
+# Identificadores para el servicio GA_SOLBONO6
+# INICIO DE SERVICIO GA_SOLBONO6
+GA_SOLBONO6_snum_telefono		487	string	-	-
+GA_SOLBONO6_scod_bono		488	string	-	-
+GA_SOLBONO6_can_bonifica		489	double	-	-
+GA_SOLBONO6_dimporte		490	double	-	-
+GA_SOLBONO6_scod_moneda		491	string	-	-
+GA_SOLBONO6_scod_usuario		492	string	-	-
+GA_SOLBONO6_sfecha_ini		493	string	-	-
+GA_SOLBONO6_sfecha_fin		494	string	-	-
+GA_SOLBONO6_lnum_dias		495	long	-	-
+GA_SOLBONO6_lcan_bonifica2		496	double	-	-
+GA_SOLBONO6_lnum_sesiones		497	long	-	-
+GA_SOLBONO6_sSecActuacion		498	string	-	-
+GA_SOLBONO6__rpr_ret		499	long	-	-
+# FIN DE SERVICIO GA_SOLBONO6
+
+# Identificadores para el servicio GA_CONSBON4
+# INICIO DE SERVICIO GA_CONSBON4
+GA_CONSBON4_num_telefono		500	string	-	-
+GA_CONSBON4_flg_consulta		501	string	-	-
+GA_CONSBON4_tip_bono_in		502	string	-	-
+GA_CONSBON4_cod_moneda		503	string	-	-
+GA_CONSBON4_token		504	string	-	-
+GA_CONSBON4_n_regs		505	long	-	-
+GA_CONSBON4_ltip_bono		506	string	-	-
+GA_CONSBON4_lestado		507	string	-	-
+GA_CONSBON4_fec_estabono		508	string	-	-
+GA_CONSBON4_lfec_caduca		509	string	-	-
+GA_CONSBON4_lcantidad		510	double	-	-
+GA_CONSBON4_cod_modbono		511	string	-	-
+GA_CONSBON4_snum_sesiones		512	string	-	-
+GA_CONSBON4__rpr_ret		513	long	-	-
+# FIN DE SERVICIO GA_CONSBON4
+
+# Identificadores para el servicio GA_SOLBONO7
+# INICIO DE SERVICIO GA_SOLBONO7
+GA_SOLBONO7_snum_telefono		514	string	-	-
+GA_SOLBONO7_scod_bono		515	string	-	-
+GA_SOLBONO7_can_bonifica		516	double	-	-
+GA_SOLBONO7_dimporte		517	double	-	-
+GA_SOLBONO7_scod_moneda		518	string	-	-
+GA_SOLBONO7_scod_usuario		519	string	-	-
+GA_SOLBONO7_sfecha_ini		520	string	-	-
+GA_SOLBONO7_sfecha_fin		521	string	-	-
+GA_SOLBONO7_lnum_dias		522	long	-	-
+GA_SOLBONO7_lnum_horas		523	long	-	-
+GA_SOLBONO7_lcan_bonifica2		524	double	-	-
+GA_SOLBONO7_lnum_sesiones		525	long	-	-
+GA_SOLBONO7_sSecActuacion		526	string	-	-
+GA_SOLBONO7__rpr_ret		527	long	-	-
+# FIN DE SERVICIO GA_SOLBONO7
+
+# Identificadores para el servicio GA_DETBONO10
+# INICIO DE SERVICIO GA_DETBONO10
+GA_DETBONO10_num_telefono		528	string	-	-
+GA_DETBONO10_fec_inicio		529	string	-	-
+GA_DETBONO10_fec_fin		530	string	-	-
+GA_DETBONO10_secuencia		531	string	-	-
+GA_DETBONO10_tipobono_in		532	string	-	-
+GA_DETBONO10_cod_moneda		533	string	-	-
+GA_DETBONO10_n_regs		534	long	-	-
+GA_DETBONO10_token		535	string	-	-
+GA_DETBONO10_lcod_bono		536	string	-	-
+GA_DETBONO10_sec_actuacion		537	string	-	-
+GA_DETBONO10_limp_coste		538	double	-	-
+GA_DETBONO10_lfec_alta		539	string	-	-
+GA_DETBONO10_lfec_caduca		540	string	-	-
+GA_DETBONO10_lbonificacion		541	double	-	-
+GA_DETBONO10_tip_bono		542	string	-	-
+GA_DETBONO10_lcod_estado		543	string	-	-
+GA_DETBONO10_lcod_modbono		544	string	-	-
+GA_DETBONO10_flg_incremento		545	string	-	-
+GA_DETBONO10_lcan_bonifica		546	double	-	-
+GA_DETBONO10_lfec_inicio		547	string	-	-
+GA_DETBONO10_lfec_fin		548	string	-	-
+GA_DETBONO10_lbonificacion2		549	double	-	-
+GA_DETBONO10_lcan_bonifica2		550	double	-	-
+GA_DETBONO10_flg_transsaldo		551	string	-	-
+GA_DETBONO10_lnum_max_sesi		552	double	-	-
+GA_DETBONO10_lnum_sesi_ant		553	double	-	-
+GA_DETBONO10_flg_incre_sesi		554	string	-	-
+GA_DETBONO10_mod_cobro		555	long	-	-
+GA_DETBONO10__rpr_ret		556	long	-	-
+# FIN DE SERVICIO GA_DETBONO10
+
+# Identificadores para el servicio GA_DETANBO3
+# INICIO DE SERVICIO GA_DETANBO3
+GA_DETANBO3_snum_telefono		557	string	-	-
+GA_DETANBO3_sfec_inicio		558	string	-	-
+GA_DETANBO3_sfec_fin		559	string	-	-
+GA_DETANBO3_secuencia		560	string	-	-
+GA_DETANBO3_stipobono_in		561	string	-	-
+GA_DETANBO3_scod_moneda		562	string	-	-
+GA_DETANBO3_ln_regs		563	long	-	-
+GA_DETANBO3_stoken		564	string	-	-
+GA_DETANBO3_slcod_bono		565	string	-	-
+GA_DETANBO3_sec_actuacion		566	string	-	-
+GA_DETANBO3_sec_baja		567	string	-	-
+GA_DETANBO3_dlimp_coste		568	double	-	-
+GA_DETANBO3_slfec_alta		569	string	-	-
+GA_DETANBO3_slfec_caduca		570	string	-	-
+GA_DETANBO3_llbonificacion		571	long	-	-
+GA_DETANBO3_stip_bono		572	string	-	-
+GA_DETANBO3_mod_cobro		573	long	-	-
+GA_DETANBO3__rpr_ret		574	long	-	-
+# FIN DE SERVICIO GA_DETANBO3
+
+# Identificadores para el servicio GA_DETANBO4
+# INICIO DE SERVICIO GA_DETANBO4
+GA_DETANBO4_snum_telefono		575	string	-	-
+GA_DETANBO4_sfec_inicio		576	string	-	-
+GA_DETANBO4_sfec_fin		577	string	-	-
+GA_DETANBO4_secuencia		578	string	-	-
+GA_DETANBO4_stipobono_in		579	string	-	-
+GA_DETANBO4_scod_moneda		580	string	-	-
+GA_DETANBO4_ln_regs		581	long	-	-
+GA_DETANBO4_stoken		582	string	-	-
+GA_DETANBO4_slcod_bono		583	string	-	-
+GA_DETANBO4_sec_actuacion		584	string	-	-
+GA_DETANBO4_sec_baja		585	string	-	-
+GA_DETANBO4_dlimp_coste		586	double	-	-
+GA_DETANBO4_slfec_alta		587	string	-	-
+GA_DETANBO4_slfec_caduca		588	string	-	-
+GA_DETANBO4_dlbonificacion		589	double	-	-
+GA_DETANBO4_stip_bono		590	string	-	-
+GA_DETANBO4_mod_cobro		591	long	-	-
+GA_DETANBO4__rpr_ret		592	long	-	-
+# FIN DE SERVICIO GA_DETANBO4
+
+# Identificadores para el servicio GA_BAJABONO2
+# INICIO DE SERVICIO GA_BAJABONO2
+GA_BAJABONO2_num_telefono		593	string	-	-
+GA_BAJABONO2_tipo_bono		594	string	-	-
+GA_BAJABONO2_importe		595	double	-	-
+GA_BAJABONO2_cod_moneda		596	string	-	-
+GA_BAJABONO2_cod_usuario		597	string	-	-
+GA_BAJABONO2_instancia		598	string	-	-
+GA_BAJABONO2_ssec_actuacion		599	string	-	-
+GA_BAJABONO2__rpr_ret		600	long	-	-
+# FIN DE SERVICIO GA_BAJABONO2
+
+# Identificadores para el servicio GA_DETBONO11
+# INICIO DE SERVICIO GA_DETBONO11
+GA_DETBONO11_num_telefono		601	string	-	-
+GA_DETBONO11_fec_inicio		602	string	-	-
+GA_DETBONO11_fec_fin		603	string	-	-
+GA_DETBONO11_secuencia		604	string	-	-
+GA_DETBONO11_tipobono_in		605	string	-	-
+GA_DETBONO11_cod_moneda		606	string	-	-
+GA_DETBONO11_scodbono_in		607	string	-	-
+GA_DETBONO11_sflg_bonosActivos		608	string	-	-
+GA_DETBONO11_n_regs		609	long	-	-
+GA_DETBONO11_token		610	string	-	-
+GA_DETBONO11_lcod_bono		611	string	-	-
+GA_DETBONO11_sec_actuacion		612	string	-	-
+GA_DETBONO11_limp_coste		613	double	-	-
+GA_DETBONO11_lfec_alta		614	string	-	-
+GA_DETBONO11_lfec_caduca		615	string	-	-
+GA_DETBONO11_lbonificacion		616	double	-	-
+GA_DETBONO11_tip_bono		617	string	-	-
+GA_DETBONO11_lcod_estado		618	string	-	-
+GA_DETBONO11_lcod_modbono		619	string	-	-
+GA_DETBONO11_flg_incremento		620	string	-	-
+GA_DETBONO11_lcan_bonifica		621	double	-	-
+GA_DETBONO11_lfec_inicio		622	string	-	-
+GA_DETBONO11_lfec_fin		623	string	-	-
+GA_DETBONO11_lbonificacion2		624	double	-	-
+GA_DETBONO11_lcan_bonifica2		625	double	-	-
+GA_DETBONO11_flg_transsaldo		626	string	-	-
+GA_DETBONO11_lnum_max_sesi		627	double	-	-
+GA_DETBONO11_lnum_sesi_ant		628	double	-	-
+GA_DETBONO11_flg_incre_sesi		629	string	-	-
+GA_DETBONO11_mod_cobro		630	long	-	-
+GA_DETBONO11_alnum_dias		631	long	-	-
+GA_DETBONO11__rpr_ret		632	long	-	-
+# FIN DE SERVICIO GA_DETBONO11
+
+# Identificadores para el servicio GA_DETBONO12
+# INICIO DE SERVICIO GA_DETBONO12
+GA_DETBONO12_num_telefono		633	string	-	-
+GA_DETBONO12_fec_inicio		634	string	-	-
+GA_DETBONO12_fec_fin		635	string	-	-
+GA_DETBONO12_secuencia		636	string	-	-
+GA_DETBONO12_tipobono_in		637	string	-	-
+GA_DETBONO12_cod_moneda		638	string	-	-
+GA_DETBONO12_scodbono_in		639	string	-	-
+GA_DETBONO12_sflg_bonosActivos		640	string	-	-
+GA_DETBONO12_n_regs		641	long	-	-
+GA_DETBONO12_token		642	string	-	-
+GA_DETBONO12_lcod_bono		643	string	-	-
+GA_DETBONO12_sec_actuacion		644	string	-	-
+GA_DETBONO12_limp_coste		645	double	-	-
+GA_DETBONO12_lfec_alta		646	string	-	-
+GA_DETBONO12_lfec_caduca		647	string	-	-
+GA_DETBONO12_lbonificacion		648	double	-	-
+GA_DETBONO12_tip_bono		649	string	-	-
+GA_DETBONO12_lcod_estado		650	string	-	-
+GA_DETBONO12_lcod_modbono		651	string	-	-
+GA_DETBONO12_flg_incremento		652	string	-	-
+GA_DETBONO12_lcan_bonifica		653	double	-	-
+GA_DETBONO12_lfec_inicio		654	string	-	-
+GA_DETBONO12_lfec_fin		655	string	-	-
+GA_DETBONO12_lbonificacion2		656	double	-	-
+GA_DETBONO12_lcan_bonifica2		657	double	-	-
+GA_DETBONO12_flg_transsaldo		658	string	-	-
+GA_DETBONO12_lnum_max_sesi		659	double	-	-
+GA_DETBONO12_lnum_sesi_ant		660	double	-	-
+GA_DETBONO12_flg_incre_sesi		661	string	-	-
+GA_DETBONO12_mod_cobro		662	long	-	-
+GA_DETBONO12_alnum_dias		663	long	-	-
+GA_DETBONO12_ascod_bonopool		664	string	-	-
+GA_DETBONO12_asasig_grupo		665	string	-	-
+GA_DETBONO12ascod_jerarquiaB01		666	string	-	-
+GA_DETBONO12ascod_jerarquiaA01		667	string	-	-
+GA_DETBONO12_asflg_recurrente		668	string	-	-
+GA_DETBONO12_asdia_renovacion		669	string	-	-
+GA_DETBONO12asprorrateo_prim01		670	string	-	-
+GA_DETBONO12alval_prorrateo_01		671	long	-	-
+GA_DETBONO12asprorrateo_peri01		672	string	-	-
+GA_DETBONO12alval_prorrateo_02		673	long	-	-
+GA_DETBONO12_asflg_rollOver		674	string	-	-
+GA_DETBONO12_allatencia		675	long	-	-
+GA_DETBONO12alund_arrastrabl01		676	long	-	-
+GA_DETBONO12_asflg_inhab		677	string	-	-
+GA_DETBONO12_asfecha_bajaEfec		678	string	-	-
+GA_DETBONO12dimp_beneficiore01		679	double	-	-
+GA_DETBONO12__rpr_ret		680	long	-	-
+# FIN DE SERVICIO GA_DETBONO12
+
+# Identificadores para el servicio GA_CONSBONPOOL
+# INICIO DE SERVICIO GA_CONSBONPOOL
+GA_CONSBONPOOL_scod_bonopool		681	string	-	-
+GA_CONSBONPOOL_scod_moneda		682	string	-	-
+GA_CONSBONPOOL_ln_regs		683	long	-	-
+GA_CONSBONPOOL_stoken		684	string	-	-
+GA_CONSBONPOOL_ascod_bonopool		685	string	-	-
+GA_CONSBONPOOL_astipo_bonopool		686	string	-	-
+GA_CONSBONPOOL_asmod_bonopool		687	string	-	-
+GA_CONSBONPOOL_adcan_bonifica		688	double	-	-
+GA_CONSBONPOOLasflg_recurren01		689	string	-	-
+GA_CONSBONPOOLasdia_renovaci01		690	string	-	-
+GA_CONSBONPOOLasprorrateo_pr01		691	string	-	-
+GA_CONSBONPOOLalval_prorrate01		692	long	-	-
+GA_CONSBONPOOLasprorrateo_pe01		693	string	-	-
+GA_CONSBONPOOLalval_prorrate02		694	long	-	-
+GA_CONSBONPOOL_asflg_rollOver		695	string	-	-
+GA_CONSBONPOOL_allatencia		696	long	-	-
+GA_CONSBONPOOLalnum_bonosJer01		697	long	-	-
+GA_CONSBONPOOL_shay_mas		698	string	-	-
+GA_CONSBONPOOL__rpr_ret		699	long	-	-
+# FIN DE SERVICIO GA_CONSBONPOOL
+
+# Identificadores para el servicio GA_CONSBOSMPAS
+# INICIO DE SERVICIO GA_CONSBOSMPAS
+GA_CONSBOSMPAS_scod_bonopool		700	string	-	-
+GA_CONSBOSMPAS_ln_regs		701	long	-	-
+GA_CONSBOSMPAS_stoken		702	string	-	-
+GA_CONSBOSMPAS_ascod_bonoasoc		703	string	-	-
+GA_CONSBOSMPAS_ascod_jerarquia		704	string	-	-
+GA_CONSBOSMPASalunidades_def01		705	long	-	-
+GA_CONSBOSMPASalunidades_arr01		706	long	-	-
+GA_CONSBOSMPASalorden_solici01		707	long	-	-
+GA_CONSBOSMPASallatencia_bon01		708	long	-	-
+GA_CONSBOSMPAS_shay_mas		709	string	-	-
+GA_CONSBOSMPAS__rpr_ret		710	long	-	-
+# FIN DE SERVICIO GA_CONSBOSMPAS
+
+# Identificadores para el servicio GA_GRSOLBOPOOL
+# INICIO DE SERVICIO GA_GRSOLBOPOOL
+GA_GRSOLBOPOOL_num_telefono		711	string	-	-
+GA_GRSOLBOPOOL_scod_bonopool		712	string	-	-
+GA_GRSOLBOPOOL_scod_usuario		713	string	-	-
+GA_GRSOLBOPOOL_dcan_bonifica		714	double	-	-
+GA_GRSOLBOPOOL_scod_moneda		715	string	-	-
+GA_GRSOLBOPOOL_llatencia		716	long	-	-
+GA_GRSOLBOPOOLsprorrateo_pri01		717	string	-	-
+GA_GRSOLBOPOOLlval_prorrateo01		718	long	-	-
+GA_GRSOLBOPOOLsprorrateo_per01		719	string	-	-
+GA_GRSOLBOPOOLlval_prorrateo02		720	long	-	-
+GA_GRSOLBOPOOL_sfecha_ini		721	string	-	-
+GA_GRSOLBOPOOL_sfecha_fin		722	string	-	-
+GA_GRSOLBOPOOL_lnum_dias		723	long	-	-
+GA_GRSOLBOPOOL_lnum_horas		724	long	-	-
+GA_GRSOLBOPOOL_sSecActuacion		725	string	-	-
+GA_GRSOLBOPOOL__rpr_ret		726	long	-	-
+# FIN DE SERVICIO GA_GRSOLBOPOOL
+
+# Identificadores para el servicio GA_GRSOLBOPLSP
+# INICIO DE SERVICIO GA_GRSOLBOPLSP
+GA_GRSOLBOPLSP_num_telefono		727	string	-	-
+GA_GRSOLBOPLSP_scod_bonopool		728	string	-	-
+GA_GRSOLBOPLSP_scod_bono		729	string	-	-
+GA_GRSOLBOPLSP_scod_usuario		730	string	-	-
+GA_GRSOLBOPLSP_dcan_bonifica		731	double	-	-
+GA_GRSOLBOPLSP_scod_moneda		732	string	-	-
+GA_GRSOLBOPLSP_llatencia		733	long	-	-
+GA_GRSOLBOPLSPsprorrateo_pri01		734	string	-	-
+GA_GRSOLBOPLSPlval_prorrateo01		735	long	-	-
+GA_GRSOLBOPLSPsprorrateo_per01		736	string	-	-
+GA_GRSOLBOPLSPlval_prorrateo02		737	long	-	-
+GA_GRSOLBOPLSPlunidades_arra01		738	long	-	-
+GA_GRSOLBOPLSP_sfecha_ini		739	string	-	-
+GA_GRSOLBOPLSP_sfecha_fin		740	string	-	-
+GA_GRSOLBOPLSP_lnum_dias		741	long	-	-
+GA_GRSOLBOPLSP_lnum_horas		742	long	-	-
+GA_GRSOLBOPLSP_sSecActuacion		743	string	-	-
+GA_GRSOLBOPLSP__rpr_ret		744	long	-	-
+# FIN DE SERVICIO GA_GRSOLBOPLSP
+
+# Identificadores para el servicio GA_ABSBONPLSMP
+# INICIO DE SERVICIO GA_ABSBONPLSMP
+GA_ABSBONPLSMP_num_telefono		745	string	-	-
+GA_ABSBONPLSMP_scod_bonopool		746	string	-	-
+GA_ABSBONPLSMP_scod_bono		747	string	-	-
+GA_ABSBONPLSMP_scod_usuario		748	string	-	-
+GA_ABSBONPLSMP_dcan_bonifica		749	double	-	-
+GA_ABSBONPLSMP_scod_moneda		750	string	-	-
+GA_ABSBONPLSMPlnum_cantBonif01		751	long	-	-
+GA_ABSBONPLSMPscodJerarquiaB01		752	string	-	-
+GA_ABSBONPLSMPdcan_bonifJera01		753	double	-	-
+GA_ABSBONPLSMPlunidades_arra01		754	long	-	-
+GA_ABSBONPLSMP_sSecActuacion		755	string	-	-
+GA_ABSBONPLSMP__rpr_ret		756	long	-	-
+# FIN DE SERVICIO GA_ABSBONPLSMP
+
+# Identificadores para el servicio GA_GRINREHBPL
+# INICIO DE SERVICIO GA_GRINREHBPL
+GA_GRINREHBPL_num_telefono		757	string	-	-
+GA_GRINREHBPL_tipo_operacion		758	string	-	-
+GA_GRINREHBPL_scod_bonopool		759	string	-	-
+GA_GRINREHBPL_sfecha_baja		760	string	-	-
+GA_GRINREHBPL_scod_usuario		761	string	-	-
+GA_GRINREHBPL_scod_media_type		762	string	-	-
+GA_GRINREHBPL_ser_reference		763	string	-	-
+GA_GRINREHBPLssec_transactio01		764	string	-	-
+GA_GRINREHBPL_ssec_actuacion		765	string	-	-
+GA_GRINREHBPL__rpr_ret		766	long	-	-
+# FIN DE SERVICIO GA_GRINREHBPL
+
+# Identificadores para el servicio GA_MODFECBJBP
+# INICIO DE SERVICIO GA_MODFECBJBP
+GA_MODFECBJBP_num_telefono		767	string	-	-
+GA_MODFECBJBP_scod_bonopool		768	string	-	-
+GA_MODFECBJBP_sfecha_baja		769	string	-	-
+GA_MODFECBJBP_scod_usuario		770	string	-	-
+GA_MODFECBJBP_scod_media_type		771	string	-	-
+GA_MODFECBJBP_ser_reference		772	string	-	-
+GA_MODFECBJBPssec_transactio01		773	string	-	-
+GA_MODFECBJBP_ssec_actuacion		774	string	-	-
+GA_MODFECBJBP__rpr_ret		775	long	-	-
+# FIN DE SERVICIO GA_MODFECBJBP
+
+# Identificadores para el servicio GA_ABOBAJABP
+# INICIO DE SERVICIO GA_ABOBAJABP
+GA_ABOBAJABP_num_telefonoGrupo		776	string	-	-
+GA_ABOBAJABP_num_telefono		777	string	-	-
+GA_ABOBAJABP_scod_bonopool		778	string	-	-
+GA_ABOBAJABP_scod_usuario		779	string	-	-
+GA_ABOBAJABP_ssec_actuacion		780	string	-	-
+GA_ABOBAJABP__rpr_ret		781	long	-	-
+# FIN DE SERVICIO GA_ABOBAJABP
+
+# Identificadores para el servicio GA_ABOCONSBPSM
+# INICIO DE SERVICIO GA_ABOCONSBPSM
+GA_ABOCONSBPSM_num_telefono		782	string	-	-
+GA_ABOCONSBPSM_scod_bonopool		783	string	-	-
+GA_ABOCONSBPSM_scod_bono		784	string	-	-
+GA_ABOCONSBPSM_scod_moneda		785	string	-	-
+GA_ABOCONSBPSM_ln_regs		786	long	-	-
+GA_ABOCONSBPSM_stoken		787	string	-	-
+GA_ABOCONSBPSM_ascod_bono		788	string	-	-
+GA_ABOCONSBPSMascod_jerarqui01		789	string	-	-
+GA_ABOCONSBPSM_asnum_telefono		790	string	-	-
+GA_ABOCONSBPSMascod_jerarqui02		791	string	-	-
+GA_ABOCONSBPSM_astipo_bono		792	string	-	-
+GA_ABOCONSBPSM_ascod_modbono		793	string	-	-
+GA_ABOCONSBPSMasflg_recurren01		794	string	-	-
+GA_ABOCONSBPSMasdia_renovaci01		795	string	-	-
+GA_ABOCONSBPSMasprorrateo_pr01		796	string	-	-
+GA_ABOCONSBPSMalval_prorrate01		797	long	-	-
+GA_ABOCONSBPSMasprorrateo_pe01		798	string	-	-
+GA_ABOCONSBPSMalval_prorrate02		799	long	-	-
+GA_ABOCONSBPSM_asflg_rollOver		800	string	-	-
+GA_ABOCONSBPSM_allatencia		801	long	-	-
+GA_ABOCONSBPSMalunidades_arr01		802	long	-	-
+GA_ABOCONSBPSM_ascod_estado		803	string	-	-
+GA_ABOCONSBPSM_adcan_bonifica		804	double	-	-
+GA_ABOCONSBPSM_adoffset		805	double	-	-
+GA_ABOCONSBPSMasfec_contrata01		806	string	-	-
+GA_ABOCONSBPSM_asfec_caduca		807	string	-	-
+GA_ABOCONSBPSM_shay_mas		808	string	-	-
+GA_ABOCONSBPSM__rpr_ret		809	long	-	-
+# FIN DE SERVICIO GA_ABOCONSBPSM
+
+# Identificadores para el servicio GA_ABOCONSBPL
+# INICIO DE SERVICIO GA_ABOCONSBPL
+GA_ABOCONSBPLnum_telefonoGru01		810	string	-	-
+GA_ABOCONSBPL_num_telefono		811	string	-	-
+GA_ABOCONSBPL_ln_regs		812	long	-	-
+GA_ABOCONSBPL_stoken		813	string	-	-
+GA_ABOCONSBPL_ascod_bonopool		814	string	-	-
+GA_ABOCONSBPL_astipo_bonopool		815	string	-	-
+GA_ABOCONSBPL_asmod_bonopool		816	string	-	-
+GA_ABOCONSBPL_asflg_recurrente		817	string	-	-
+GA_ABOCONSBPL_asdia_renovacion		818	string	-	-
+GA_ABOCONSBPL_asflg_rollOver		819	string	-	-
+GA_ABOCONSBPL_allatencia		820	long	-	-
+GA_ABOCONSBPL_shay_mas		821	string	-	-
+GA_ABOCONSBPL__rpr_ret		822	long	-	-
+# FIN DE SERVICIO GA_ABOCONSBPL
+
+# Identificadores para el servicio GA_GRCONSBONPL
+# INICIO DE SERVICIO GA_GRCONSBONPL
+GA_GRCONSBONPL_num_telefono		823	string	-	-
+GA_GRCONSBONPLsestado_bonopo01		824	string	-	-
+GA_GRCONSBONPL_sfec_inicio		825	string	-	-
+GA_GRCONSBONPL_sfec_fin		826	string	-	-
+GA_GRCONSBONPL_scod_moneda		827	string	-	-
+GA_GRCONSBONPL_ln_regs		828	long	-	-
+GA_GRCONSBONPL_stoken		829	string	-	-
+GA_GRCONSBONPL_ascod_bonopool		830	string	-	-
+GA_GRCONSBONPL_astipo_bonopool		831	string	-	-
+GA_GRCONSBONPL_asmod_bonopool		832	string	-	-
+GA_GRCONSBONPLasflg_recurren01		833	string	-	-
+GA_GRCONSBONPLasdia_renovaci01		834	string	-	-
+GA_GRCONSBONPLasprorrateo_pr01		835	string	-	-
+GA_GRCONSBONPLalval_prorrate01		836	long	-	-
+GA_GRCONSBONPLasprorrateo_pe01		837	string	-	-
+GA_GRCONSBONPLalval_prorrate02		838	long	-	-
+GA_GRCONSBONPL_asflg_rollOver		839	string	-	-
+GA_GRCONSBONPL_allatencia		840	long	-	-
+GA_GRCONSBONPLadcan_bonifica01		841	double	-	-
+GA_GRCONSBONPLasestado_bonop01		842	string	-	-
+GA_GRCONSBONPLasfec_baja_efe01		843	string	-	-
+GA_GRCONSBONPL_shay_mas		844	string	-	-
+GA_GRCONSBONPL__rpr_ret		845	long	-	-
+# FIN DE SERVICIO GA_GRCONSBONPL
+
+# Identificadores para el servicio GA_GRCONBPLSMP
+# INICIO DE SERVICIO GA_GRCONBPLSMP
+GA_GRCONBPLSMP_num_telefono		846	string	-	-
+GA_GRCONBPLSMP_scod_bonopool		847	string	-	-
+GA_GRCONBPLSMP_scod_jerarquia		848	string	-	-
+GA_GRCONBPLSMP_scod_moneda		849	string	-	-
+GA_GRCONBPLSMP_ln_regs		850	long	-	-
+GA_GRCONBPLSMP_stoken		851	string	-	-
+GA_GRCONBPLSMP_ascod_bono		852	string	-	-
+GA_GRCONBPLSMP_ascod_jerarquia		853	string	-	-
+GA_GRCONBPLSMP_astipo_bono		854	string	-	-
+GA_GRCONBPLSMP_asmod_bono		855	string	-	-
+GA_GRCONBPLSMPasflg_recurren01		856	string	-	-
+GA_GRCONBPLSMPasdia_renovaci01		857	string	-	-
+GA_GRCONBPLSMPasprorrateo_pr01		858	string	-	-
+GA_GRCONBPLSMPalval_prorrate01		859	long	-	-
+GA_GRCONBPLSMPasprorrateo_pe01		860	string	-	-
+GA_GRCONBPLSMPalval_prorrate02		861	long	-	-
+GA_GRCONBPLSMP_asflg_rollOver		862	string	-	-
+GA_GRCONBPLSMP_allatencia		863	long	-	-
+GA_GRCONBPLSMPalunidades_arr01		864	long	-	-
+GA_GRCONBPLSMP_ascod_estado		865	string	-	-
+GA_GRCONBPLSMP_adcan_bonifica		866	double	-	-
+GA_GRCONBPLSMPasfec_contrata01		867	string	-	-
+GA_GRCONBPLSMP_asfec_caduca		868	string	-	-
+GA_GRCONBPLSMP_shay_mas		869	string	-	-
+GA_GRCONBPLSMP__rpr_ret		870	long	-	-
+# FIN DE SERVICIO GA_GRCONBPLSMP
+
+# Identificadores para el servicio GA_GRCONESTBP
+# INICIO DE SERVICIO GA_GRCONESTBP
+GA_GRCONESTBP_num_telefono		871	string	-	-
+GA_GRCONESTBP_scod_bonopool		872	string	-	-
+GA_GRCONESTBPssec_actuacion_01		873	string	-	-
+GA_GRCONESTBP_scod_moneda		874	string	-	-
+GA_GRCONESTBP_ln_regs		875	long	-	-
+GA_GRCONESTBP_stoken		876	string	-	-
+GA_GRCONESTBPssec_actuacionP01		877	string	-	-
+GA_GRCONESTBP_scod_bonoPool		878	string	-	-
+GA_GRCONESTBP_stipo_bonopool		879	string	-	-
+GA_GRCONESTBP_smod_bonopool		880	string	-	-
+GA_GRCONESTBP_dcan_bonoPool		881	double	-	-
+GA_GRCONESTBP_sfec_inicio		882	string	-	-
+GA_GRCONESTBP_sfec_fin		883	string	-	-
+GA_GRCONESTBP_lnum_dias		884	long	-	-
+GA_GRCONESTBP_lnum_horas		885	long	-	-
+GA_GRCONESTBP_sflg_recurrente		886	string	-	-
+GA_GRCONESTBP_sdia_renovacion		887	string	-	-
+GA_GRCONESTBPsprorrateo_prim01		888	string	-	-
+GA_GRCONESTBPlval_prorrateo_01		889	long	-	-
+GA_GRCONESTBPsprorrateo_peri01		890	string	-	-
+GA_GRCONESTBPlval_prorrateo_02		891	long	-	-
+GA_GRCONESTBP_sflg_rollOver		892	string	-	-
+GA_GRCONESTBP_llatencia		893	long	-	-
+GA_GRCONESTBP_scod_estarecPool		894	string	-	-
+GA_GRCONESTBP_scod_errorPool		895	string	-	-
+GA_GRCONESTBPassec_actuacion01		896	string	-	-
+GA_GRCONESTBP_ascod_bono		897	string	-	-
+GA_GRCONESTBP_ascod_jerarquia		898	string	-	-
+GA_GRCONESTBP_asmod_bono		899	string	-	-
+GA_GRCONESTBP_asflg_recurrente		900	string	-	-
+GA_GRCONESTBP_asdia_renovacion		901	string	-	-
+GA_GRCONESTBPasprorrateo_pri01		902	string	-	-
+GA_GRCONESTBPalval_prorrateo01		903	long	-	-
+GA_GRCONESTBPasprorrateo_per01		904	string	-	-
+GA_GRCONESTBPalval_prorrateo02		905	long	-	-
+GA_GRCONESTBP_asflg_rollOver		906	string	-	-
+GA_GRCONESTBP_allatencia		907	long	-	-
+GA_GRCONESTBPalunidades_arra01		908	long	-	-
+GA_GRCONESTBP_adcan_bonifica		909	double	-	-
+GA_GRCONESTBP_asfec_caduca		910	string	-	-
+GA_GRCONESTBPascod_estarecBo01		911	string	-	-
+GA_GRCONESTBP_ascod_errorBono		912	string	-	-
+GA_GRCONESTBP_shay_mas		913	string	-	-
+GA_GRCONESTBP__rpr_ret		914	long	-	-
+# FIN DE SERVICIO GA_GRCONESTBP
+
+# Identificadores para el servicio GA_SOLBONO8
+# INICIO DE SERVICIO GA_SOLBONO8
+GA_SOLBONO8_num_telefono		915	string	-	-
+GA_SOLBONO8_scod_bono		916	string	-	-
+GA_SOLBONO8_dcan_bonifica		917	double	-	-
+GA_SOLBONO8_dimporte		918	double	-	-
+GA_SOLBONO8_scod_moneda		919	string	-	-
+GA_SOLBONO8_scod_usuario		920	string	-	-
+GA_SOLBONO8_sfecha_ini		921	string	-	-
+GA_SOLBONO8_sfecha_fin		922	string	-	-
+GA_SOLBONO8_lnum_dias		923	long	-	-
+GA_SOLBONO8_lnum_horas		924	long	-	-
+GA_SOLBONO8_lcan_bonifica2		925	double	-	-
+GA_SOLBONO8_lnum_sesiones		926	long	-	-
+GA_SOLBONO8_llatencia		927	long	-	-
+GA_SOLBONO8sprorrateo_primer01		928	string	-	-
+GA_SOLBONO8dvalor_prorrateoP01		929	double	-	-
+GA_SOLBONO8dcoste_prorrateoP01		930	double	-	-
+GA_SOLBONO8sprorrateo_period01		931	string	-	-
+GA_SOLBONO8dvalor_prorrateoP02		932	double	-	-
+GA_SOLBONO8dcoste_prorrateoP02		933	double	-	-
+GA_SOLBONO8lnum_unidades_arr01		934	long	-	-
+GA_SOLBONO8ldias_valrenovaci01		935	long	-	-
+GA_SOLBONO8_lnum_renovaciones		936	long	-	-
+GA_SOLBONO8_stipo_validez		937	string	-	-
+GA_SOLBONO8_sSecActuacion		938	string	-	-
+GA_SOLBONO8__rpr_ret		939	long	-	-
+# FIN DE SERVICIO GA_SOLBONO8
+
+# Identificadores para el servicio GA_BAJABONOR
+# INICIO DE SERVICIO GA_BAJABONOR
+GA_BAJABONOR_num_telefono		940	string	-	-
+GA_BAJABONOR_stip_bono		941	string	-	-
+GA_BAJABONOR_dimporte		942	double	-	-
+GA_BAJABONOR_scod_moneda		943	string	-	-
+GA_BAJABONOR_scod_usuario		944	string	-	-
+GA_BAJABONOR_ssec_actuacion		945	string	-	-
+GA_BAJABONOR__rpr_ret		946	long	-	-
+# FIN DE SERVICIO GA_BAJABONOR
+
+# Identificadores para el servicio GA_CONSABOBONR
+# INICIO DE SERVICIO GA_CONSABOBONR
+GA_CONSABOBONR_num_telefono		947	string	-	-
+GA_CONSABOBONR_sflg_bonosCiclo		948	string	-	-
+GA_CONSABOBONR_stip_bono		949	string	-	-
+GA_CONSABOBONR_scod_moneda		950	string	-	-
+GA_CONSABOBONR_ln_regs		951	long	-	-
+GA_CONSABOBONR_stoken		952	string	-	-
+GA_CONSABOBONR_astip_bono		953	string	-	-
+GA_CONSABOBONR_asmod_bonol		954	string	-	-
+GA_CONSABOBONR_adcan_bonifica		955	double	-	-
+GA_CONSABOBONRadcan_bonifica01		956	double	-	-
+GA_CONSABOBONRaln_aplic_max_01		957	long	-	-
+GA_CONSABOBONRaln_aplic_res_01		958	long	-	-
+GA_CONSABOBONRastip_renovaci01		959	string	-	-
+GA_CONSABOBONRasdia_renovaci01		960	string	-	-
+GA_CONSABOBONR_alvalidez		961	long	-	-
+GA_CONSABOBONR_astipo_validez		962	string	-	-
+GA_CONSABOBONRalnum_renovaci01		963	long	-	-
+GA_CONSABOBONRasprorrateo_pr01		964	string	-	-
+GA_CONSABOBONRalval_prorrate01		965	long	-	-
+GA_CONSABOBONRadcoste_prorra01		966	double	-	-
+GA_CONSABOBONRasprorrateo_pe01		967	string	-	-
+GA_CONSABOBONRalval_prorrate02		968	long	-	-
+GA_CONSABOBONRadcoste_prorra02		969	double	-	-
+GA_CONSABOBONR_asflg_rollOver		970	string	-	-
+GA_CONSABOBONR_allatencia		971	long	-	-
+GA_CONSABOBONRalmax_unarrast01		972	long	-	-
+GA_CONSABOBONR_asestado_bono		973	string	-	-
+GA_CONSABOBONRasfec_cambioEs01		974	string	-	-
+GA_CONSABOBONRasfec_instalac01		975	string	-	-
+GA_CONSABOBONR_asfec_caduca		976	string	-	-
+GA_CONSABOBONR_shay_mas		977	string	-	-
+GA_CONSABOBONR__rpr_ret		978	long	-	-
+# FIN DE SERVICIO GA_CONSABOBONR
+
+# Identificadores para el servicio GA_CTIPBONO2
+# INICIO DE SERVICIO GA_CTIPBONO2
+GA_CTIPBONO2_scod_bono		979	string	-	-
+GA_CTIPBONO2_stip_bono		980	string	-	-
+GA_CTIPBONO2_lnum_dias		981	long	-	-
+GA_CTIPBONO2_lnum_horas		982	long	-	-
+GA_CTIPBONO2_sfec_inicio		983	string	-	-
+GA_CTIPBONO2_sfec_fin		984	string	-	-
+GA_CTIPBONO2__rpr_ret		985	long	-	-
+# FIN DE SERVICIO GA_CTIPBONO2
+
+# Identificadores para el servicio GA_DETBONO13
+# INICIO DE SERVICIO GA_DETBONO13
+GA_DETBONO13_num_telefono		986	string	-	-
+GA_DETBONO13_fec_inicio		987	string	-	-
+GA_DETBONO13_fec_fin		988	string	-	-
+GA_DETBONO13_secuencia		989	string	-	-
+GA_DETBONO13_tipobono_in		990	string	-	-
+GA_DETBONO13_cod_moneda		991	string	-	-
+GA_DETBONO13_scodbono_in		992	string	-	-
+GA_DETBONO13_sflg_bonosActivos		993	string	-	-
+GA_DETBONO13_n_regs		994	long	-	-
+GA_DETBONO13_token		995	string	-	-
+GA_DETBONO13_lcod_bono		996	string	-	-
+GA_DETBONO13_sec_actuacion		997	string	-	-
+GA_DETBONO13_limp_coste		998	double	-	-
+GA_DETBONO13_lfec_alta		999	string	-	-
+GA_DETBONO13_lfec_caduca		1000	string	-	-
+GA_DETBONO13_lbonificacion		1001	double	-	-
+GA_DETBONO13_tip_bono		1002	string	-	-
+GA_DETBONO13_lcod_estado		1003	string	-	-
+GA_DETBONO13_lcod_modbono		1004	string	-	-
+GA_DETBONO13_flg_incremento		1005	string	-	-
+GA_DETBONO13_lcan_bonifica		1006	double	-	-
+GA_DETBONO13_lfec_inicio		1007	string	-	-
+GA_DETBONO13_lfec_fin		1008	string	-	-
+GA_DETBONO13_lbonificacion2		1009	double	-	-
+GA_DETBONO13_lcan_bonifica2		1010	double	-	-
+GA_DETBONO13_flg_transsaldo		1011	string	-	-
+GA_DETBONO13_lnum_max_sesi		1012	double	-	-
+GA_DETBONO13_lnum_sesi_ant		1013	double	-	-
+GA_DETBONO13_flg_incre_sesi		1014	string	-	-
+GA_DETBONO13_mod_cobro		1015	long	-	-
+GA_DETBONO13_alnum_dias		1016	long	-	-
+GA_DETBONO13_ascod_bonopool		1017	string	-	-
+GA_DETBONO13_asasig_grupo		1018	string	-	-
+GA_DETBONO13ascod_jerarquiaB01		1019	string	-	-
+GA_DETBONO13ascod_jerarquiaA01		1020	string	-	-
+GA_DETBONO13_asflg_recurrente		1021	string	-	-
+GA_DETBONO13_asdia_renovacion		1022	string	-	-
+GA_DETBONO13asprorrateo_prim01		1023	string	-	-
+GA_DETBONO13alval_prorrateo_01		1024	long	-	-
+GA_DETBONO13asprorrateo_peri01		1025	string	-	-
+GA_DETBONO13alval_prorrateo_02		1026	long	-	-
+GA_DETBONO13_asflg_rollOver		1027	string	-	-
+GA_DETBONO13_allatencia		1028	long	-	-
+GA_DETBONO13alund_arrastrabl01		1029	long	-	-
+GA_DETBONO13_asflg_inhab		1030	string	-	-
+GA_DETBONO13_asfecha_bajaEfec		1031	string	-	-
+GA_DETBONO13dimp_beneficiore01		1032	double	-	-
+GA_DETBONO13_esCompartido		1033	string	-	-
+GA_DETBONO13__rpr_ret		1034	long	-	-
+# FIN DE SERVICIO GA_DETBONO13
+
+# Identificadores para el servicio GA_CONSABOBON2
+# INICIO DE SERVICIO GA_CONSABOBON2
+GA_CONSABOBON2_num_telefono		1035	string	-	-
+GA_CONSABOBON2_sflg_bonosCiclo		1036	string	-	-
+GA_CONSABOBON2_stip_bono		1037	string	-	-
+GA_CONSABOBON2_scod_moneda		1038	string	-	-
+GA_CONSABOBON2_ln_regs		1039	long	-	-
+GA_CONSABOBON2_stoken		1040	string	-	-
+GA_CONSABOBON2_astip_bono		1041	string	-	-
+GA_CONSABOBON2_asmod_bonol		1042	string	-	-
+GA_CONSABOBON2_adcan_bonifica		1043	double	-	-
+GA_CONSABOBON2adcan_bonifica01		1044	double	-	-
+GA_CONSABOBON2aln_aplic_max_01		1045	long	-	-
+GA_CONSABOBON2aln_aplic_res_01		1046	long	-	-
+GA_CONSABOBON2astip_renovaci01		1047	string	-	-
+GA_CONSABOBON2asdia_renovaci01		1048	string	-	-
+GA_CONSABOBON2_alvalidez		1049	long	-	-
+GA_CONSABOBON2_astipo_validez		1050	string	-	-
+GA_CONSABOBON2alnum_renovaci01		1051	long	-	-
+GA_CONSABOBON2asprorrateo_pr01		1052	string	-	-
+GA_CONSABOBON2alval_prorrate01		1053	long	-	-
+GA_CONSABOBON2adcoste_prorra01		1054	double	-	-
+GA_CONSABOBON2asprorrateo_pe01		1055	string	-	-
+GA_CONSABOBON2alval_prorrate02		1056	long	-	-
+GA_CONSABOBON2adcoste_prorra02		1057	double	-	-
+GA_CONSABOBON2_asflg_rollOver		1058	string	-	-
+GA_CONSABOBON2_allatencia		1059	long	-	-
+GA_CONSABOBON2almax_unarrast01		1060	long	-	-
+GA_CONSABOBON2_asestado_bono		1061	string	-	-
+GA_CONSABOBON2asfec_cambioEs01		1062	string	-	-
+GA_CONSABOBON2asfec_instalac01		1063	string	-	-
+GA_CONSABOBON2_asfec_caduca		1064	string	-	-
+GA_CONSABOBON2_shay_mas		1065	string	-	-
+GA_CONSABOBON2admax_uni_sesi01		1066	double	-	-
+GA_CONSABOBON2__rpr_ret		1067	long	-	-
+# FIN DE SERVICIO GA_CONSABOBON2
+
+# Identificadores para el servicio GA_DETBONO14
+# INICIO DE SERVICIO GA_DETBONO14
+GA_DETBONO14_num_telefono		1068	string	-	-
+GA_DETBONO14_fec_inicio		1069	string	-	-
+GA_DETBONO14_fec_fin		1070	string	-	-
+GA_DETBONO14_secuencia		1071	string	-	-
+GA_DETBONO14_tipobono_in		1072	string	-	-
+GA_DETBONO14_cod_moneda		1073	string	-	-
+GA_DETBONO14_scodbono_in		1074	string	-	-
+GA_DETBONO14_sflg_bonosActivos		1075	string	-	-
+GA_DETBONO14_n_regs		1076	long	-	-
+GA_DETBONO14_token		1077	string	-	-
+GA_DETBONO14_lcod_bono		1078	string	-	-
+GA_DETBONO14_sec_actuacion		1079	string	-	-
+GA_DETBONO14_limp_coste		1080	double	-	-
+GA_DETBONO14_lfec_alta		1081	string	-	-
+GA_DETBONO14_lfec_caduca		1082	string	-	-
+GA_DETBONO14_lbonificacion		1083	double	-	-
+GA_DETBONO14_tip_bono		1084	string	-	-
+GA_DETBONO14_lcod_estado		1085	string	-	-
+GA_DETBONO14_lcod_modbono		1086	string	-	-
+GA_DETBONO14_flg_incremento		1087	string	-	-
+GA_DETBONO14_lcan_bonifica		1088	double	-	-
+GA_DETBONO14_lfec_inicio		1089	string	-	-
+GA_DETBONO14_lfec_fin		1090	string	-	-
+GA_DETBONO14_lbonificacion2		1091	double	-	-
+GA_DETBONO14_lcan_bonifica2		1092	double	-	-
+GA_DETBONO14_flg_transsaldo		1093	string	-	-
+GA_DETBONO14_lnum_max_sesi		1094	double	-	-
+GA_DETBONO14_lnum_sesi_ant		1095	double	-	-
+GA_DETBONO14_flg_incre_sesi		1096	string	-	-
+GA_DETBONO14_mod_cobro		1097	long	-	-
+GA_DETBONO14_alnum_dias		1098	long	-	-
+GA_DETBONO14_ascod_bonopool		1099	string	-	-
+GA_DETBONO14_asasig_grupo		1100	string	-	-
+GA_DETBONO14ascod_jerarquiaB01		1101	string	-	-
+GA_DETBONO14ascod_jerarquiaA01		1102	string	-	-
+GA_DETBONO14_asflg_recurrente		1103	string	-	-
+GA_DETBONO14_asdia_renovacion		1104	string	-	-
+GA_DETBONO14asprorrateo_prim01		1105	string	-	-
+GA_DETBONO14alval_prorrateo_01		1106	long	-	-
+GA_DETBONO14asprorrateo_peri01		1107	string	-	-
+GA_DETBONO14alval_prorrateo_02		1108	long	-	-
+GA_DETBONO14_asflg_rollOver		1109	string	-	-
+GA_DETBONO14_allatencia		1110	long	-	-
+GA_DETBONO14alund_arrastrabl01		1111	long	-	-
+GA_DETBONO14_asflg_inhab		1112	string	-	-
+GA_DETBONO14_asfecha_bajaEfec		1113	string	-	-
+GA_DETBONO14dimp_beneficiore01		1114	double	-	-
+GA_DETBONO14_esCompartido		1115	string	-	-
+GA_DETBONO14_admax_uni_sesion		1116	double	-	-
+GA_DETBONO14__rpr_ret		1117	long	-	-
+# FIN DE SERVICIO GA_DETBONO14
+

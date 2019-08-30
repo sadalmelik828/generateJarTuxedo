@@ -1,0 +1,20 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pm_ge_operac1_r.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pm_ge_operac1_r_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pm versión 1.0 
+#
+
+*base		3506000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio pm_ge_cfcoimp
+# INICIO DE SERVICIO pm_ge_cfcoimp
+pm_ge_cfcoimp_cod_usuario		0	string	-	-
+pm_ge_cfcoimp_tex_msisdn		1	string	-	-
+pm_ge_cfcoimp_cod_retorno		2	string	-	-
+# FIN DE SERVICIO pm_ge_cfcoimp
+

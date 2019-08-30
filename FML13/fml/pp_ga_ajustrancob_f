@@ -1,0 +1,121 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_ajustrancob.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_ajustrancob_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3281000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_TRANS_SALDO
+# INICIO DE SERVICIO GA_TRANS_SALDO
+GA_TRANS_SALDO_sNumTlfDonante		0	string	-	-
+GA_TRANS_SALDO_sNumTlfRecepto		1	string	-	-
+GA_TRANS_SALDO_dCosteTrans		2	double	-	-
+GA_TRANS_SALDO_sCodUsuario		3	string	-	-
+GA_TRANS_SALDO_sCodMoneda		4	string	-	-
+GA_TRANS_SALDO_sCodBolsa		5	string	-	-
+GA_TRANS_SALDO_sCodOrigReca		6	string	-	-
+GA_TRANS_SALDO_dCosteAct		7	double	-	-
+GA_TRANS_SALDO_sSecActuacion		8	string	-	-
+GA_TRANS_SALDO__rpr_ret		9	long	-	-
+# FIN DE SERVICIO GA_TRANS_SALDO
+
+# Identificadores para el servicio GA_CONTRANSALD
+# INICIO DE SERVICIO GA_CONTRANSALD
+GA_CONTRANSALD_sSecActDonante		10	string	-	-
+GA_CONTRANSALD_sNumTlfDonante		11	string	-	-
+GA_CONTRANSALD_sSecActRecepto		12	string	-	-
+GA_CONTRANSALD_sNumTlfRecepto		13	string	-	-
+GA_CONTRANSALD_sCodOrigreca		14	string	-	-
+GA_CONTRANSALD_dCosteTrans		15	double	-	-
+GA_CONTRANSALD__rpr_ret		16	long	-	-
+# FIN DE SERVICIO GA_CONTRANSALD
+
+# Identificadores para el servicio GA_TRANS_SALD2
+# INICIO DE SERVICIO GA_TRANS_SALD2
+GA_TRANS_SALD2_sNumTlfDonante		17	string	-	-
+GA_TRANS_SALD2_sNumTlfRecepto		18	string	-	-
+GA_TRANS_SALD2_dCosteTrans		19	double	-	-
+GA_TRANS_SALD2_sCodUsuario		20	string	-	-
+GA_TRANS_SALD2_sCodMoneda		21	string	-	-
+GA_TRANS_SALD2_sCodBolsa		22	string	-	-
+GA_TRANS_SALD2_sCodOrigReca		23	string	-	-
+GA_TRANS_SALD2_sCodBono		24	string	-	-
+GA_TRANS_SALD2_sPagador		25	string	-	-
+GA_TRANS_SALD2_dCosteAct		26	double	-	-
+GA_TRANS_SALD2_sSecActuacion		27	string	-	-
+GA_TRANS_SALD2__rpr_ret		28	long	-	-
+# FIN DE SERVICIO GA_TRANS_SALD2
+
+# Identificadores para el servicio GA_CONTRANSAL2
+# INICIO DE SERVICIO GA_CONTRANSAL2
+GA_CONTRANSAL2_sCodIdioma		29	string	-	-
+GA_CONTRANSAL2_sCodMoneda		30	string	-	-
+GA_CONTRANSAL2_sSecActDonante		31	string	-	-
+GA_CONTRANSAL2_sNumTlfDonante		32	string	-	-
+GA_CONTRANSAL2_sSecActRecepto		33	string	-	-
+GA_CONTRANSAL2_sNumTlfRecepto		34	string	-	-
+GA_CONTRANSAL2_sCodOrigreca		35	string	-	-
+GA_CONTRANSAL2_sCodBono		36	string	-	-
+GA_CONTRANSAL2_sPagador		37	string	-	-
+GA_CONTRANSAL2_sFecTrans		38	string	-	-
+GA_CONTRANSAL2_dCosteTrans		39	double	-	-
+GA_CONTRANSAL2_dImpSolicitado		40	double	-	-
+GA_CONTRANSAL2_dImpDefinitivo		41	double	-	-
+GA_CONTRANSAL2__rpr_ret		42	long	-	-
+# FIN DE SERVICIO GA_CONTRANSAL2
+
+# Identificadores para el servicio GA_TRANS_SALD3
+# INICIO DE SERVICIO GA_TRANS_SALD3
+GA_TRANS_SALD3_sNumTlfDonante		43	string	-	-
+GA_TRANS_SALD3_sNumTlfRecepto		44	string	-	-
+GA_TRANS_SALD3_dCosteTrans		45	double	-	-
+GA_TRANS_SALD3_sCodUsuario		46	string	-	-
+GA_TRANS_SALD3_sCodMoneda		47	string	-	-
+GA_TRANS_SALD3_sCodBolsa		48	string	-	-
+GA_TRANS_SALD3_sCodOrigReca		49	string	-	-
+GA_TRANS_SALD3_sCodBono		50	string	-	-
+GA_TRANS_SALD3_sPagador		51	string	-	-
+GA_TRANS_SALD3_dCosteAct		52	double	-	-
+GA_TRANS_SALD3_sSecActuacion		53	string	-	-
+GA_TRANS_SALD3__rpr_ret		54	long	-	-
+# FIN DE SERVICIO GA_TRANS_SALD3
+
+# Identificadores para el servicio GA_TRANS_SALD4
+# INICIO DE SERVICIO GA_TRANS_SALD4
+GA_TRANS_SALD4_sNumTlfDonante		55	string	-	-
+GA_TRANS_SALD4_sNumTlfRecepto		56	string	-	-
+GA_TRANS_SALD4_dCosteTrans		57	double	-	-
+GA_TRANS_SALD4_sCodUsuario		58	string	-	-
+GA_TRANS_SALD4_sCodMoneda		59	string	-	-
+GA_TRANS_SALD4_sCodBolsa		60	string	-	-
+GA_TRANS_SALD4_sCodOrigReca		61	string	-	-
+GA_TRANS_SALD4_sCodBono		62	string	-	-
+GA_TRANS_SALD4_sPagador		63	string	-	-
+GA_TRANS_SALD4_dCosteAct		64	double	-	-
+GA_TRANS_SALD4_smediaType		65	string	-	-
+GA_TRANS_SALD4_serReference		66	string	-	-
+GA_TRANS_SALD4_stransaction_id		67	string	-	-
+GA_TRANS_SALD4_sSecActuacion		68	string	-	-
+GA_TRANS_SALD4__rpr_ret		69	long	-	-
+# FIN DE SERVICIO GA_TRANS_SALD4
+
+# Identificadores para el servicio GA_TRANS_SALD5
+# INICIO DE SERVICIO GA_TRANS_SALD5
+GA_TRANS_SALD5_NumTlfDonante		70	string	-	-
+GA_TRANS_SALD5_NumTlfRecepto		71	string	-	-
+GA_TRANS_SALD5_dCosteTrans		72	double	-	-
+GA_TRANS_SALD5_sCodUsuario		73	string	-	-
+GA_TRANS_SALD5_sCodMoneda		74	string	-	-
+GA_TRANS_SALD5_sCodBolsa		75	string	-	-
+GA_TRANS_SALD5_sCodOrigReca		76	string	-	-
+GA_TRANS_SALD5_sCodBono		77	string	-	-
+GA_TRANS_SALD5_sPagador		78	string	-	-
+GA_TRANS_SALD5_dCosteAct		79	double	-	-
+GA_TRANS_SALD5_sSecActuacion		80	string	-	-
+GA_TRANS_SALD5__rpr_ret		81	long	-	-
+# FIN DE SERVICIO GA_TRANS_SALD5
+

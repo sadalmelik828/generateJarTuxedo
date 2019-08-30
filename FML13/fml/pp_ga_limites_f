@@ -1,0 +1,259 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_limites.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_limites_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3289000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_MODABOGRUPO
+# INICIO DE SERVICIO GA_MODABOGRUPO
+GA_MODABOGRUPO_num_telefono		0	string	-	-
+GA_MODABOGRUPO_dimp_coste		1	double	-	-
+GA_MODABOGRUPO_scod_moneda		2	string	-	-
+GA_MODABOGRUPO_scod_usuario		3	string	-	-
+GA_MODABOGRUPOsflg_CambioGru01		4	string	-	-
+GA_MODABOGRUPOsnum_telefonoG01		5	string	-	-
+GA_MODABOGRUPOsflg_usarPromo01		6	string	-	-
+GA_MODABOGRUPOsflg_CambioJer01		7	string	-	-
+GA_MODABOGRUPO_scod_jerarquia		8	string	-	-
+GA_MODABOGRUPO_scod_media_type		9	string	-	-
+GA_MODABOGRUPO_ser_reference		10	string	-	-
+GA_MODABOGRUPOssec_transacti01		11	string	-	-
+GA_MODABOGRUPO_sSecActuacion		12	string	-	-
+GA_MODABOGRUPO__rpr_ret		13	long	-	-
+# FIN DE SERVICIO GA_MODABOGRUPO
+
+# Identificadores para el servicio GA_CONLIMCICLO
+# INICIO DE SERVICIO GA_CONLIMCICLO
+GA_CONLIMCICLO_num_telefono		14	string	-	-
+GA_CONLIMCICLO_scod_moneda		15	string	-	-
+GA_CONLIMCICLO_lnum_orden		16	long	-	-
+GA_CONLIMCICLOsflg_controlCo01		17	string	-	-
+GA_CONLIMCICLOdimp_limiteCon01		18	double	-	-
+GA_CONLIMCICLOdimp_limiteCon02		19	double	-	-
+GA_CONLIMCICLOdimp_umbralLim01		20	double	-	-
+GA_CONLIMCICLOshay_InfoLimit01		21	string	-	-
+GA_CONLIMCICLOsflg_eventoLim01		22	string	-	-
+GA_CONLIMCICLOsflg_eventoUmb01		23	string	-	-
+GA_CONLIMCICLOsflg_usarPromo01		24	string	-	-
+GA_CONLIMCICLOsflg_tasarAdic01		25	string	-	-
+GA_CONLIMCICLOsflg_tipoLinea01		26	string	-	-
+GA_CONLIMCICLO__rpr_ret		27	long	-	-
+# FIN DE SERVICIO GA_CONLIMCICLO
+
+# Identificadores para el servicio GA_MODLIMGRUPO
+# INICIO DE SERVICIO GA_MODLIMGRUPO
+GA_MODLIMGRUPO_num_telefono		28	string	-	-
+GA_MODLIMGRUPO_dimp_coste		29	double	-	-
+GA_MODLIMGRUPO_scod_moneda		30	string	-	-
+GA_MODLIMGRUPO_scod_usuario		31	string	-	-
+GA_MODLIMGRUPOsflg_controlCo01		32	string	-	-
+GA_MODLIMGRUPOln_regs_limite01		33	long	-	-
+GA_MODLIMGRUPOsid_limiteCons01		34	string	-	-
+GA_MODLIMGRUPOdimp_limiteCon01		35	double	-	-
+GA_MODLIMGRUPOdimp_limiteCon02		36	double	-	-
+GA_MODLIMGRUPOdimp_limiteCon03		37	double	-	-
+GA_MODLIMGRUPOln_regs_umbral01		38	long	-	-
+GA_MODLIMGRUPOsid_umbralLimi01		39	string	-	-
+GA_MODLIMGRUPOdimp_umbralLim01		40	double	-	-
+GA_MODLIMGRUPOdimp_umbralLim02		41	double	-	-
+GA_MODLIMGRUPOln_regs_evento01		42	long	-	-
+GA_MODLIMGRUPOsid_eventosLim01		43	string	-	-
+GA_MODLIMGRUPOsflg_eventoLim01		44	string	-	-
+GA_MODLIMGRUPOsflg_eventoLim02		45	string	-	-
+GA_MODLIMGRUPO_scod_media_type		46	string	-	-
+GA_MODLIMGRUPO_ser_reference		47	string	-	-
+GA_MODLIMGRUPOssec_transacti01		48	string	-	-
+GA_MODLIMGRUPO_sSecActuacion		49	string	-	-
+GA_MODLIMGRUPO__rpr_ret		50	long	-	-
+# FIN DE SERVICIO GA_MODLIMGRUPO
+
+# Identificadores para el servicio GA_CONLIMDAT
+# INICIO DE SERVICIO GA_CONLIMDAT
+GA_CONLIMDAT_num_telefono		51	string	-	-
+GA_CONLIMDAT_scod_moneda		52	string	-	-
+GA_CONLIMDAT_lnum_orden		53	long	-	-
+GA_CONLIMDAT_ln_regs		54	long	-	-
+GA_CONLIMDAT_stoken		55	string	-	-
+GA_CONLIMDATsid_limiteConsum01		56	string	-	-
+GA_CONLIMDATdimp_limiteConsu01		57	double	-	-
+GA_CONLIMDATdimp_umbralLimit01		58	double	-	-
+GA_CONLIMDATsflg_eventoLimit01		59	string	-	-
+GA_CONLIMDATsflg_eventoUmbra01		60	string	-	-
+GA_CONLIMDAT_hay_mas		61	carray	-	-
+GA_CONLIMDAT__rpr_ret		62	long	-	-
+# FIN DE SERVICIO GA_CONLIMDAT
+
+# Identificadores para el servicio GA_MODLIMABOGR
+# INICIO DE SERVICIO GA_MODLIMABOGR
+GA_MODLIMABOGR_num_telefono		63	string	-	-
+GA_MODLIMABOGR_dimp_coste		64	double	-	-
+GA_MODLIMABOGR_scod_moneda		65	string	-	-
+GA_MODLIMABOGR_scod_usuario		66	string	-	-
+GA_MODLIMABOGRsflg_controlCo01		67	string	-	-
+GA_MODLIMABOGRln_regs_limite01		68	long	-	-
+GA_MODLIMABOGRsid_limiteCons01		69	string	-	-
+GA_MODLIMABOGRdimp_limiteCon01		70	double	-	-
+GA_MODLIMABOGRdimp_limiteCon02		71	double	-	-
+GA_MODLIMABOGRdimp_limiteCon03		72	double	-	-
+GA_MODLIMABOGRln_regs_umbral01		73	long	-	-
+GA_MODLIMABOGRsid_umbralLimi01		74	string	-	-
+GA_MODLIMABOGRdimp_umbralLim01		75	double	-	-
+GA_MODLIMABOGRdimp_umbralLim02		76	double	-	-
+GA_MODLIMABOGRln_regs_evento01		77	long	-	-
+GA_MODLIMABOGRsid_eventosLim01		78	string	-	-
+GA_MODLIMABOGRsflg_eventoLim01		79	string	-	-
+GA_MODLIMABOGRsflg_eventoUmb01		80	string	-	-
+GA_MODLIMABOGRsflg_eventoLim02		81	string	-	-
+GA_MODLIMABOGRsflg_eventoUmb02		82	string	-	-
+GA_MODLIMABOGRsflg_usarPromo01		83	string	-	-
+GA_MODLIMABOGRsflg_tasarAdic01		84	string	-	-
+GA_MODLIMABOGR_scod_media_type		85	string	-	-
+GA_MODLIMABOGR_ser_reference		86	string	-	-
+GA_MODLIMABOGRssec_transacti01		87	string	-	-
+GA_MODLIMABOGR_sSecActuacion		88	string	-	-
+GA_MODLIMABOGR__rpr_ret		89	long	-	-
+# FIN DE SERVICIO GA_MODLIMABOGR
+
+# Identificadores para el servicio GA_CONCONCICLO
+# INICIO DE SERVICIO GA_CONCONCICLO
+GA_CONCONCICLO_num_telefono		90	string	-	-
+GA_CONCONCICLO_scod_moneda		91	string	-	-
+GA_CONCONCICLOsflg_controlCo01		92	string	-	-
+GA_CONCONCICLOln_regs_limite01		93	long	-	-
+GA_CONCONCICLOdimp_limiteCon01		94	double	-	-
+GA_CONCONCICLOdimp_GastoGlob01		95	double	-	-
+GA_CONCONCICLOdimp_limiteCon02		96	double	-	-
+GA_CONCONCICLO__rpr_ret		97	long	-	-
+# FIN DE SERVICIO GA_CONCONCICLO
+
+# Identificadores para el servicio GA_CONBOLSCICL
+# INICIO DE SERVICIO GA_CONBOLSCICL
+GA_CONBOLSCICL_num_telefono		98	string	-	-
+GA_CONBOLSCICL_scod_moneda		99	string	-	-
+GA_CONBOLSCICLln_regs_limite01		100	long	-	-
+GA_CONBOLSCICL_stoken		101	string	-	-
+GA_CONBOLSCICLsid_limiteCons01		102	string	-	-
+GA_CONBOLSCICLdimp_limiteCon01		103	double	-	-
+GA_CONBOLSCICLdimp_ConsumoCi01		104	double	-	-
+GA_CONBOLSCICL_hay_mas		105	carray	-	-
+GA_CONBOLSCICL__rpr_ret		106	long	-	-
+# FIN DE SERVICIO GA_CONBOLSCICL
+
+# Identificadores para el servicio GA_MODJERARQ
+# INICIO DE SERVICIO GA_MODJERARQ
+GA_MODJERARQ_num_telefono		107	string	-	-
+GA_MODJERARQ_dimp_coste		108	double	-	-
+GA_MODJERARQ_scod_moneda		109	string	-	-
+GA_MODJERARQ_scod_usuario		110	string	-	-
+GA_MODJERARQ_scod_jerarquia		111	string	-	-
+GA_MODJERARQ_scod_media_type		112	string	-	-
+GA_MODJERARQ_ser_reference		113	string	-	-
+GA_MODJERARQssec_transaction01		114	string	-	-
+GA_MODJERARQ_sSecActuacion		115	string	-	-
+GA_MODJERARQ__rpr_ret		116	long	-	-
+# FIN DE SERVICIO GA_MODJERARQ
+
+# Identificadores para el servicio GA_DETCAMBGR
+# INICIO DE SERVICIO GA_DETCAMBGR
+GA_DETCAMBGR_num_telefono		117	string	-	-
+GA_DETCAMBGR_ssec_actuacion		118	string	-	-
+GA_DETCAMBGR_sfec_inicio		119	string	-	-
+GA_DETCAMBGR_sfec_fin		120	string	-	-
+GA_DETCAMBGR_scod_moneda		121	string	-	-
+GA_DETCAMBGR_scod_estarec		122	string	-	-
+GA_DETCAMBGRsflg_hayCambioGr01		123	string	-	-
+GA_DETCAMBGRsflg_hayCambioDi01		124	string	-	-
+GA_DETCAMBGRsflg_hayCambioJe01		125	string	-	-
+GA_DETCAMBGR_lnum_orden		126	long	-	-
+GA_DETCAMBGR_ln_regs		127	long	-	-
+GA_DETCAMBGR_stoken		128	string	-	-
+GA_DETCAMBGR_assec_actuacion		129	string	-	-
+GA_DETCAMBGR_asfec_actuacion		130	string	-	-
+GA_DETCAMBGR_ashay_cambioGrupo		131	string	-	-
+GA_DETCAMBGRasnum_telefonoGr01		132	string	-	-
+GA_DETCAMBGRasnum_telefonoGr02		133	string	-	-
+GA_DETCAMBGRashay_cambioDiaC01		134	string	-	-
+GA_DETCAMBGR_ascod_diaCicloAnt		135	string	-	-
+GA_DETCAMBGRascod_diaCicloPo01		136	string	-	-
+GA_DETCAMBGRashay_cambioJera01		137	string	-	-
+GA_DETCAMBGRascod_jerarquiaA01		138	string	-	-
+GA_DETCAMBGRascod_jerarquiaP01		139	string	-	-
+GA_DETCAMBGR_adCoste		140	double	-	-
+GA_DETCAMBGR_ascod_usuario		141	string	-	-
+GA_DETCAMBGR_ascod_estarec		142	string	-	-
+GA_DETCAMBGR_hay_mas		143	carray	-	-
+GA_DETCAMBGR__rpr_ret		144	long	-	-
+# FIN DE SERVICIO GA_DETCAMBGR
+
+# Identificadores para el servicio GA_MODLIMGRUP2
+# INICIO DE SERVICIO GA_MODLIMGRUP2
+GA_MODLIMGRUP2_num_telefono		145	string	-	-
+GA_MODLIMGRUP2_dimp_coste		146	double	-	-
+GA_MODLIMGRUP2_scod_moneda		147	string	-	-
+GA_MODLIMGRUP2_scod_usuario		148	string	-	-
+GA_MODLIMGRUP2sflg_controlCo01		149	string	-	-
+GA_MODLIMGRUP2ln_regs_limite01		150	long	-	-
+GA_MODLIMGRUP2sid_limiteCons01		151	string	-	-
+GA_MODLIMGRUP2dimp_limiteCon01		152	double	-	-
+GA_MODLIMGRUP2dimp_limiteCon02		153	double	-	-
+GA_MODLIMGRUP2dimp_limiteCon03		154	double	-	-
+GA_MODLIMGRUP2ln_regs_umbral01		155	long	-	-
+GA_MODLIMGRUP2sid_umbralLimi01		156	string	-	-
+GA_MODLIMGRUP2dimp_umbralLim01		157	double	-	-
+GA_MODLIMGRUP2dimp_umbralLim02		158	double	-	-
+GA_MODLIMGRUP2ln_regs_evento01		159	long	-	-
+GA_MODLIMGRUP2sid_eventosLim01		160	string	-	-
+GA_MODLIMGRUP2sflg_eventoLim01		161	string	-	-
+GA_MODLIMGRUP2sflg_eventoLim02		162	string	-	-
+GA_MODLIMGRUP2_sSecActuacion		163	string	-	-
+GA_MODLIMGRUP2__rpr_ret		164	long	-	-
+# FIN DE SERVICIO GA_MODLIMGRUP2
+
+# Identificadores para el servicio GA_MODLIMABOG2
+# INICIO DE SERVICIO GA_MODLIMABOG2
+GA_MODLIMABOG2_num_telefono		165	string	-	-
+GA_MODLIMABOG2_dimp_coste		166	double	-	-
+GA_MODLIMABOG2_scod_moneda		167	string	-	-
+GA_MODLIMABOG2_scod_usuario		168	string	-	-
+GA_MODLIMABOG2sflg_controlCo01		169	string	-	-
+GA_MODLIMABOG2ln_regs_limite01		170	long	-	-
+GA_MODLIMABOG2sid_limiteCons01		171	string	-	-
+GA_MODLIMABOG2dimp_limiteCon01		172	double	-	-
+GA_MODLIMABOG2dimp_limiteCon02		173	double	-	-
+GA_MODLIMABOG2dimp_limiteCon03		174	double	-	-
+GA_MODLIMABOG2ln_regs_umbral01		175	long	-	-
+GA_MODLIMABOG2sid_umbralLimi01		176	string	-	-
+GA_MODLIMABOG2dimp_umbralLim01		177	double	-	-
+GA_MODLIMABOG2dimp_umbralLim02		178	double	-	-
+GA_MODLIMABOG2ln_regs_evento01		179	long	-	-
+GA_MODLIMABOG2sid_eventosLim01		180	string	-	-
+GA_MODLIMABOG2sflg_eventoLim01		181	string	-	-
+GA_MODLIMABOG2sflg_eventoUmb01		182	string	-	-
+GA_MODLIMABOG2sflg_eventoLim02		183	string	-	-
+GA_MODLIMABOG2sflg_eventoUmb02		184	string	-	-
+GA_MODLIMABOG2sflg_usarPromo01		185	string	-	-
+GA_MODLIMABOG2sflg_tasarAdic01		186	string	-	-
+GA_MODLIMABOG2_sSecActuacion		187	string	-	-
+GA_MODLIMABOG2__rpr_ret		188	long	-	-
+# FIN DE SERVICIO GA_MODLIMABOG2
+
+# Identificadores para el servicio GA_MODABOGRP2
+# INICIO DE SERVICIO GA_MODABOGRP2
+GA_MODABOGRP2_num_telefono		189	string	-	-
+GA_MODABOGRP2_dimp_coste		190	double	-	-
+GA_MODABOGRP2_scod_moneda		191	string	-	-
+GA_MODABOGRP2_scod_usuario		192	string	-	-
+GA_MODABOGRP2_sflg_CambioGrupo		193	string	-	-
+GA_MODABOGRP2snum_telefonoGr01		194	string	-	-
+GA_MODABOGRP2sflg_usarPromoc01		195	string	-	-
+GA_MODABOGRP2sflg_CambioJera01		196	string	-	-
+GA_MODABOGRP2_scod_jerarquia		197	string	-	-
+GA_MODABOGRP2_sSecActuacion		198	string	-	-
+GA_MODABOGRP2__rpr_ret		199	long	-	-
+# FIN DE SERVICIO GA_MODABOGRP2
+

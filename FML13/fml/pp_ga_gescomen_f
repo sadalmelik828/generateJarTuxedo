@@ -1,0 +1,81 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gescomen.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gescomen_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3259000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_ALTACOM
+# INICIO DE SERVICIO PP_GA_ALTACOM
+PP_GA_ALTACOM_sec_actuacion		0	long	-	-
+PP_GA_ALTACOM_des_comentario		1	string	-	-
+PP_GA_ALTACOM_cod_usuario		2	string	-	-
+PP_GA_ALTACOM__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_GA_ALTACOM
+
+# Identificadores para el servicio PP_GA_CONSUCOM
+# INICIO DE SERVICIO PP_GA_CONSUCOM
+PP_GA_CONSUCOM_inum_telefono		4	string	-	-
+PP_GA_CONSUCOM_isec_actuacion		5	long	-	-
+PP_GA_CONSUCOM_icod_usuario		6	string	-	-
+PP_GA_CONSUCOM_ifec_inicio		7	string	-	-
+PP_GA_CONSUCOM_ifec_fin		8	string	-	-
+PP_GA_CONSUCOM_num_regs		9	long	-	-
+PP_GA_CONSUCOM_reg_token		10	string	-	-
+PP_GA_CONSUCOM_onum_telefono		11	string	-	-
+PP_GA_CONSUCOM_ocod_usuario		12	string	-	-
+PP_GA_CONSUCOM_onom_usuarora		13	string	-	-
+PP_GA_CONSUCOM_osec_actuacion		14	long	-	-
+PP_GA_CONSUCOM_des_comentario		15	string	-	-
+PP_GA_CONSUCOM_fec_comentario		16	string	-	-
+PP_GA_CONSUCOM_hay_mas		17	string	-	-
+PP_GA_CONSUCOM__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_CONSUCOM
+
+# Identificadores para el servicio PP_GA_MODCOM
+# INICIO DE SERVICIO PP_GA_MODCOM
+PP_GA_MODCOM_sec_actuacion		19	long	-	-
+PP_GA_MODCOM_des_comentario		20	string	-	-
+PP_GA_MODCOM_cod_usuario		21	string	-	-
+PP_GA_MODCOM__rpr_ret		22	long	-	-
+# FIN DE SERVICIO PP_GA_MODCOM
+
+# Identificadores para el servicio PP_GA_ALTACOM2
+# INICIO DE SERVICIO PP_GA_ALTACOM2
+PP_GA_ALTACOM2_sec_actuacion		23	string	-	-
+PP_GA_ALTACOM2_des_comentario		24	string	-	-
+PP_GA_ALTACOM2_cod_usuario		25	string	-	-
+PP_GA_ALTACOM2__rpr_ret		26	long	-	-
+# FIN DE SERVICIO PP_GA_ALTACOM2
+
+# Identificadores para el servicio PP_GA_CONSUCO2
+# INICIO DE SERVICIO PP_GA_CONSUCO2
+PP_GA_CONSUCO2_inum_telefono		27	string	-	-
+PP_GA_CONSUCO2_isec_actuacion		28	string	-	-
+PP_GA_CONSUCO2_icod_usuario		29	string	-	-
+PP_GA_CONSUCO2_ifec_inicio		30	string	-	-
+PP_GA_CONSUCO2_ifec_fin		31	string	-	-
+PP_GA_CONSUCO2_num_regs		32	long	-	-
+PP_GA_CONSUCO2_reg_token		33	string	-	-
+PP_GA_CONSUCO2_onum_telefono		34	string	-	-
+PP_GA_CONSUCO2_ocod_usuario		35	string	-	-
+PP_GA_CONSUCO2_onom_usuarora		36	string	-	-
+PP_GA_CONSUCO2_osec_actuacion		37	string	-	-
+PP_GA_CONSUCO2_des_comentario		38	string	-	-
+PP_GA_CONSUCO2_fec_comentario		39	string	-	-
+PP_GA_CONSUCO2_hay_mas		40	string	-	-
+PP_GA_CONSUCO2__rpr_ret		41	long	-	-
+# FIN DE SERVICIO PP_GA_CONSUCO2
+
+# Identificadores para el servicio PP_GA_MODCOM2
+# INICIO DE SERVICIO PP_GA_MODCOM2
+PP_GA_MODCOM2_sec_actuacion		42	string	-	-
+PP_GA_MODCOM2_des_comentario		43	string	-	-
+PP_GA_MODCOM2_cod_usuario		44	string	-	-
+PP_GA_MODCOM2__rpr_ret		45	long	-	-
+# FIN DE SERVICIO PP_GA_MODCOM2
+

@@ -1,0 +1,80 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_nacionales.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_nacionales_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pp_cs_nacionales versión 1.0 
+#
+
+*base		3100000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_CS_FMM_NAC
+# INICIO DE SERVICIO PP_CS_FMM_NAC
+PP_CS_FMM_NAC_numTelefono		0	string	-	-
+PP_CS_FMM_NAC_fechaMin		1	string	-	-
+PP_CS_FMM_NAC_fechaMax		2	string	-	-
+PP_CS_FMM_NAC__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_CS_FMM_NAC
+
+# Identificadores para el servicio PP_CS_ACUM_NAC
+# INICIO DE SERVICIO PP_CS_ACUM_NAC
+PP_CS_ACUM_NAC_numTelefono		4	string	-	-
+PP_CS_ACUM_NAC_nMeses		5	long	-	-
+PP_CS_ACUM_NAC_fecha		6	string	-	-
+PP_CS_ACUM_NAC_importe		7	double	-	-
+PP_CS_ACUM_NAC__rpr_ret		8	long	-	-
+# FIN DE SERVICIO PP_CS_ACUM_NAC
+
+# Identificadores para el servicio PP_CS_DAT_NAC
+# INICIO DE SERVICIO PP_CS_DAT_NAC
+PP_CS_DAT_NAC_numTelefono		9	string	-	-
+PP_CS_DAT_NAC_fechaDesde		10	string	-	-
+PP_CS_DAT_NAC_fechaHasta		11	string	-	-
+PP_CS_DAT_NAC_mascara		12	string	-	-
+PP_CS_DAT_NAC_importeMinimo		13	double	-	-
+PP_CS_DAT_NAC_orden		14	long	-	-
+PP_CS_DAT_NAC_codIdioma		15	string	-	-
+PP_CS_DAT_NAC_catUlt		16	string	-	-
+PP_CS_DAT_NAC_fechaUlt		17	string	-	-
+PP_CS_DAT_NAC_cidUlt		18	string	-	-
+PP_CS_DAT_NAC_nRegs		19	long	-	-
+PP_CS_DAT_NAC_numTelefonoB		20	string	-	-
+PP_CS_DAT_NAC_tipoActiva		21	string	-	-
+PP_CS_DAT_NAC_descripcion		22	string	-	-
+PP_CS_DAT_NAC_fecha		23	string	-	-
+PP_CS_DAT_NAC_duracion		24	long	-	-
+PP_CS_DAT_NAC_importe		25	double	-	-
+PP_CS_DAT_NAC_infAdicional		26	string	-	-
+PP_CS_DAT_NAC_cid		27	string	-	-
+PP_CS_DAT_NAC_hayMas		28	long	-	-
+PP_CS_DAT_NAC__rpr_ret		29	long	-	-
+# FIN DE SERVICIO PP_CS_DAT_NAC
+
+# Identificadores para el servicio PP_CS_DATX_NAC
+# INICIO DE SERVICIO PP_CS_DATX_NAC
+PP_CS_DATX_NAC_numTelefono		30	string	-	-
+PP_CS_DATX_NAC_fechaDesde		31	string	-	-
+PP_CS_DATX_NAC_fechaHasta		32	string	-	-
+PP_CS_DATX_NAC_mascara		33	string	-	-
+PP_CS_DATX_NAC_importeMinimo		34	double	-	-
+PP_CS_DATX_NAC_orden		35	long	-	-
+PP_CS_DATX_NAC_codIdioma		36	string	-	-
+PP_CS_DATX_NAC_catUlt		37	string	-	-
+PP_CS_DATX_NAC_fechaUlt		38	string	-	-
+PP_CS_DATX_NAC_cidUlt		39	string	-	-
+PP_CS_DATX_NAC_nRegs		40	long	-	-
+PP_CS_DATX_NAC_numTelefonoB		41	string	-	-
+PP_CS_DATX_NAC_tipoActiva		42	string	-	-
+PP_CS_DATX_NAC_descripcion		43	string	-	-
+PP_CS_DATX_NAC_fecha		44	string	-	-
+PP_CS_DATX_NAC_duracion		45	long	-	-
+PP_CS_DATX_NAC_importe		46	double	-	-
+PP_CS_DATX_NAC_infAdicional		47	string	-	-
+PP_CS_DATX_NAC_cid		48	string	-	-
+PP_CS_DATX_NAC_hayMas		49	long	-	-
+PP_CS_DATX_NAC__rpr_ret		50	long	-	-
+# FIN DE SERVICIO PP_CS_DATX_NAC
+

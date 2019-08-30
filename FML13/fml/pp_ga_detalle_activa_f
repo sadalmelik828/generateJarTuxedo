@@ -1,0 +1,196 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_detalle_activa.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_detalle_activa_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3214000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio pp_ga_conabo
+# INICIO DE SERVICIO pp_ga_conabo
+pp_ga_conabo_n_regs		0	long	-	-
+pp_ga_conabo_ult_reg		1	long	-	-
+pp_ga_conabo_vcNumTelefono		2	string	-	-
+pp_ga_conabo_vcNumICC		3	string	-	-
+pp_ga_conabo_desde		4	string	-	-
+pp_ga_conabo_hasta		5	string	-	-
+pp_ga_conabo_ptFecPreactiva		6	carray	-	-
+pp_ga_conabo_ptFecActiva		7	carray	-	-
+pp_ga_conabo_pdSaldo		8	double	-	-
+pp_ga_conabo_vcListaICC		9	string	-	-
+pp_ga_conabo_vcEstaPrep		10	string	-	-
+pp_ga_conabo_vcEstMovimiento		11	string	-	-
+pp_ga_conabo_vcEstaRec		12	string	-	-
+pp_ga_conabo_vcPerfil		13	string	-	-
+pp_ga_conabo_vcNumPUK		14	string	-	-
+pp_ga_conabo_vcNumPUK2		15	string	-	-
+pp_ga_conabo_vcDesPrePago		16	string	-	-
+pp_ga_conabo_vcDesTipTarjeta		17	string	-	-
+pp_ga_conabo_vcDesPerfTarjeta		18	string	-	-
+pp_ga_conabo_vcNomZonaOper		19	string	-	-
+pp_ga_conabo_vcDesClaseTarjeta		20	string	-	-
+pp_ga_conabovcDesSubClaseTar01		21	string	-	-
+pp_ga_conabo_ptFecBaja		22	carray	-	-
+pp_ga_conabo_pdNumOrden		23	double	-	-
+# FIN DE SERVICIO pp_ga_conabo
+
+# Identificadores para el servicio pp_ga_conabo2
+# INICIO DE SERVICIO pp_ga_conabo2
+pp_ga_conabo2_n_regs		24	long	-	-
+pp_ga_conabo2_ult_reg		25	long	-	-
+pp_ga_conabo2_vcNumTelefono		26	string	-	-
+pp_ga_conabo2_vcNumICC		27	string	-	-
+pp_ga_conabo2_desde		28	string	-	-
+pp_ga_conabo2_hasta		29	string	-	-
+pp_ga_conabo2_ptFecPreactiva		30	carray	-	-
+pp_ga_conabo2_ptFecActiva		31	carray	-	-
+pp_ga_conabo2_pdSaldo		32	double	-	-
+pp_ga_conabo2_vcListaICC		33	string	-	-
+pp_ga_conabo2_vcEstaPrep		34	string	-	-
+pp_ga_conabo2_vcEstMovimiento		35	string	-	-
+pp_ga_conabo2_vcEstaRec		36	string	-	-
+pp_ga_conabo2_vcPerfil		37	string	-	-
+pp_ga_conabo2_vcNumPUK		38	string	-	-
+pp_ga_conabo2_vcNumPUK2		39	string	-	-
+pp_ga_conabo2_vcDesPrePago		40	string	-	-
+pp_ga_conabo2_vcDesTipTarjeta		41	string	-	-
+pp_ga_conabo2_vcDesPerfTarjeta		42	string	-	-
+pp_ga_conabo2_vcNomZonaOper		43	string	-	-
+pp_ga_conabo2vcDesClaseTarje01		44	string	-	-
+pp_ga_conabo2vcDesSubClaseTa01		45	string	-	-
+pp_ga_conabo2_ptFecBaja		46	carray	-	-
+pp_ga_conabo2_pdNumOrden		47	double	-	-
+pp_ga_conabo2_ptFecEstaPrep		48	carray	-	-
+pp_ga_conabo2_vcCodCelula		49	string	-	-
+# FIN DE SERVICIO pp_ga_conabo2
+
+# Identificadores para el servicio pp_ga_conabo3
+# INICIO DE SERVICIO pp_ga_conabo3
+pp_ga_conabo3_n_regs		50	long	-	-
+pp_ga_conabo3_ult_reg		51	long	-	-
+pp_ga_conabo3_vcNumTelefono		52	string	-	-
+pp_ga_conabo3_vcNumICC		53	string	-	-
+pp_ga_conabo3_desde		54	string	-	-
+pp_ga_conabo3_hasta		55	string	-	-
+pp_ga_conabo3_cod_moneda		56	string	-	-
+pp_ga_conabo3_ptFecPreactiva		57	carray	-	-
+pp_ga_conabo3_ptFecActiva		58	carray	-	-
+pp_ga_conabo3_pdSaldo		59	double	-	-
+pp_ga_conabo3_vcListaICC		60	string	-	-
+pp_ga_conabo3_vcEstaPrep		61	string	-	-
+pp_ga_conabo3_vcSbEstaPrep		62	string	-	-
+pp_ga_conabo3_vcEstMovimiento		63	string	-	-
+pp_ga_conabo3_vcEstaRec		64	string	-	-
+pp_ga_conabo3_vcPerfil		65	string	-	-
+pp_ga_conabo3_vcNumPUK		66	string	-	-
+pp_ga_conabo3_vcNumPUK2		67	string	-	-
+pp_ga_conabo3_vcDesPrePago		68	string	-	-
+pp_ga_conabo3_vcDesTipTarjeta		69	string	-	-
+pp_ga_conabo3_vcDesPerfTarjeta		70	string	-	-
+pp_ga_conabo3_vcNomZonaOper		71	string	-	-
+pp_ga_conabo3vcDesClaseTarje01		72	string	-	-
+pp_ga_conabo3vcDesSubClaseTa01		73	string	-	-
+pp_ga_conabo3_ptFecBaja		74	carray	-	-
+pp_ga_conabo3_pdNumOrden		75	double	-	-
+pp_ga_conabo3_ptFecEstaPrep		76	carray	-	-
+pp_ga_conabo3_vcCodCelula		77	string	-	-
+pp_ga_conabo3_vcDesCausbaja		78	string	-	-
+# FIN DE SERVICIO pp_ga_conabo3
+
+# Identificadores para el servicio pp_ga_conabo4
+# INICIO DE SERVICIO pp_ga_conabo4
+pp_ga_conabo4_n_regs		79	long	-	-
+pp_ga_conabo4_ult_reg		80	long	-	-
+pp_ga_conabo4_vcNumTelefono		81	string	-	-
+pp_ga_conabo4_vcNumICC		82	string	-	-
+pp_ga_conabo4_desde		83	string	-	-
+pp_ga_conabo4_hasta		84	string	-	-
+pp_ga_conabo4_cod_moneda		85	string	-	-
+pp_ga_conabo4_ptFecPreactiva		86	carray	-	-
+pp_ga_conabo4_ptFecActiva		87	carray	-	-
+pp_ga_conabo4_pdSaldo		88	double	-	-
+pp_ga_conabo4_vcListaICC		89	string	-	-
+pp_ga_conabo4_vcEstaPrep		90	string	-	-
+pp_ga_conabo4_vcSbEstaPrep		91	string	-	-
+pp_ga_conabo4_vcEstMovimiento		92	string	-	-
+pp_ga_conabo4_vcEstaRec		93	string	-	-
+pp_ga_conabo4_vcPerfil		94	string	-	-
+pp_ga_conabo4_vcNumPUK		95	string	-	-
+pp_ga_conabo4_vcNumPUK2		96	string	-	-
+pp_ga_conabo4_vcDesPrePago		97	string	-	-
+pp_ga_conabo4_vcDesTipTarjeta		98	string	-	-
+pp_ga_conabo4_vcDesPerfTarjeta		99	string	-	-
+pp_ga_conabo4_vcNomZonaOper		100	string	-	-
+pp_ga_conabo4vcDesClaseTarje01		101	string	-	-
+pp_ga_conabo4vcDesSubClaseTa01		102	string	-	-
+pp_ga_conabo4_ptFecBaja		103	carray	-	-
+pp_ga_conabo4_pdNumOrden		104	double	-	-
+pp_ga_conabo4_ptFecEstaPrep		105	carray	-	-
+pp_ga_conabo4_vcCodCelula		106	string	-	-
+pp_ga_conabo4_vcDesCausbaja		107	string	-	-
+pp_ga_conabo4_flg_datper		108	string	-	-
+# FIN DE SERVICIO pp_ga_conabo4
+
+# Identificadores para el servicio PP_GA_CONALBA
+# INICIO DE SERVICIO PP_GA_CONALBA
+PP_GA_CONALBA_num_albaran		109	string	-	-
+PP_GA_CONALBA_num_icc		110	string	-	-
+PP_GA_CONALBA_num_telefono		111	string	-	-
+PP_GA_CONALBA_flag_consulta		112	long	-	-
+PP_GA_CONALBA_n_regs		113	long	-	-
+PP_GA_CONALBA_token		114	string	-	-
+PP_GA_CONALBA_lnum_albaran		115	string	-	-
+PP_GA_CONALBA_lnum_icc		116	string	-	-
+PP_GA_CONALBA_lnum_telefono		117	string	-	-
+PP_GA_CONALBA_lfec_modifica		118	string	-	-
+PP_GA_CONALBA_lest_tarjeta		119	string	-	-
+PP_GA_CONALBA_hayMas		120	long	-	-
+PP_GA_CONALBA__rpr_ret		121	long	-	-
+# FIN DE SERVICIO PP_GA_CONALBA
+
+# Identificadores para el servicio PP_GA_TOTALBA
+# INICIO DE SERVICIO PP_GA_TOTALBA
+PP_GA_TOTALBA_num_albaran		122	string	-	-
+PP_GA_TOTALBA_num_icc		123	string	-	-
+PP_GA_TOTALBA_num_telefono		124	string	-	-
+PP_GA_TOTALBA_flag_consulta		125	long	-	-
+PP_GA_TOTALBA_total_tarjetas		126	long	-	-
+PP_GA_TOTALBA__rpr_ret		127	long	-	-
+# FIN DE SERVICIO PP_GA_TOTALBA
+
+# Identificadores para el servicio PP_GA_ABOCON
+# INICIO DE SERVICIO PP_GA_ABOCON
+PP_GA_ABOCON_n_regs		128	long	-	-
+PP_GA_ABOCON_ult_reg		129	long	-	-
+PP_GA_ABOCON_vcNumTelefono		130	string	-	-
+PP_GA_ABOCON_vcNumICC		131	string	-	-
+PP_GA_ABOCON_desde		132	string	-	-
+PP_GA_ABOCON_hasta		133	string	-	-
+PP_GA_ABOCON_ptFecPreactiva		134	carray	-	-
+PP_GA_ABOCON_ptFecActiva		135	carray	-	-
+PP_GA_ABOCON_vcListaICC		136	string	-	-
+PP_GA_ABOCON_vcEstaPrep		137	string	-	-
+PP_GA_ABOCON_vcNumPUK		138	string	-	-
+PP_GA_ABOCON_vcDesPrePago		139	string	-	-
+PP_GA_ABOCON_ptFecBaja		140	carray	-	-
+PP_GA_ABOCON_pdNumOrden		141	double	-	-
+# FIN DE SERVICIO PP_GA_ABOCON
+
+# Identificadores para el servicio PP_GA_ABOPERF
+# INICIO DE SERVICIO PP_GA_ABOPERF
+PP_GA_ABOPERF_num_telefono		142	string	-	-
+PP_GA_ABOPERF_cod_aboperf		143	string	-	-
+PP_GA_ABOPERF__rpr_ret		144	long	-	-
+# FIN DE SERVICIO PP_GA_ABOPERF
+
+# Identificadores para el servicio PP_GA_CONABOSEG
+# INICIO DE SERVICIO PP_GA_CONABOSEG
+PP_GA_CONABOSEG_sNumTelefono		145	string	-	-
+PP_GA_CONABOSEG_dCodGrupo		146	long	-	-
+PP_GA_CONABOSEG_sCodSegmento		147	string	-	-
+PP_GA_CONABOSEG__rpr_ret		148	long	-	-
+# FIN DE SERVICIO PP_GA_CONABOSEG
+

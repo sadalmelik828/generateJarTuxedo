@@ -1,0 +1,126 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_coste.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_coste_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3219000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_COSTEACT
+# INICIO DE SERVICIO PP_GA_COSTEACT
+PP_GA_COSTEACT_num_telefono		0	string	-	-
+PP_GA_COSTEACT_cod_actuacio		1	string	-	-
+PP_GA_COSTEACT_ind_anul		2	string	-	-
+PP_GA_COSTEACT_cod_moneda		3	string	-	-
+PP_GA_COSTEACT_cod_clave		4	string	-	-
+PP_GA_COSTEACT_num_ordinal		5	short	-	-
+PP_GA_COSTEACT_coste		6	double	-	-
+PP_GA_COSTEACT__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PP_GA_COSTEACT
+
+# Identificadores para el servicio PP_GA_ACTGRATU
+# INICIO DE SERVICIO PP_GA_ACTGRATU
+PP_GA_ACTGRATU_num_telefono		8	string	-	-
+PP_GA_ACTGRATU_cod_actuacio		9	string	-	-
+PP_GA_ACTGRATU_num_promo		10	long	-	-
+PP_GA_ACTGRATU__rpr_ret		11	long	-	-
+# FIN DE SERVICIO PP_GA_ACTGRATU
+
+# Identificadores para el servicio PP_GA_COSTEAC2
+# INICIO DE SERVICIO PP_GA_COSTEAC2
+PP_GA_COSTEAC2_snum_telefono		12	string	-	-
+PP_GA_COSTEAC2_scod_actuacio		13	string	-	-
+PP_GA_COSTEAC2_sind_anul		14	string	-	-
+PP_GA_COSTEAC2_scod_moneda		15	string	-	-
+PP_GA_COSTEAC2_sorigen		16	string	-	-
+PP_GA_COSTEAC2_scod_clave		17	string	-	-
+PP_GA_COSTEAC2_dnum_ordinal		18	short	-	-
+PP_GA_COSTEAC2_fcoste		19	double	-	-
+PP_GA_COSTEAC2__rpr_ret		20	long	-	-
+# FIN DE SERVICIO PP_GA_COSTEAC2
+
+# Identificadores para el servicio PP_GA_CONSIMPU
+# INICIO DE SERVICIO PP_GA_CONSIMPU
+PP_GA_CONSIMPU_num_telefono		21	string	-	-
+PP_GA_CONSIMPU_cod_taxid		22	string	-	-
+PP_GA_CONSIMPU_tax_value		23	long	-	-
+PP_GA_CONSIMPU__rpr_ret		24	long	-	-
+# FIN DE SERVICIO PP_GA_CONSIMPU
+
+# Identificadores para el servicio PP_GA_COSTEANT
+# INICIO DE SERVICIO PP_GA_COSTEANT
+PP_GA_COSTEANT_snum_telefono		25	string	-	-
+PP_GA_COSTEANT_scod_actuacio		26	string	-	-
+PP_GA_COSTEANT_sind_anul		27	string	-	-
+PP_GA_COSTEANT_scod_moneda		28	string	-	-
+PP_GA_COSTEANT_sorigen		29	string	-	-
+PP_GA_COSTEANT_scod_clave		30	string	-	-
+PP_GA_COSTEANT_dnum_ordinal		31	short	-	-
+PP_GA_COSTEANT_fcoste		32	double	-	-
+PP_GA_COSTEANT__rpr_ret		33	long	-	-
+# FIN DE SERVICIO PP_GA_COSTEANT
+
+# Identificadores para el servicio GA_COSTEAC3
+# INICIO DE SERVICIO GA_COSTEAC3
+GA_COSTEAC3_snum_telefono		34	string	-	-
+GA_COSTEAC3_scod_actuacio		35	string	-	-
+GA_COSTEAC3_sind_anul		36	string	-	-
+GA_COSTEAC3_scod_moneda		37	string	-	-
+GA_COSTEAC3_sorigen		38	string	-	-
+GA_COSTEAC3_scod_clave		39	string	-	-
+GA_COSTEAC3_lValServicio		40	long	-	-
+GA_COSTEAC3_dnum_ordinal		41	short	-	-
+GA_COSTEAC3_fcoste		42	double	-	-
+GA_COSTEAC3__rpr_ret		43	long	-	-
+# FIN DE SERVICIO GA_COSTEAC3
+
+# Identificadores para el servicio GA_COSTEAC4
+# INICIO DE SERVICIO GA_COSTEAC4
+GA_COSTEAC4_snum_telefono		44	string	-	-
+GA_COSTEAC4_scod_actuacio		45	string	-	-
+GA_COSTEAC4_sind_anul		46	string	-	-
+GA_COSTEAC4_scod_moneda		47	string	-	-
+GA_COSTEAC4_sorigen		48	string	-	-
+GA_COSTEAC4_scod_clave		49	string	-	-
+GA_COSTEAC4_lValServicio		50	long	-	-
+GA_COSTEAC4_dnum_ordinal		51	short	-	-
+GA_COSTEAC4_fcoste		52	double	-	-
+GA_COSTEAC4__rpr_ret		53	long	-	-
+# FIN DE SERVICIO GA_COSTEAC4
+
+# Identificadores para el servicio GA_CONSIMPU2
+# INICIO DE SERVICIO GA_CONSIMPU2
+GA_CONSIMPU2_num_telefono		54	string	-	-
+GA_CONSIMPU2_fec_validez		55	string	-	-
+GA_CONSIMPU2_cod_taxid		56	string	-	-
+GA_CONSIMPU2_tax_value		57	double	-	-
+GA_CONSIMPU2__rpr_ret		58	long	-	-
+# FIN DE SERVICIO GA_CONSIMPU2
+
+# Identificadores para el servicio GA_ACTGRAT2
+# INICIO DE SERVICIO GA_ACTGRAT2
+GA_ACTGRAT2_num_telefono		59	string	-	-
+GA_ACTGRAT2_cod_actuacio		60	string	-	-
+GA_ACTGRAT2_cod_clave		61	string	-	-
+GA_ACTGRAT2_num_promo		62	long	-	-
+GA_ACTGRAT2__rpr_ret		63	long	-	-
+# FIN DE SERVICIO GA_ACTGRAT2
+
+# Identificadores para el servicio GA_COSTEAC5
+# INICIO DE SERVICIO GA_COSTEAC5
+GA_COSTEAC5_num_telefono		64	string	-	-
+GA_COSTEAC5_scod_actuacio		65	string	-	-
+GA_COSTEAC5_sind_anul		66	string	-	-
+GA_COSTEAC5_scod_moneda		67	string	-	-
+GA_COSTEAC5_sorigen		68	string	-	-
+GA_COSTEAC5_scod_clave		69	string	-	-
+GA_COSTEAC5_lValServicio		70	long	-	-
+GA_COSTEAC5_dnum_ordinal		71	short	-	-
+GA_COSTEAC5_fcoste		72	double	-	-
+GA_COSTEAC5_smod_cobro		73	string	-	-
+GA_COSTEAC5__rpr_ret		74	long	-	-
+# FIN DE SERVICIO GA_COSTEAC5
+

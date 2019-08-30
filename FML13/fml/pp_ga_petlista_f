@@ -1,0 +1,673 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_petlista.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_petlista_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz Activa versión 1.0 
+#
+
+*base		3223000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_LISTAPER
+# INICIO DE SERVICIO PP_GA_LISTAPER
+PP_GA_LISTAPER_num_telefono		0	string	-	-
+PP_GA_LISTAPER_num_items		1	long	-	-
+PP_GA_LISTAPER_cod_lista		2	string	-	-
+PP_GA_LISTAPER_cod_rettar		3	string	-	-
+PP_GA_LISTAPER_num_maxitems		4	long	-	-
+PP_GA_LISTAPER_cod_lista_ini		5	string	-	-
+PP_GA_LISTAPER_hay_mas		6	carray	-	-
+PP_GA_LISTAPER__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PP_GA_LISTAPER
+
+# Identificadores para el servicio PP_GA_LISTAACT
+# INICIO DE SERVICIO PP_GA_LISTAACT
+PP_GA_LISTAACT_num_telefono		8	string	-	-
+PP_GA_LISTAACT_num_items		9	long	-	-
+PP_GA_LISTAACT_cod_lista		10	string	-	-
+PP_GA_LISTAACT_cod_habilitada		11	string	-	-
+PP_GA_LISTAACT_cod_rettar		12	string	-	-
+PP_GA_LISTAACT_num_maxitems		13	long	-	-
+PP_GA_LISTAACT_cad_regex		14	string	-	-
+PP_GA_LISTAACT_cod_lista_ini		15	string	-	-
+PP_GA_LISTAACT_hay_mas		16	carray	-	-
+PP_GA_LISTAACT__rpr_ret		17	long	-	-
+# FIN DE SERVICIO PP_GA_LISTAACT
+
+# Identificadores para el servicio PP_GA_GETLISTA
+# INICIO DE SERVICIO PP_GA_GETLISTA
+PP_GA_GETLISTA_num_telefono		18	string	-	-
+PP_GA_GETLISTA_cod_lista		19	string	-	-
+PP_GA_GETLISTA_num_items		20	long	-	-
+PP_GA_GETLISTA_cad_item_ini		21	string	-	-
+PP_GA_GETLISTA_cad_item		22	string	-	-
+PP_GA_GETLISTA_hay_mas		23	carray	-	-
+PP_GA_GETLISTA__rpr_ret		24	long	-	-
+# FIN DE SERVICIO PP_GA_GETLISTA
+
+# Identificadores para el servicio PP_GA_LISALTAI
+# INICIO DE SERVICIO PP_GA_LISALTAI
+PP_GA_LISALTAI_num_telefono		25	string	-	-
+PP_GA_LISALTAI_cod_lista		26	string	-	-
+PP_GA_LISALTAI_cad_item		27	string	-	-
+PP_GA_LISALTAI_importe		28	double	-	-
+PP_GA_LISALTAI_cod_moneda		29	string	-	-
+PP_GA_LISALTAI_cod_causa		30	string	-	-
+PP_GA_LISALTAI_cod_usuario		31	string	-	-
+PP_GA_LISALTAI_flg_pendientes		32	carray	-	-
+PP_GA_LISALTAI__rpr_ret		33	long	-	-
+# FIN DE SERVICIO PP_GA_LISALTAI
+
+# Identificadores para el servicio PP_GA_LISTMODI
+# INICIO DE SERVICIO PP_GA_LISTMODI
+PP_GA_LISTMODI_num_telefono		34	string	-	-
+PP_GA_LISTMODI_cod_lista		35	string	-	-
+PP_GA_LISTMODI_cad_itemant		36	string	-	-
+PP_GA_LISTMODI_cad_itempos		37	string	-	-
+PP_GA_LISTMODI_importe		38	double	-	-
+PP_GA_LISTMODI_cod_moneda		39	string	-	-
+PP_GA_LISTMODI_cod_causa		40	string	-	-
+PP_GA_LISTMODI_cod_usuario		41	string	-	-
+PP_GA_LISTMODI_flg_pendientes		42	carray	-	-
+PP_GA_LISTMODI__rpr_ret		43	long	-	-
+# FIN DE SERVICIO PP_GA_LISTMODI
+
+# Identificadores para el servicio PP_GA_LISTBAJAI
+# INICIO DE SERVICIO PP_GA_LISTBAJAI
+PP_GA_LISTBAJAI_num_telefono		44	string	-	-
+PP_GA_LISTBAJAI_cod_lista		45	string	-	-
+PP_GA_LISTBAJAI_cad_item		46	string	-	-
+PP_GA_LISTBAJAI_importe		47	double	-	-
+PP_GA_LISTBAJAI_cod_moneda		48	string	-	-
+PP_GA_LISTBAJAI_cod_causa		49	string	-	-
+PP_GA_LISTBAJAI_cod_usuario		50	string	-	-
+PP_GA_LISTBAJAI_flg_pendientes		51	carray	-	-
+PP_GA_LISTBAJAI__rpr_ret		52	long	-	-
+# FIN DE SERVICIO PP_GA_LISTBAJAI
+
+# Identificadores para el servicio PP_GA_MODLISTA
+# INICIO DE SERVICIO PP_GA_MODLISTA
+PP_GA_MODLISTA_num_telefono		53	string	-	-
+PP_GA_MODLISTA_cod_listaant		54	string	-	-
+PP_GA_MODLISTA_cod_listapos		55	string	-	-
+PP_GA_MODLISTA_importe		56	double	-	-
+PP_GA_MODLISTA_cod_moneda		57	string	-	-
+PP_GA_MODLISTA_cod_causa		58	string	-	-
+PP_GA_MODLISTA_cod_usuario		59	string	-	-
+PP_GA_MODLISTA_flg_pendientes		60	carray	-	-
+PP_GA_MODLISTA__rpr_ret		61	long	-	-
+# FIN DE SERVICIO PP_GA_MODLISTA
+
+# Identificadores para el servicio PP_GA_HABLISTA
+# INICIO DE SERVICIO PP_GA_HABLISTA
+PP_GA_HABLISTA_num_telefono		62	string	-	-
+PP_GA_HABLISTA_cod_lista		63	string	-	-
+PP_GA_HABLISTA_flg_habil		64	carray	-	-
+PP_GA_HABLISTA_importe		65	double	-	-
+PP_GA_HABLISTA_cod_moneda		66	string	-	-
+PP_GA_HABLISTA_cod_causa		67	string	-	-
+PP_GA_HABLISTA_cod_usuario		68	string	-	-
+PP_GA_HABLISTA_flg_pendientes		69	carray	-	-
+PP_GA_HABLISTA__rpr_ret		70	long	-	-
+# FIN DE SERVICIO PP_GA_HABLISTA
+
+# Identificadores para el servicio PP_GA_SPRIOLIS
+# INICIO DE SERVICIO PP_GA_SPRIOLIS
+PP_GA_SPRIOLIS_num_telefono		71	string	-	-
+PP_GA_SPRIOLIS_cod_prioridad		72	carray	-	-
+PP_GA_SPRIOLIS_importe		73	double	-	-
+PP_GA_SPRIOLIS_cod_moneda		74	string	-	-
+PP_GA_SPRIOLIS_cod_causa		75	string	-	-
+PP_GA_SPRIOLIS_cod_usuario		76	string	-	-
+PP_GA_SPRIOLIS_flg_pendientes		77	carray	-	-
+PP_GA_SPRIOLIS__rpr_ret		78	long	-	-
+# FIN DE SERVICIO PP_GA_SPRIOLIS
+
+# Identificadores para el servicio PP_GA_ALTALIS
+# INICIO DE SERVICIO PP_GA_ALTALIS
+PP_GA_ALTALIS_num_telefono		79	string	-	-
+PP_GA_ALTALIS_cod_lista		80	string	-	-
+PP_GA_ALTALIS_importe		81	double	-	-
+PP_GA_ALTALIS_cod_moneda		82	string	-	-
+PP_GA_ALTALIS_cod_causa		83	string	-	-
+PP_GA_ALTALIS_cod_usuario		84	string	-	-
+PP_GA_ALTALIS__rpr_ret		85	long	-	-
+# FIN DE SERVICIO PP_GA_ALTALIS
+
+# Identificadores para el servicio PP_GA_BAJALIS
+# INICIO DE SERVICIO PP_GA_BAJALIS
+PP_GA_BAJALIS_num_telefono		86	string	-	-
+PP_GA_BAJALIS_cod_lista		87	string	-	-
+PP_GA_BAJALIS_importe		88	double	-	-
+PP_GA_BAJALIS_cod_moneda		89	string	-	-
+PP_GA_BAJALIS_cod_causa		90	string	-	-
+PP_GA_BAJALIS_cod_usuario		91	string	-	-
+PP_GA_BAJALIS__rpr_ret		92	long	-	-
+# FIN DE SERVICIO PP_GA_BAJALIS
+
+# Identificadores para el servicio PP_GA_MCITEMLI
+# INICIO DE SERVICIO PP_GA_MCITEMLI
+PP_GA_MCITEMLI_num_telefono		93	string	-	-
+PP_GA_MCITEMLI_cod_lista		94	string	-	-
+PP_GA_MCITEMLI_cod_usuario		95	string	-	-
+PP_GA_MCITEMLI__rpr_ret		96	long	-	-
+# FIN DE SERVICIO PP_GA_MCITEMLI
+
+# Identificadores para el servicio PP_GA_GETLISTA2
+# INICIO DE SERVICIO PP_GA_GETLISTA2
+PP_GA_GETLISTA2_num_telefono		97	string	-	-
+PP_GA_GETLISTA2_cod_lista		98	string	-	-
+PP_GA_GETLISTA2_num_items		99	long	-	-
+PP_GA_GETLISTA2_cad_item_ini		100	string	-	-
+PP_GA_GETLISTA2_cad_item		101	string	-	-
+PP_GA_GETLISTA2_fec_instalac		102	string	-	-
+PP_GA_GETLISTA2_hay_mas		103	carray	-	-
+PP_GA_GETLISTA2__rpr_ret		104	long	-	-
+# FIN DE SERVICIO PP_GA_GETLISTA2
+
+# Identificadores para el servicio PP_GA_ALTALI2
+# INICIO DE SERVICIO PP_GA_ALTALI2
+PP_GA_ALTALI2_num_telefono		105	string	-	-
+PP_GA_ALTALI2_cod_lista		106	string	-	-
+PP_GA_ALTALI2_importe		107	double	-	-
+PP_GA_ALTALI2_cod_moneda		108	string	-	-
+PP_GA_ALTALI2_cod_causa		109	string	-	-
+PP_GA_ALTALI2_cod_usuario		110	string	-	-
+PP_GA_ALTALI2_sec_actuacion		111	long	-	-
+PP_GA_ALTALI2__rpr_ret		112	long	-	-
+# FIN DE SERVICIO PP_GA_ALTALI2
+
+# Identificadores para el servicio PP_GA_REGEXLIS
+# INICIO DE SERVICIO PP_GA_REGEXLIS
+PP_GA_REGEXLIS_cod_lista		113	string	-	-
+PP_GA_REGEXLIS_cad_regex		114	string	-	-
+PP_GA_REGEXLIS_descripcion		115	string	-	-
+PP_GA_REGEXLIS__rpr_ret		116	long	-	-
+# FIN DE SERVICIO PP_GA_REGEXLIS
+
+# Identificadores para el servicio PP_GA_GETLISTAH
+# INICIO DE SERVICIO PP_GA_GETLISTAH
+PP_GA_GETLISTAH_snum_telefono		117	string	-	-
+PP_GA_GETLISTAH_scod_lista		118	string	-	-
+PP_GA_GETLISTAH_lnum_items		119	long	-	-
+PP_GA_GETLISTAH_snum_orden		120	string	-	-
+PP_GA_GETLISTAH_scad_item_ini		121	string	-	-
+PP_GA_GETLISTAH_scad_item		122	string	-	-
+PP_GA_GETLISTAH_sfec_instalac		123	string	-	-
+PP_GA_GETLISTAH_chay_mas		124	carray	-	-
+PP_GA_GETLISTAH__rpr_ret		125	long	-	-
+# FIN DE SERVICIO PP_GA_GETLISTAH
+
+# Identificadores para el servicio PP_GA_BAJALI2
+# INICIO DE SERVICIO PP_GA_BAJALI2
+PP_GA_BAJALI2_num_telefono		126	string	-	-
+PP_GA_BAJALI2_cod_lista		127	string	-	-
+PP_GA_BAJALI2_importe		128	double	-	-
+PP_GA_BAJALI2_cod_moneda		129	string	-	-
+PP_GA_BAJALI2_cod_causa		130	string	-	-
+PP_GA_BAJALI2_cod_usuario		131	string	-	-
+PP_GA_BAJALI2_sec_actuacion		132	long	-	-
+PP_GA_BAJALI2__rpr_ret		133	long	-	-
+# FIN DE SERVICIO PP_GA_BAJALI2
+
+# Identificadores para el servicio PP_GA_LIALTAI2
+# INICIO DE SERVICIO PP_GA_LIALTAI2
+PP_GA_LIALTAI2_num_telefono		134	string	-	-
+PP_GA_LIALTAI2_cod_lista		135	string	-	-
+PP_GA_LIALTAI2_cad_item		136	string	-	-
+PP_GA_LIALTAI2_importe		137	double	-	-
+PP_GA_LIALTAI2_cod_moneda		138	string	-	-
+PP_GA_LIALTAI2_cod_causa		139	string	-	-
+PP_GA_LIALTAI2_cod_usuario		140	string	-	-
+PP_GA_LIALTAI2_flg_pendientes		141	carray	-	-
+PP_GA_LIALTAI2_sec_actuacion		142	long	-	-
+PP_GA_LIALTAI2__rpr_ret		143	long	-	-
+# FIN DE SERVICIO PP_GA_LIALTAI2
+
+# Identificadores para el servicio PP_GA_LIBAJAI2
+# INICIO DE SERVICIO PP_GA_LIBAJAI2
+PP_GA_LIBAJAI2_num_telefono		144	string	-	-
+PP_GA_LIBAJAI2_cod_lista		145	string	-	-
+PP_GA_LIBAJAI2_cad_item		146	string	-	-
+PP_GA_LIBAJAI2_importe		147	double	-	-
+PP_GA_LIBAJAI2_cod_moneda		148	string	-	-
+PP_GA_LIBAJAI2_cod_causa		149	string	-	-
+PP_GA_LIBAJAI2_cod_usuario		150	string	-	-
+PP_GA_LIBAJAI2_flg_pendientes		151	carray	-	-
+PP_GA_LIBAJAI2_sec_actuacion		152	long	-	-
+PP_GA_LIBAJAI2__rpr_ret		153	long	-	-
+# FIN DE SERVICIO PP_GA_LIBAJAI2
+
+# Identificadores para el servicio PP_GA_LISTMOD2
+# INICIO DE SERVICIO PP_GA_LISTMOD2
+PP_GA_LISTMOD2_num_telefono		154	string	-	-
+PP_GA_LISTMOD2_cod_lista		155	string	-	-
+PP_GA_LISTMOD2_cad_itemant		156	string	-	-
+PP_GA_LISTMOD2_cad_itempos		157	string	-	-
+PP_GA_LISTMOD2_importe		158	double	-	-
+PP_GA_LISTMOD2_cod_moneda		159	string	-	-
+PP_GA_LISTMOD2_cod_causa		160	string	-	-
+PP_GA_LISTMOD2_cod_usuario		161	string	-	-
+PP_GA_LISTMOD2_flg_pendientes		162	carray	-	-
+PP_GA_LISTMOD2_sec_actuacion		163	long	-	-
+PP_GA_LISTMOD2__rpr_ret		164	long	-	-
+# FIN DE SERVICIO PP_GA_LISTMOD2
+
+# Identificadores para el servicio PP_GA_HABLIST2
+# INICIO DE SERVICIO PP_GA_HABLIST2
+PP_GA_HABLIST2_num_telefono		165	string	-	-
+PP_GA_HABLIST2_cod_lista		166	string	-	-
+PP_GA_HABLIST2_flg_habil		167	carray	-	-
+PP_GA_HABLIST2_importe		168	double	-	-
+PP_GA_HABLIST2_cod_moneda		169	string	-	-
+PP_GA_HABLIST2_cod_causa		170	string	-	-
+PP_GA_HABLIST2_cod_usuario		171	string	-	-
+PP_GA_HABLIST2_flg_pendientes		172	carray	-	-
+PP_GA_HABLIST2_sec_actuacion		173	long	-	-
+PP_GA_HABLIST2__rpr_ret		174	long	-	-
+# FIN DE SERVICIO PP_GA_HABLIST2
+
+# Identificadores para el servicio PP_GA_LISTAAC2
+# INICIO DE SERVICIO PP_GA_LISTAAC2
+PP_GA_LISTAAC2_snum_telefono		175	string	-	-
+PP_GA_LISTAAC2_lnum_items		176	long	-	-
+PP_GA_LISTAAC2_stoken		177	string	-	-
+PP_GA_LISTAAC2_scod_lista		178	string	-	-
+PP_GA_LISTAAC2_scod_habilitada		179	string	-	-
+PP_GA_LISTAAC2_scod_rettar		180	string	-	-
+PP_GA_LISTAAC2_lnum_maxitems		181	long	-	-
+PP_GA_LISTAAC2_lnum_maxfijos		182	long	-	-
+PP_GA_LISTAAC2_scad_regex		183	string	-	-
+PP_GA_LISTAAC2__rpr_ret		184	long	-	-
+# FIN DE SERVICIO PP_GA_LISTAAC2
+
+# Identificadores para el servicio PP_GA_LISTMAS
+# INICIO DE SERVICIO PP_GA_LISTMAS
+PP_GA_LISTMAS_num_telefono		185	string	-	-
+PP_GA_LISTMAS_cod_lista		186	string	-	-
+PP_GA_LISTMAS_cad_itemant1		187	string	-	-
+PP_GA_LISTMAS_cad_itemant2		188	string	-	-
+PP_GA_LISTMAS_cad_itemant3		189	string	-	-
+PP_GA_LISTMAS_cad_itemant4		190	string	-	-
+PP_GA_LISTMAS_cad_itemant5		191	string	-	-
+PP_GA_LISTMAS_cad_itempos1		192	string	-	-
+PP_GA_LISTMAS_cad_itempos2		193	string	-	-
+PP_GA_LISTMAS_cad_itempos3		194	string	-	-
+PP_GA_LISTMAS_cad_itempos4		195	string	-	-
+PP_GA_LISTMAS_cad_itempos5		196	string	-	-
+PP_GA_LISTMAS_importe		197	double	-	-
+PP_GA_LISTMAS_cod_moneda		198	string	-	-
+PP_GA_LISTMAS_cod_causa		199	string	-	-
+PP_GA_LISTMAS_cod_usuario		200	string	-	-
+PP_GA_LISTMAS_sec_actuacion		201	long	-	-
+PP_GA_LISTMAS_cad_itemposErr		202	string	-	-
+PP_GA_LISTMAS__rpr_ret		203	long	-	-
+# FIN DE SERVICIO PP_GA_LISTMAS
+
+# Identificadores para el servicio PP_GA_ALTADUO
+# INICIO DE SERVICIO PP_GA_ALTADUO
+PP_GA_ALTADUO_num_telePrinci		204	string	-	-
+PP_GA_ALTADUO_num_teleAsoci		205	string	-	-
+PP_GA_ALTADUO_cod_lista		206	string	-	-
+PP_GA_ALTADUO_importe		207	double	-	-
+PP_GA_ALTADUO_cod_moneda		208	string	-	-
+PP_GA_ALTADUO_cod_usuario		209	string	-	-
+PP_GA_ALTADUO_cod_causa		210	string	-	-
+PP_GA_ALTADUO_flg_pendientes		211	carray	-	-
+PP_GA_ALTADUO_sec_actuacion1		212	long	-	-
+PP_GA_ALTADUO_sec_actuacion2		213	long	-	-
+PP_GA_ALTADUO__rpr_ret		214	long	-	-
+# FIN DE SERVICIO PP_GA_ALTADUO
+
+# Identificadores para el servicio PP_GA_BAJADUO
+# INICIO DE SERVICIO PP_GA_BAJADUO
+PP_GA_BAJADUO_num_telePrinci		215	string	-	-
+PP_GA_BAJADUO_num_teleAsoci		216	string	-	-
+PP_GA_BAJADUO_cod_lista		217	string	-	-
+PP_GA_BAJADUO_importe		218	double	-	-
+PP_GA_BAJADUO_cod_moneda		219	string	-	-
+PP_GA_BAJADUO_cod_usuario		220	string	-	-
+PP_GA_BAJADUO_cod_causa		221	string	-	-
+PP_GA_BAJADUO_flg_pendientes		222	carray	-	-
+PP_GA_BAJADUO_sec_actuacion1		223	long	-	-
+PP_GA_BAJADUO_sec_actuacion2		224	long	-	-
+PP_GA_BAJADUO__rpr_ret		225	long	-	-
+# FIN DE SERVICIO PP_GA_BAJADUO
+
+# Identificadores para el servicio PP_GA_CALTLISI
+# INICIO DE SERVICIO PP_GA_CALTLISI
+PP_GA_CALTLISI_num_abonado		226	string	-	-
+PP_GA_CALTLISI_cod_listasdp		227	string	-	-
+PP_GA_CALTLISI_cad_item		228	string	-	-
+PP_GA_CALTLISI_cod_act		229	string	-	-
+PP_GA_CALTLISI__rpr_ret		230	long	-	-
+# FIN DE SERVICIO PP_GA_CALTLISI
+
+# Identificadores para el servicio PP_GA_CALLISER
+# INICIO DE SERVICIO PP_GA_CALLISER
+PP_GA_CALLISER_num_abonado		231	string	-	-
+PP_GA_CALLISER_cod_listasdp		232	string	-	-
+PP_GA_CALLISER_cod_act		233	string	-	-
+PP_GA_CALLISER_exp_reg		234	string	-	-
+PP_GA_CALLISER__rpr_ret		235	long	-	-
+# FIN DE SERVICIO PP_GA_CALLISER
+
+# Identificadores para el servicio PP_GA_CONBALI2
+# INICIO DE SERVICIO PP_GA_CONBALI2
+PP_GA_CONBALI2_num_abonado		236	string	-	-
+PP_GA_CONBALI2_cod_listasdp		237	string	-	-
+PP_GA_CONBALI2_cad_item		238	string	-	-
+PP_GA_CONBALI2_cod_act		239	string	-	-
+PP_GA_CONBALI2__rpr_ret		240	long	-	-
+# FIN DE SERVICIO PP_GA_CONBALI2
+
+# Identificadores para el servicio PP_GA_LISTBLOQ
+# INICIO DE SERVICIO PP_GA_LISTBLOQ
+PP_GA_LISTBLOQ_num_telefono		241	string	-	-
+PP_GA_LISTBLOQ_cod_lista		242	string	-	-
+PP_GA_LISTBLOQ_importe		243	double	-	-
+PP_GA_LISTBLOQ_cod_moneda		244	string	-	-
+PP_GA_LISTBLOQ_cod_usuario		245	string	-	-
+PP_GA_LISTBLOQ_flg_bloquear		246	carray	-	-
+PP_GA_LISTBLOQ_feh_inicbloq		247	string	-	-
+PP_GA_LISTBLOQ_dias_bloq		248	double	-	-
+PP_GA_LISTBLOQ_sec_actuacion		249	string	-	-
+PP_GA_LISTBLOQ__rpr_ret		250	long	-	-
+# FIN DE SERVICIO PP_GA_LISTBLOQ
+
+# Identificadores para el servicio PP_GA_CONLIBL
+# INICIO DE SERVICIO PP_GA_CONLIBL
+PP_GA_CONLIBL_num_telefono		251	string	-	-
+PP_GA_CONLIBL_cod_lista		252	string	-	-
+PP_GA_CONLIBL_flag_bloqueda		253	carray	-	-
+PP_GA_CONLIBL__rpr_ret		254	long	-	-
+# FIN DE SERVICIO PP_GA_CONLIBL
+
+# Identificadores para el servicio PP_GA_CMODLISI
+# INICIO DE SERVICIO PP_GA_CMODLISI
+PP_GA_CMODLISI_num_abonado		255	string	-	-
+PP_GA_CMODLISI_cod_listasdp		256	string	-	-
+PP_GA_CMODLISI_cad_item_old		257	string	-	-
+PP_GA_CMODLISI_cad_item_new		258	string	-	-
+PP_GA_CMODLISI_cod_act		259	string	-	-
+PP_GA_CMODLISI__rpr_ret		260	long	-	-
+# FIN DE SERVICIO PP_GA_CMODLISI
+
+# Identificadores para el servicio PP_GA_LISTAAC3
+# INICIO DE SERVICIO PP_GA_LISTAAC3
+PP_GA_LISTAAC3_snum_telefono		261	string	-	-
+PP_GA_LISTAAC3_lnum_items		262	long	-	-
+PP_GA_LISTAAC3_stoken		263	string	-	-
+PP_GA_LISTAAC3_scod_lista		264	string	-	-
+PP_GA_LISTAAC3_scod_habilitada		265	string	-	-
+PP_GA_LISTAAC3_flg_bloqueada		266	string	-	-
+PP_GA_LISTAAC3_fec_desbloqueo		267	string	-	-
+PP_GA_LISTAAC3_scod_rettar		268	string	-	-
+PP_GA_LISTAAC3_lnum_maxitems		269	long	-	-
+PP_GA_LISTAAC3_lnum_maxfijos		270	long	-	-
+PP_GA_LISTAAC3_scad_regex		271	string	-	-
+PP_GA_LISTAAC3__rpr_ret		272	long	-	-
+# FIN DE SERVICIO PP_GA_LISTAAC3
+
+# Identificadores para el servicio PP_GA_LISTMAS2
+# INICIO DE SERVICIO PP_GA_LISTMAS2
+PP_GA_LISTMAS2_num_telefono		273	string	-	-
+PP_GA_LISTMAS2_cod_lista		274	string	-	-
+PP_GA_LISTMAS2_cad_itempos1		275	string	-	-
+PP_GA_LISTMAS2_cad_itempos2		276	string	-	-
+PP_GA_LISTMAS2_cad_itempos3		277	string	-	-
+PP_GA_LISTMAS2_cad_itempos4		278	string	-	-
+PP_GA_LISTMAS2_cad_itempos5		279	string	-	-
+PP_GA_LISTMAS2_importe		280	double	-	-
+PP_GA_LISTMAS2_cod_moneda		281	string	-	-
+PP_GA_LISTMAS2_cod_causa		282	string	-	-
+PP_GA_LISTMAS2_cod_usuario		283	string	-	-
+PP_GA_LISTMAS2_sec_actuacion		284	long	-	-
+PP_GA_LISTMAS2_cad_itemposErr		285	string	-	-
+PP_GA_LISTMAS2__rpr_ret		286	long	-	-
+# FIN DE SERVICIO PP_GA_LISTMAS2
+
+# Identificadores para el servicio PP_GA_LISTMA20
+# INICIO DE SERVICIO PP_GA_LISTMA20
+PP_GA_LISTMA20_num_telefono		287	string	-	-
+PP_GA_LISTMA20_cod_lista		288	string	-	-
+PP_GA_LISTMA20_lnumitems		289	long	-	-
+PP_GA_LISTMA20_cad_itempo20		290	string	-	-
+PP_GA_LISTMA20_importe		291	double	-	-
+PP_GA_LISTMA20_cod_moneda		292	string	-	-
+PP_GA_LISTMA20_cod_causa		293	string	-	-
+PP_GA_LISTMA20_cod_usuario		294	string	-	-
+PP_GA_LISTMA20_sec_actuacion		295	long	-	-
+PP_GA_LISTMA20_cad_itemposErr		296	string	-	-
+PP_GA_LISTMA20__rpr_ret		297	long	-	-
+# FIN DE SERVICIO PP_GA_LISTMA20
+
+# Identificadores para el servicio PP_GA_CALTLIS2
+# INICIO DE SERVICIO PP_GA_CALTLIS2
+PP_GA_CALTLIS2_num_abonado		298	string	-	-
+PP_GA_CALTLIS2_cod_listasdp		299	string	-	-
+PP_GA_CALTLIS2_cad_item		300	string	-	-
+PP_GA_CALTLIS2_cod_usuario		301	string	-	-
+PP_GA_CALTLIS2_cod_act		302	string	-	-
+PP_GA_CALTLIS2__rpr_ret		303	long	-	-
+# FIN DE SERVICIO PP_GA_CALTLIS2
+
+# Identificadores para el servicio PP_GA_CONBALI3
+# INICIO DE SERVICIO PP_GA_CONBALI3
+PP_GA_CONBALI3_num_abonado		304	string	-	-
+PP_GA_CONBALI3_cod_listasdp		305	string	-	-
+PP_GA_CONBALI3_cad_item		306	string	-	-
+PP_GA_CONBALI3_cod_usuario		307	string	-	-
+PP_GA_CONBALI3_cod_act		308	string	-	-
+PP_GA_CONBALI3__rpr_ret		309	long	-	-
+# FIN DE SERVICIO PP_GA_CONBALI3
+
+# Identificadores para el servicio PP_GA_CONLIBL2
+# INICIO DE SERVICIO PP_GA_CONLIBL2
+PP_GA_CONLIBL2_num_telefono		310	string	-	-
+PP_GA_CONLIBL2_cod_lista		311	string	-	-
+PP_GA_CONLIBL2_cod_usuario		312	string	-	-
+PP_GA_CONLIBL2_flag_bloqueda		313	carray	-	-
+PP_GA_CONLIBL2__rpr_ret		314	long	-	-
+# FIN DE SERVICIO PP_GA_CONLIBL2
+
+# Identificadores para el servicio PP_GA_CMODLIS2
+# INICIO DE SERVICIO PP_GA_CMODLIS2
+PP_GA_CMODLIS2_num_abonado		315	string	-	-
+PP_GA_CMODLIS2_cod_listasdp		316	string	-	-
+PP_GA_CMODLIS2_cad_item_old		317	string	-	-
+PP_GA_CMODLIS2_cad_item_new		318	string	-	-
+PP_GA_CMODLIS2_cod_usuario		319	string	-	-
+PP_GA_CMODLIS2_cod_act		320	string	-	-
+PP_GA_CMODLIS2__rpr_ret		321	long	-	-
+# FIN DE SERVICIO PP_GA_CMODLIS2
+
+# Identificadores para el servicio PP_GA_ALTALI3
+# INICIO DE SERVICIO PP_GA_ALTALI3
+PP_GA_ALTALI3_num_telefono		322	string	-	-
+PP_GA_ALTALI3_cod_lista		323	string	-	-
+PP_GA_ALTALI3_importe		324	double	-	-
+PP_GA_ALTALI3_cod_moneda		325	string	-	-
+PP_GA_ALTALI3_cod_causa		326	string	-	-
+PP_GA_ALTALI3_cod_usuario		327	string	-	-
+PP_GA_ALTALI3_sec_actuacion		328	string	-	-
+PP_GA_ALTALI3__rpr_ret		329	long	-	-
+# FIN DE SERVICIO PP_GA_ALTALI3
+
+# Identificadores para el servicio PP_GA_BAJALI3
+# INICIO DE SERVICIO PP_GA_BAJALI3
+PP_GA_BAJALI3_num_telefono		330	string	-	-
+PP_GA_BAJALI3_cod_lista		331	string	-	-
+PP_GA_BAJALI3_importe		332	double	-	-
+PP_GA_BAJALI3_cod_moneda		333	string	-	-
+PP_GA_BAJALI3_cod_causa		334	string	-	-
+PP_GA_BAJALI3_cod_usuario		335	string	-	-
+PP_GA_BAJALI3_sec_actuacion		336	string	-	-
+PP_GA_BAJALI3__rpr_ret		337	long	-	-
+# FIN DE SERVICIO PP_GA_BAJALI3
+
+# Identificadores para el servicio PP_GA_LIALTAI3
+# INICIO DE SERVICIO PP_GA_LIALTAI3
+PP_GA_LIALTAI3_num_telefono		338	string	-	-
+PP_GA_LIALTAI3_cod_lista		339	string	-	-
+PP_GA_LIALTAI3_cad_item		340	string	-	-
+PP_GA_LIALTAI3_importe		341	double	-	-
+PP_GA_LIALTAI3_cod_moneda		342	string	-	-
+PP_GA_LIALTAI3_cod_causa		343	string	-	-
+PP_GA_LIALTAI3_cod_usuario		344	string	-	-
+PP_GA_LIALTAI3_flg_pendientes		345	carray	-	-
+PP_GA_LIALTAI3_sec_actuacion		346	string	-	-
+PP_GA_LIALTAI3__rpr_ret		347	long	-	-
+# FIN DE SERVICIO PP_GA_LIALTAI3
+
+# Identificadores para el servicio PP_GA_LIBAJAI3
+# INICIO DE SERVICIO PP_GA_LIBAJAI3
+PP_GA_LIBAJAI3_num_telefono		348	string	-	-
+PP_GA_LIBAJAI3_cod_lista		349	string	-	-
+PP_GA_LIBAJAI3_cad_item		350	string	-	-
+PP_GA_LIBAJAI3_importe		351	double	-	-
+PP_GA_LIBAJAI3_cod_moneda		352	string	-	-
+PP_GA_LIBAJAI3_cod_causa		353	string	-	-
+PP_GA_LIBAJAI3_cod_usuario		354	string	-	-
+PP_GA_LIBAJAI3_flg_pendientes		355	carray	-	-
+PP_GA_LIBAJAI3_sec_actuacion		356	string	-	-
+PP_GA_LIBAJAI3__rpr_ret		357	long	-	-
+# FIN DE SERVICIO PP_GA_LIBAJAI3
+
+# Identificadores para el servicio PP_GA_LISTMOD3
+# INICIO DE SERVICIO PP_GA_LISTMOD3
+PP_GA_LISTMOD3_num_telefono		358	string	-	-
+PP_GA_LISTMOD3_cod_lista		359	string	-	-
+PP_GA_LISTMOD3_cad_itemant		360	string	-	-
+PP_GA_LISTMOD3_cad_itempos		361	string	-	-
+PP_GA_LISTMOD3_importe		362	double	-	-
+PP_GA_LISTMOD3_cod_moneda		363	string	-	-
+PP_GA_LISTMOD3_cod_causa		364	string	-	-
+PP_GA_LISTMOD3_cod_usuario		365	string	-	-
+PP_GA_LISTMOD3_flg_pendientes		366	carray	-	-
+PP_GA_LISTMOD3_sec_actuacion		367	string	-	-
+PP_GA_LISTMOD3__rpr_ret		368	long	-	-
+# FIN DE SERVICIO PP_GA_LISTMOD3
+
+# Identificadores para el servicio PP_GA_HABLIST3
+# INICIO DE SERVICIO PP_GA_HABLIST3
+PP_GA_HABLIST3_num_telefono		369	string	-	-
+PP_GA_HABLIST3_cod_lista		370	string	-	-
+PP_GA_HABLIST3_flg_habil		371	carray	-	-
+PP_GA_HABLIST3_importe		372	double	-	-
+PP_GA_HABLIST3_cod_moneda		373	string	-	-
+PP_GA_HABLIST3_cod_causa		374	string	-	-
+PP_GA_HABLIST3_cod_usuario		375	string	-	-
+PP_GA_HABLIST3_flg_pendientes		376	carray	-	-
+PP_GA_HABLIST3_sec_actuacion		377	string	-	-
+PP_GA_HABLIST3__rpr_ret		378	long	-	-
+# FIN DE SERVICIO PP_GA_HABLIST3
+
+# Identificadores para el servicio PP_GA_ALTADUO2
+# INICIO DE SERVICIO PP_GA_ALTADUO2
+PP_GA_ALTADUO2_num_telePrinci		379	string	-	-
+PP_GA_ALTADUO2_num_teleAsoci		380	string	-	-
+PP_GA_ALTADUO2_cod_lista		381	string	-	-
+PP_GA_ALTADUO2_importe		382	double	-	-
+PP_GA_ALTADUO2_cod_moneda		383	string	-	-
+PP_GA_ALTADUO2_cod_usuario		384	string	-	-
+PP_GA_ALTADUO2_cod_causa		385	string	-	-
+PP_GA_ALTADUO2_flg_pendientes		386	carray	-	-
+PP_GA_ALTADUO2_sec_actuacion1		387	string	-	-
+PP_GA_ALTADUO2_sec_actuacion2		388	string	-	-
+PP_GA_ALTADUO2__rpr_ret		389	long	-	-
+# FIN DE SERVICIO PP_GA_ALTADUO2
+
+# Identificadores para el servicio PP_GA_BAJADUO2
+# INICIO DE SERVICIO PP_GA_BAJADUO2
+PP_GA_BAJADUO2_num_telePrinci		390	string	-	-
+PP_GA_BAJADUO2_num_teleAsoci		391	string	-	-
+PP_GA_BAJADUO2_cod_lista		392	string	-	-
+PP_GA_BAJADUO2_importe		393	double	-	-
+PP_GA_BAJADUO2_cod_moneda		394	string	-	-
+PP_GA_BAJADUO2_cod_usuario		395	string	-	-
+PP_GA_BAJADUO2_cod_causa		396	string	-	-
+PP_GA_BAJADUO2_flg_pendientes		397	carray	-	-
+PP_GA_BAJADUO2_sec_actuacion1		398	string	-	-
+PP_GA_BAJADUO2_sec_actuacion2		399	string	-	-
+PP_GA_BAJADUO2__rpr_ret		400	long	-	-
+# FIN DE SERVICIO PP_GA_BAJADUO2
+
+# Identificadores para el servicio PP_GA_LISTMAS3
+# INICIO DE SERVICIO PP_GA_LISTMAS3
+PP_GA_LISTMAS3_num_telefono		401	string	-	-
+PP_GA_LISTMAS3_cod_lista		402	string	-	-
+PP_GA_LISTMAS3_cad_itempos1		403	string	-	-
+PP_GA_LISTMAS3_cad_itempos2		404	string	-	-
+PP_GA_LISTMAS3_cad_itempos3		405	string	-	-
+PP_GA_LISTMAS3_cad_itempos4		406	string	-	-
+PP_GA_LISTMAS3_cad_itempos5		407	string	-	-
+PP_GA_LISTMAS3_importe		408	double	-	-
+PP_GA_LISTMAS3_cod_moneda		409	string	-	-
+PP_GA_LISTMAS3_cod_causa		410	string	-	-
+PP_GA_LISTMAS3_cod_usuario		411	string	-	-
+PP_GA_LISTMAS3_sec_actuacion		412	string	-	-
+PP_GA_LISTMAS3_cad_itemposErr		413	string	-	-
+PP_GA_LISTMAS3__rpr_ret		414	long	-	-
+# FIN DE SERVICIO PP_GA_LISTMAS3
+
+# Identificadores para el servicio PP_GA_LISTM202
+# INICIO DE SERVICIO PP_GA_LISTM202
+PP_GA_LISTM202_num_telefono		415	string	-	-
+PP_GA_LISTM202_cod_lista		416	string	-	-
+PP_GA_LISTM202_lnumitems		417	long	-	-
+PP_GA_LISTM202_cad_itempo20		418	string	-	-
+PP_GA_LISTM202_importe		419	double	-	-
+PP_GA_LISTM202_cod_moneda		420	string	-	-
+PP_GA_LISTM202_cod_causa		421	string	-	-
+PP_GA_LISTM202_cod_usuario		422	string	-	-
+PP_GA_LISTM202_sec_actuacion		423	string	-	-
+PP_GA_LISTM202_cad_itemposErr		424	string	-	-
+PP_GA_LISTM202__rpr_ret		425	long	-	-
+# FIN DE SERVICIO PP_GA_LISTM202
+
+# Identificadores para el servicio GA_LISTAPER2
+# INICIO DE SERVICIO GA_LISTAPER2
+GA_LISTAPER2_snum_telefono		426	string	-	-
+GA_LISTAPER2_lnum_items		427	long	-	-
+GA_LISTAPER2_stoken		428	string	-	-
+GA_LISTAPER2_scod_lista		429	string	-	-
+GA_LISTAPER2_scod_habilitada		430	string	-	-
+GA_LISTAPER2_flg_bloqueada		431	string	-	-
+GA_LISTAPER2_fec_desbloqueo		432	string	-	-
+GA_LISTAPER2_scod_rettar		433	string	-	-
+GA_LISTAPER2_lnum_maxitems		434	long	-	-
+GA_LISTAPER2_lnum_maxfijos		435	long	-	-
+GA_LISTAPER2_scad_regex		436	string	-	-
+GA_LISTAPER2__rpr_ret		437	long	-	-
+# FIN DE SERVICIO GA_LISTAPER2
+
+# Identificadores para el servicio GA_ELIMITEM
+# INICIO DE SERVICIO GA_ELIMITEM
+GA_ELIMITEM_scad_item		438	string	-	-
+GA_ELIMITEM_dimp_coste		439	double	-	-
+GA_ELIMITEM_scod_moneda		440	string	-	-
+GA_ELIMITEM_scod_causa		441	string	-	-
+GA_ELIMITEM_scod_usuario		442	string	-	-
+GA_ELIMITEM_stoken		443	string	-	-
+GA_ELIMITEM_ln_regs		444	long	-	-
+GA_ELIMITEM_chay_mas		445	carray	-	-
+GA_ELIMITEM_asec_actuacion		446	string	-	-
+GA_ELIMITEM__rpr_ret		447	long	-	-
+# FIN DE SERVICIO GA_ELIMITEM
+
+# Identificadores para el servicio GA_CMODLIS3
+# INICIO DE SERVICIO GA_CMODLIS3
+GA_CMODLIS3_num_abonado		448	string	-	-
+GA_CMODLIS3_scod_listasdp		449	string	-	-
+GA_CMODLIS3_scad_item_old		450	string	-	-
+GA_CMODLIS3_scad_item_new		451	string	-	-
+GA_CMODLIS3_scod_usuario		452	string	-	-
+GA_CMODLIS3_sflg_cItemRep		453	string	-	-
+GA_CMODLIS3_scod_act		454	string	-	-
+GA_CMODLIS3__rpr_ret		455	long	-	-
+# FIN DE SERVICIO GA_CMODLIS3
+

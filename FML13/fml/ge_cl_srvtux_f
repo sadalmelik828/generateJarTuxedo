@@ -1,0 +1,99 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [ge_cl_srvtux.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# ge_cl_srvtux_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz GE_CL_SRVTUX versión 1.0 
+#
+
+*base		3514000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GECL_ALTA_USU
+# INICIO DE SERVICIO GECL_ALTA_USU
+GECL_ALTA_USU_num_a		0	string	-	-
+GECL_ALTA_USU_cod_servicio		1	string	-	-
+GECL_ALTA_USU_clave		2	string	-	-
+GECL_ALTA_USU__rpr_ret		3	short	-	-
+# FIN DE SERVICIO GECL_ALTA_USU
+
+# Identificadores para el servicio GECL_BAJA_USU
+# INICIO DE SERVICIO GECL_BAJA_USU
+GECL_BAJA_USU_num_a		4	string	-	-
+GECL_BAJA_USU_cod_servicio		5	string	-	-
+GECL_BAJA_USU__rpr_ret		6	short	-	-
+# FIN DE SERVICIO GECL_BAJA_USU
+
+# Identificadores para el servicio GECL_MOD_CLAVE
+# INICIO DE SERVICIO GECL_MOD_CLAVE
+GECL_MOD_CLAVE_num_a		7	string	-	-
+GECL_MOD_CLAVE_cod_servicio		8	string	-	-
+GECL_MOD_CLAVE_clave_antigua		9	string	-	-
+GECL_MOD_CLAVE_clave_nueva		10	string	-	-
+GECL_MOD_CLAVE_validacion		11	short	-	-
+GECL_MOD_CLAVE__rpr_ret		12	short	-	-
+# FIN DE SERVICIO GECL_MOD_CLAVE
+
+# Identificadores para el servicio GECL_CON_CLAVE
+# INICIO DE SERVICIO GECL_CON_CLAVE
+GECL_CON_CLAVE_num_a		13	string	-	-
+GECL_CON_CLAVE_cod_servicio		14	string	-	-
+GECL_CON_CLAVE_clave		15	string	-	-
+GECL_CON_CLAVE__rpr_ret		16	short	-	-
+# FIN DE SERVICIO GECL_CON_CLAVE
+
+# Identificadores para el servicio GECL_INI_CLAVE
+# INICIO DE SERVICIO GECL_INI_CLAVE
+GECL_INI_CLAVE_num_a		17	string	-	-
+GECL_INI_CLAVE_cod_servicio		18	string	-	-
+GECL_INI_CLAVE__rpr_ret		19	short	-	-
+# FIN DE SERVICIO GECL_INI_CLAVE
+
+# Identificadores para el servicio GECL_MOD_NUM_A
+# INICIO DE SERVICIO GECL_MOD_NUM_A
+GECL_MOD_NUM_A_num_a		20	string	-	-
+GECL_MOD_NUM_A_num_a_nuevo		21	string	-	-
+GECL_MOD_NUM_A__rpr_ret		22	short	-	-
+# FIN DE SERVICIO GECL_MOD_NUM_A
+
+# Identificadores para el servicio GECL_BAJA_G_USU
+# INICIO DE SERVICIO GECL_BAJA_G_USU
+GECL_BAJA_G_USU_num_a		23	string	-	-
+GECL_BAJA_G_USU__rpr_ret		24	short	-	-
+# FIN DE SERVICIO GECL_BAJA_G_USU
+
+# Identificadores para el servicio GL_CON_EST_CLV
+# INICIO DE SERVICIO GL_CON_EST_CLV
+GL_CON_EST_CLV_num_a		25	string	-	-
+GL_CON_EST_CLV_cod_servicio		26	string	-	-
+GL_CON_EST_CLV_cod_estado		27	string	-	-
+GL_CON_EST_CLV__rpr_ret		28	short	-	-
+# FIN DE SERVICIO GL_CON_EST_CLV
+
+# Identificadores para el servicio GL_VALIDAR_CLV
+# INICIO DE SERVICIO GL_VALIDAR_CLV
+GL_VALIDAR_CLV_num_a		29	string	-	-
+GL_VALIDAR_CLV_cod_servicio		30	string	-	-
+GL_VALIDAR_CLV_clave		31	string	-	-
+GL_VALIDAR_CLV__rpr_ret		32	short	-	-
+# FIN DE SERVICIO GL_VALIDAR_CLV
+
+# Identificadores para el servicio GL_ACT_DES_CLV
+# INICIO DE SERVICIO GL_ACT_DES_CLV
+GL_ACT_DES_CLV_num_a		33	string	-	-
+GL_ACT_DES_CLV_cod_servicio		34	string	-	-
+GL_ACT_DES_CLV_clave		35	string	-	-
+GL_ACT_DES_CLV_tipo_actuacion		36	short	-	-
+GL_ACT_DES_CLV__rpr_ret		37	short	-	-
+# FIN DE SERVICIO GL_ACT_DES_CLV
+
+# Identificadores para el servicio GECL_BAJA_USU2
+# INICIO DE SERVICIO GECL_BAJA_USU2
+GECL_BAJA_USU2_num_a		38	string	-	-
+GECL_BAJA_USU2_cod_servicio		39	string	-	-
+GECL_BAJA_USU2_num_servicios		40	long	-	-
+GECL_BAJA_USU2__rpr_ret		41	short	-	-
+# FIN DE SERVICIO GECL_BAJA_USU2
+

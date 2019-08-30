@@ -1,0 +1,45 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_sms.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_sms_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3288000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_CONSUSCSMS
+# INICIO DE SERVICIO GA_CONSUSCSMS
+GA_CONSUSCSMS_num_telefono		0	string	-	-
+GA_CONSUSCSMS_cod_idioma		1	string	-	-
+GA_CONSUSCSMS_n_regs		2	long	-	-
+GA_CONSUSCSMS_token		3	string	-	-
+GA_CONSUSCSMS_ide_suscripcion		4	string	-	-
+GA_CONSUSCSMS_des_suscripcion		5	string	-	-
+GA_CONSUSCSMS_flg_suscrito		6	string	-	-
+GA_CONSUSCSMS_hay_mas		7	string	-	-
+GA_CONSUSCSMS__rpr_ret		8	long	-	-
+# FIN DE SERVICIO GA_CONSUSCSMS
+
+# Identificadores para el servicio GA_CONABOSUSSMS
+# INICIO DE SERVICIO GA_CONABOSUSSMS
+GA_CONABOSUSSMS_num_telefono		9	string	-	-
+GA_CONABOSUSSMS_cod_idioma		10	string	-	-
+GA_CONABOSUSSMS_n_regs		11	long	-	-
+GA_CONABOSUSSMS_token		12	string	-	-
+GA_CONABOSUSSMSide_suscripci01		13	string	-	-
+GA_CONABOSUSSMSdes_suscripci01		14	string	-	-
+GA_CONABOSUSSMS_hay_mas		15	string	-	-
+GA_CONABOSUSSMS__rpr_ret		16	long	-	-
+# FIN DE SERVICIO GA_CONABOSUSSMS
+
+# Identificadores para el servicio GA_SUSC_SMS
+# INICIO DE SERVICIO GA_SUSC_SMS
+GA_SUSC_SMS_num_telefono		17	string	-	-
+GA_SUSC_SMS_ide_suscripcion		18	string	-	-
+GA_SUSC_SMS_flg_anulacion		19	string	-	-
+GA_SUSC_SMS_cod_usuario		20	string	-	-
+GA_SUSC_SMS__rpr_ret		21	long	-	-
+# FIN DE SERVICIO GA_SUSC_SMS
+

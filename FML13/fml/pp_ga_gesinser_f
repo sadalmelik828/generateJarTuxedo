@@ -1,0 +1,409 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gesinser.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gesinser_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3233000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_SUSCRIP
+# INICIO DE SERVICIO PP_GA_SUSCRIP
+PP_GA_SUSCRIP_n_regs		0	long	-	-
+PP_GA_SUSCRIP_num_telefono		1	string	-	-
+PP_GA_SUSCRIP_lcod_servicio		2	string	-	-
+PP_GA_SUSCRIP_lcta_facturac		3	string	-	-
+PP_GA_SUSCRIP_lcod_inactivo		4	string	-	-
+PP_GA_SUSCRIP_lcod_causus		5	string	-	-
+PP_GA_SUSCRIP_fec_inidesac		6	string	-	-
+PP_GA_SUSCRIP_fec_findesac		7	string	-	-
+PP_GA_SUSCRIP_fec_alta		8	string	-	-
+PP_GA_SUSCRIP_fec_baja		9	string	-	-
+PP_GA_SUSCRIP_lcod_causbaja		10	string	-	-
+PP_GA_SUSCRIP_ltel_contrato		11	string	-	-
+PP_GA_SUSCRIP_lflag_mc		12	string	-	-
+PP_GA_SUSCRIP_lcod_ventasesc1		13	string	-	-
+PP_GA_SUSCRIP_lcod_ventasesc2		14	string	-	-
+PP_GA_SUSCRIP_lcod_ventasesc3		15	string	-	-
+PP_GA_SUSCRIP_lcod_ventasesc4		16	string	-	-
+PP_GA_SUSCRIP_pcHayMas		17	carray	-	-
+PP_GA_SUSCRIP__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_SUSCRIP
+
+# Identificadores para el servicio PP_GA_SUSCRIP2
+# INICIO DE SERVICIO PP_GA_SUSCRIP2
+PP_GA_SUSCRIP2_n_regs		19	long	-	-
+PP_GA_SUSCRIP2_num_telefono		20	string	-	-
+PP_GA_SUSCRIP2_cod_servicio		21	string	-	-
+PP_GA_SUSCRIP2_lcod_servicio		22	string	-	-
+PP_GA_SUSCRIP2_lcta_facturac		23	string	-	-
+PP_GA_SUSCRIP2_lcod_inactivo		24	string	-	-
+PP_GA_SUSCRIP2_lcod_causus		25	string	-	-
+PP_GA_SUSCRIP2_fec_inidesac		26	string	-	-
+PP_GA_SUSCRIP2_fec_findesac		27	string	-	-
+PP_GA_SUSCRIP2_fec_alta		28	string	-	-
+PP_GA_SUSCRIP2_fec_baja		29	string	-	-
+PP_GA_SUSCRIP2_lcod_causbaja		30	string	-	-
+PP_GA_SUSCRIP2_ltel_contrato		31	string	-	-
+PP_GA_SUSCRIP2_lflag_mc		32	string	-	-
+PP_GA_SUSCRIP2_lcod_ventasesc1		33	string	-	-
+PP_GA_SUSCRIP2_lcod_ventasesc2		34	string	-	-
+PP_GA_SUSCRIP2_lcod_ventasesc3		35	string	-	-
+PP_GA_SUSCRIP2_lcod_ventasesc4		36	string	-	-
+PP_GA_SUSCRIP2_pcHayMas		37	carray	-	-
+PP_GA_SUSCRIP2__rpr_ret		38	long	-	-
+# FIN DE SERVICIO PP_GA_SUSCRIP2
+
+# Identificadores para el servicio PP_GA_SUSCRIP3
+# INICIO DE SERVICIO PP_GA_SUSCRIP3
+PP_GA_SUSCRIP3_n_regs		39	long	-	-
+PP_GA_SUSCRIP3_num_telefono		40	string	-	-
+PP_GA_SUSCRIP3_cod_servicio		41	string	-	-
+PP_GA_SUSCRIP3_lcod_servicio		42	string	-	-
+PP_GA_SUSCRIP3_lcta_facturac		43	string	-	-
+PP_GA_SUSCRIP3_lcod_inactivo		44	string	-	-
+PP_GA_SUSCRIP3_lcod_causus		45	string	-	-
+PP_GA_SUSCRIP3_fec_inidesac		46	string	-	-
+PP_GA_SUSCRIP3_fec_findesac		47	string	-	-
+PP_GA_SUSCRIP3_fec_alta		48	string	-	-
+PP_GA_SUSCRIP3_fec_baja		49	string	-	-
+PP_GA_SUSCRIP3_lcod_causbaja		50	string	-	-
+PP_GA_SUSCRIP3_ltel_contrato		51	string	-	-
+PP_GA_SUSCRIP3_lflag_mc		52	string	-	-
+PP_GA_SUSCRIP3_lcod_ventasesc1		53	string	-	-
+PP_GA_SUSCRIP3_lcod_ventasesc2		54	string	-	-
+PP_GA_SUSCRIP3_lcod_ventasesc3		55	string	-	-
+PP_GA_SUSCRIP3_lcod_ventasesc4		56	string	-	-
+PP_GA_SUSCRIP3_pcHayMas		57	carray	-	-
+PP_GA_SUSCRIP3_lnum_orden		58	long	-	-
+PP_GA_SUSCRIP3_sfec_baja		59	string	-	-
+PP_GA_SUSCRIP3__rpr_ret		60	long	-	-
+# FIN DE SERVICIO PP_GA_SUSCRIP3
+
+# Identificadores para el servicio PP_GA_CTASUS
+# INICIO DE SERVICIO PP_GA_CTASUS
+PP_GA_CTASUS_n_regs		61	long	-	-
+PP_GA_CTASUS_cta_facturac		62	string	-	-
+PP_GA_CTASUS_cod_servicio		63	string	-	-
+PP_GA_CTASUS_num_telefono		64	string	-	-
+PP_GA_CTASUS_lcod_servicio		65	string	-	-
+PP_GA_CTASUS_lnum_telefono		66	string	-	-
+PP_GA_CTASUS_lcod_inactivo		67	string	-	-
+PP_GA_CTASUS_lcod_causus		68	string	-	-
+PP_GA_CTASUS_fec_inidesac		69	string	-	-
+PP_GA_CTASUS_fec_findesac		70	string	-	-
+PP_GA_CTASUS_fec_alta		71	string	-	-
+PP_GA_CTASUS_fec_baja		72	string	-	-
+PP_GA_CTASUS_lcod_causbaja		73	string	-	-
+PP_GA_CTASUS_ltel_contrato		74	string	-	-
+PP_GA_CTASUS_lflag_mc		75	string	-	-
+PP_GA_CTASUS_lcod_ventasesc1		76	string	-	-
+PP_GA_CTASUS_lcod_ventasesc2		77	string	-	-
+PP_GA_CTASUS_lcod_ventasesc3		78	string	-	-
+PP_GA_CTASUS_lcod_ventasesc4		79	string	-	-
+PP_GA_CTASUS_pcHayMas		80	carray	-	-
+PP_GA_CTASUS__rpr_ret		81	long	-	-
+# FIN DE SERVICIO PP_GA_CTASUS
+
+# Identificadores para el servicio PP_GA_CTASERV
+# INICIO DE SERVICIO PP_GA_CTASERV
+PP_GA_CTASERV_n_regs		82	long	-	-
+PP_GA_CTASERV_cta_facturac		83	string	-	-
+PP_GA_CTASERV_cod_servicio		84	string	-	-
+PP_GA_CTASERV_lcod_servicio		85	string	-	-
+PP_GA_CTASERV_pcHayMas		86	carray	-	-
+PP_GA_CTASERV__rpr_ret		87	long	-	-
+# FIN DE SERVICIO PP_GA_CTASERV
+
+# Identificadores para el servicio PP_GA_MODFLMC
+# INICIO DE SERVICIO PP_GA_MODFLMC
+PP_GA_MODFLMC_num_telefono		88	string	-	-
+PP_GA_MODFLMC_cod_servicio		89	string	-	-
+PP_GA_MODFLMC_flag_mc		90	string	-	-
+PP_GA_MODFLMC__rpr_ret		91	long	-	-
+# FIN DE SERVICIO PP_GA_MODFLMC
+
+# Identificadores para el servicio PP_GA_CTASUS2
+# INICIO DE SERVICIO PP_GA_CTASUS2
+PP_GA_CTASUS2_n_regs		92	long	-	-
+PP_GA_CTASUS2_cta_facturac		93	string	-	-
+PP_GA_CTASUS2_cod_servicio		94	string	-	-
+PP_GA_CTASUS2_ref_servicio		95	string	-	-
+PP_GA_CTASUS2_num_telefono		96	string	-	-
+PP_GA_CTASUS2_lcod_servicio		97	string	-	-
+PP_GA_CTASUS2_lnum_telefono		98	string	-	-
+PP_GA_CTASUS2_lcod_inactivo		99	string	-	-
+PP_GA_CTASUS2_lcod_causus		100	string	-	-
+PP_GA_CTASUS2_fec_inidesac		101	string	-	-
+PP_GA_CTASUS2_fec_findesac		102	string	-	-
+PP_GA_CTASUS2_fec_alta		103	string	-	-
+PP_GA_CTASUS2_fec_baja		104	string	-	-
+PP_GA_CTASUS2_lcod_causbaja		105	string	-	-
+PP_GA_CTASUS2_ltel_contrato		106	string	-	-
+PP_GA_CTASUS2_lflag_mc		107	string	-	-
+PP_GA_CTASUS2_lcod_ventasesc1		108	string	-	-
+PP_GA_CTASUS2_lcod_ventasesc2		109	string	-	-
+PP_GA_CTASUS2_lcod_ventasesc3		110	string	-	-
+PP_GA_CTASUS2_lcod_ventasesc4		111	string	-	-
+PP_GA_CTASUS2_pcHayMas		112	carray	-	-
+PP_GA_CTASUS2__rpr_ret		113	long	-	-
+# FIN DE SERVICIO PP_GA_CTASUS2
+
+# Identificadores para el servicio PP_GA_MODLIM
+# INICIO DE SERVICIO PP_GA_MODLIM
+PP_GA_MODLIM_num_telefono		114	string	-	-
+PP_GA_MODLIM_max_importe		115	double	-	-
+PP_GA_MODLIM_max_recargas		116	long	-	-
+PP_GA_MODLIM_cod_moneda		117	string	-	-
+PP_GA_MODLIM__rpr_ret		118	long	-	-
+# FIN DE SERVICIO PP_GA_MODLIM
+
+# Identificadores para el servicio PP_GA_ACUMSER
+# INICIO DE SERVICIO PP_GA_ACUMSER
+PP_GA_ACUMSER_cod_servicio		119	string	-	-
+PP_GA_ACUMSER_fec_fin		120	string	-	-
+PP_GA_ACUMSER_n_regs		121	long	-	-
+PP_GA_ACUMSER_token		122	string	-	-
+PP_GA_ACUMSER_lcod_servicio		123	string	-	-
+PP_GA_ACUMSER_lcod_origreca		124	string	-	-
+PP_GA_ACUMSER_lmod_rau		125	string	-	-
+PP_GA_ACUMSER_lsuspendida		126	string	-	-
+PP_GA_ACUMSER_ltipo_lista		127	string	-	-
+PP_GA_ACUMSER_total		128	long	-	-
+PP_GA_ACUMSER_hayMas		129	long	-	-
+PP_GA_ACUMSER__rpr_ret		130	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMSER
+
+# Identificadores para el servicio PP_GA_ALTSERV
+# INICIO DE SERVICIO PP_GA_ALTSERV
+PP_GA_ALTSERV_snum_telefono		131	string	-	-
+PP_GA_ALTSERV_scod_servicio		132	string	-	-
+PP_GA_ALTSERV_scod_usuario		133	string	-	-
+PP_GA_ALTSERV__rpr_ret		134	long	-	-
+# FIN DE SERVICIO PP_GA_ALTSERV
+
+# Identificadores para el servicio PP_GA_BAJSERV
+# INICIO DE SERVICIO PP_GA_BAJSERV
+PP_GA_BAJSERV_snum_telefono		135	string	-	-
+PP_GA_BAJSERV_scod_servicio		136	string	-	-
+PP_GA_BAJSERV_scod_causbaja		137	string	-	-
+PP_GA_BAJSERV_scod_usuario		138	string	-	-
+PP_GA_BAJSERV__rpr_ret		139	long	-	-
+# FIN DE SERVICIO PP_GA_BAJSERV
+
+# Identificadores para el servicio PP_GA_DSUSCRIP
+# INICIO DE SERVICIO PP_GA_DSUSCRIP
+PP_GA_DSUSCRIP_snum_telefono		140	string	-	-
+PP_GA_DSUSCRIPscod_servicio_01		141	string	-	-
+PP_GA_DSUSCRIP_lorden		142	long	-	-
+PP_GA_DSUSCRIP_ln_regs		143	long	-	-
+PP_GA_DSUSCRIP_stoken		144	string	-	-
+PP_GA_DSUSCRIPscod_servicio_02		145	string	-	-
+PP_GA_DSUSCRIP_scta_facturac		146	string	-	-
+PP_GA_DSUSCRIP_scod_inactivo		147	string	-	-
+PP_GA_DSUSCRIP_scod_causus		148	string	-	-
+PP_GA_DSUSCRIP_sfec_inidesac		149	string	-	-
+PP_GA_DSUSCRIP_sfec_findesac		150	string	-	-
+PP_GA_DSUSCRIP_sfec_alta		151	string	-	-
+PP_GA_DSUSCRIPsfec_baja_serv01		152	string	-	-
+PP_GA_DSUSCRIP_scod_causbaja		153	string	-	-
+PP_GA_DSUSCRIP_stel_contrato		154	string	-	-
+PP_GA_DSUSCRIP_sflag_mc		155	string	-	-
+PP_GA_DSUSCRIP_scod_ventasesc1		156	string	-	-
+PP_GA_DSUSCRIP_scod_ventasesc2		157	string	-	-
+PP_GA_DSUSCRIP_scod_ventasesc3		158	string	-	-
+PP_GA_DSUSCRIP_scod_ventasesc4		159	string	-	-
+PP_GA_DSUSCRIP_sfec_modifica		160	string	-	-
+PP_GA_DSUSCRIPsfec_baja_abon01		161	string	-	-
+PP_GA_DSUSCRIP__rpr_ret		162	long	-	-
+# FIN DE SERVICIO PP_GA_DSUSCRIP
+
+# Identificadores para el servicio PP_GA_SOLCADU
+# INICIO DE SERVICIO PP_GA_SOLCADU
+PP_GA_SOLCADU_snum_telefono		163	string	-	-
+PP_GA_SOLCADU_lnum_segundos		164	long	-	-
+PP_GA_SOLCADU_dimp_coste		165	double	-	-
+PP_GA_SOLCADU_scod_moneda		166	string	-	-
+PP_GA_SOLCADU_scod_usuario		167	string	-	-
+PP_GA_SOLCADU_lsec_actuacion		168	long	-	-
+PP_GA_SOLCADU__rpr_ret		169	long	-	-
+# FIN DE SERVICIO PP_GA_SOLCADU
+
+# Identificadores para el servicio PP_GA_SUSCRIP4
+# INICIO DE SERVICIO PP_GA_SUSCRIP4
+PP_GA_SUSCRIP4_n_regs		170	long	-	-
+PP_GA_SUSCRIP4_num_telefono		171	string	-	-
+PP_GA_SUSCRIP4_cod_servicio		172	string	-	-
+PP_GA_SUSCRIP4_lcod_servicio		173	string	-	-
+PP_GA_SUSCRIP4_lcta_facturac		174	string	-	-
+PP_GA_SUSCRIP4_lcod_inactivo		175	string	-	-
+PP_GA_SUSCRIP4_lcod_causus		176	string	-	-
+PP_GA_SUSCRIP4_fec_inidesac		177	string	-	-
+PP_GA_SUSCRIP4_fec_findesac		178	string	-	-
+PP_GA_SUSCRIP4_fec_alta		179	string	-	-
+PP_GA_SUSCRIP4_fec_baja		180	string	-	-
+PP_GA_SUSCRIP4_lcod_causbaja		181	string	-	-
+PP_GA_SUSCRIP4_ltel_contrato		182	string	-	-
+PP_GA_SUSCRIP4_lflag_mc		183	string	-	-
+PP_GA_SUSCRIP4_lcod_ventasesc1		184	string	-	-
+PP_GA_SUSCRIP4_lcod_ventasesc2		185	string	-	-
+PP_GA_SUSCRIP4_lcod_ventasesc3		186	string	-	-
+PP_GA_SUSCRIP4_lcod_ventasesc4		187	string	-	-
+PP_GA_SUSCRIP4_sfec_baja		188	string	-	-
+PP_GA_SUSCRIP4_lnum_orden		189	long	-	-
+PP_GA_SUSCRIP4_token		190	string	-	-
+PP_GA_SUSCRIP4__rpr_ret		191	long	-	-
+# FIN DE SERVICIO PP_GA_SUSCRIP4
+
+# Identificadores para el servicio PP_GA_SOLCADU2
+# INICIO DE SERVICIO PP_GA_SOLCADU2
+PP_GA_SOLCADU2_num_telefono		192	string	-	-
+PP_GA_SOLCADU2_ind_incremento		193	string	-	-
+PP_GA_SOLCADU2_num_segundos		194	long	-	-
+PP_GA_SOLCADU2_fec_caduca		195	string	-	-
+PP_GA_SOLCADU2_imp_coste		196	double	-	-
+PP_GA_SOLCADU2_cod_moneda		197	string	-	-
+PP_GA_SOLCADU2_cod_usuario		198	string	-	-
+PP_GA_SOLCADU2_sec_actuacion		199	long	-	-
+PP_GA_SOLCADU2__rpr_ret		200	long	-	-
+# FIN DE SERVICIO PP_GA_SOLCADU2
+
+# Identificadores para el servicio PP_GA_ALTSERAC
+# INICIO DE SERVICIO PP_GA_ALTSERAC
+PP_GA_ALTSERAC_snum_telefono		201	string	-	-
+PP_GA_ALTSERAC_dimporte		202	double	-	-
+PP_GA_ALTSERAC_scod_moneda		203	string	-	-
+PP_GA_ALTSERAC_scod_causa		204	string	-	-
+PP_GA_ALTSERAC_scod_usuario		205	string	-	-
+PP_GA_ALTSERAC_lsec_actuacion		206	long	-	-
+PP_GA_ALTSERAC__rpr_ret		207	long	-	-
+# FIN DE SERVICIO PP_GA_ALTSERAC
+
+# Identificadores para el servicio PP_GA_BAJSERAC
+# INICIO DE SERVICIO PP_GA_BAJSERAC
+PP_GA_BAJSERAC_snum_telefono		208	string	-	-
+PP_GA_BAJSERAC_dimporte		209	double	-	-
+PP_GA_BAJSERAC_scod_moneda		210	string	-	-
+PP_GA_BAJSERAC_scod_causa		211	string	-	-
+PP_GA_BAJSERAC_scod_usuario		212	string	-	-
+PP_GA_BAJSERAC_lsec_actuacion		213	long	-	-
+PP_GA_BAJSERAC__rpr_ret		214	long	-	-
+# FIN DE SERVICIO PP_GA_BAJSERAC
+
+# Identificadores para el servicio PP_GA_PRECARGA
+# INICIO DE SERVICIO PP_GA_PRECARGA
+PP_GA_PRECARGA_snum_telefono		215	string	-	-
+PP_GA_PRECARGA_scod_usuario		216	string	-	-
+PP_GA_PRECARGA__rpr_ret		217	long	-	-
+# FIN DE SERVICIO PP_GA_PRECARGA
+
+# Identificadores para el servicio PP_GA_ALTANOTEX
+# INICIO DE SERVICIO PP_GA_ALTANOTEX
+PP_GA_ALTANOTEX_stelefono		218	string	-	-
+PP_GA_ALTANOTEX_scod_usuario		219	string	-	-
+PP_GA_ALTANOTEX_ssec_actuacion		220	string	-	-
+PP_GA_ALTANOTEX__rpr_ret		221	long	-	-
+# FIN DE SERVICIO PP_GA_ALTANOTEX
+
+# Identificadores para el servicio PP_GA_BAJANOTEX
+# INICIO DE SERVICIO PP_GA_BAJANOTEX
+PP_GA_BAJANOTEX_telefono		222	string	-	-
+PP_GA_BAJANOTEX_cod_usuario		223	string	-	-
+PP_GA_BAJANOTEX_ssec_actuacion		224	string	-	-
+PP_GA_BAJANOTEX__rpr_ret		225	long	-	-
+# FIN DE SERVICIO PP_GA_BAJANOTEX
+
+# Identificadores para el servicio PP_GA_SOLCADU3
+# INICIO DE SERVICIO PP_GA_SOLCADU3
+PP_GA_SOLCADU3_num_telefono		226	string	-	-
+PP_GA_SOLCADU3_ind_incremento		227	string	-	-
+PP_GA_SOLCADU3_num_segundos		228	long	-	-
+PP_GA_SOLCADU3_fec_caduca		229	string	-	-
+PP_GA_SOLCADU3_imp_coste		230	double	-	-
+PP_GA_SOLCADU3_cod_moneda		231	string	-	-
+PP_GA_SOLCADU3_cod_usuario		232	string	-	-
+PP_GA_SOLCADU3_sec_actuacion		233	string	-	-
+PP_GA_SOLCADU3__rpr_ret		234	long	-	-
+# FIN DE SERVICIO PP_GA_SOLCADU3
+
+# Identificadores para el servicio PP_GA_ALTSERA2
+# INICIO DE SERVICIO PP_GA_ALTSERA2
+PP_GA_ALTSERA2_snum_telefono		235	string	-	-
+PP_GA_ALTSERA2_dimporte		236	double	-	-
+PP_GA_ALTSERA2_scod_moneda		237	string	-	-
+PP_GA_ALTSERA2_scod_causa		238	string	-	-
+PP_GA_ALTSERA2_scod_usuario		239	string	-	-
+PP_GA_ALTSERA2_sec_actuacion		240	string	-	-
+PP_GA_ALTSERA2__rpr_ret		241	long	-	-
+# FIN DE SERVICIO PP_GA_ALTSERA2
+
+# Identificadores para el servicio PP_GA_BAJSERA2
+# INICIO DE SERVICIO PP_GA_BAJSERA2
+PP_GA_BAJSERA2_snum_telefono		242	string	-	-
+PP_GA_BAJSERA2_dimporte		243	double	-	-
+PP_GA_BAJSERA2_scod_moneda		244	string	-	-
+PP_GA_BAJSERA2_scod_causa		245	string	-	-
+PP_GA_BAJSERA2_scod_usuario		246	string	-	-
+PP_GA_BAJSERA2_sec_actuacion		247	string	-	-
+PP_GA_BAJSERA2__rpr_ret		248	long	-	-
+# FIN DE SERVICIO PP_GA_BAJSERA2
+
+# Identificadores para el servicio GA_ALTANOTEXT
+# INICIO DE SERVICIO GA_ALTANOTEXT
+GA_ALTANOTEXT_num_telefono		249	string	-	-
+GA_ALTANOTEXT_side_nodo		250	string	-	-
+GA_ALTANOTEXT_scod_usuario		251	string	-	-
+GA_ALTANOTEXT_scod_moneda		252	string	-	-
+GA_ALTANOTEXT_dimp_coste		253	double	-	-
+GA_ALTANOTEXT_ssec_actuacion		254	string	-	-
+GA_ALTANOTEXT__rpr_ret		255	long	-	-
+# FIN DE SERVICIO GA_ALTANOTEXT
+
+# Identificadores para el servicio GA_BAJANOTEXT
+# INICIO DE SERVICIO GA_BAJANOTEXT
+GA_BAJANOTEXT_num_telefono		256	string	-	-
+GA_BAJANOTEXT_side_nodo		257	string	-	-
+GA_BAJANOTEXT_scod_usuario		258	string	-	-
+GA_BAJANOTEXT_scod_moneda		259	string	-	-
+GA_BAJANOTEXT_dimp_coste		260	double	-	-
+GA_BAJANOTEXT_ssec_actuacion		261	string	-	-
+GA_BAJANOTEXT__rpr_ret		262	long	-	-
+# FIN DE SERVICIO GA_BAJANOTEXT
+
+# Identificadores para el servicio GA_CONNOTEXT
+# INICIO DE SERVICIO GA_CONNOTEXT
+GA_CONNOTEXT_num_telefono		263	string	-	-
+GA_CONNOTEXT_sfecha_ini		264	string	-	-
+GA_CONNOTEXT_sfecha_fin		265	string	-	-
+GA_CONNOTEXT_ssec_actuacion		266	string	-	-
+GA_CONNOTEXT_ln_regs		267	long	-	-
+GA_CONNOTEXT_stoken		268	string	-	-
+GA_CONNOTEXT_assec_actuacion		269	string	-	-
+GA_CONNOTEXT_aside_nodo		270	string	-	-
+GA_CONNOTEXT_asip		271	string	-	-
+GA_CONNOTEXT_lpuerto		272	long	-	-
+GA_CONNOTEXTasfecha_notifica01		273	string	-	-
+GA_CONNOTEXT_asfecha_actuacion		274	string	-	-
+GA_CONNOTEXT_ascod_estarec		275	string	-	-
+GA_CONNOTEXT_ascod_error		276	string	-	-
+GA_CONNOTEXT_asfecha_intento		277	string	-	-
+GA_CONNOTEXT_lnum_intento		278	long	-	-
+GA_CONNOTEXT_shay_mas		279	carray	-	-
+GA_CONNOTEXT__rpr_ret		280	long	-	-
+# FIN DE SERVICIO GA_CONNOTEXT
+
+# Identificadores para el servicio GA_DETNOTEXT
+# INICIO DE SERVICIO GA_DETNOTEXT
+GA_DETNOTEXT_num_telefono		281	string	-	-
+GA_DETNOTEXT_ssec_actuacion		282	string	-	-
+GA_DETNOTEXT_ln_regs		283	long	-	-
+GA_DETNOTEXT_stoken		284	string	-	-
+GA_DETNOTEXT_asgrupo		285	string	-	-
+GA_DETNOTEXT_asconcepto		286	string	-	-
+GA_DETNOTEXT_asvalor		287	string	-	-
+GA_DETNOTEXT_shay_mas		288	carray	-	-
+GA_DETNOTEXT__rpr_ret		289	long	-	-
+# FIN DE SERVICIO GA_DETNOTEXT
+

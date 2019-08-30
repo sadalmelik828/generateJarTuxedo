@@ -1,0 +1,55 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_migcon.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_migcon_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3231000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_SOLMAC
+# INICIO DE SERVICIO PP_GA_SOLMAC
+PP_GA_SOLMAC_num_telefono		0	string	-	-
+PP_GA_SOLMAC_num_icc		1	string	-	-
+PP_GA_SOLMAC__rpr_ret		2	long	-	-
+# FIN DE SERVICIO PP_GA_SOLMAC
+
+# Identificadores para el servicio PP_GA_VSOLMAC
+# INICIO DE SERVICIO PP_GA_VSOLMAC
+PP_GA_VSOLMAC_num_telefono		3	string	-	-
+PP_GA_VSOLMAC_num_icc		4	string	-	-
+PP_GA_VSOLMAC_cod_zonaoper		5	string	-	-
+PP_GA_VSOLMAC_num_puk		6	string	-	-
+PP_GA_VSOLMAC_num_puk2		7	string	-	-
+PP_GA_VSOLMAC_cod_tipotarj		8	string	-	-
+PP_GA_VSOLMAC_cod_perftarj		9	string	-	-
+PP_GA_VSOLMAC_fec_antig		10	string	-	-
+PP_GA_VSOLMAC__rpr_ret		11	long	-	-
+# FIN DE SERVICIO PP_GA_VSOLMAC
+
+# Identificadores para el servicio PP_GA_SOLMAC2
+# INICIO DE SERVICIO PP_GA_SOLMAC2
+PP_GA_SOLMAC2_num_telefono		12	string	-	-
+PP_GA_SOLMAC2_num_icc		13	string	-	-
+PP_GA_SOLMAC2_coste		14	double	-	-
+PP_GA_SOLMAC2_cod_moneda		15	string	-	-
+PP_GA_SOLMAC2_cod_causa		16	string	-	-
+PP_GA_SOLMAC2_cod_usuario		17	string	-	-
+PP_GA_SOLMAC2_sec_actuacion		18	long	-	-
+PP_GA_SOLMAC2__rpr_ret		19	long	-	-
+# FIN DE SERVICIO PP_GA_SOLMAC2
+
+# Identificadores para el servicio PP_GA_SOLMAC3
+# INICIO DE SERVICIO PP_GA_SOLMAC3
+PP_GA_SOLMAC3_num_telefono		20	string	-	-
+PP_GA_SOLMAC3_num_icc		21	string	-	-
+PP_GA_SOLMAC3_coste		22	double	-	-
+PP_GA_SOLMAC3_cod_moneda		23	string	-	-
+PP_GA_SOLMAC3_cod_causa		24	string	-	-
+PP_GA_SOLMAC3_cod_usuario		25	string	-	-
+PP_GA_SOLMAC3_sec_actuacion		26	string	-	-
+PP_GA_SOLMAC3__rpr_ret		27	long	-	-
+# FIN DE SERVICIO PP_GA_SOLMAC3
+

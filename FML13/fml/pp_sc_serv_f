@@ -1,0 +1,15 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_sc_serv.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_sc_serv_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3510000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_SC_DPBAJLIG
+# INICIO DE SERVICIO PP_SC_DPBAJLIG
+# FIN DE SERVICIO PP_SC_DPBAJLIG
+

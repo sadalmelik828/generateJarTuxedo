@@ -1,0 +1,30 @@
+#/*********************************************************************(C)*/
+#/*                                                                    (C)*/
+#/*  RemoteProcRouter                                                  (C)*/
+#/*  (c) Advanced Vision Technologies, A.V.T. S.A. 1996                (C)*/
+#/*      Todos los derechos reservados                                 (C)*/
+#/*                                                                    (C)*/
+#/*********************************************************************(C)*/
+
+# nombre                       numero  tipo    flags   comentarios
+__rpr_srv_size_in__            101     long    -       -       
+__rpr_srv_name__               102     string  -       -       
+__rpr_srv_version__            103     long    -       -       
+__rpr_srv_flags__              104     long    -       -       
+__rpr_srv_sequence_length__    105     long    -       -       
+__rpr_srv_sequence__           106     carray  -       -       
+__rpr_srv_hostip__             107     carray  -       -       
+__rpr_srv_executionid__        108     long    -       -       
+__rpr_srv_processid__          109     long    -       -       
+__routing__                    110     long    -       -       
+__rpr_srv_reg_sequence__       111     string  -       -       
+__rpr_excp_subsystem__         201     long    -       -       
+__rpr_excp_errcode__           202     long    -       -       
+__rpr_excp_what__              203     string  -       -       
+__rpr_excp_where__             204     string  -       -       
+__rpr_excp_why__               205     string  -       -       
+__rpr_srv_provider__           206     string  -       -     
+__rpr_srv_codMediaType__       207     string  -       -     
+__rpr_srv_erReference__        208     string  -       -     
+__rpr_srv_transactionID__      209     string  -       -     
+__rpr_srv_s2tInstance__        210     string  -       -     

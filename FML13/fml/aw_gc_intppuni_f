@@ -1,0 +1,155 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [aw_gc_intppuni.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# aw_gc_intppuni_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		103000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio AW_GC_BORCLAVE
+# INICIO DE SERVICIO AW_GC_BORCLAVE
+AW_GC_BORCLAVE_num_telefono		0	string	-	-
+AW_GC_BORCLAVE__rpr_ret		1	long	-	-
+# FIN DE SERVICIO AW_GC_BORCLAVE
+
+# Identificadores para el servicio AW_GC_BORCLATI
+# INICIO DE SERVICIO AW_GC_BORCLATI
+AW_GC_BORCLATI_numTelefono		2	string	-	-
+AW_GC_BORCLATI_tipoClave		3	string	-	-
+AW_GC_BORCLATI__rpr_ret		4	long	-	-
+# FIN DE SERVICIO AW_GC_BORCLATI
+
+# Identificadores para el servicio AW_GC_VALCLANU
+# INICIO DE SERVICIO AW_GC_VALCLANU
+AW_GC_VALCLANU_msisdn		5	string	-	-
+AW_GC_VALCLANU_clave		6	string	-	-
+AW_GC_VALCLANU_origen		7	string	-	-
+AW_GC_VALCLANU_tip_clave		8	string	-	-
+AW_GC_VALCLANU_est_clave		9	string	-	-
+AW_GC_VALCLANU_causa		10	string	-	-
+AW_GC_VALCLANU__rpr_ret		11	long	-	-
+# FIN DE SERVICIO AW_GC_VALCLANU
+
+# Identificadores para el servicio AW_GC_VALCLAAF
+# INICIO DE SERVICIO AW_GC_VALCLAAF
+AW_GC_VALCLAAF_num_telefono		12	string	-	-
+AW_GC_VALCLAAF_clave_alf		13	string	-	-
+AW_GC_VALCLAAF_origen		14	string	-	-
+AW_GC_VALCLAAF_tipo_clave		15	string	-	-
+AW_GC_VALCLAAF_estado_clave		16	string	-	-
+AW_GC_VALCLAAF_causa_estado		17	string	-	-
+AW_GC_VALCLAAF__rpr_ret		18	long	-	-
+# FIN DE SERVICIO AW_GC_VALCLAAF
+
+# Identificadores para el servicio AW_GC_CONCLAUN
+# INICIO DE SERVICIO AW_GC_CONCLAUN
+AW_GC_CONCLAUN_num_telefono		19	string	-	-
+AW_GC_CONCLAUN_est_clave		20	string	-	-
+AW_GC_CONCLAUN_tip_envio		21	string	-	-
+AW_GC_CONCLAUN_num_int_fall		22	long	-	-
+AW_GC_CONCLAUN_cod_clave_num		23	string	-	-
+AW_GC_CONCLAUN_cod_clave_alf		24	string	-	-
+AW_GC_CONCLAUN_fec_pet_clave		25	string	-	-
+AW_GC_CONCLAUN_fec_camb_est		26	string	-	-
+AW_GC_CONCLAUN_num_utiliz		27	long	-	-
+AW_GC_CONCLAUN_num_cambios		28	long	-	-
+AW_GC_CONCLAUN_entidad		29	string	-	-
+AW_GC_CONCLAUN_ut_un		30	string	-	-
+AW_GC_CONCLAUN__rpr_ret		31	long	-	-
+# FIN DE SERVICIO AW_GC_CONCLAUN
+
+# Identificadores para el servicio AW_GC_CONCLAUN2
+# INICIO DE SERVICIO AW_GC_CONCLAUN2
+AW_GC_CONCLAUN2_num_telefono		32	string	-	-
+AW_GC_CONCLAUN2_origen		33	string	-	-
+AW_GC_CONCLAUN2_est_clave		34	string	-	-
+AW_GC_CONCLAUN2_tip_envio		35	string	-	-
+AW_GC_CONCLAUN2_num_int_fall		36	long	-	-
+AW_GC_CONCLAUN2_cod_clave_num		37	string	-	-
+AW_GC_CONCLAUN2_cod_clave_alf		38	string	-	-
+AW_GC_CONCLAUN2_fec_pet_clave		39	string	-	-
+AW_GC_CONCLAUN2_fec_camb_est		40	string	-	-
+AW_GC_CONCLAUN2_num_utiliz		41	long	-	-
+AW_GC_CONCLAUN2_num_cambios		42	long	-	-
+AW_GC_CONCLAUN2_entidad		43	string	-	-
+AW_GC_CONCLAUN2_ut_un		44	string	-	-
+AW_GC_CONCLAUN2__rpr_ret		45	long	-	-
+# FIN DE SERVICIO AW_GC_CONCLAUN2
+
+# Identificadores para el servicio AW_GC_SOLCLAUN
+# INICIO DE SERVICIO AW_GC_SOLCLAUN
+AW_GC_SOLCLAUN_numTelefono		46	string	-	-
+AW_GC_SOLCLAUN_icc		47	string	-	-
+AW_GC_SOLCLAUN_estadoEntrega		48	string	-	-
+AW_GC_SOLCLAUN_metodoEntrega		49	string	-	-
+AW_GC_SOLCLAUN_origen		50	string	-	-
+AW_GC_SOLCLAUN_datNombre		51	string	-	-
+AW_GC_SOLCLAUN_datApellido1		52	string	-	-
+AW_GC_SOLCLAUN_datApellido2		53	string	-	-
+AW_GC_SOLCLAUN_datTipoId		54	short	-	-
+AW_GC_SOLCLAUN_datIdent		55	string	-	-
+AW_GC_SOLCLAUN_datCalle		56	string	-	-
+AW_GC_SOLCLAUN_datNumCalle		57	string	-	-
+AW_GC_SOLCLAUN_datLocalidad		58	string	-	-
+AW_GC_SOLCLAUN_datProvincia		59	string	-	-
+AW_GC_SOLCLAUN_datCP		60	string	-	-
+AW_GC_SOLCLAUN_datAclara		61	string	-	-
+AW_GC_SOLCLAUN_ut_un		62	string	-	-
+AW_GC_SOLCLAUN__rpr_ret		63	long	-	-
+# FIN DE SERVICIO AW_GC_SOLCLAUN
+
+# Identificadores para el servicio AW_GC_SOLCLAUN2
+# INICIO DE SERVICIO AW_GC_SOLCLAUN2
+AW_GC_SOLCLAUN2_numTelefono		64	string	-	-
+AW_GC_SOLCLAUN2_icc		65	string	-	-
+AW_GC_SOLCLAUN2_estadoEntrega		66	string	-	-
+AW_GC_SOLCLAUN2_metodoEntrega		67	string	-	-
+AW_GC_SOLCLAUN2_origen		68	string	-	-
+AW_GC_SOLCLAUN2_datNombre		69	string	-	-
+AW_GC_SOLCLAUN2_datApellido1		70	string	-	-
+AW_GC_SOLCLAUN2_datApellido2		71	string	-	-
+AW_GC_SOLCLAUN2_datTipoId		72	short	-	-
+AW_GC_SOLCLAUN2_datIdent		73	string	-	-
+AW_GC_SOLCLAUN2_datTipoCalle		74	string	-	-
+AW_GC_SOLCLAUN2_datCalle		75	string	-	-
+AW_GC_SOLCLAUN2_datNumCalle		76	string	-	-
+AW_GC_SOLCLAUN2_datLocalidad		77	string	-	-
+AW_GC_SOLCLAUN2_datProvincia		78	string	-	-
+AW_GC_SOLCLAUN2_datCP		79	string	-	-
+AW_GC_SOLCLAUN2_datAclara		80	string	-	-
+AW_GC_SOLCLAUN2_ut_un		81	string	-	-
+AW_GC_SOLCLAUN2_pClaveNum		82	string	-	-
+AW_GC_SOLCLAUN2_pClaveAlf		83	string	-	-
+AW_GC_SOLCLAUN2__rpr_ret		84	long	-	-
+# FIN DE SERVICIO AW_GC_SOLCLAUN2
+
+# Identificadores para el servicio AW_GC_SOLCLAUN3
+# INICIO DE SERVICIO AW_GC_SOLCLAUN3
+AW_GC_SOLCLAUN3_numTelefono		85	string	-	-
+AW_GC_SOLCLAUN3_icc		86	string	-	-
+AW_GC_SOLCLAUN3_estadoEntrega		87	string	-	-
+AW_GC_SOLCLAUN3_metodoEntrega		88	string	-	-
+AW_GC_SOLCLAUN3_origen		89	string	-	-
+AW_GC_SOLCLAUN3_nombreEmpresa		90	string	-	-
+AW_GC_SOLCLAUN3_observaciones		91	string	-	-
+AW_GC_SOLCLAUN3_datNombre		92	string	-	-
+AW_GC_SOLCLAUN3_datApellido1		93	string	-	-
+AW_GC_SOLCLAUN3_datApellido2		94	string	-	-
+AW_GC_SOLCLAUN3_datTipoId		95	short	-	-
+AW_GC_SOLCLAUN3_datIdent		96	string	-	-
+AW_GC_SOLCLAUN3_datTipoCalle		97	string	-	-
+AW_GC_SOLCLAUN3_datCalle		98	string	-	-
+AW_GC_SOLCLAUN3_datNumCalle		99	string	-	-
+AW_GC_SOLCLAUN3_datLocalidad		100	string	-	-
+AW_GC_SOLCLAUN3_datProvincia		101	string	-	-
+AW_GC_SOLCLAUN3_datCP		102	string	-	-
+AW_GC_SOLCLAUN3_datAclara		103	string	-	-
+AW_GC_SOLCLAUN3_ut_un		104	string	-	-
+AW_GC_SOLCLAUN3_pClaveNum		105	string	-	-
+AW_GC_SOLCLAUN3_pClaveAlf		106	string	-	-
+AW_GC_SOLCLAUN3__rpr_ret		107	long	-	-
+# FIN DE SERVICIO AW_GC_SOLCLAUN3
+

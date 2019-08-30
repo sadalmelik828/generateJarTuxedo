@@ -1,0 +1,111 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gesahorro.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gesahorro_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3265000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_ALAHORRO
+# INICIO DE SERVICIO PP_GA_ALAHORRO
+PP_GA_ALAHORRO_snum_telefono		0	string	-	-
+PP_GA_ALAHORRO_scod_tipprepa		1	string	-	-
+PP_GA_ALAHORRO_dimporte		2	double	-	-
+PP_GA_ALAHORRO_scod_moneda		3	string	-	-
+PP_GA_ALAHORRO_scod_usuario		4	string	-	-
+PP_GA_ALAHORRO_lsecuencia		5	long	-	-
+PP_GA_ALAHORRO__rpr_ret		6	long	-	-
+# FIN DE SERVICIO PP_GA_ALAHORRO
+
+# Identificadores para el servicio PP_GA_BJAHORRO
+# INICIO DE SERVICIO PP_GA_BJAHORRO
+PP_GA_BJAHORRO_snum_telefono		7	string	-	-
+PP_GA_BJAHORRO_scod_tipprepa		8	string	-	-
+PP_GA_BJAHORRO_dimporte		9	double	-	-
+PP_GA_BJAHORRO_scod_moneda		10	string	-	-
+PP_GA_BJAHORRO_scod_usuario		11	string	-	-
+PP_GA_BJAHORRO_dimp_pendiente		12	double	-	-
+PP_GA_BJAHORRO_lsecuencia		13	long	-	-
+PP_GA_BJAHORRO__rpr_ret		14	long	-	-
+# FIN DE SERVICIO PP_GA_BJAHORRO
+
+# Identificadores para el servicio PP_GA_MDAHORRO
+# INICIO DE SERVICIO PP_GA_MDAHORRO
+PP_GA_MDAHORRO_snum_telefono		15	string	-	-
+PP_GA_MDAHORRO_scod_tipprepa		16	string	-	-
+PP_GA_MDAHORRO_dimporte		17	double	-	-
+PP_GA_MDAHORRO_scod_moneda		18	string	-	-
+PP_GA_MDAHORRO_scod_usuario		19	string	-	-
+PP_GA_MDAHORRO_lsecuencia		20	long	-	-
+PP_GA_MDAHORRO__rpr_ret		21	long	-	-
+# FIN DE SERVICIO PP_GA_MDAHORRO
+
+# Identificadores para el servicio PP_GA_DESALDOS
+# INICIO DE SERVICIO PP_GA_DESALDOS
+PP_GA_DESALDOS_snum_telefono		22	string	-	-
+PP_GA_DESALDOS_scod_moneda		23	string	-	-
+PP_GA_DESALDOS_sfec_ini		24	string	-	-
+PP_GA_DESALDOS_sfec_fin		25	string	-	-
+PP_GA_DESALDOS_ln_regs		26	long	-	-
+PP_GA_DESALDOS_stoken		27	string	-	-
+PP_GA_DESALDOS_scod_actuacio		28	string	-	-
+PP_GA_DESALDOS_scod_idsaldo		29	string	-	-
+PP_GA_DESALDOS_lsec_actuacion		30	long	-	-
+PP_GA_DESALDOS_sfec_instalac		31	string	-	-
+PP_GA_DESALDOS_dimp_coste		32	double	-	-
+PP_GA_DESALDOS__rpr_ret		33	long	-	-
+# FIN DE SERVICIO PP_GA_DESALDOS
+
+# Identificadores para el servicio PP_GA_BJAHORR2
+# INICIO DE SERVICIO PP_GA_BJAHORR2
+PP_GA_BJAHORR2_snum_telefono		34	string	-	-
+PP_GA_BJAHORR2_scod_tipprepa		35	string	-	-
+PP_GA_BJAHORR2_dimporte		36	double	-	-
+PP_GA_BJAHORR2_scod_moneda		37	string	-	-
+PP_GA_BJAHORR2_scod_usuario		38	string	-	-
+PP_GA_BJAHORR2_dimp_pendiente		39	double	-	-
+PP_GA_BJAHORR2_sec_actuacion		40	string	-	-
+PP_GA_BJAHORR2__rpr_ret		41	long	-	-
+# FIN DE SERVICIO PP_GA_BJAHORR2
+
+# Identificadores para el servicio PP_GA_MDAHORR2
+# INICIO DE SERVICIO PP_GA_MDAHORR2
+PP_GA_MDAHORR2_snum_telefono		42	string	-	-
+PP_GA_MDAHORR2_scod_tipprepa		43	string	-	-
+PP_GA_MDAHORR2_dimporte		44	double	-	-
+PP_GA_MDAHORR2_scod_moneda		45	string	-	-
+PP_GA_MDAHORR2_scod_usuario		46	string	-	-
+PP_GA_MDAHORR2_sec_actuacion		47	string	-	-
+PP_GA_MDAHORR2__rpr_ret		48	long	-	-
+# FIN DE SERVICIO PP_GA_MDAHORR2
+
+# Identificadores para el servicio PP_GA_ALAHORR2
+# INICIO DE SERVICIO PP_GA_ALAHORR2
+PP_GA_ALAHORR2_snum_telefono		49	string	-	-
+PP_GA_ALAHORR2_scod_tipprepa		50	string	-	-
+PP_GA_ALAHORR2_dimporte		51	double	-	-
+PP_GA_ALAHORR2_scod_moneda		52	string	-	-
+PP_GA_ALAHORR2_scod_usuario		53	string	-	-
+PP_GA_ALAHORR2_secuencia		54	string	-	-
+PP_GA_ALAHORR2__rpr_ret		55	long	-	-
+# FIN DE SERVICIO PP_GA_ALAHORR2
+
+# Identificadores para el servicio PP_GA_DESALDO2
+# INICIO DE SERVICIO PP_GA_DESALDO2
+PP_GA_DESALDO2_snum_telefono		56	string	-	-
+PP_GA_DESALDO2_scod_moneda		57	string	-	-
+PP_GA_DESALDO2_sfec_ini		58	string	-	-
+PP_GA_DESALDO2_sfec_fin		59	string	-	-
+PP_GA_DESALDO2_ln_regs		60	long	-	-
+PP_GA_DESALDO2_stoken		61	string	-	-
+PP_GA_DESALDO2_scod_actuacio		62	string	-	-
+PP_GA_DESALDO2_scod_idsaldo		63	string	-	-
+PP_GA_DESALDO2_ssec_actuacion		64	string	-	-
+PP_GA_DESALDO2_sfec_instalac		65	string	-	-
+PP_GA_DESALDO2_dimp_coste		66	double	-	-
+PP_GA_DESALDO2__rpr_ret		67	long	-	-
+# FIN DE SERVICIO PP_GA_DESALDO2
+

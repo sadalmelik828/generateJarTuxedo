@@ -1,0 +1,84 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_cobrar.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_cobrar_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3222000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_COBRAR
+# INICIO DE SERVICIO PP_GA_COBRAR
+PP_GA_COBRAR_num_telefono		0	string	-	-
+PP_GA_COBRAR_cod_actuacion		1	string	-	-
+PP_GA_COBRAR_cod_moneda		2	string	-	-
+PP_GA_COBRAR_imp_coste		3	double	-	-
+PP_GA_COBRAR_cod_usuario		4	string	-	-
+PP_GA_COBRAR__rpr_ret		5	long	-	-
+# FIN DE SERVICIO PP_GA_COBRAR
+
+# Identificadores para el servicio PP_GA_COBRAR2
+# INICIO DE SERVICIO PP_GA_COBRAR2
+PP_GA_COBRAR2_num_telefono		6	string	-	-
+PP_GA_COBRAR2_cod_actuacion		7	string	-	-
+PP_GA_COBRAR2_cod_moneda		8	string	-	-
+PP_GA_COBRAR2_imp_coste		9	double	-	-
+PP_GA_COBRAR2_flag_total		10	string	-	-
+PP_GA_COBRAR2_cod_usuario		11	string	-	-
+PP_GA_COBRAR2__rpr_ret		12	long	-	-
+# FIN DE SERVICIO PP_GA_COBRAR2
+
+# Identificadores para el servicio PP_GA_COBRAR3
+# INICIO DE SERVICIO PP_GA_COBRAR3
+PP_GA_COBRAR3_num_telefono		13	string	-	-
+PP_GA_COBRAR3_cod_actuacion		14	string	-	-
+PP_GA_COBRAR3_cod_moneda		15	string	-	-
+PP_GA_COBRAR3_imp_coste		16	double	-	-
+PP_GA_COBRAR3_flag_total		17	string	-	-
+PP_GA_COBRAR3_cod_usuario		18	string	-	-
+PP_GA_COBRAR3_sec_actuacion		19	string	-	-
+PP_GA_COBRAR3__rpr_ret		20	long	-	-
+# FIN DE SERVICIO PP_GA_COBRAR3
+
+# Identificadores para el servicio GA_COBRAR4
+# INICIO DE SERVICIO GA_COBRAR4
+GA_COBRAR4_num_telefono		21	string	-	-
+GA_COBRAR4_scod_actuacion		22	string	-	-
+GA_COBRAR4_scod_moneda		23	string	-	-
+GA_COBRAR4_dimp_coste		24	double	-	-
+GA_COBRAR4_sflag_total		25	string	-	-
+GA_COBRAR4_scod_usuario		26	string	-	-
+GA_COBRAR4_scod_clave		27	string	-	-
+GA_COBRAR4_ssec_actuacion		28	string	-	-
+GA_COBRAR4__rpr_ret		29	long	-	-
+# FIN DE SERVICIO GA_COBRAR4
+
+# Identificadores para el servicio GA_COBRAR5
+# INICIO DE SERVICIO GA_COBRAR5
+GA_COBRAR5_num_telefono		30	string	-	-
+GA_COBRAR5_scod_moneda		31	string	-	-
+GA_COBRAR5_dimp_coste		32	double	-	-
+GA_COBRAR5_sflag_total		33	string	-	-
+GA_COBRAR5_scod_usuario		34	string	-	-
+GA_COBRAR5_lmod_cobro		35	long	-	-
+GA_COBRAR5_scod_causcobro		36	string	-	-
+GA_COBRAR5_sec_actuacion		37	string	-	-
+GA_COBRAR5__rpr_ret		38	long	-	-
+# FIN DE SERVICIO GA_COBRAR5
+
+# Identificadores para el servicio GA_COBRAR6
+# INICIO DE SERVICIO GA_COBRAR6
+GA_COBRAR6_num_telefono		39	string	-	-
+GA_COBRAR6_scod_moneda		40	string	-	-
+GA_COBRAR6_dimp_coste		41	double	-	-
+GA_COBRAR6_sflag_total		42	string	-	-
+GA_COBRAR6_scod_usuario		43	string	-	-
+GA_COBRAR6_lmod_cobro		44	long	-	-
+GA_COBRAR6_scod_causcobro		45	string	-	-
+GA_COBRAR6sflag_aplicaimpues01		46	string	-	-
+GA_COBRAR6_sec_actuacion		47	string	-	-
+GA_COBRAR6__rpr_ret		48	long	-	-
+# FIN DE SERVICIO GA_COBRAR6
+

@@ -1,0 +1,245 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_recardis.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_recardis_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3243000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_DETLFREC
+# INICIO DE SERVICIO PP_GA_DETLFREC
+PP_GA_DETLFREC_num_telefono		0	string	-	-
+PP_GA_DETLFREC_fec_inicio		1	string	-	-
+PP_GA_DETLFREC_fec_fin		2	string	-	-
+PP_GA_DETLFREC_cod_moneda		3	string	-	-
+PP_GA_DETLFREC_cla_distri		4	string	-	-
+PP_GA_DETLFREC_cod_tipprepa		5	string	-	-
+PP_GA_DETLFREC_n_regs		6	long	-	-
+PP_GA_DETLFREC_token		7	string	-	-
+PP_GA_DETLFREC_lnum_telefono		8	string	-	-
+PP_GA_DETLFREC_lcla_distri		9	string	-	-
+PP_GA_DETLFREC_fec_ejecucion		10	string	-	-
+PP_GA_DETLFREC_lcod_tipprepa		11	string	-	-
+PP_GA_DETLFREC_imp_recarga		12	double	-	-
+PP_GA_DETLFREC_num_recargas		13	long	-	-
+PP_GA_DETLFREC_total_importe		14	double	-	-
+PP_GA_DETLFREC_total_recargas		15	long	-	-
+PP_GA_DETLFREC_HayMas		16	carray	-	-
+PP_GA_DETLFREC__rpr_ret		17	long	-	-
+# FIN DE SERVICIO PP_GA_DETLFREC
+
+# Identificadores para el servicio PP_GA_CONTLFRC
+# INICIO DE SERVICIO PP_GA_CONTLFRC
+PP_GA_CONTLFRC_num_telefono		18	string	-	-
+PP_GA_CONTLFRC_num_identifi		19	string	-	-
+PP_GA_CONTLFRC_cla_telefono		20	string	-	-
+PP_GA_CONTLFRC_cod_moneda		21	string	-	-
+PP_GA_CONTLFRC_n_regs		22	long	-	-
+PP_GA_CONTLFRC_token		23	string	-	-
+PP_GA_CONTLFRC_lnum_telefono		24	string	-	-
+PP_GA_CONTLFRC_lnum_identifi		25	string	-	-
+PP_GA_CONTLFRC_lcla_telefono		26	string	-	-
+PP_GA_CONTLFRC_limp_limitedia		27	double	-	-
+PP_GA_CONTLFRC_lcod_impuesto		28	string	-	-
+PP_GA_CONTLFRClfec_modificac01		29	string	-	-
+PP_GA_CONTLFRC_lusu_distri		30	string	-	-
+PP_GA_CONTLFRC_lval_impuesto		31	double	-	-
+PP_GA_CONTLFRC_HayMas		32	carray	-	-
+PP_GA_CONTLFRC__rpr_ret		33	long	-	-
+# FIN DE SERVICIO PP_GA_CONTLFRC
+
+# Identificadores para el servicio PP_GA_MODTLFRC
+# INICIO DE SERVICIO PP_GA_MODTLFRC
+PP_GA_MODTLFRC_num_telefono		34	string	-	-
+PP_GA_MODTLFRC_cla_telefono		35	string	-	-
+PP_GA_MODTLFRC_cod_moneda		36	string	-	-
+PP_GA_MODTLFRC_imp_limitedia		37	double	-	-
+PP_GA_MODTLFRC_cod_impuesto		38	string	-	-
+PP_GA_MODTLFRC_cod_usuario		39	string	-	-
+PP_GA_MODTLFRC_num_identifi		40	string	-	-
+PP_GA_MODTLFRC_usu_distri		41	string	-	-
+PP_GA_MODTLFRC_val_impuesto		42	double	-	-
+PP_GA_MODTLFRC__rpr_ret		43	long	-	-
+# FIN DE SERVICIO PP_GA_MODTLFRC
+
+# Identificadores para el servicio PP_GA_INSTLFRC
+# INICIO DE SERVICIO PP_GA_INSTLFRC
+PP_GA_INSTLFRC_num_telefono		44	string	-	-
+PP_GA_INSTLFRC_cla_telefono		45	string	-	-
+PP_GA_INSTLFRC_cod_moneda		46	string	-	-
+PP_GA_INSTLFRC_imp_limitedia		47	double	-	-
+PP_GA_INSTLFRC_cod_impuesto		48	string	-	-
+PP_GA_INSTLFRC_cod_usuario		49	string	-	-
+PP_GA_INSTLFRC_num_identifi		50	string	-	-
+PP_GA_INSTLFRC_usu_distri		51	string	-	-
+PP_GA_INSTLFRC_val_impuesto		52	double	-	-
+PP_GA_INSTLFRC__rpr_ret		53	long	-	-
+# FIN DE SERVICIO PP_GA_INSTLFRC
+
+# Identificadores para el servicio PP_GA_DELTLFRC
+# INICIO DE SERVICIO PP_GA_DELTLFRC
+PP_GA_DELTLFRC_num_telefono		54	string	-	-
+PP_GA_DELTLFRC_num_identifi		55	string	-	-
+PP_GA_DELTLFRC__rpr_ret		56	long	-	-
+# FIN DE SERVICIO PP_GA_DELTLFRC
+
+# Identificadores para el servicio PP_GA_DELDISRC
+# INICIO DE SERVICIO PP_GA_DELDISRC
+PP_GA_DELDISRC_num_identifi		57	string	-	-
+PP_GA_DELDISRC__rpr_ret		58	long	-	-
+# FIN DE SERVICIO PP_GA_DELDISRC
+
+# Identificadores para el servicio PP_GA_CONUSURC
+# INICIO DE SERVICIO PP_GA_CONUSURC
+PP_GA_CONUSURC_num_telefono		59	string	-	-
+PP_GA_CONUSURC_cla_distrib		60	string	-	-
+PP_GA_CONUSURC_n_regs		61	long	-	-
+PP_GA_CONUSURC_token		62	string	-	-
+PP_GA_CONUSURC_lnum_telefono		63	string	-	-
+PP_GA_CONUSURC_lcla_distrib		64	string	-	-
+PP_GA_CONUSURC_lfec_modifica		65	string	-	-
+PP_GA_CONUSURC_hayMas		66	carray	-	-
+PP_GA_CONUSURC__rpr_ret		67	long	-	-
+# FIN DE SERVICIO PP_GA_CONUSURC
+
+# Identificadores para el servicio PP_GA_CONDISRC
+# INICIO DE SERVICIO PP_GA_CONDISRC
+PP_GA_CONDISRC_num_identifi		68	string	-	-
+PP_GA_CONDISRC_nombre		69	string	-	-
+PP_GA_CONDISRC_apellido1		70	string	-	-
+PP_GA_CONDISRC_apellido2		71	string	-	-
+PP_GA_CONDISRC_n_regs		72	long	-	-
+PP_GA_CONDISRC_token		73	string	-	-
+PP_GA_CONDISRC_lnum_identifi		74	string	-	-
+PP_GA_CONDISRC_lnombre		75	string	-	-
+PP_GA_CONDISRC_lapellido1		76	string	-	-
+PP_GA_CONDISRC_lapellido2		77	string	-	-
+PP_GA_CONDISRC_lpais		78	string	-	-
+PP_GA_CONDISRC_lprovincia		79	string	-	-
+PP_GA_CONDISRC_lpoblacion		80	string	-	-
+PP_GA_CONDISRC_ldesc_calle		81	string	-	-
+PP_GA_CONDISRC_lnum_calle		82	string	-	-
+PP_GA_CONDISRC_lcod_postal		83	string	-	-
+PP_GA_CONDISRC_lnum_telefono		84	string	-	-
+PP_GA_CONDISRC_lnum_telefono2		85	string	-	-
+PP_GA_CONDISRC_lfec_modifica		86	string	-	-
+PP_GA_CONDISRC_HayMas		87	carray	-	-
+PP_GA_CONDISRC__rpr_ret		88	long	-	-
+# FIN DE SERVICIO PP_GA_CONDISRC
+
+# Identificadores para el servicio PP_GA_MODDISRC
+# INICIO DE SERVICIO PP_GA_MODDISRC
+PP_GA_MODDISRC_num_identifi		89	string	-	-
+PP_GA_MODDISRC_nombre		90	string	-	-
+PP_GA_MODDISRC_apellido1		91	string	-	-
+PP_GA_MODDISRC_apellido2		92	string	-	-
+PP_GA_MODDISRC_pais		93	string	-	-
+PP_GA_MODDISRC_provincia		94	string	-	-
+PP_GA_MODDISRC_poblacion		95	string	-	-
+PP_GA_MODDISRC_des_calle		96	string	-	-
+PP_GA_MODDISRC_num_calle		97	string	-	-
+PP_GA_MODDISRC_cod_postal		98	string	-	-
+PP_GA_MODDISRC_telefono1		99	string	-	-
+PP_GA_MODDISRC_telefono2		100	string	-	-
+PP_GA_MODDISRC_cod_usuario		101	string	-	-
+PP_GA_MODDISRC__rpr_ret		102	long	-	-
+# FIN DE SERVICIO PP_GA_MODDISRC
+
+# Identificadores para el servicio PP_GA_INSDISRC
+# INICIO DE SERVICIO PP_GA_INSDISRC
+PP_GA_INSDISRC_num_identifi		103	string	-	-
+PP_GA_INSDISRC_nombre		104	string	-	-
+PP_GA_INSDISRC_apellido1		105	string	-	-
+PP_GA_INSDISRC_apellido2		106	string	-	-
+PP_GA_INSDISRC_pais		107	string	-	-
+PP_GA_INSDISRC_provincia		108	string	-	-
+PP_GA_INSDISRC_poblacion		109	string	-	-
+PP_GA_INSDISRC_des_calle		110	string	-	-
+PP_GA_INSDISRC_num_calle		111	string	-	-
+PP_GA_INSDISRC_cod_postal		112	string	-	-
+PP_GA_INSDISRC_telefono1		113	string	-	-
+PP_GA_INSDISRC_telefono2		114	string	-	-
+PP_GA_INSDISRC_cod_usuario		115	string	-	-
+PP_GA_INSDISRC__rpr_ret		116	long	-	-
+# FIN DE SERVICIO PP_GA_INSDISRC
+
+# Identificadores para el servicio PP_GA_MODUSURC
+# INICIO DE SERVICIO PP_GA_MODUSURC
+PP_GA_MODUSURC_num_telefono		117	string	-	-
+PP_GA_MODUSURCcla_distrib_an01		118	string	-	-
+PP_GA_MODUSURCcla_distrib_ac01		119	string	-	-
+PP_GA_MODUSURC_cod_usuario		120	string	-	-
+PP_GA_MODUSURC__rpr_ret		121	long	-	-
+# FIN DE SERVICIO PP_GA_MODUSURC
+
+# Identificadores para el servicio PP_GA_INSUSURC
+# INICIO DE SERVICIO PP_GA_INSUSURC
+PP_GA_INSUSURC_num_telefono		122	string	-	-
+PP_GA_INSUSURC_cla_distrib		123	string	-	-
+PP_GA_INSUSURC_cod_usuario		124	string	-	-
+PP_GA_INSUSURC__rpr_ret		125	long	-	-
+# FIN DE SERVICIO PP_GA_INSUSURC
+
+# Identificadores para el servicio PP_GA_DELUSURC
+# INICIO DE SERVICIO PP_GA_DELUSURC
+PP_GA_DELUSURC_num_telefono		126	string	-	-
+PP_GA_DELUSURC_cla_distrib		127	string	-	-
+PP_GA_DELUSURC__rpr_ret		128	long	-	-
+# FIN DE SERVICIO PP_GA_DELUSURC
+
+# Identificadores para el servicio PP_GA_DETRECTR
+# INICIO DE SERVICIO PP_GA_DETRECTR
+PP_GA_DETRECTR_num_telreca		129	string	-	-
+PP_GA_DETRECTRcif_distribuid01		130	string	-	-
+PP_GA_DETRECTR_fec_inicio		131	string	-	-
+PP_GA_DETRECTR_fec_fin		132	string	-	-
+PP_GA_DETRECTR_cod_moneda		133	string	-	-
+PP_GA_DETRECTR_flag_consulta		134	string	-	-
+PP_GA_DETRECTR_n_regs		135	long	-	-
+PP_GA_DETRECTR_token		136	string	-	-
+PP_GA_DETRECTR_lnum_telefono		137	string	-	-
+PP_GA_DETRECTR_lnum_telreca		138	string	-	-
+PP_GA_DETRECTR_lcla_distrib		139	string	-	-
+PP_GA_DETRECTR_lfec_ejecucion		140	string	-	-
+PP_GA_DETRECTR_lfec_correccion		141	string	-	-
+PP_GA_DETRECTR_limp_recarga		142	double	-	-
+PP_GA_DETRECTR_limp_corregido		143	double	-	-
+PP_GA_DETRECTR_hayMas		144	carray	-	-
+PP_GA_DETRECTR__rpr_ret		145	long	-	-
+# FIN DE SERVICIO PP_GA_DETRECTR
+
+# Identificadores para el servicio PP_GA_SHTLFREC
+# INICIO DE SERVICIO PP_GA_SHTLFREC
+PP_GA_SHTLFREC_num_telreca		146	string	-	-
+PP_GA_SHTLFREC_flg_suspen		147	carray	-	-
+PP_GA_SHTLFREC_cod_causus		148	string	-	-
+PP_GA_SHTLFREC_cod_ususus		149	string	-	-
+PP_GA_SHTLFREC__rpr_ret		150	long	-	-
+# FIN DE SERVICIO PP_GA_SHTLFREC
+
+# Identificadores para el servicio PP_GA_CONTLFR2
+# INICIO DE SERVICIO PP_GA_CONTLFR2
+PP_GA_CONTLFR2_num_telefono		151	string	-	-
+PP_GA_CONTLFR2_num_identifi		152	string	-	-
+PP_GA_CONTLFR2_cla_telefono		153	string	-	-
+PP_GA_CONTLFR2_cod_moneda		154	string	-	-
+PP_GA_CONTLFR2_n_regs		155	long	-	-
+PP_GA_CONTLFR2_token		156	string	-	-
+PP_GA_CONTLFR2_lnum_telefono		157	string	-	-
+PP_GA_CONTLFR2_lnum_identifi		158	string	-	-
+PP_GA_CONTLFR2_lcla_telefono		159	string	-	-
+PP_GA_CONTLFR2_limp_limitedia		160	double	-	-
+PP_GA_CONTLFR2_lcod_impuesto		161	string	-	-
+PP_GA_CONTLFR2lfec_modificac01		162	string	-	-
+PP_GA_CONTLFR2_lusu_distri		163	string	-	-
+PP_GA_CONTLFR2_lval_impuesto		164	double	-	-
+PP_GA_CONTLFR2_lcod_causus		165	string	-	-
+PP_GA_CONTLFR2_lcod_ususus		166	string	-	-
+PP_GA_CONTLFR2_lfec_suspen		167	string	-	-
+PP_GA_CONTLFR2_HayMas		168	carray	-	-
+PP_GA_CONTLFR2__rpr_ret		169	long	-	-
+# FIN DE SERVICIO PP_GA_CONTLFR2
+

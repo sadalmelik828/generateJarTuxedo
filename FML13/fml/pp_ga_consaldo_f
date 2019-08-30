@@ -1,0 +1,109 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_consaldo.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_consaldo_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3242000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_CONSALDO
+# INICIO DE SERVICIO PP_GA_CONSALDO
+PP_GA_CONSALDO_cod_moneda		0	string	-	-
+PP_GA_CONSALDO_msisdn		1	string	-	-
+PP_GA_CONSALDO_saldo		2	double	-	-
+PP_GA_CONSALDO__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_GA_CONSALDO
+
+# Identificadores para el servicio PP_GA_CONBOLSAS
+# INICIO DE SERVICIO PP_GA_CONBOLSAS
+PP_GA_CONBOLSAS_snum_telefono		4	string	-	-
+PP_GA_CONBOLSAS_scod_moneda		5	string	-	-
+PP_GA_CONBOLSAS_ln_regs		6	long	-	-
+PP_GA_CONBOLSAS_scod_bolsa		7	string	-	-
+PP_GA_CONBOLSAS_dimp_saldo		8	double	-	-
+PP_GA_CONBOLSAS_scaducidad		9	string	-	-
+PP_GA_CONBOLSAS_sestado		10	string	-	-
+PP_GA_CONBOLSAS_lvalidez		11	long	-	-
+PP_GA_CONBOLSAS__rpr_ret		12	long	-	-
+# FIN DE SERVICIO PP_GA_CONBOLSAS
+
+# Identificadores para el servicio PP_GA_CONCCARD
+# INICIO DE SERVICIO PP_GA_CONCCARD
+PP_GA_CONCCARD_scod_moneda		13	string	-	-
+PP_GA_CONCCARD_scod_admin		14	string	-	-
+PP_GA_CONCCARD_saldo		15	double	-	-
+PP_GA_CONCCARD_scaducidad		16	string	-	-
+PP_GA_CONCCARD__rpr_ret		17	long	-	-
+# FIN DE SERVICIO PP_GA_CONCCARD
+
+# Identificadores para el servicio PP_GA_CONLQNTS
+# INICIO DE SERVICIO PP_GA_CONLQNTS
+PP_GA_CONLQNTS_num_telefono		18	string	-	-
+PP_GA_CONLQNTS_subUsu		19	carray	-	-
+PP_GA_CONLQNTS_actUsu		20	carray	-	-
+PP_GA_CONLQNTS_numUsos		21	long	-	-
+PP_GA_CONLQNTS__rpr_ret		22	long	-	-
+# FIN DE SERVICIO PP_GA_CONLQNTS
+
+# Identificadores para el servicio GA_CONBOLSAS2
+# INICIO DE SERVICIO GA_CONBOLSAS2
+GA_CONBOLSAS2_snum_telefono		23	string	-	-
+GA_CONBOLSAS2_scod_moneda		24	string	-	-
+GA_CONBOLSAS2_ln_regs		25	long	-	-
+GA_CONBOLSAS2_scod_bolsa		26	string	-	-
+GA_CONBOLSAS2_dimp_saldo		27	double	-	-
+GA_CONBOLSAS2_scaducidad		28	string	-	-
+GA_CONBOLSAS2_sestado		29	string	-	-
+GA_CONBOLSAS2_lvalidez		30	long	-	-
+GA_CONBOLSAS2_fechafin		31	string	-	-
+GA_CONBOLSAS2__rpr_ret		32	long	-	-
+# FIN DE SERVICIO GA_CONBOLSAS2
+
+# Identificadores para el servicio GA_CONBOLSAS3
+# INICIO DE SERVICIO GA_CONBOLSAS3
+GA_CONBOLSAS3_num_telefono		33	string	-	-
+GA_CONBOLSAS3_scod_moneda		34	string	-	-
+GA_CONBOLSAS3_ln_regs		35	long	-	-
+GA_CONBOLSAS3_scod_bolsa		36	string	-	-
+GA_CONBOLSAS3_dimp_saldo		37	double	-	-
+GA_CONBOLSAS3_scaducidad		38	string	-	-
+GA_CONBOLSAS3_sestado		39	string	-	-
+GA_CONBOLSAS3_lvalidez		40	long	-	-
+GA_CONBOLSAS3_fechafin		41	string	-	-
+GA_CONBOLSAS3_flg_compartida		42	string	-	-
+GA_CONBOLSAS3_ln_deudas		43	long	-	-
+GA_CONBOLSAS3_stip_deuda		44	string	-	-
+GA_CONBOLSAS3_dimp_deuda		45	double	-	-
+GA_CONBOLSAS3__rpr_ret		46	long	-	-
+# FIN DE SERVICIO GA_CONBOLSAS3
+
+# Identificadores para el servicio GA_CONSALDO2
+# INICIO DE SERVICIO GA_CONSALDO2
+GA_CONSALDO2_cod_moneda		47	string	-	-
+GA_CONSALDO2_num_telefono		48	string	-	-
+GA_CONSALDO2_saldo		49	double	-	-
+GA_CONSALDO2_deuda		50	double	-	-
+GA_CONSALDO2__rpr_ret		51	long	-	-
+# FIN DE SERVICIO GA_CONSALDO2
+
+# Identificadores para el servicio GA_CONBOLSAS4
+# INICIO DE SERVICIO GA_CONBOLSAS4
+GA_CONBOLSAS4_num_telefono		52	string	-	-
+GA_CONBOLSAS4_scod_moneda		53	string	-	-
+GA_CONBOLSAS4_ln_regs		54	long	-	-
+GA_CONBOLSAS4_scod_bolsa		55	string	-	-
+GA_CONBOLSAS4_dimp_saldo		56	double	-	-
+GA_CONBOLSAS4_scaducidad		57	string	-	-
+GA_CONBOLSAS4_sestado		58	string	-	-
+GA_CONBOLSAS4_lvalidez		59	long	-	-
+GA_CONBOLSAS4_fechafin		60	string	-	-
+GA_CONBOLSAS4_flg_compartida		61	string	-	-
+GA_CONBOLSAS4_ln_deudas		62	long	-	-
+GA_CONBOLSAS4_stip_deuda		63	string	-	-
+GA_CONBOLSAS4_dimp_deuda		64	double	-	-
+GA_CONBOLSAS4__rpr_ret		65	long	-	-
+# FIN DE SERVICIO GA_CONBOLSAS4
+

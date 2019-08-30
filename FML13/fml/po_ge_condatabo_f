@@ -1,0 +1,75 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_condatabo.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_condatabo_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2908000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_CONDATABO
+# INICIO DE SERVICIO PO_GE_CONDATABO
+PO_GE_CONDATABO_msisdn		0	string	-	-
+PO_GE_CONDATABO_nregentrada		1	long	-	-
+PO_GE_CONDATABO_campo		2	string	-	-
+PO_GE_CONDATABO_consulta		3	string	-	-
+PO_GE_CONDATABO__rpr_ret		4	long	-	-
+# FIN DE SERVICIO PO_GE_CONDATABO
+
+# Identificadores para el servicio PO_GE_CONABOTPR
+# INICIO DE SERVICIO PO_GE_CONABOTPR
+PO_GE_CONABOTPR_msisdn		5	string	-	-
+PO_GE_CONABOTPR_nregentrada		6	long	-	-
+PO_GE_CONABOTPR_campo		7	string	-	-
+PO_GE_CONABOTPR_nregsalida		8	long	-	-
+PO_GE_CONABOTPR_promocion		9	string	-	-
+PO_GE_CONABOTPR_consulta		10	string	-	-
+PO_GE_CONABOTPR__rpr_ret		11	short	-	-
+# FIN DE SERVICIO PO_GE_CONABOTPR
+
+# Identificadores para el servicio PO_GE_CONPROABO
+# INICIO DE SERVICIO PO_GE_CONPROABO
+PO_GE_CONPROABO_msisdn		12	string	-	-
+PO_GE_CONPROABO_cod_promocion		13	string	-	-
+PO_GE_CONPROABO_instancia		14	string	-	-
+PO_GE_CONPROABO_nregentrada		15	long	-	-
+PO_GE_CONPROABO_campo		16	string	-	-
+PO_GE_CONPROABO_nregsalida		17	long	-	-
+PO_GE_CONPROABO_linstancias		18	string	-	-
+PO_GE_CONPROABO_consulta		19	string	-	-
+PO_GE_CONPROABO__rpr_ret		20	long	-	-
+# FIN DE SERVICIO PO_GE_CONPROABO
+
+# Identificadores para el servicio PO_GE_CONGASABO
+# INICIO DE SERVICIO PO_GE_CONGASABO
+PO_GE_CONGASABO_msisdn		21	string	-	-
+PO_GE_CONGASABO_tipo_control		22	string	-	-
+PO_GE_CONGASABO_ide_control		23	string	-	-
+PO_GE_CONGASABO_nregentrada		24	long	-	-
+PO_GE_CONGASABO_campo		25	string	-	-
+PO_GE_CONGASABO_consulta		26	string	-	-
+PO_GE_CONGASABO__rpr_ret		27	long	-	-
+# FIN DE SERVICIO PO_GE_CONGASABO
+
+# Identificadores para el servicio PO_GE_CONDATBD
+# INICIO DE SERVICIO PO_GE_CONDATBD
+PO_GE_CONDATBD_msisdn		28	string	-	-
+PO_GE_CONDATBD_nregentrada		29	long	-	-
+PO_GE_CONDATBD_campo		30	string	-	-
+PO_GE_CONDATBD_consulta		31	string	-	-
+PO_GE_CONDATBD__rpr_ret		32	long	-	-
+# FIN DE SERVICIO PO_GE_CONDATBD
+
+# Identificadores para el servicio PO_GE_CONHZONE
+# INICIO DE SERVICIO PO_GE_CONHZONE
+PO_GE_CONHZONE_msisdn		33	string	-	-
+PO_GE_CONHZONE_max_LNs		34	long	-	-
+PO_GE_CONHZONE_num_LNs		35	long	-	-
+PO_GE_CONHZONE_LNs		36	string	-	-
+PO_GE_CONHZONE_codigo_postal		37	long	-	-
+PO_GE_CONHZONE_servicio_activo		38	long	-	-
+PO_GE_CONHZONE__rpr_ret		39	long	-	-
+# FIN DE SERVICIO PO_GE_CONHZONE
+

@@ -1,0 +1,119 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [aw_gc_imodif.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# aw_gc_imodif_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		117000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio AW_GC_IMODUN
+# INICIO DE SERVICIO AW_GC_IMODUN
+AW_GC_IMODUN_num_telefono		0	string	-	-
+AW_GC_IMODUN_tipo_modifica		1	string	-	-
+AW_GC_IMODUN_icc		2	string	-	-
+AW_GC_IMODUN_clave_num		3	string	-	-
+AW_GC_IMODUN_clave_alf		4	string	-	-
+AW_GC_IMODUN_estado_entrega		5	string	-	-
+AW_GC_IMODUN_metodo_entrega		6	string	-	-
+AW_GC_IMODUN_origen		7	string	-	-
+AW_GC_IMODUN_datNombre		8	string	-	-
+AW_GC_IMODUN_datApellido1		9	string	-	-
+AW_GC_IMODUN_datApellido2		10	string	-	-
+AW_GC_IMODUN_datTipoId		11	short	-	-
+AW_GC_IMODUN_datIdent		12	string	-	-
+AW_GC_IMODUN_datTipoCalle		13	string	-	-
+AW_GC_IMODUN_datCalle		14	string	-	-
+AW_GC_IMODUN_datNumCalle		15	string	-	-
+AW_GC_IMODUN_datLocalidad		16	string	-	-
+AW_GC_IMODUN_datProvincia		17	string	-	-
+AW_GC_IMODUN_datCP		18	string	-	-
+AW_GC_IMODUN_datAclara		19	string	-	-
+AW_GC_IMODUN_ut_un		20	string	-	-
+AW_GC_IMODUN__rpr_ret		21	long	-	-
+# FIN DE SERVICIO AW_GC_IMODUN
+
+# Identificadores para el servicio AW_GC_IMODAE
+# INICIO DE SERVICIO AW_GC_IMODAE
+AW_GC_IMODAE_codAbonado		22	string	-	-
+AW_GC_IMODAE_num_telefono		23	string	-	-
+AW_GC_IMODAE_tipo_modifica		24	string	-	-
+AW_GC_IMODAE_icc		25	string	-	-
+AW_GC_IMODAE_clave_num		26	string	-	-
+AW_GC_IMODAE_clave_alf		27	string	-	-
+AW_GC_IMODAE_estado_entrega		28	string	-	-
+AW_GC_IMODAE_metodo_entrega		29	string	-	-
+AW_GC_IMODAE_origen		30	string	-	-
+AW_GC_IMODAE_codIdioma		31	string	-	-
+AW_GC_IMODAE_nombreEmpresa		32	string	-	-
+AW_GC_IMODAE_observaciones		33	string	-	-
+AW_GC_IMODAE_datNombre		34	string	-	-
+AW_GC_IMODAE_datApellido1		35	string	-	-
+AW_GC_IMODAE_datApellido2		36	string	-	-
+AW_GC_IMODAE_datTipoId		37	short	-	-
+AW_GC_IMODAE_datIdent		38	string	-	-
+AW_GC_IMODAE_datTipoCalle		39	string	-	-
+AW_GC_IMODAE_datCalle		40	string	-	-
+AW_GC_IMODAE_datNumCalle		41	string	-	-
+AW_GC_IMODAE_datLocalidad		42	string	-	-
+AW_GC_IMODAE_datProvincia		43	string	-	-
+AW_GC_IMODAE_datCP		44	string	-	-
+AW_GC_IMODAE_datAclara		45	string	-	-
+AW_GC_IMODAE_ut_un		46	string	-	-
+AW_GC_IMODAE__rpr_ret		47	long	-	-
+# FIN DE SERVICIO AW_GC_IMODAE
+
+# Identificadores para el servicio AW_GC_IMODEST
+# INICIO DE SERVICIO AW_GC_IMODEST
+AW_GC_IMODEST_num_telefono		48	string	-	-
+AW_GC_IMODEST_icc		49	string	-	-
+AW_GC_IMODEST_est_clave		50	string	-	-
+AW_GC_IMODEST_metodo_entrega		51	string	-	-
+AW_GC_IMODEST_origen		52	string	-	-
+AW_GC_IMODEST_datNombre		53	string	-	-
+AW_GC_IMODEST_datApellido1		54	string	-	-
+AW_GC_IMODEST_datApellido2		55	string	-	-
+AW_GC_IMODEST_datTipoId		56	short	-	-
+AW_GC_IMODEST_datIdent		57	string	-	-
+AW_GC_IMODEST_datCalle		58	string	-	-
+AW_GC_IMODEST_datNumCalle		59	string	-	-
+AW_GC_IMODEST_datLocalidad		60	string	-	-
+AW_GC_IMODEST_datProvincia		61	string	-	-
+AW_GC_IMODEST_datCP		62	string	-	-
+AW_GC_IMODEST_datAclara		63	string	-	-
+AW_GC_IMODEST_ut_un		64	string	-	-
+AW_GC_IMODEST__rpr_ret		65	long	-	-
+# FIN DE SERVICIO AW_GC_IMODEST
+
+# Identificadores para el servicio AW_GC_IMODGEN
+# INICIO DE SERVICIO AW_GC_IMODGEN
+AW_GC_IMODGEN_codAbonado		66	string	-	-
+AW_GC_IMODGEN_num_telefono		67	string	-	-
+AW_GC_IMODGEN_tipo_modifica		68	string	-	-
+AW_GC_IMODGEN_icc		69	string	-	-
+AW_GC_IMODGEN_clave_num		70	string	-	-
+AW_GC_IMODGEN_clave_alf		71	string	-	-
+AW_GC_IMODGEN_estado_entrega		72	string	-	-
+AW_GC_IMODGEN_metodo_entrega		73	string	-	-
+AW_GC_IMODGEN_origen		74	string	-	-
+AW_GC_IMODGEN_codIdioma		75	string	-	-
+AW_GC_IMODGEN_nombreEmpresa		76	string	-	-
+AW_GC_IMODGEN_observaciones		77	string	-	-
+AW_GC_IMODGEN_datNombre		78	string	-	-
+AW_GC_IMODGEN_datApellido1		79	string	-	-
+AW_GC_IMODGEN_datApellido2		80	string	-	-
+AW_GC_IMODGEN_datTipoId		81	short	-	-
+AW_GC_IMODGEN_datIdent		82	string	-	-
+AW_GC_IMODGEN_datTipoCalle		83	string	-	-
+AW_GC_IMODGEN_datCalle		84	string	-	-
+AW_GC_IMODGEN_datNumCalle		85	string	-	-
+AW_GC_IMODGEN_datLocalidad		86	string	-	-
+AW_GC_IMODGEN_datProvincia		87	string	-	-
+AW_GC_IMODGEN_datCP		88	string	-	-
+AW_GC_IMODGEN_datAclara		89	string	-	-
+AW_GC_IMODGEN_ut_un		90	string	-	-
+AW_GC_IMODGEN__rpr_ret		91	long	-	-
+# FIN DE SERVICIO AW_GC_IMODGEN
+

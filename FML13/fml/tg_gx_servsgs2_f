@@ -1,0 +1,25 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [tg_gx_servsgs2.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# tg_gx_servsgs2_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3512000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio TG_GX_SOLIOPR2
+# INICIO DE SERVICIO TG_GX_SOLIOPR2
+TG_GX_SOLIOPR2_id_tramitacion		0	long	-	-
+TG_GX_SOLIOPR2_tip_servicio		1	string	-	-
+TG_GX_SOLIOPR2_cod_servicio		2	string	-	-
+TG_GX_SOLIOPR2_cod_operacion		3	long	-	-
+TG_GX_SOLIOPR2_fec_solicitud		4	string	-	-
+TG_GX_SOLIOPR2cad_parametros01		5	string	-	-
+TG_GX_SOLIOPR2cad_parametros02		6	string	-	-
+TG_GX_SOLIOPR2_nom_usuario		7	string	-	-
+TG_GX_SOLIOPR2_nom_aplicacion		8	string	-	-
+TG_GX_SOLIOPR2__rpr_ret		9	long	-	-
+# FIN DE SERVICIO TG_GX_SOLIOPR2
+

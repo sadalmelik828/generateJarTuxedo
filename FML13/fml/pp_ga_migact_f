@@ -1,0 +1,109 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_migact.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_migact_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz Activa versión 1.0 
+#
+
+*base		3226000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_VALNOABO
+# INICIO DE SERVICIO PP_GA_VALNOABO
+PP_GA_VALNOABO_num_telefono		0	string	-	-
+PP_GA_VALNOABO_existe		1	long	-	-
+PP_GA_VALNOABO__rpr_ret		2	long	-	-
+# FIN DE SERVICIO PP_GA_VALNOABO
+
+# Identificadores para el servicio PP_GA_SOLMIGCA
+# INICIO DE SERVICIO PP_GA_SOLMIGCA
+PP_GA_SOLMIGCA_num_telefono		3	string	-	-
+PP_GA_SOLMIGCA_num_icc		4	string	-	-
+PP_GA_SOLMIGCA_cod_moneda		5	string	-	-
+PP_GA_SOLMIGCA_imp_saldo		6	double	-	-
+PP_GA_SOLMIGCA_cod_usuario		7	string	-	-
+PP_GA_SOLMIGCA_fec_antig		8	string	-	-
+PP_GA_SOLMIGCA_cod_tipotarj		9	string	-	-
+PP_GA_SOLMIGCA_cod_perftarj		10	string	-	-
+PP_GA_SOLMIGCA_num_puk		11	string	-	-
+PP_GA_SOLMIGCA_num_puk2		12	string	-	-
+PP_GA_SOLMIGCA_cod_zonaoper		13	string	-	-
+PP_GA_SOLMIGCA_cod_clasetrj		14	string	-	-
+PP_GA_SOLMIGCA_cod_sbclatrj		15	string	-	-
+PP_GA_SOLMIGCA__rpr_ret		16	long	-	-
+# FIN DE SERVICIO PP_GA_SOLMIGCA
+
+# Identificadores para el servicio PP_GA_SOLMICAP
+# INICIO DE SERVICIO PP_GA_SOLMICAP
+PP_GA_SOLMICAP_num_telefono		17	string	-	-
+PP_GA_SOLMICAP_num_icc		18	string	-	-
+PP_GA_SOLMICAP_cod_moneda		19	string	-	-
+PP_GA_SOLMICAP_imp_saldo		20	double	-	-
+PP_GA_SOLMICAP_cod_usuario		21	string	-	-
+PP_GA_SOLMICAP_fec_antig		22	string	-	-
+PP_GA_SOLMICAP_cod_tipotarj		23	string	-	-
+PP_GA_SOLMICAP_cod_perftarj		24	string	-	-
+PP_GA_SOLMICAP_num_puk		25	string	-	-
+PP_GA_SOLMICAP_num_puk2		26	string	-	-
+PP_GA_SOLMICAP_cod_zonaoper		27	string	-	-
+PP_GA_SOLMICAP_cod_clasetrj		28	string	-	-
+PP_GA_SOLMICAP_cod_sbclatrj		29	string	-	-
+PP_GA_SOLMICAP_flag_propio		30	string	-	-
+PP_GA_SOLMICAP__rpr_ret		31	long	-	-
+# FIN DE SERVICIO PP_GA_SOLMICAP
+
+# Identificadores para el servicio PP_GA_CORMIGRA
+# INICIO DE SERVICIO PP_GA_CORMIGRA
+PP_GA_CORMIGRA_snum_telefono		32	string	-	-
+PP_GA_CORMIGRA_scod_usuario		33	string	-	-
+PP_GA_CORMIGRA__rpr_ret		34	long	-	-
+# FIN DE SERVICIO PP_GA_CORMIGRA
+
+# Identificadores para el servicio PP_GA_SOLMICA2
+# INICIO DE SERVICIO PP_GA_SOLMICA2
+PP_GA_SOLMICA2_num_telefono		35	string	-	-
+PP_GA_SOLMICA2_num_icc		36	string	-	-
+PP_GA_SOLMICA2_cod_moneda		37	string	-	-
+PP_GA_SOLMICA2_imp_saldo		38	double	-	-
+PP_GA_SOLMICA2_cod_usuario		39	string	-	-
+PP_GA_SOLMICA2_fec_antig		40	string	-	-
+PP_GA_SOLMICA2_cod_tipotarj		41	string	-	-
+PP_GA_SOLMICA2_cod_perftarj		42	string	-	-
+PP_GA_SOLMICA2_cod_clasetrj		43	string	-	-
+PP_GA_SOLMICA2_cod_sbclatrj		44	string	-	-
+PP_GA_SOLMICA2_num_puk		45	string	-	-
+PP_GA_SOLMICA2_num_puk2		46	string	-	-
+PP_GA_SOLMICA2_flag_propio		47	string	-	-
+PP_GA_SOLMICA2_num_imsi		48	string	-	-
+PP_GA_SOLMICA2_num_hlr		49	string	-	-
+PP_GA_SOLMICA2_cod_taxid		50	string	-	-
+PP_GA_SOLMICA2_num_nir		51	string	-	-
+PP_GA_SOLMICA2__rpr_ret		52	long	-	-
+# FIN DE SERVICIO PP_GA_SOLMICA2
+
+# Identificadores para el servicio PP_GA_SOLMICA3
+# INICIO DE SERVICIO PP_GA_SOLMICA3
+PP_GA_SOLMICA3_num_telefono		53	string	-	-
+PP_GA_SOLMICA3_num_icc		54	string	-	-
+PP_GA_SOLMICA3_cod_moneda		55	string	-	-
+PP_GA_SOLMICA3_imp_saldo		56	double	-	-
+PP_GA_SOLMICA3_cod_usuario		57	string	-	-
+PP_GA_SOLMICA3_fec_antig		58	string	-	-
+PP_GA_SOLMICA3_cod_tipotarj		59	string	-	-
+PP_GA_SOLMICA3_cod_perftarj		60	string	-	-
+PP_GA_SOLMICA3_cod_clasetrj		61	string	-	-
+PP_GA_SOLMICA3_cod_sbclatrj		62	string	-	-
+PP_GA_SOLMICA3_num_puk		63	string	-	-
+PP_GA_SOLMICA3_num_puk2		64	string	-	-
+PP_GA_SOLMICA3_flag_propio		65	string	-	-
+PP_GA_SOLMICA3_num_imsi		66	string	-	-
+PP_GA_SOLMICA3_num_hlr		67	string	-	-
+PP_GA_SOLMICA3_cod_taxid		68	string	-	-
+PP_GA_SOLMICA3_num_nir		69	string	-	-
+PP_GA_SOLMICA3_num_min		70	string	-	-
+PP_GA_SOLMICA3__rpr_ret		71	long	-	-
+# FIN DE SERVICIO PP_GA_SOLMICA3
+

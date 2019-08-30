@@ -1,0 +1,80 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_desvios.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_desvios_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pp_cs_desvios versión 1.0 
+#
+
+*base		3104000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_CS_FMM_DSV
+# INICIO DE SERVICIO PP_CS_FMM_DSV
+PP_CS_FMM_DSV_numTelefono		0	string	-	-
+PP_CS_FMM_DSV_fechaMin		1	string	-	-
+PP_CS_FMM_DSV_fechaMax		2	string	-	-
+PP_CS_FMM_DSV__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_CS_FMM_DSV
+
+# Identificadores para el servicio PP_CS_ACUM_DSV
+# INICIO DE SERVICIO PP_CS_ACUM_DSV
+PP_CS_ACUM_DSV_numTelefono		4	string	-	-
+PP_CS_ACUM_DSV_nMeses		5	long	-	-
+PP_CS_ACUM_DSV_fecha		6	string	-	-
+PP_CS_ACUM_DSV_importe		7	double	-	-
+PP_CS_ACUM_DSV__rpr_ret		8	long	-	-
+# FIN DE SERVICIO PP_CS_ACUM_DSV
+
+# Identificadores para el servicio PP_CS_DAT_DSV
+# INICIO DE SERVICIO PP_CS_DAT_DSV
+PP_CS_DAT_DSV_numTelefono		9	string	-	-
+PP_CS_DAT_DSV_fechaDesde		10	string	-	-
+PP_CS_DAT_DSV_fechaHasta		11	string	-	-
+PP_CS_DAT_DSV_mascara		12	string	-	-
+PP_CS_DAT_DSV_importeMinimo		13	double	-	-
+PP_CS_DAT_DSV_orden		14	long	-	-
+PP_CS_DAT_DSV_codIdioma		15	string	-	-
+PP_CS_DAT_DSV_catUlt		16	string	-	-
+PP_CS_DAT_DSV_fechaUlt		17	string	-	-
+PP_CS_DAT_DSV_cidUlt		18	string	-	-
+PP_CS_DAT_DSV_nRegs		19	long	-	-
+PP_CS_DAT_DSV_numTelefonoB		20	string	-	-
+PP_CS_DAT_DSV_tipoActiva		21	string	-	-
+PP_CS_DAT_DSV_descripcion		22	string	-	-
+PP_CS_DAT_DSV_fecha		23	string	-	-
+PP_CS_DAT_DSV_duracion		24	long	-	-
+PP_CS_DAT_DSV_importe		25	double	-	-
+PP_CS_DAT_DSV_infAdicional		26	string	-	-
+PP_CS_DAT_DSV_cid		27	string	-	-
+PP_CS_DAT_DSV_hayMas		28	long	-	-
+PP_CS_DAT_DSV__rpr_ret		29	long	-	-
+# FIN DE SERVICIO PP_CS_DAT_DSV
+
+# Identificadores para el servicio PP_CS_DATX_DSV
+# INICIO DE SERVICIO PP_CS_DATX_DSV
+PP_CS_DATX_DSV_numTelefono		30	string	-	-
+PP_CS_DATX_DSV_fechaDesde		31	string	-	-
+PP_CS_DATX_DSV_fechaHasta		32	string	-	-
+PP_CS_DATX_DSV_mascara		33	string	-	-
+PP_CS_DATX_DSV_importeMinimo		34	double	-	-
+PP_CS_DATX_DSV_orden		35	long	-	-
+PP_CS_DATX_DSV_codIdioma		36	string	-	-
+PP_CS_DATX_DSV_catUlt		37	string	-	-
+PP_CS_DATX_DSV_fechaUlt		38	string	-	-
+PP_CS_DATX_DSV_cidUlt		39	string	-	-
+PP_CS_DATX_DSV_nRegs		40	long	-	-
+PP_CS_DATX_DSV_numTelefonoB		41	string	-	-
+PP_CS_DATX_DSV_tipoActiva		42	string	-	-
+PP_CS_DATX_DSV_descripcion		43	string	-	-
+PP_CS_DATX_DSV_fecha		44	string	-	-
+PP_CS_DATX_DSV_duracion		45	long	-	-
+PP_CS_DATX_DSV_importe		46	double	-	-
+PP_CS_DATX_DSV_infAdicional		47	string	-	-
+PP_CS_DATX_DSV_cid		48	string	-	-
+PP_CS_DATX_DSV_hayMas		49	long	-	-
+PP_CS_DATX_DSV__rpr_ret		50	long	-	-
+# FIN DE SERVICIO PP_CS_DATX_DSV
+

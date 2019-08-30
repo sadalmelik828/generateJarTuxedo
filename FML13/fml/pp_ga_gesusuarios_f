@@ -1,0 +1,62 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gesusuarios.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gesusuarios_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3267000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_ALPERFIL
+# INICIO DE SERVICIO PP_GA_ALPERFIL
+PP_GA_ALPERFIL_scod_usuperfil		0	string	-	-
+PP_GA_ALPERFIL_sdes_usuperfil		1	string	-	-
+PP_GA_ALPERFIL__rpr_ret		2	long	-	-
+# FIN DE SERVICIO PP_GA_ALPERFIL
+
+# Identificadores para el servicio PP_GA_CONPERF
+# INICIO DE SERVICIO PP_GA_CONPERF
+PP_GA_CONPERFscod_usuperfil_01		3	string	-	-
+PP_GA_CONPERF_stoken		4	string	-	-
+PP_GA_CONPERF_ln_regs		5	long	-	-
+PP_GA_CONPERF_scod_usuperfil		6	string	-	-
+PP_GA_CONPERF_sdes_usuperfil		7	string	-	-
+PP_GA_CONPERF_sfec_modifica		8	string	-	-
+PP_GA_CONPERF__rpr_ret		9	long	-	-
+# FIN DE SERVICIO PP_GA_CONPERF
+
+# Identificadores para el servicio PP_GA_ALTAUSU
+# INICIO DE SERVICIO PP_GA_ALTAUSU
+PP_GA_ALTAUSU_snom_usuario		10	string	-	-
+PP_GA_ALTAUSU_sdes_usuario		11	string	-	-
+PP_GA_ALTAUSU_scod_usuperfil		12	string	-	-
+PP_GA_ALTAUSU__rpr_ret		13	long	-	-
+# FIN DE SERVICIO PP_GA_ALTAUSU
+
+# Identificadores para el servicio PP_GA_CONUSUAP
+# INICIO DE SERVICIO PP_GA_CONUSUAP
+PP_GA_CONUSUAP_scod_usuario		14	string	-	-
+PP_GA_CONUSUAP_snom_usuarora		15	string	-	-
+PP_GA_CONUSUAP_sdes_usuario		16	string	-	-
+PP_GA_CONUSUAP_sfec_alta		17	string	-	-
+PP_GA_CONUSUAP_sfec_baja		18	string	-	-
+PP_GA_CONUSUAP_sflg_estadis		19	carray	-	-
+PP_GA_CONUSUAP_scod_usuperfil		20	string	-	-
+PP_GA_CONUSUAP__rpr_ret		21	long	-	-
+# FIN DE SERVICIO PP_GA_CONUSUAP
+
+# Identificadores para el servicio PP_GA_BAJAUSU
+# INICIO DE SERVICIO PP_GA_BAJAUSU
+PP_GA_BAJAUSU_scod_usuario		22	string	-	-
+PP_GA_BAJAUSU__rpr_ret		23	long	-	-
+# FIN DE SERVICIO PP_GA_BAJAUSU
+
+# Identificadores para el servicio GA_MODCODUSU
+# INICIO DE SERVICIO GA_MODCODUSU
+GA_MODCODUSU_num_telefono		24	string	-	-
+GA_MODCODUSU_snuevo_codusu		25	string	-	-
+GA_MODCODUSU__rpr_ret		26	long	-	-
+# FIN DE SERVICIO GA_MODCODUSU
+

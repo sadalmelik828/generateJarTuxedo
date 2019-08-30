@@ -1,0 +1,47 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_informes.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_informes_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3245000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_SOLINFOR
+# INICIO DE SERVICIO PP_GA_SOLINFOR
+PP_GA_SOLINFOR_cod_informe		0	string	-	-
+PP_GA_SOLINFOR_nom_fichero		1	string	-	-
+PP_GA_SOLINFOR_destino		2	string	-	-
+PP_GA_SOLINFOR_cad_parametros		3	string	-	-
+PP_GA_SOLINFOR_ref_informe		4	long	-	-
+PP_GA_SOLINFOR__rpr_ret		5	long	-	-
+# FIN DE SERVICIO PP_GA_SOLINFOR
+
+# Identificadores para el servicio PP_GA_CAINFOR
+# INICIO DE SERVICIO PP_GA_CAINFOR
+PP_GA_CAINFOR_ref_informe		6	long	-	-
+PP_GA_CAINFOR__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PP_GA_CAINFOR
+
+# Identificadores para el servicio PP_GA_CONINFOR
+# INICIO DE SERVICIO PP_GA_CONINFOR
+PP_GA_CONINFOR_ref_informe		8	long	-	-
+PP_GA_CONINFOR_cad_estado		9	string	-	-
+PP_GA_CONINFOR_fec_planifica		10	string	-	-
+PP_GA_CONINFOR__rpr_ret		11	long	-	-
+# FIN DE SERVICIO PP_GA_CONINFOR
+
+# Identificadores para el servicio PP_GA_CATCON
+# INICIO DE SERVICIO PP_GA_CATCON
+PP_GA_CATCON_plItem_max		12	long	-	-
+PP_GA_CATCON_token		13	string	-	-
+PP_GA_CATCON_cod_informe		14	string	-	-
+PP_GA_CATCON_des_informe		15	string	-	-
+PP_GA_CATCON_num_parametros		16	short	-	-
+PP_GA_CATCON_tipo_parametros		17	string	-	-
+PP_GA_CATCON_pcHayMas		18	string	-	-
+PP_GA_CATCON__rpr_ret		19	long	-	-
+# FIN DE SERVICIO PP_GA_CATCON
+

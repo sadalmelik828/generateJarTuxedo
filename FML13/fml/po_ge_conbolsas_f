@@ -1,0 +1,53 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_conbolsas.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_conbolsas_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2915000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_CONBOLSAS
+# INICIO DE SERVICIO PO_GE_CONBOLSAS
+PO_GE_CONBOLSAS_msisdn		0	string	-	-
+PO_GE_CONBOLSAS_nreg		1	long	-	-
+PO_GE_CONBOLSAS_bolsa		2	string	-	-
+PO_GE_CONBOLSAS_saldo		3	string	-	-
+PO_GE_CONBOLSAS_caducidad		4	long	-	-
+PO_GE_CONBOLSAS_estado		5	string	-	-
+PO_GE_CONBOLSAS_validez		6	long	-	-
+PO_GE_CONBOLSAS__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PO_GE_CONBOLSAS
+
+# Identificadores para el servicio PO_GE_CONBOLSA2
+# INICIO DE SERVICIO PO_GE_CONBOLSA2
+PO_GE_CONBOLSA2_msisdn		8	string	-	-
+PO_GE_CONBOLSA2_nreg		9	long	-	-
+PO_GE_CONBOLSA2_bolsa		10	string	-	-
+PO_GE_CONBOLSA2_saldo		11	string	-	-
+PO_GE_CONBOLSA2_caducidad		12	long	-	-
+PO_GE_CONBOLSA2_estado		13	string	-	-
+PO_GE_CONBOLSA2_validez		14	long	-	-
+PO_GE_CONBOLSA2_fechafin		15	string	-	-
+PO_GE_CONBOLSA2__rpr_ret		16	long	-	-
+# FIN DE SERVICIO PO_GE_CONBOLSA2
+
+# Identificadores para el servicio PO_GE_CONBOLSA3
+# INICIO DE SERVICIO PO_GE_CONBOLSA3
+PO_GE_CONBOLSA3_msisdn		17	string	-	-
+PO_GE_CONBOLSA3_nreg		18	long	-	-
+PO_GE_CONBOLSA3_bolsa		19	string	-	-
+PO_GE_CONBOLSA3_saldo		20	string	-	-
+PO_GE_CONBOLSA3_caducidad		21	long	-	-
+PO_GE_CONBOLSA3_estado		22	string	-	-
+PO_GE_CONBOLSA3_validez		23	long	-	-
+PO_GE_CONBOLSA3_fechafin		24	string	-	-
+PO_GE_CONBOLSA3_esCompartida		25	string	-	-
+PO_GE_CONBOLSA3_ndeudas		26	long	-	-
+PO_GE_CONBOLSA3_tipo_deuda		27	string	-	-
+PO_GE_CONBOLSA3_valor_deuda		28	string	-	-
+PO_GE_CONBOLSA3__rpr_ret		29	long	-	-
+# FIN DE SERVICIO PO_GE_CONBOLSA3
+

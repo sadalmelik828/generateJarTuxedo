@@ -1,0 +1,81 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_aawdat_r.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_aawdat_r_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz Corporativo versión 1.0 
+#
+
+*base		3112000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio pp_cs_obdagen
+# INICIO DE SERVICIO pp_cs_obdagen
+pp_cs_obdagen_usuario		0	string	-	-
+pp_cs_obdagen_dia_min		1	long	-	-
+pp_cs_obdagen_mes_min		2	long	-	-
+pp_cs_obdagen_anyo_min		3	long	-	-
+pp_cs_obdagen_dia_max		4	long	-	-
+pp_cs_obdagen_mes_max		5	long	-	-
+pp_cs_obdagen_anyo_max		6	long	-	-
+pp_cs_obdagen_cod_retorno		7	long	-	-
+# FIN DE SERVICIO pp_cs_obdagen
+
+# Identificadores para el servicio pp_cs_lsacumu
+# INICIO DE SERVICIO pp_cs_lsacumu
+pp_cs_lsacumu_usuario		8	string	-	-
+pp_cs_lsacumu_n_regs		9	long	-	-
+pp_cs_lsacumu_mes		10	long	-	-
+pp_cs_lsacumu_anyo		11	long	-	-
+pp_cs_lsacumu_nacional		12	double	-	-
+pp_cs_lsacumu_internacional		13	double	-	-
+pp_cs_lsacumu_roaming		14	double	-	-
+pp_cs_lsacumu_s_suplement		15	double	-	-
+pp_cs_lsacumu_n_especial		16	double	-	-
+pp_cs_lsacumu_cod_retorno		17	long	-	-
+# FIN DE SERVICIO pp_cs_lsacumu
+
+# Identificadores para el servicio pp_cs_lsdatos
+# INICIO DE SERVICIO pp_cs_lsdatos
+pp_cs_lsdatos_usuario		18	string	-	-
+pp_cs_lsdatos_n_regs		19	long	-	-
+pp_cs_lsdatos_ult_reg		20	long	-	-
+pp_cs_lsdatos_desde		21	string	-	-
+pp_cs_lsdatos_hasta		22	string	-	-
+pp_cs_lsdatos_tipo_restric		23	long	-	-
+pp_cs_lsdatos_mascara		24	string	-	-
+pp_cs_lsdatos_importe		25	double	-	-
+pp_cs_lsdatos_num_telefono		26	string	-	-
+pp_cs_lsdatos_tipo		27	string	-	-
+pp_cs_lsdatos_abrv_tipo_pp		28	string	-	-
+pp_cs_lsdatos_tipo_tarjeta		29	string	-	-
+pp_cs_lsdatos_fec_llamada		30	string	-	-
+pp_cs_lsdatos_hora_llamada		31	string	-	-
+pp_cs_lsdatos_duracion_seg		32	long	-	-
+pp_cs_lsdatos_imp_pts		33	double	-	-
+pp_cs_lsdatos_cod_retorno		34	long	-	-
+# FIN DE SERVICIO pp_cs_lsdatos
+
+# Identificadores para el servicio pp_cs_lsdatosX
+# INICIO DE SERVICIO pp_cs_lsdatosX
+pp_cs_lsdatosX_usuario		35	string	-	-
+pp_cs_lsdatosX_n_regs		36	long	-	-
+pp_cs_lsdatosX_ult_reg		37	long	-	-
+pp_cs_lsdatosX_desde		38	string	-	-
+pp_cs_lsdatosX_hasta		39	string	-	-
+pp_cs_lsdatosX_tipo_restric		40	long	-	-
+pp_cs_lsdatosX_mascara		41	string	-	-
+pp_cs_lsdatosX_importe		42	double	-	-
+pp_cs_lsdatosX_num_telefono		43	string	-	-
+pp_cs_lsdatosX_tipo		44	string	-	-
+pp_cs_lsdatosX_abrv_tipo_pp		45	string	-	-
+pp_cs_lsdatosX_tipo_tarjeta		46	string	-	-
+pp_cs_lsdatosX_fec_llamada		47	string	-	-
+pp_cs_lsdatosX_hora_llamada		48	string	-	-
+pp_cs_lsdatosX_duracion_seg		49	long	-	-
+pp_cs_lsdatosX_imp_pts		50	double	-	-
+pp_cs_lsdatosX_cod_retorno		51	long	-	-
+# FIN DE SERVICIO pp_cs_lsdatosX
+

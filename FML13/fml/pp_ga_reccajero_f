@@ -1,0 +1,58 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_reccajero.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_reccajero_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3269000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_RCCAJERO
+# INICIO DE SERVICIO PP_GA_RCCAJERO
+PP_GA_RCCAJERO_snum_telefono		0	string	-	-
+PP_GA_RCCAJERO_fimp_recarga		1	double	-	-
+PP_GA_RCCAJERO_scod_moneda		2	string	-	-
+PP_GA_RCCAJERO_scod_usuario		3	string	-	-
+PP_GA_RCCAJERO_card_number		4	string	-	-
+PP_GA_RCCAJERO_tran_type		5	string	-	-
+PP_GA_RCCAJERO_atm_date		6	string	-	-
+PP_GA_RCCAJERO_bank_code		7	string	-	-
+PP_GA_RCCAJERO_atm_sec		8	string	-	-
+PP_GA_RCCAJERO_atm_id_ori		9	long	-	-
+PP_GA_RCCAJERO_bank_desc		10	string	-	-
+PP_GA_RCCAJERO_card_bank_code		11	string	-	-
+PP_GA_RCCAJERO_bank_account		12	string	-	-
+PP_GA_RCCAJERO_atm_td		13	string	-	-
+PP_GA_RCCAJERO_credito_debito		14	string	-	-
+PP_GA_RCCAJERO_fecha_contable		15	string	-	-
+PP_GA_RCCAJERO_ssec_actuacion		16	string	-	-
+PP_GA_RCCAJERO_atm_id		17	long	-	-
+PP_GA_RCCAJERO__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_RCCAJERO
+
+# Identificadores para el servicio GA_RCCAJERO
+# INICIO DE SERVICIO GA_RCCAJERO
+GA_RCCAJERO_snum_telefono		19	string	-	-
+GA_RCCAJERO_fimp_recarga		20	double	-	-
+GA_RCCAJERO_scod_moneda		21	string	-	-
+GA_RCCAJERO_scod_usuario		22	string	-	-
+GA_RCCAJERO_card_number		23	string	-	-
+GA_RCCAJERO_tran_type		24	string	-	-
+GA_RCCAJERO_atm_date		25	string	-	-
+GA_RCCAJERO_bank_code		26	string	-	-
+GA_RCCAJERO_atm_sec		27	string	-	-
+GA_RCCAJERO_atm_id_ori		28	long	-	-
+GA_RCCAJERO_bank_desc		29	string	-	-
+GA_RCCAJERO_card_bank_code		30	string	-	-
+GA_RCCAJERO_bank_account		31	string	-	-
+GA_RCCAJERO_atm_td		32	string	-	-
+GA_RCCAJERO_credito_debito		33	string	-	-
+GA_RCCAJERO_fecha_contable		34	string	-	-
+GA_RCCAJERO_cod_subcanal		35	string	-	-
+GA_RCCAJERO_ssec_actuacion		36	string	-	-
+GA_RCCAJERO_atm_id		37	long	-	-
+GA_RCCAJERO__rpr_ret		38	long	-	-
+# FIN DE SERVICIO GA_RCCAJERO
+

@@ -1,0 +1,20 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_co_consaldo.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_co_consaldo_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2900000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_CO_CONSALDO
+# INICIO DE SERVICIO PO_CO_CONSALDO
+PO_CO_CONSALDO_msisdn		0	string	-	-
+PO_CO_CONSALDO_consumo		1	string	-	-
+PO_CO_CONSALDO_credito		2	string	-	-
+PO_CO_CONSALDO_reserva		3	string	-	-
+PO_CO_CONSALDO__rpr_ret		4	long	-	-
+# FIN DE SERVICIO PO_CO_CONSALDO
+

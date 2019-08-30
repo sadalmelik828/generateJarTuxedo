@@ -1,0 +1,61 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_tratamdist.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_tratamdist_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2909000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_ALTADIST
+# INICIO DE SERVICIO PO_GE_ALTADIST
+PO_GE_ALTADISTnum_distribuid01		0	string	-	-
+PO_GE_ALTADIST_cla_recargador		1	string	-	-
+PO_GE_ALTADIST_lim_diario		2	long	-	-
+PO_GE_ALTADIST__rpr_ret		3	short	-	-
+# FIN DE SERVICIO PO_GE_ALTADIST
+
+# Identificadores para el servicio PO_GE_MODDIST
+# INICIO DE SERVICIO PO_GE_MODDIST
+PO_GE_MODDIST_num_distribuidor		4	string	-	-
+PO_GE_MODDIST_lim_diario		5	long	-	-
+PO_GE_MODDIST__rpr_ret		6	short	-	-
+# FIN DE SERVICIO PO_GE_MODDIST
+
+# Identificadores para el servicio PO_GE_BAJADIST
+# INICIO DE SERVICIO PO_GE_BAJADIST
+PO_GE_BAJADISTnum_distribuid01		7	string	-	-
+PO_GE_BAJADIST__rpr_ret		8	short	-	-
+# FIN DE SERVICIO PO_GE_BAJADIST
+
+# Identificadores para el servicio PO_GE_ALTAUSU
+# INICIO DE SERVICIO PO_GE_ALTAUSU
+PO_GE_ALTAUSU_num_distribuidor		9	string	-	-
+PO_GE_ALTAUSU_cla_operador		10	string	-	-
+PO_GE_ALTAUSU__rpr_ret		11	short	-	-
+# FIN DE SERVICIO PO_GE_ALTAUSU
+
+# Identificadores para el servicio PO_GE_BAJAUSU
+# INICIO DE SERVICIO PO_GE_BAJAUSU
+PO_GE_BAJAUSU_num_distribuidor		12	string	-	-
+PO_GE_BAJAUSU_cla_operador		13	string	-	-
+PO_GE_BAJAUSU__rpr_ret		14	short	-	-
+# FIN DE SERVICIO PO_GE_BAJAUSU
+
+# Identificadores para el servicio PO_GE_ESTADIST
+# INICIO DE SERVICIO PO_GE_ESTADIST
+PO_GE_ESTADISTnum_distribuid01		15	string	-	-
+PO_GE_ESTADIST_flag_susp		16	carray	-	-
+PO_GE_ESTADIST__rpr_ret		17	short	-	-
+# FIN DE SERVICIO PO_GE_ESTADIST
+
+# Identificadores para el servicio PO_GE_MODCLAVE
+# INICIO DE SERVICIO PO_GE_MODCLAVE
+PO_GE_MODCLAVEnum_distribuid01		18	string	-	-
+PO_GE_MODCLAVE_cla_antigua		19	string	-	-
+PO_GE_MODCLAVE_cla_nueva		20	string	-	-
+PO_GE_MODCLAVE__rpr_ret		21	short	-	-
+# FIN DE SERVICIO PO_GE_MODCLAVE
+

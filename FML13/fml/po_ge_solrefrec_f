@@ -1,0 +1,18 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_solrefrec.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_solrefrec_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2905000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_SOLREFR
+# INICIO DE SERVICIO PO_GE_SOLREFR
+PO_GE_SOLREFR_tipo_prepago		0	string	-	-
+PO_GE_SOLREFR_referencia		1	string	-	-
+PO_GE_SOLREFR__rpr_ret		2	short	-	-
+# FIN DE SERVICIO PO_GE_SOLREFR
+

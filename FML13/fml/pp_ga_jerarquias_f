@@ -1,0 +1,89 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_jerarquias.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_jerarquias_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3286000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_ALTAEMPRESA
+# INICIO DE SERVICIO GA_ALTAEMPRESA
+GA_ALTAEMPRESA_sCuit		0	string	-	-
+GA_ALTAEMPRESA_sCodUsuario		1	string	-	-
+GA_ALTAEMPRESA__rpr_ret		2	long	-	-
+# FIN DE SERVICIO GA_ALTAEMPRESA
+
+# Identificadores para el servicio GA_ACLIEMPRESA
+# INICIO DE SERVICIO GA_ACLIEMPRESA
+GA_ACLIEMPRESA_sCuit		3	string	-	-
+GA_ACLIEMPRESA_cod_cliente		4	string	-	-
+GA_ACLIEMPRESA_sCodUsuario		5	string	-	-
+GA_ACLIEMPRESA__rpr_ret		6	long	-	-
+# FIN DE SERVICIO GA_ACLIEMPRESA
+
+# Identificadores para el servicio GA_BAJAEMPRESA
+# INICIO DE SERVICIO GA_BAJAEMPRESA
+GA_BAJAEMPRESA_sCuit		7	string	-	-
+GA_BAJAEMPRESA_sCodUsuario		8	string	-	-
+GA_BAJAEMPRESA__rpr_ret		9	long	-	-
+# FIN DE SERVICIO GA_BAJAEMPRESA
+
+# Identificadores para el servicio GA_BCLIEMPRESA
+# INICIO DE SERVICIO GA_BCLIEMPRESA
+GA_BCLIEMPRESA_cod_cliente		10	string	-	-
+GA_BCLIEMPRESA_sCodUsuario		11	string	-	-
+GA_BCLIEMPRESA__rpr_ret		12	long	-	-
+# FIN DE SERVICIO GA_BCLIEMPRESA
+
+# Identificadores para el servicio GA_CONLINEAEMP
+# INICIO DE SERVICIO GA_CONLINEAEMP
+GA_CONLINEAEMP_sCuit		13	string	-	-
+GA_CONLINEAEMP_token		14	string	-	-
+GA_CONLINEAEMP_n_regs		15	long	-	-
+GA_CONLINEAEMP_num_telefono		16	string	-	-
+GA_CONLINEAEMP_HayMas		17	carray	-	-
+GA_CONLINEAEMP__rpr_ret		18	long	-	-
+# FIN DE SERVICIO GA_CONLINEAEMP
+
+# Identificadores para el servicio GA_CONLINEACLI
+# INICIO DE SERVICIO GA_CONLINEACLI
+GA_CONLINEACLI_cod_cliente		19	string	-	-
+GA_CONLINEACLI_token		20	string	-	-
+GA_CONLINEACLI_n_regs		21	long	-	-
+GA_CONLINEACLI_num_telefono		22	string	-	-
+GA_CONLINEACLI_HayMas		23	carray	-	-
+GA_CONLINEACLI__rpr_ret		24	long	-	-
+# FIN DE SERVICIO GA_CONLINEACLI
+
+# Identificadores para el servicio GA_CONCLILINEA
+# INICIO DE SERVICIO GA_CONCLILINEA
+GA_CONCLILINEA_num_telefono		25	string	-	-
+GA_CONCLILINEA_cod_cliente		26	string	-	-
+GA_CONCLILINEA_sCuit		27	string	-	-
+GA_CONCLILINEA__rpr_ret		28	long	-	-
+# FIN DE SERVICIO GA_CONCLILINEA
+
+# Identificadores para el servicio GA_MODCLIABO
+# INICIO DE SERVICIO GA_MODCLIABO
+GA_MODCLIABO_num_telefono		29	string	-	-
+GA_MODCLIABO_cod_cliente		30	string	-	-
+GA_MODCLIABO_sCodUsuario		31	string	-	-
+GA_MODCLIABO_imp_coste		32	double	-	-
+GA_MODCLIABO_sCodMoneda		33	string	-	-
+GA_MODCLIABO_sSecActuacion		34	string	-	-
+GA_MODCLIABO__rpr_ret		35	long	-	-
+# FIN DE SERVICIO GA_MODCLIABO
+
+# Identificadores para el servicio GA_CONCLIENTES
+# INICIO DE SERVICIO GA_CONCLIENTES
+GA_CONCLIENTES_token		36	string	-	-
+GA_CONCLIENTES_n_regs		37	long	-	-
+GA_CONCLIENTES_cod_clientes		38	string	-	-
+GA_CONCLIENTES_sCuit		39	string	-	-
+GA_CONCLIENTES_HayMas		40	carray	-	-
+GA_CONCLIENTES__rpr_ret		41	long	-	-
+# FIN DE SERVICIO GA_CONCLIENTES
+

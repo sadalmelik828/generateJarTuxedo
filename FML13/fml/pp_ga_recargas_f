@@ -1,0 +1,335 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_recargas.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_recargas_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3215000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_SOLRECDIS
+# INICIO DE SERVICIO PP_GA_SOLRECDIS
+PP_GA_SOLRECDIS_num_telrecar		0	string	-	-
+PP_GA_SOLRECDIS_cla_distrib		1	string	-	-
+PP_GA_SOLRECDIS_cla_operador		2	string	-	-
+PP_GA_SOLRECDIS_num_telefono		3	string	-	-
+PP_GA_SOLRECDIS_imp_recarga		4	string	-	-
+PP_GA_SOLRECDIS_cod_moneda		5	string	-	-
+PP_GA_SOLRECDIS_ref_solicitud		6	string	-	-
+PP_GA_SOLRECDIS__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PP_GA_SOLRECDIS
+
+# Identificadores para el servicio PP_GA_CONRECDIS
+# INICIO DE SERVICIO PP_GA_CONRECDIS
+PP_GA_CONRECDIS_num_telrecar		8	string	-	-
+PP_GA_CONRECDIS_cla_distrib		9	string	-	-
+PP_GA_CONRECDIS_cla_operador		10	string	-	-
+PP_GA_CONRECDIS_fec_inicio		11	string	-	-
+PP_GA_CONRECDIS_fec_fin		12	string	-	-
+PP_GA_CONRECDIS_num_items		13	long	-	-
+PP_GA_CONRECDIS_ult_ref_sol		14	string	-	-
+PP_GA_CONRECDIS_fec_ejecucion		15	string	-	-
+PP_GA_CONRECDIS_fec_instalac		16	string	-	-
+PP_GA_CONRECDIS_num_telefono		17	string	-	-
+PP_GA_CONRECDIS_cod_moneda		18	string	-	-
+PP_GA_CONRECDIS_imp_recarga		19	string	-	-
+PP_GA_CONRECDIS_est_recarga		20	string	-	-
+PP_GA_CONRECDIS_cod_referenci		21	string	-	-
+PP_GA_CONRECDIS_ref_solicitud		22	string	-	-
+PP_GA_CONRECDIS_hay_mas		23	string	-	-
+PP_GA_CONRECDIS__rpr_ret		24	long	-	-
+# FIN DE SERVICIO PP_GA_CONRECDIS
+
+# Identificadores para el servicio PP_GA_CONRECD2
+# INICIO DE SERVICIO PP_GA_CONRECD2
+PP_GA_CONRECD2_num_telrecar		25	string	-	-
+PP_GA_CONRECD2_cla_distrib		26	string	-	-
+PP_GA_CONRECD2_cla_operador		27	string	-	-
+PP_GA_CONRECD2_fec_inicio		28	string	-	-
+PP_GA_CONRECD2_fec_fin		29	string	-	-
+PP_GA_CONRECD2_cod_moneda		30	string	-	-
+PP_GA_CONRECD2_num_items		31	long	-	-
+PP_GA_CONRECD2_ult_ref_sol		32	string	-	-
+PP_GA_CONRECD2_fec_ejecucion		33	string	-	-
+PP_GA_CONRECD2_fec_instalac		34	string	-	-
+PP_GA_CONRECD2_num_telefono		35	string	-	-
+PP_GA_CONRECD2_imp_recarga		36	string	-	-
+PP_GA_CONRECD2_est_recarga		37	string	-	-
+PP_GA_CONRECD2_cod_referenci		38	string	-	-
+PP_GA_CONRECD2_ref_solicitud		39	string	-	-
+PP_GA_CONRECD2_hay_mas		40	string	-	-
+PP_GA_CONRECD2__rpr_ret		41	long	-	-
+# FIN DE SERVICIO PP_GA_CONRECD2
+
+# Identificadores para el servicio PP_GA_ANULAREC
+# INICIO DE SERVICIO PP_GA_ANULAREC
+PP_GA_ANULAREC_snumTelefono		42	string	-	-
+PP_GA_ANULAREC_ssecActRecarga		43	string	-	-
+PP_GA_ANULAREC_scodUsuario		44	string	-	-
+PP_GA_ANULAREC_sflag		45	string	-	-
+PP_GA_ANULAREC_ssecActuacion		46	string	-	-
+PP_GA_ANULAREC__rpr_ret		47	long	-	-
+# FIN DE SERVICIO PP_GA_ANULAREC
+
+# Identificadores para el servicio GA_RECBANCIR
+# INICIO DE SERVICIO GA_RECBANCIR
+GA_RECBANCIR_snum_telefono		48	string	-	-
+GA_RECBANCIR_stipo_recarga		49	string	-	-
+GA_RECBANCIR_fimp_recarga		50	double	-	-
+GA_RECBANCIR_scod_moneda		51	string	-	-
+GA_RECBANCIR_scod_usuario		52	string	-	-
+GA_RECBANCIR_lper_validez		53	long	-	-
+GA_RECBANCIRscod_correlacion01		54	string	-	-
+GA_RECBANCIR_scod_nscatm		55	string	-	-
+GA_RECBANCIR_scod_secuenciaatm		56	string	-	-
+GA_RECBANCIRscod_localizacio01		57	string	-	-
+GA_RECBANCIR_scod_numreceptor		58	string	-	-
+GA_RECBANCIR_scod_rama		59	string	-	-
+GA_RECBANCIR_scod_memo		60	string	-	-
+GA_RECBANCIR_scod_msisdncargo		61	string	-	-
+GA_RECBANCIR_ssec_actuacion		62	string	-	-
+GA_RECBANCIR__rpr_ret		63	long	-	-
+# FIN DE SERVICIO GA_RECBANCIR
+
+# Identificadores para el servicio GA_RCMULTIPLE
+# INICIO DE SERVICIO GA_RCMULTIPLE
+GA_RCMULTIPLE_snum_telefono		64	string	-	-
+GA_RCMULTIPLE_stipo_recarga		65	string	-	-
+GA_RCMULTIPLE_fimp_recarga		66	double	-	-
+GA_RCMULTIPLE_scod_moneda		67	string	-	-
+GA_RCMULTIPLE_scod_promocion		68	string	-	-
+GA_RCMULTIPLE_scod_usuario		69	string	-	-
+GA_RCMULTIPLE_lper_validez		70	long	-	-
+GA_RCMULTIPLE_mediaType		71	string	-	-
+GA_RCMULTIPLE_erReference		72	string	-	-
+GA_RCMULTIPLE_transaction_id		73	string	-	-
+GA_RCMULTIPLE_ssec_actuacion		74	string	-	-
+GA_RCMULTIPLE__rpr_ret		75	long	-	-
+# FIN DE SERVICIO GA_RCMULTIPLE
+
+# Identificadores para el servicio GA_ANRCMULTIPLE
+# INICIO DE SERVICIO GA_ANRCMULTIPLE
+GA_ANRCMULTIPLE_num_telefono		76	string	-	-
+GA_ANRCMULTIPLE_cod_referenci		77	string	-	-
+GA_ANRCMULTIPLE_cod_usuario		78	string	-	-
+GA_ANRCMULTIPLE_flag		79	string	-	-
+GA_ANRCMULTIPLE__rpr_ret		80	long	-	-
+# FIN DE SERVICIO GA_ANRCMULTIPLE
+
+# Identificadores para el servicio GA_RECARGASOS
+# INICIO DE SERVICIO GA_RECARGASOS
+GA_RECARGASOS_num_telefono		81	string	-	-
+GA_RECARGASOS_scod_origreca		82	string	-	-
+GA_RECARGASOS_dimp_recarga		83	double	-	-
+GA_RECARGASOS_scod_moneda		84	string	-	-
+GA_RECARGASOS_scod_usuario		85	string	-	-
+GA_RECARGASOS_lper_validez		86	long	-	-
+GA_RECARGASOSldias_sin_penal01		87	long	-	-
+GA_RECARGASOSdimporte_penali01		88	double	-	-
+GA_RECARGASOS_ssec_actuacion		89	string	-	-
+GA_RECARGASOS__rpr_ret		90	long	-	-
+# FIN DE SERVICIO GA_RECARGASOS
+
+# Identificadores para el servicio GA_CONRECBANC
+# INICIO DE SERVICIO GA_CONRECBANC
+GA_CONRECBANC_sdn		91	string	-	-
+GA_CONRECBANC_satm_sec		92	string	-	-
+GA_CONRECBANC_sSecActuacion		93	string	-	-
+GA_CONRECBANC__rpr_ret		94	long	-	-
+# FIN DE SERVICIO GA_CONRECBANC
+
+# Identificadores para el servicio GA_CONULTREC
+# INICIO DE SERVICIO GA_CONULTREC
+GA_CONULTREC_num_telefono		95	string	-	-
+GA_CONULTREC_scod_moneda		96	string	-	-
+GA_CONULTREC_scod_estarec_in		97	string	-	-
+GA_CONULTREC_lnum_origreca		98	long	-	-
+GA_CONULTREC_ascod_origreca		99	string	-	-
+GA_CONULTREC_sSecActuacion		100	string	-	-
+GA_CONULTREC_sfecRecarga		101	string	-	-
+GA_CONULTREC_scod_origreca		102	string	-	-
+GA_CONULTREC_dimp_recarga		103	double	-	-
+GA_CONULTREC_dval_impuesto		104	double	-	-
+GA_CONULTREC_scod_estarec		105	string	-	-
+GA_CONULTREC_scod_usuario		106	string	-	-
+GA_CONULTREC_scod_admin		107	string	-	-
+GA_CONULTREC__rpr_ret		108	long	-	-
+# FIN DE SERVICIO GA_CONULTREC
+
+# Identificadores para el servicio GA_CONORIGRECA
+# INICIO DE SERVICIO GA_CONORIGRECA
+GA_CONORIGRECA_snum_telefono		109	string	-	-
+GA_CONORIGRECA_num_regs		110	long	-	-
+GA_CONORIGRECA_scod_origreca		111	string	-	-
+GA_CONORIGRECA_hay_mas		112	carray	-	-
+GA_CONORIGRECA_token		113	string	-	-
+GA_CONORIGRECA__rpr_ret		114	long	-	-
+# FIN DE SERVICIO GA_CONORIGRECA
+
+# Identificadores para el servicio GA_CONULTREC2
+# INICIO DE SERVICIO GA_CONULTREC2
+GA_CONULTREC2_num_telefono		115	string	-	-
+GA_CONULTREC2_scod_moneda		116	string	-	-
+GA_CONULTREC2_scod_estarec_in		117	string	-	-
+GA_CONULTREC2_lnum_origreca		118	long	-	-
+GA_CONULTREC2_ascod_origreca		119	string	-	-
+GA_CONULTREC2_sSecActuacion		120	string	-	-
+GA_CONULTREC2_sfecRecarga		121	string	-	-
+GA_CONULTREC2_scod_origreca		122	string	-	-
+GA_CONULTREC2_dimp_recarga		123	double	-	-
+GA_CONULTREC2_dval_impuesto		124	double	-	-
+GA_CONULTREC2_scod_estarec		125	string	-	-
+GA_CONULTREC2_scod_usuario		126	string	-	-
+GA_CONULTREC2_scod_admin		127	string	-	-
+GA_CONULTREC2_sflg_recparc		128	string	-	-
+GA_CONULTREC2_dimp_nocargado		129	double	-	-
+GA_CONULTREC2__rpr_ret		130	long	-	-
+# FIN DE SERVICIO GA_CONULTREC2
+
+# Identificadores para el servicio GA_ORIGENREC
+# INICIO DE SERVICIO GA_ORIGENREC
+GA_ORIGENREC_ln_regs		131	long	-	-
+GA_ORIGENREC_ascod_origreca		132	string	-	-
+GA_ORIGENREC_asflg_origprom		133	string	-	-
+GA_ORIGENREC_asflg_origrecec		134	string	-	-
+GA_ORIGENREC__rpr_ret		135	long	-	-
+# FIN DE SERVICIO GA_ORIGENREC
+
+# Identificadores para el servicio GA_INFGRESZON
+# INICIO DE SERVICIO GA_INFGRESZON
+GA_INFGRESZON_scod_gre		136	string	-	-
+GA_INFGRESZON_scod_idioma		137	string	-	-
+GA_INFGRESZON_ln_regs		138	long	-	-
+GA_INFGRESZON_stoken		139	string	-	-
+GA_INFGRESZON_ascod_zona		140	string	-	-
+GA_INFGRESZON_asdes_zona		141	string	-	-
+GA_INFGRESZON_shay_mas		142	string	-	-
+GA_INFGRESZON__rpr_ret		143	long	-	-
+# FIN DE SERVICIO GA_INFGRESZON
+
+# Identificadores para el servicio GA_INFGRESUB
+# INICIO DE SERVICIO GA_INFGRESUB
+GA_INFGRESUB_scod_gre		144	string	-	-
+GA_INFGRESUB_scod_idioma		145	string	-	-
+GA_INFGRESUB_ln_regs		146	long	-	-
+GA_INFGRESUB_stoken		147	string	-	-
+GA_INFGRESUB_ascod_subdistr		148	string	-	-
+GA_INFGRESUB_asdes_subdistr		149	string	-	-
+GA_INFGRESUB_shay_mas		150	string	-	-
+GA_INFGRESUB__rpr_ret		151	long	-	-
+# FIN DE SERVICIO GA_INFGRESUB
+
+# Identificadores para el servicio GA_IMPGRE
+# INICIO DE SERVICIO GA_IMPGRE
+GA_IMPGRE_num_telefono		152	string	-	-
+GA_IMPGRE_scod_moneda		153	string	-	-
+GA_IMPGRE_dimp_coste		154	double	-	-
+GA_IMPGRE_scod_usuario		155	string	-	-
+GA_IMPGRE_scod_origreca		156	carray	-	-
+GA_IMPGRE_scod_gre		157	carray	-	-
+GA_IMPGRE_scod_zona		158	carray	-	-
+GA_IMPGRE_scod_subdistri		159	carray	-	-
+GA_IMPGRE_dimp_min		160	double	-	-
+GA_IMPGRE_dimp_max		161	double	-	-
+GA_IMPGRE_smedia_type		162	string	-	-
+GA_IMPGRE_ser_reference		163	string	-	-
+GA_IMPGRE_stransactionid		164	string	-	-
+GA_IMPGRE_ssec_actuacion		165	string	-	-
+GA_IMPGRE__rpr_ret		166	long	-	-
+# FIN DE SERVICIO GA_IMPGRE
+
+# Identificadores para el servicio GA_LIMITESGRE
+# INICIO DE SERVICIO GA_LIMITESGRE
+GA_LIMITESGRE_num_telefono		167	string	-	-
+GA_LIMITESGRE_scod_moneda		168	string	-	-
+GA_LIMITESGRE_dimp_coste		169	double	-	-
+GA_LIMITESGRE_scod_usuario		170	string	-	-
+GA_LIMITESGRE_scod_origreca		171	carray	-	-
+GA_LIMITESGRE_scod_gre		172	carray	-	-
+GA_LIMITESGRE_scod_zona		173	carray	-	-
+GA_LIMITESGRE_stip_acum		174	carray	-	-
+GA_LIMITESGRE_dlimite		175	double	-	-
+GA_LIMITESGRE_dumbral		176	double	-	-
+GA_LIMITESGRE_sdia_reseteo		177	carray	-	-
+GA_LIMITESGRE_smedia_type		178	string	-	-
+GA_LIMITESGRE_ser_reference		179	string	-	-
+GA_LIMITESGRE_stransactionid		180	string	-	-
+GA_LIMITESGRE_ssec_actuacion		181	string	-	-
+GA_LIMITESGRE__rpr_ret		182	long	-	-
+# FIN DE SERVICIO GA_LIMITESGRE
+
+# Identificadores para el servicio GA_GETIMPGRE
+# INICIO DE SERVICIO GA_GETIMPGRE
+GA_GETIMPGRE_num_telefono		183	string	-	-
+GA_GETIMPGRE_scod_moneda		184	string	-	-
+GA_GETIMPGRE_ln_filtros		185	long	-	-
+GA_GETIMPGRE_asfcod_origrec		186	string	-	-
+GA_GETIMPGRE_asfcod_gre		187	string	-	-
+GA_GETIMPGRE_asfcod_zona		188	string	-	-
+GA_GETIMPGRE_asfcod_subdistr		189	string	-	-
+GA_GETIMPGRE_adimp_minimo		190	double	-	-
+GA_GETIMPGRE_adimp_maximo		191	double	-	-
+GA_GETIMPGRE_ascod_origreca		192	string	-	-
+GA_GETIMPGRE_ascod_gre		193	string	-	-
+GA_GETIMPGRE_ascod_zona		194	string	-	-
+GA_GETIMPGRE_ascod_subdistr		195	string	-	-
+GA_GETIMPGRE_asflg_def		196	string	-	-
+GA_GETIMPGRE__rpr_ret		197	long	-	-
+# FIN DE SERVICIO GA_GETIMPGRE
+
+# Identificadores para el servicio GA_GETLIMRECUS
+# INICIO DE SERVICIO GA_GETLIMRECUS
+GA_GETLIMRECUS_num_telefono		198	string	-	-
+GA_GETLIMRECUS_scod_moneda		199	string	-	-
+GA_GETLIMRECUS_ln_filtros		200	long	-	-
+GA_GETLIMRECUS_asfcod_origrec		201	string	-	-
+GA_GETLIMRECUS_asfcod_gre		202	string	-	-
+GA_GETLIMRECUS_asfcod_zona		203	string	-	-
+GA_GETLIMRECUS_ln_regs		204	long	-	-
+GA_GETLIMRECUS_stoken		205	string	-	-
+GA_GETLIMRECUS_adlim_diario		206	double	-	-
+GA_GETLIMRECUS_adlim_mensual		207	double	-	-
+GA_GETLIMRECUS_adacum_diario		208	double	-	-
+GA_GETLIMRECUS_adacum_mensual		209	double	-	-
+GA_GETLIMRECUS_adumbr_diario		210	double	-	-
+GA_GETLIMRECUS_adumbr_mensual		211	double	-	-
+GA_GETLIMRECUS_asdia_reseteo		212	string	-	-
+GA_GETLIMRECUS_ascod_origreca		213	string	-	-
+GA_GETLIMRECUS_ascod_gre		214	string	-	-
+GA_GETLIMRECUS_ascod_zona		215	string	-	-
+GA_GETLIMRECUS_asflg_defecto		216	string	-	-
+GA_GETLIMRECUS_shay_mas		217	string	-	-
+GA_GETLIMRECUS__rpr_ret		218	long	-	-
+# FIN DE SERVICIO GA_GETLIMRECUS
+
+# Identificadores para el servicio GA_CONSLIMGRE
+# INICIO DE SERVICIO GA_CONSLIMGRE
+GA_CONSLIMGRE_scod_moneda		219	string	-	-
+GA_CONSLIMGRE_ln_filtros		220	long	-	-
+GA_CONSLIMGRE_asfcod_gre		221	string	-	-
+GA_CONSLIMGRE_asfcod_zona		222	string	-	-
+GA_CONSLIMGRE_adlim_diario		223	double	-	-
+GA_CONSLIMGRE_adlim_mensual		224	double	-	-
+GA_CONSLIMGRE_adlim_laborabl		225	double	-	-
+GA_CONSLIMGRE_adacum_diario		226	double	-	-
+GA_CONSLIMGRE_adacum_mens		227	double	-	-
+GA_CONSLIMGRE_adacum_labor		228	double	-	-
+GA_CONSLIMGRE_asdia_reseteo		229	string	-	-
+GA_CONSLIMGRE__rpr_ret		230	long	-	-
+# FIN DE SERVICIO GA_CONSLIMGRE
+
+# Identificadores para el servicio GA_RCMULTIPL2
+# INICIO DE SERVICIO GA_RCMULTIPL2
+GA_RCMULTIPL2_snum_telefono		231	string	-	-
+GA_RCMULTIPL2_stipo_recarga		232	string	-	-
+GA_RCMULTIPL2_fimp_recarga		233	double	-	-
+GA_RCMULTIPL2_scod_moneda		234	string	-	-
+GA_RCMULTIPL2_scod_promocion		235	string	-	-
+GA_RCMULTIPL2_scod_usuario		236	string	-	-
+GA_RCMULTIPL2_lper_validez		237	long	-	-
+GA_RCMULTIPL2_ssec_actuacion		238	string	-	-
+GA_RCMULTIPL2__rpr_ret		239	long	-	-
+# FIN DE SERVICIO GA_RCMULTIPL2
+

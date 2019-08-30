@@ -1,0 +1,17 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_bdppcs.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_bdppcs_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3111000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_CS_ACUM2
+# INICIO DE SERVICIO PP_CS_ACUM2
+PP_CS_ACUM2_vcNumTelefono		0	string	-	-
+PP_CS_ACUM2_pdImpAcumulado		1	double	-	-
+# FIN DE SERVICIO PP_CS_ACUM2
+

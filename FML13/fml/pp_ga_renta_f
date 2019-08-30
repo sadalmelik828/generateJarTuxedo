@@ -1,0 +1,137 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_renta.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_renta_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3272000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_RENTASIG
+# INICIO DE SERVICIO PP_GA_RENTASIG
+PP_GA_RENTASIG_cod_empresa		0	string	-	-
+PP_GA_RENTASIG_terminal		1	string	-	-
+PP_GA_RENTASIG_flg_asignacion		2	string	-	-
+PP_GA_RENTASIG_cod_usuario		3	string	-	-
+PP_GA_RENTASIG__rpr_ret		4	long	-	-
+# FIN DE SERVICIO PP_GA_RENTASIG
+
+# Identificadores para el servicio PP_GA_RENTAEST
+# INICIO DE SERVICIO PP_GA_RENTAEST
+PP_GA_RENTAEST_cod_empresa		5	string	-	-
+PP_GA_RENTAEST_terminal		6	string	-	-
+PP_GA_RENTAEST_flg_asignacion		7	string	-	-
+PP_GA_RENTAEST__rpr_ret		8	long	-	-
+# FIN DE SERVICIO PP_GA_RENTAEST
+
+# Identificadores para el servicio PP_GA_RENTACON
+# INICIO DE SERVICIO PP_GA_RENTACON
+PP_GA_RENTACON_cod_empresa		9	string	-	-
+PP_GA_RENTACON_terminal		10	string	-	-
+PP_GA_RENTACON_fec_ini		11	string	-	-
+PP_GA_RENTACON_fec_fin		12	string	-	-
+PP_GA_RENTACON_n_regs		13	long	-	-
+PP_GA_RENTACON_fec_actuacion		14	string	-	-
+PP_GA_RENTACON_flg_asignacion		15	string	-	-
+PP_GA_RENTACON_mas_datos		16	carray	-	-
+PP_GA_RENTACON_fec_sig		17	string	-	-
+PP_GA_RENTACON__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_RENTACON
+
+# Identificadores para el servicio PP_GA_RENTAEMP
+# INICIO DE SERVICIO PP_GA_RENTAEMP
+PP_GA_RENTAEMP_cod_empresa		19	string	-	-
+PP_GA_RENTAEMP_n_regs		20	long	-	-
+PP_GA_RENTAEMP_sig_terminal		21	string	-	-
+PP_GA_RENTAEMP_terminal		22	string	-	-
+PP_GA_RENTAEMP_fec_actuacion		23	string	-	-
+PP_GA_RENTAEMP_flg_asignacion		24	string	-	-
+PP_GA_RENTAEMP_mas_datos		25	carray	-	-
+PP_GA_RENTAEMP__rpr_ret		26	long	-	-
+# FIN DE SERVICIO PP_GA_RENTAEMP
+
+# Identificadores para el servicio PP_GA_RENTASIG2
+# INICIO DE SERVICIO PP_GA_RENTASIG2
+PP_GA_RENTASIG2_cod_empresa		27	string	-	-
+PP_GA_RENTASIG2_terminal		28	string	-	-
+PP_GA_RENTASIG2_flg_asignacion		29	string	-	-
+PP_GA_RENTASIG2_cod_usuario		30	string	-	-
+PP_GA_RENTASIG2_sec_actuacion		31	string	-	-
+PP_GA_RENTASIG2__rpr_ret		32	long	-	-
+# FIN DE SERVICIO PP_GA_RENTASIG2
+
+# Identificadores para el servicio PP_GA_RENTAINF
+# INICIO DE SERVICIO PP_GA_RENTAINF
+PP_GA_RENTAINF_n_regs		33	long	-	-
+PP_GA_RENTAINF_cod_empresa		34	string	-	-
+PP_GA_RENTAINF_des_empresa		35	string	-	-
+PP_GA_RENTAINF_mas_datos		36	carray	-	-
+PP_GA_RENTAINF__rpr_ret		37	long	-	-
+# FIN DE SERVICIO PP_GA_RENTAINF
+
+# Identificadores para el servicio GA_RENTASIG3
+# INICIO DE SERVICIO GA_RENTASIG3
+GA_RENTASIG3_cod_empresa		38	string	-	-
+GA_RENTASIG3_terminal		39	string	-	-
+GA_RENTASIG3_flg_asignacion		40	string	-	-
+GA_RENTASIG3_cod_usuario		41	string	-	-
+GA_RENTASIG3_datos_usuario		42	string	-	-
+GA_RENTASIG3_reg_usuario		43	string	-	-
+GA_RENTASIG3_cod_moneda		44	string	-	-
+GA_RENTASIG3_importe_mmc		45	double	-	-
+GA_RENTASIG3_sec_actuacion		46	string	-	-
+GA_RENTASIG3__rpr_ret		47	long	-	-
+# FIN DE SERVICIO GA_RENTASIG3
+
+# Identificadores para el servicio GA_REASIGMMC
+# INICIO DE SERVICIO GA_REASIGMMC
+GA_REASIGMMC_terminal		48	string	-	-
+GA_REASIGMMC_cod_moneda		49	string	-	-
+GA_REASIGMMC_importe_mmc		50	double	-	-
+GA_REASIGMMC_cod_usuario		51	string	-	-
+GA_REASIGMMC_sec_actuacion		52	string	-	-
+GA_REASIGMMC__rpr_ret		53	long	-	-
+# FIN DE SERVICIO GA_REASIGMMC
+
+# Identificadores para el servicio GA_RENTACON
+# INICIO DE SERVICIO GA_RENTACON
+GA_RENTACON_cod_empresa		54	string	-	-
+GA_RENTACON_terminal		55	string	-	-
+GA_RENTACON_fec_ini		56	string	-	-
+GA_RENTACON_fec_fin		57	string	-	-
+GA_RENTACON_cod_moneda		58	string	-	-
+GA_RENTACON_n_regs		59	long	-	-
+GA_RENTACON_fec_actuacion		60	string	-	-
+GA_RENTACON_flg_asignacion		61	string	-	-
+GA_RENTACON_mas_datos		62	carray	-	-
+GA_RENTACON_fec_sig		63	string	-	-
+GA_RENTACON_datos_usuario		64	string	-	-
+GA_RENTACON_reg_usuario		65	string	-	-
+GA_RENTACON_importe_mmc		66	double	-	-
+GA_RENTACON__rpr_ret		67	long	-	-
+# FIN DE SERVICIO GA_RENTACON
+
+# Identificadores para el servicio GA_RENTAEST
+# INICIO DE SERVICIO GA_RENTAEST
+GA_RENTAEST_terminal		68	string	-	-
+GA_RENTAEST_cod_moneda		69	string	-	-
+GA_RENTAEST_flg_asignacion		70	string	-	-
+GA_RENTAEST_datos_usuario		71	string	-	-
+GA_RENTAEST_reg_usuario		72	string	-	-
+GA_RENTAEST_importe_mmc		73	double	-	-
+GA_RENTAEST_cod_empresa		74	string	-	-
+GA_RENTAEST__rpr_ret		75	long	-	-
+# FIN DE SERVICIO GA_RENTAEST
+
+# Identificadores para el servicio GA_RENTAINF
+# INICIO DE SERVICIO GA_RENTAINF
+GA_RENTAINF_n_regs		76	long	-	-
+GA_RENTAINF_cod_empresa		77	string	-	-
+GA_RENTAINF_des_empresa		78	string	-	-
+GA_RENTAINF_mas_datos		79	carray	-	-
+GA_RENTAINF_token		80	string	-	-
+GA_RENTAINF__rpr_ret		81	long	-	-
+# FIN DE SERVICIO GA_RENTAINF
+

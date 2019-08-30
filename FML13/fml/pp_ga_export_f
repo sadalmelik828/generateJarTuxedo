@@ -1,0 +1,39 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_export.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_export_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3235000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_SOEXPOR
+# INICIO DE SERVICIO PP_GA_SOEXPOR
+PP_GA_SOEXPOR_num_items		0	long	-	-
+PP_GA_SOEXPOR_num_telefono		1	string	-	-
+PP_GA_SOEXPOR_fec_cambio		2	string	-	-
+PP_GA_SOEXPOR_num_nrn		3	string	-	-
+PP_GA_SOEXPOR_cod_caucdenega		4	string	-	-
+PP_GA_SOEXPOR__rpr_ret		5	long	-	-
+# FIN DE SERVICIO PP_GA_SOEXPOR
+
+# Identificadores para el servicio PP_GA_CAEXPOR
+# INICIO DE SERVICIO PP_GA_CAEXPOR
+PP_GA_CAEXPOR_num_items		6	long	-	-
+PP_GA_CAEXPOR_num_telefono		7	string	-	-
+PP_GA_CAEXPOR_cod_caucancela		8	string	-	-
+PP_GA_CAEXPOR__rpr_ret		9	long	-	-
+# FIN DE SERVICIO PP_GA_CAEXPOR
+
+# Identificadores para el servicio PP_GA_SOEXPOR2
+# INICIO DE SERVICIO PP_GA_SOEXPOR2
+PP_GA_SOEXPOR2_num_telefono		10	string	-	-
+PP_GA_SOEXPOR2_fec_cambio		11	string	-	-
+PP_GA_SOEXPOR2_num_nrn		12	string	-	-
+PP_GA_SOEXPOR2_cod_caucdenega		13	string	-	-
+PP_GA_SOEXPOR2cod_sbcaucdene01		14	string	-	-
+PP_GA_SOEXPOR2__rpr_ret		15	long	-	-
+# FIN DE SERVICIO PP_GA_SOEXPOR2
+

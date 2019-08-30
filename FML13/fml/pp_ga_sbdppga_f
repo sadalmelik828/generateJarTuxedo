@@ -1,0 +1,382 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_sbdppga.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_sbdppga_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3216000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_FICHPP
+# INICIO DE SERVICIO PP_GA_FICHPP
+PP_GA_FICHPP_vcNumTelefono		0	string	-	-
+PP_GA_FICHPP_vcNumICC		1	string	-	-
+PP_GA_FICHPP_ptFecPreactiva		2	carray	-	-
+PP_GA_FICHPP_ptFecActiva		3	carray	-	-
+PP_GA_FICHPP_pdSaldo		4	double	-	-
+PP_GA_FICHPP_vcEstaPrep		5	string	-	-
+PP_GA_FICHPP_vcEstMovimiento		6	string	-	-
+PP_GA_FICHPP_vcEstaRec		7	string	-	-
+PP_GA_FICHPP_vcPerfil		8	string	-	-
+PP_GA_FICHPP_vcNumPUK		9	string	-	-
+PP_GA_FICHPP_vcNumPUK2		10	string	-	-
+PP_GA_FICHPP_vcDesPrePago		11	string	-	-
+PP_GA_FICHPP_vcDesTipTarjeta		12	string	-	-
+PP_GA_FICHPP_vcDesPerfTarjeta		13	string	-	-
+PP_GA_FICHPP_vcNomZonaOper		14	string	-	-
+PP_GA_FICHPP_vcDesClaseTarjeta		15	string	-	-
+PP_GA_FICHPPvcDesSubClaseTar01		16	string	-	-
+# FIN DE SERVICIO PP_GA_FICHPP
+
+# Identificadores para el servicio PP_GA_APPCOM
+# INICIO DE SERVICIO PP_GA_APPCOM
+PP_GA_APPCOM_vcNumTelefono		17	string	-	-
+PP_GA_APPCOM_ptFecPreactiva		18	carray	-	-
+PP_GA_APPCOM_pcCodEstaPrep		19	carray	-	-
+PP_GA_APPCOM_pcCodSbEstaPrep		20	carray	-	-
+PP_GA_APPCOM_vcCodEstaRec		21	string	-	-
+PP_GA_APPCOM_vcCodEstado		22	string	-	-
+PP_GA_APPCOM_ptFecActiva		23	carray	-	-
+PP_GA_APPCOM_vcCodPerfil		24	string	-	-
+# FIN DE SERVICIO PP_GA_APPCOM
+
+# Identificadores para el servicio PP_GA_ESTAPREP
+# INICIO DE SERVICIO PP_GA_ESTAPREP
+PP_GA_ESTAPREP_cCodEstaPrep		25	carray	-	-
+PP_GA_ESTAPREP_vcDesEstaPrep		26	string	-	-
+# FIN DE SERVICIO PP_GA_ESTAPREP
+
+# Identificadores para el servicio PP_GA_SBESTPREP
+# INICIO DE SERVICIO PP_GA_SBESTPREP
+PP_GA_SBESTPREP_cCodSbEstaPrep		27	carray	-	-
+PP_GA_SBESTPREPvcDesSbEstaPr01		28	string	-	-
+# FIN DE SERVICIO PP_GA_SBESTPREP
+
+# Identificadores para el servicio PP_GA_ESTAREC
+# INICIO DE SERVICIO PP_GA_ESTAREC
+PP_GA_ESTAREC_vcCodEstaRec		29	string	-	-
+PP_GA_ESTAREC_vcDesEstaRec		30	string	-	-
+# FIN DE SERVICIO PP_GA_ESTAREC
+
+# Identificadores para el servicio PP_GA_APPTAR
+# INICIO DE SERVICIO PP_GA_APPTAR
+PP_GA_APPTAR_vcNumTelefono		31	string	-	-
+PP_GA_APPTAR_vcNumICC		32	string	-	-
+PP_GA_APPTAR_vcCodTipPrePa		33	string	-	-
+PP_GA_APPTAR_pcCodTipTarjeta		34	carray	-	-
+PP_GA_APPTAR_vcCodPerfTarjeta		35	string	-	-
+PP_GA_APPTAR_vcNumPUK		36	string	-	-
+PP_GA_APPTAR_vcNumPUK2		37	string	-	-
+PP_GA_APPTAR_vcCodZonaOper		38	string	-	-
+PP_GA_APPTAR_vcCodClaseTarjeta		39	string	-	-
+PP_GA_APPTARvcCodSubClaseTar01		40	string	-	-
+# FIN DE SERVICIO PP_GA_APPTAR
+
+# Identificadores para el servicio PP_GA_TIP_PP
+# INICIO DE SERVICIO PP_GA_TIP_PP
+PP_GA_TIP_PP_vcCodTipPrePa		41	string	-	-
+PP_GA_TIP_PP_vcDesPrePago		42	string	-	-
+# FIN DE SERVICIO PP_GA_TIP_PP
+
+# Identificadores para el servicio PP_GA_TLF_ICC
+# INICIO DE SERVICIO PP_GA_TLF_ICC
+PP_GA_TLF_ICC_vcNumTelefono		43	string	-	-
+PP_GA_TLF_ICC_vcNumICC		44	string	-	-
+# FIN DE SERVICIO PP_GA_TLF_ICC
+
+# Identificadores para el servicio PP_GA_ICC_TLF
+# INICIO DE SERVICIO PP_GA_ICC_TLF
+PP_GA_ICC_TLF_vcNumICC		45	string	-	-
+PP_GA_ICC_TLF_vcNumTelefono		46	string	-	-
+# FIN DE SERVICIO PP_GA_ICC_TLF
+
+# Identificadores para el servicio PP_GA_HFICHPP
+# INICIO DE SERVICIO PP_GA_HFICHP
+PP_GA_HFICHP_n_regs		47	long	-	-
+PP_GA_HFICHP_ult_reg		48	long	-	-
+PP_GA_HFICHP_vcNumTelefono		49	string	-	-
+PP_GA_HFICHP_vcNumICC		50	string	-	-
+PP_GA_HFICHP_vcdesde		51	string	-	-
+PP_GA_HFICHP_vchasta		52	string	-	-
+PP_GA_HFICHP_ptFecPreactiva		53	carray	-	-
+PP_GA_HFICHP_ptFecActiva		54	carray	-	-
+PP_GA_HFICHP_pdSaldo		55	double	-	-
+PP_GA_HFICHP_vcListaICC		56	string	-	-
+PP_GA_HFICHP_vcEstaPrep		57	string	-	-
+PP_GA_HFICHP_vcEstMovimiento		58	string	-	-
+PP_GA_HFICHP_vcEstaRec		59	string	-	-
+PP_GA_HFICHP_vcPerfil		60	string	-	-
+PP_GA_HFICHP_vcNumPUK		61	string	-	-
+PP_GA_HFICHP_vcNumPUK2		62	string	-	-
+PP_GA_HFICHP_vcDesPrePago		63	string	-	-
+PP_GA_HFICHP_vcDesTipTarjeta		64	string	-	-
+PP_GA_HFICHP_vcDesPerfTarjeta		65	string	-	-
+PP_GA_HFICHP_vcNomZonaOper		66	string	-	-
+PP_GA_HFICHP_vcDesClaseTarjeta		67	string	-	-
+PP_GA_HFICHPvcDesSubClaseTar01		68	string	-	-
+PP_GA_HFICHP_ptFecBaja		69	carray	-	-
+PP_GA_HFICHP_pdNumOrden		70	double	-	-
+# FIN DE SERVICIO PP_GA_HFICHP
+
+# Identificadores para el servicio PP_GA_DATVENTPR
+# INICIO DE SERVICIO PP_GA_DATVENTPR
+PP_GA_DATVENTPR_num_telefono		71	string	-	-
+PP_GA_DATVENTPR_num_orden		72	string	-	-
+PP_GA_DATVENTPRflag_descripc01		73	carray	-	-
+PP_GA_DATVENTPR_cod_comision		74	string	-	-
+PP_GA_DATVENTPR_cod_usuario		75	string	-	-
+PP_GA_DATVENTPR_fec_modifica		76	string	-	-
+PP_GA_DATVENTPR_cod_ventasesc1		77	string	-	-
+PP_GA_DATVENTPR_cod_ventasesc2		78	string	-	-
+PP_GA_DATVENTPR_cod_ventasesc3		79	string	-	-
+PP_GA_DATVENTPR_cod_ventasesc4		80	string	-	-
+PP_GA_DATVENTPR_cod_modven		81	string	-	-
+PP_GA_DATVENTPR_des_comision		82	string	-	-
+PP_GA_DATVENTPR_des_usuario		83	string	-	-
+PP_GA_DATVENTPR_des_ventasesc1		84	string	-	-
+PP_GA_DATVENTPR_des_ventasesc2		85	string	-	-
+PP_GA_DATVENTPR_des_ventasesc3		86	string	-	-
+PP_GA_DATVENTPR_des_ventasesc4		87	string	-	-
+PP_GA_DATVENTPR_des_modven		88	string	-	-
+PP_GA_DATVENTPR__rpr_ret		89	long	-	-
+# FIN DE SERVICIO PP_GA_DATVENTPR
+
+# Identificadores para el servicio PP_GA_FICHPP2
+# INICIO DE SERVICIO PP_GA_FICHPP2
+PP_GA_FICHPP2_vcNumTelefono		90	string	-	-
+PP_GA_FICHPP2_vcNumICC		91	string	-	-
+PP_GA_FICHPP2_ptFecPreactiva		92	carray	-	-
+PP_GA_FICHPP2_ptFecActiva		93	carray	-	-
+PP_GA_FICHPP2_pdSaldo		94	double	-	-
+PP_GA_FICHPP2_vcEstaPrep		95	string	-	-
+PP_GA_FICHPP2_vcEstMovimiento		96	string	-	-
+PP_GA_FICHPP2_vcEstaRec		97	string	-	-
+PP_GA_FICHPP2_vcPerfil		98	string	-	-
+PP_GA_FICHPP2_vcNumPUK		99	string	-	-
+PP_GA_FICHPP2_vcNumPUK2		100	string	-	-
+PP_GA_FICHPP2_vcDesPrePago		101	string	-	-
+PP_GA_FICHPP2_vcDesTipTarjeta		102	string	-	-
+PP_GA_FICHPP2_vcDesPerfTarjeta		103	string	-	-
+PP_GA_FICHPP2_vcNomZonaOper		104	string	-	-
+PP_GA_FICHPP2vcDesClaseTarje01		105	string	-	-
+PP_GA_FICHPP2vcDesSubClaseTa01		106	string	-	-
+PP_GA_FICHPP2_ptFecEstaPrep		107	carray	-	-
+PP_GA_FICHPP2_vcCodCelula		108	string	-	-
+# FIN DE SERVICIO PP_GA_FICHPP2
+
+# Identificadores para el servicio PP_GA_HFICHPP2
+# INICIO DE SERVICIO PP_GA_HFICHPP2
+PP_GA_HFICHPP2_n_regs		109	long	-	-
+PP_GA_HFICHPP2_ult_reg		110	long	-	-
+PP_GA_HFICHPP2_vcNumTelefono		111	string	-	-
+PP_GA_HFICHPP2_vcNumICC		112	string	-	-
+PP_GA_HFICHPP2_vcdesde		113	string	-	-
+PP_GA_HFICHPP2_vchasta		114	string	-	-
+PP_GA_HFICHPP2_ptFecPreactiva		115	carray	-	-
+PP_GA_HFICHPP2_ptFecActiva		116	carray	-	-
+PP_GA_HFICHPP2_pdSaldo		117	double	-	-
+PP_GA_HFICHPP2_vcListaICC		118	string	-	-
+PP_GA_HFICHPP2_vcEstaPrep		119	string	-	-
+PP_GA_HFICHPP2_vcEstMovimiento		120	string	-	-
+PP_GA_HFICHPP2_vcEstaRec		121	string	-	-
+PP_GA_HFICHPP2_vcPerfil		122	string	-	-
+PP_GA_HFICHPP2_vcNumPUK		123	string	-	-
+PP_GA_HFICHPP2_vcNumPUK2		124	string	-	-
+PP_GA_HFICHPP2_vcDesPrePago		125	string	-	-
+PP_GA_HFICHPP2_vcDesTipTarjeta		126	string	-	-
+PP_GA_HFICHPP2vcDesPerfTarje01		127	string	-	-
+PP_GA_HFICHPP2_vcNomZonaOper		128	string	-	-
+PP_GA_HFICHPP2vcDesClaseTarj01		129	string	-	-
+PP_GA_HFICHPP2vcDesSubClaseT01		130	string	-	-
+PP_GA_HFICHPP2_ptFecBaja		131	carray	-	-
+PP_GA_HFICHPP2_pdNumOrden		132	double	-	-
+PP_GA_HFICHPP2_ptFecEstaPrep		133	carray	-	-
+PP_GA_HFICHPP2_vcCodCelula		134	string	-	-
+# FIN DE SERVICIO PP_GA_HFICHPP2
+
+# Identificadores para el servicio PP_GA_TEMPTRANS
+# INICIO DE SERVICIO PP_GA_TEMPTRANS
+PP_GA_TEMPTRANS_vcCodEstadori		135	string	-	-
+PP_GA_TEMPTRANS_vcCodProceso		136	string	-	-
+PP_GA_TEMPTRANS_vcCodTipPrepa		137	string	-	-
+PP_GA_TEMPTRANS_vcCodEstadest		138	string	-	-
+PP_GA_TEMPTRANS_vcCodSbStDest		139	string	-	-
+PP_GA_TEMPTRANSpdDiasCaducid01		140	double	-	-
+PP_GA_TEMPTRANS__rpr_ret		141	long	-	-
+# FIN DE SERVICIO PP_GA_TEMPTRANS
+
+# Identificadores para el servicio PP_GA_OBTACUM
+# INICIO DE SERVICIO PP_GA_OBTACUM
+PP_GA_OBTACUM_n_regs		142	long	-	-
+PP_GA_OBTACUM_num_telefono		143	string	-	-
+PP_GA_OBTACUM_cod_actuacio		144	string	-	-
+PP_GA_OBTACUM_lcod_actuacio		145	string	-	-
+PP_GA_OBTACUM_dAcumulado		146	double	-	-
+PP_GA_OBTACUM__rpr_ret		147	long	-	-
+# FIN DE SERVICIO PP_GA_OBTACUM
+
+# Identificadores para el servicio PP_GA_OBTCADU
+# INICIO DE SERVICIO PP_GA_OBTCADU
+PP_GA_OBTCADU_vcNumTelefono		148	string	-	-
+PP_GA_OBTCADU_vcCodEstadest		149	string	-	-
+PP_GA_OBTCADU_vcCodSbStDest		150	string	-	-
+PP_GA_OBTCADU_pdDiasCaducidad		151	double	-	-
+PP_GA_OBTCADU__rpr_ret		152	long	-	-
+# FIN DE SERVICIO PP_GA_OBTCADU
+
+# Identificadores para el servicio PP_GA_FICHPP3
+# INICIO DE SERVICIO PP_GA_FICHPP3
+PP_GA_FICHPP3_vcNumTelefono		153	string	-	-
+PP_GA_FICHPP3_vcNumICC		154	string	-	-
+PP_GA_FICHPP3_cod_moneda		155	string	-	-
+PP_GA_FICHPP3_ptFecPreactiva		156	carray	-	-
+PP_GA_FICHPP3_ptFecActiva		157	carray	-	-
+PP_GA_FICHPP3_pdSaldo		158	double	-	-
+PP_GA_FICHPP3_vcEstaPrep		159	string	-	-
+PP_GA_FICHPP3_vcSbEstaPrep		160	string	-	-
+PP_GA_FICHPP3_vcEstMovimiento		161	string	-	-
+PP_GA_FICHPP3_vcEstaRec		162	string	-	-
+PP_GA_FICHPP3_vcPerfil		163	string	-	-
+PP_GA_FICHPP3_vcNumPUK		164	string	-	-
+PP_GA_FICHPP3_vcNumPUK2		165	string	-	-
+PP_GA_FICHPP3_vcDesPrePago		166	string	-	-
+PP_GA_FICHPP3_vcDesTipTarjeta		167	string	-	-
+PP_GA_FICHPP3_vcDesPerfTarjeta		168	string	-	-
+PP_GA_FICHPP3_vcNomZonaOper		169	string	-	-
+PP_GA_FICHPP3vcDesClaseTarje01		170	string	-	-
+PP_GA_FICHPP3vcDesSubClaseTa01		171	string	-	-
+PP_GA_FICHPP3_ptFecEstaPrep		172	carray	-	-
+PP_GA_FICHPP3_vcCodCelula		173	string	-	-
+# FIN DE SERVICIO PP_GA_FICHPP3
+
+# Identificadores para el servicio PP_GA_HFICHPP3
+# INICIO DE SERVICIO PP_GA_HFICHPP3
+PP_GA_HFICHPP3_n_regs		174	long	-	-
+PP_GA_HFICHPP3_ult_reg		175	long	-	-
+PP_GA_HFICHPP3_vcNumTelefono		176	string	-	-
+PP_GA_HFICHPP3_vcNumICC		177	string	-	-
+PP_GA_HFICHPP3_vcdesde		178	string	-	-
+PP_GA_HFICHPP3_vchasta		179	string	-	-
+PP_GA_HFICHPP3_cod_moneda		180	string	-	-
+PP_GA_HFICHPP3_ptFecPreactiva		181	carray	-	-
+PP_GA_HFICHPP3_ptFecActiva		182	carray	-	-
+PP_GA_HFICHPP3_pdSaldo		183	double	-	-
+PP_GA_HFICHPP3_vcListaICC		184	string	-	-
+PP_GA_HFICHPP3_vcEstaPrep		185	string	-	-
+PP_GA_HFICHPP3_vcSbEstaPrep		186	string	-	-
+PP_GA_HFICHPP3_vcEstMovimiento		187	string	-	-
+PP_GA_HFICHPP3_vcEstaRec		188	string	-	-
+PP_GA_HFICHPP3_vcPerfil		189	string	-	-
+PP_GA_HFICHPP3_vcNumPUK		190	string	-	-
+PP_GA_HFICHPP3_vcNumPUK2		191	string	-	-
+PP_GA_HFICHPP3_vcDesPrePago		192	string	-	-
+PP_GA_HFICHPP3_vcDesTipTarjeta		193	string	-	-
+PP_GA_HFICHPP3vcDesPerfTarje01		194	string	-	-
+PP_GA_HFICHPP3_vcNomZonaOper		195	string	-	-
+PP_GA_HFICHPP3vcDesClaseTarj01		196	string	-	-
+PP_GA_HFICHPP3vcDesSubClaseT01		197	string	-	-
+PP_GA_HFICHPP3_ptFecBaja		198	carray	-	-
+PP_GA_HFICHPP3_pdNumOrden		199	double	-	-
+PP_GA_HFICHPP3_ptFecEstaPrep		200	carray	-	-
+PP_GA_HFICHPP3_vcCodCelula		201	string	-	-
+PP_GA_HFICHPP3_vcDesCausbaja		202	string	-	-
+# FIN DE SERVICIO PP_GA_HFICHPP3
+
+# Identificadores para el servicio PP_GA_CAUSBAJA
+# INICIO DE SERVICIO PP_GA_CAUSBAJA
+PP_GA_CAUSBAJA_cod_causbaja		203	carray	-	-
+PP_GA_CAUSBAJA_des_causbaja		204	string	-	-
+PP_GA_CAUSBAJA__rpr_ret		205	long	-	-
+# FIN DE SERVICIO PP_GA_CAUSBAJA
+
+# Identificadores para el servicio PP_GA_FICHA
+# INICIO DE SERVICIO PP_GA_FICHA
+PP_GA_FICHA_vcNumTelefono		206	string	-	-
+PP_GA_FICHA_vcNumICC		207	string	-	-
+PP_GA_FICHA_ptFecPreactiva		208	carray	-	-
+PP_GA_FICHA_ptFecActiva		209	carray	-	-
+PP_GA_FICHA_vcEstaPrep		210	string	-	-
+PP_GA_FICHA_vcNumPUK		211	string	-	-
+PP_GA_FICHA_vcDesPrePago		212	string	-	-
+# FIN DE SERVICIO PP_GA_FICHA
+
+# Identificadores para el servicio PP_GA_HFICHA
+# INICIO DE SERVICIO PP_GA_HFICHA
+PP_GA_HFICHA_n_regs		213	long	-	-
+PP_GA_HFICHA_ult_reg		214	long	-	-
+PP_GA_HFICHA_vcNumTelefono		215	string	-	-
+PP_GA_HFICHA_vcNumICC		216	string	-	-
+PP_GA_HFICHA_vcdesde		217	string	-	-
+PP_GA_HFICHA_vchasta		218	string	-	-
+PP_GA_HFICHA_ptFecPreactiva		219	carray	-	-
+PP_GA_HFICHA_ptFecActiva		220	carray	-	-
+PP_GA_HFICHA_vcListaICC		221	string	-	-
+PP_GA_HFICHA_vcEstaPrep		222	string	-	-
+PP_GA_HFICHA_vcNumPUK		223	string	-	-
+PP_GA_HFICHA_vcDesPrePago		224	string	-	-
+PP_GA_HFICHA_ptFecBaja		225	carray	-	-
+PP_GA_HFICHA_pdNumOrden		226	double	-	-
+# FIN DE SERVICIO PP_GA_HFICHA
+
+# Identificadores para el servicio PP_GA_FICHPP4
+# INICIO DE SERVICIO PP_GA_FICHPP4
+PP_GA_FICHPP4_vcNumTelefono		227	string	-	-
+PP_GA_FICHPP4_vcNumICC		228	string	-	-
+PP_GA_FICHPP4_cod_moneda		229	string	-	-
+PP_GA_FICHPP4_ptFecPreactiva		230	carray	-	-
+PP_GA_FICHPP4_ptFecActiva		231	carray	-	-
+PP_GA_FICHPP4_pdSaldo		232	double	-	-
+PP_GA_FICHPP4_vcEstaPrep		233	string	-	-
+PP_GA_FICHPP4_vcSbEstaPrep		234	string	-	-
+PP_GA_FICHPP4_vcEstMovimiento		235	string	-	-
+PP_GA_FICHPP4_vcEstaRec		236	string	-	-
+PP_GA_FICHPP4_vcPerfil		237	string	-	-
+PP_GA_FICHPP4_vcNumPUK		238	string	-	-
+PP_GA_FICHPP4_vcNumPUK2		239	string	-	-
+PP_GA_FICHPP4_vcDesPrePago		240	string	-	-
+PP_GA_FICHPP4_vcDesTipTarjeta		241	string	-	-
+PP_GA_FICHPP4_vcDesPerfTarjeta		242	string	-	-
+PP_GA_FICHPP4_vcNomZonaOper		243	string	-	-
+PP_GA_FICHPP4vcDesClaseTarje01		244	string	-	-
+PP_GA_FICHPP4vcDesSubClaseTa01		245	string	-	-
+PP_GA_FICHPP4_ptFecEstaPrep		246	carray	-	-
+PP_GA_FICHPP4_vcCodCelula		247	string	-	-
+PP_GA_FICHPP4_sflg_datper		248	string	-	-
+# FIN DE SERVICIO PP_GA_FICHPP4
+
+# Identificadores para el servicio PP_GA_HFICHPP4
+# INICIO DE SERVICIO PP_GA_HFICHPP4
+PP_GA_HFICHPP4_n_regs		249	long	-	-
+PP_GA_HFICHPP4_ult_reg		250	long	-	-
+PP_GA_HFICHPP4_vcNumTelefono		251	string	-	-
+PP_GA_HFICHPP4_vcNumICC		252	string	-	-
+PP_GA_HFICHPP4_vcdesde		253	string	-	-
+PP_GA_HFICHPP4_vchasta		254	string	-	-
+PP_GA_HFICHPP4_cod_moneda		255	string	-	-
+PP_GA_HFICHPP4_ptFecPreactiva		256	carray	-	-
+PP_GA_HFICHPP4_ptFecActiva		257	carray	-	-
+PP_GA_HFICHPP4_pdSaldo		258	double	-	-
+PP_GA_HFICHPP4_vcListaICC		259	string	-	-
+PP_GA_HFICHPP4_vcEstaPrep		260	string	-	-
+PP_GA_HFICHPP4_vcSbEstaPrep		261	string	-	-
+PP_GA_HFICHPP4_vcEstMovimiento		262	string	-	-
+PP_GA_HFICHPP4_vcEstaRec		263	string	-	-
+PP_GA_HFICHPP4_vcPerfil		264	string	-	-
+PP_GA_HFICHPP4_vcNumPUK		265	string	-	-
+PP_GA_HFICHPP4_vcNumPUK2		266	string	-	-
+PP_GA_HFICHPP4_vcDesPrePago		267	string	-	-
+PP_GA_HFICHPP4_vcDesTipTarjeta		268	string	-	-
+PP_GA_HFICHPP4vcDesPerfTarje01		269	string	-	-
+PP_GA_HFICHPP4_vcNomZonaOper		270	string	-	-
+PP_GA_HFICHPP4vcDesClaseTarj01		271	string	-	-
+PP_GA_HFICHPP4vcDesSubClaseT01		272	string	-	-
+PP_GA_HFICHPP4_ptFecBaja		273	carray	-	-
+PP_GA_HFICHPP4_pdNumOrden		274	double	-	-
+PP_GA_HFICHPP4_ptFecEstaPrep		275	carray	-	-
+PP_GA_HFICHPP4_vcCodCelula		276	string	-	-
+PP_GA_HFICHPP4_vcDesCausbaja		277	string	-	-
+PP_GA_HFICHPP4_sflg_datper		278	string	-	-
+# FIN DE SERVICIO PP_GA_HFICHPP4
+

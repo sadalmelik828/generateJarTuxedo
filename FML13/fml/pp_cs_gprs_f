@@ -1,0 +1,77 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_gprs.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_gprs_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3114000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_CS_FMM_GPR
+# INICIO DE SERVICIO PP_CS_FMM_GPR
+PP_CS_FMM_GPR_numTelefono		0	string	-	-
+PP_CS_FMM_GPR_fechaMin		1	string	-	-
+PP_CS_FMM_GPR_fechaMax		2	string	-	-
+PP_CS_FMM_GPR__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_CS_FMM_GPR
+
+# Identificadores para el servicio PP_CS_ACUM_GPR
+# INICIO DE SERVICIO PP_CS_ACUM_GPR
+PP_CS_ACUM_GPR_numTelefono		4	string	-	-
+PP_CS_ACUM_GPR_nMeses		5	long	-	-
+PP_CS_ACUM_GPR_fecha		6	string	-	-
+PP_CS_ACUM_GPR_importe		7	double	-	-
+PP_CS_ACUM_GPR__rpr_ret		8	long	-	-
+# FIN DE SERVICIO PP_CS_ACUM_GPR
+
+# Identificadores para el servicio PP_CS_DAT_GPR
+# INICIO DE SERVICIO PP_CS_DAT_GPR
+PP_CS_DAT_GPR_numTelefono		9	string	-	-
+PP_CS_DAT_GPR_fechaDesde		10	string	-	-
+PP_CS_DAT_GPR_fechaHasta		11	string	-	-
+PP_CS_DAT_GPR_importeMinimo		12	double	-	-
+PP_CS_DAT_GPR_orden		13	long	-	-
+PP_CS_DAT_GPR_codIdioma		14	string	-	-
+PP_CS_DAT_GPR_catUlt		15	string	-	-
+PP_CS_DAT_GPR_fechaUlt		16	string	-	-
+PP_CS_DAT_GPR_cidUlt		17	string	-	-
+PP_CS_DAT_GPR_nRegs		18	long	-	-
+PP_CS_DAT_GPR_tipoOperacion		19	string	-	-
+PP_CS_DAT_GPR_tipoActiva		20	string	-	-
+PP_CS_DAT_GPR_descripcion		21	string	-	-
+PP_CS_DAT_GPR_fecha		22	string	-	-
+PP_CS_DAT_GPR_duracion		23	long	-	-
+PP_CS_DAT_GPR_importe		24	double	-	-
+PP_CS_DAT_GPR_cid		25	string	-	-
+PP_CS_DAT_GPR_hayMas		26	long	-	-
+PP_CS_DAT_GPR__rpr_ret		27	long	-	-
+# FIN DE SERVICIO PP_CS_DAT_GPR
+
+# Identificadores para el servicio PP_CS_DET_GPR
+# INICIO DE SERVICIO PP_CS_DET_GPR
+PP_CS_DET_GPR_numTelefono		28	string	-	-
+PP_CS_DET_GPR_fechaDesde		29	string	-	-
+PP_CS_DET_GPR_fechaHasta		30	string	-	-
+PP_CS_DET_GPR_importeMinimo		31	double	-	-
+PP_CS_DET_GPR_orden		32	long	-	-
+PP_CS_DET_GPR_codIdioma		33	string	-	-
+PP_CS_DET_GPR_ultElementoE		34	string	-	-
+PP_CS_DET_GPR_nRegs		35	long	-	-
+PP_CS_DET_GPR_tipoOperacion		36	string	-	-
+PP_CS_DET_GPR_tipoActiva		37	string	-	-
+PP_CS_DET_GPR_descripcion		38	string	-	-
+PP_CS_DET_GPR_fecha		39	string	-	-
+PP_CS_DET_GPR_duracion		40	long	-	-
+PP_CS_DET_GPR_importe		41	double	-	-
+PP_CS_DET_GPR_codDestino		42	string	-	-
+PP_CS_DET_GPR_volDatUp		43	string	-	-
+PP_CS_DET_GPR_volDatDown		44	string	-	-
+PP_CS_DET_GPR_codTipoFrHo		45	string	-	-
+PP_CS_DET_GPR_indDto		46	string	-	-
+PP_CS_DET_GPR_ultElementoS		47	string	-	-
+PP_CS_DET_GPR_hayMas		48	long	-	-
+PP_CS_DET_GPR__rpr_ret		49	long	-	-
+# FIN DE SERVICIO PP_CS_DET_GPR
+

@@ -1,0 +1,37 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_consulta_op.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_consulta_op_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz Activa versión 1.0 
+#
+
+*base		3263000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_CONGASAB
+# INICIO DE SERVICIO PP_GA_CONGASAB
+PP_GA_CONGASAB_snum_telefono		0	string	-	-
+PP_GA_CONGASAB_sconsulta		1	string	-	-
+PP_GA_CONGASAB__rpr_ret		2	long	-	-
+# FIN DE SERVICIO PP_GA_CONGASAB
+
+# Identificadores para el servicio PP_GA_CONCORE
+# INICIO DE SERVICIO PP_GA_CONCORE
+PP_GA_CONCORE_snum_telefono		3	string	-	-
+PP_GA_CONCORE_scod_moneda		4	string	-	-
+PP_GA_CONCORE_dcontador		5	double	-	-
+PP_GA_CONCORE__rpr_ret		6	long	-	-
+# FIN DE SERVICIO PP_GA_CONCORE
+
+# Identificadores para el servicio PP_GA_CONVALOP
+# INICIO DE SERVICIO PP_GA_CONVALOP
+PP_GA_CONVALOP_cod_operacion		7	string	-	-
+PP_GA_CONVALOP_val_operacion		8	long	-	-
+PP_GA_CONVALOP_seg_validez		9	long	-	-
+PP_GA_CONVALOP_flag_incremento		10	short	-	-
+PP_GA_CONVALOP__rpr_ret		11	short	-	-
+# FIN DE SERVICIO PP_GA_CONVALOP
+

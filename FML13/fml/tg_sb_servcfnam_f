@@ -1,0 +1,39 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [tg_sb_servcfnam.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# tg_sb_servcfnam_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3513000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio TG_SB_CNFSUBAS
+# INICIO DE SERVICIO TG_SB_CNFSUBAS
+TG_SB_CNFSUBAS_msisdn		0	string	-	-
+TG_SB_CNFSUBAS_cod_serv_basico		1	string	-	-
+TG_SB_CNFSUBAS_cod_error		2	long	-	-
+TG_SB_CNFSUBAS__rpr_ret		3	long	-	-
+# FIN DE SERVICIO TG_SB_CNFSUBAS
+
+# Identificadores para el servicio TG_SB_CNFHABAS
+# INICIO DE SERVICIO TG_SB_CNFHABAS
+TG_SB_CNFHABAS_msisdn		4	string	-	-
+TG_SB_CNFHABAS_cod_serv_basico		5	string	-	-
+TG_SB_CNFHABAS_cod_error		6	long	-	-
+TG_SB_CNFHABAS__rpr_ret		7	long	-	-
+# FIN DE SERVICIO TG_SB_CNFHABAS
+
+# Identificadores para el servicio TG_SB_CNSUSGSM
+# INICIO DE SERVICIO TG_SB_CNSUSGSM
+TG_SB_CNSUSGSM_num_seqmov		8	long	-	-
+TG_SB_CNSUSGSM__rpr_ret		9	long	-	-
+# FIN DE SERVICIO TG_SB_CNSUSGSM
+
+# Identificadores para el servicio TG_SB_CNHABGSM
+# INICIO DE SERVICIO TG_SB_CNHABGSM
+TG_SB_CNHABGSM_num_seqmov		10	long	-	-
+TG_SB_CNHABGSM__rpr_ret		11	long	-	-
+# FIN DE SERVICIO TG_SB_CNHABGSM
+

@@ -1,0 +1,121 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_recarpc.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_recarpc_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3241000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_SOLRECPC
+# INICIO DE SERVICIO PP_GA_SOLRECPC
+PP_GA_SOLRECPC_num_telefono		0	string	-	-
+PP_GA_SOLRECPC_importe		1	double	-	-
+PP_GA_SOLRECPC_cod_moneda		2	string	-	-
+PP_GA_SOLRECPC_usu_distri		3	string	-	-
+PP_GA_SOLRECPC_num_telrecar		4	string	-	-
+PP_GA_SOLRECPC_cla_distrib		5	string	-	-
+PP_GA_SOLRECPC_mensaje		6	string	-	-
+PP_GA_SOLRECPC_cod_referenci		7	string	-	-
+PP_GA_SOLRECPC_fec_recarga		8	string	-	-
+PP_GA_SOLRECPC__rpr_ret		9	long	-	-
+# FIN DE SERVICIO PP_GA_SOLRECPC
+
+# Identificadores para el servicio PP_GA_ANRECPC
+# INICIO DE SERVICIO PP_GA_ANRECPC
+PP_GA_ANRECPC_num_telefono		10	string	-	-
+PP_GA_ANRECPC_cod_referenci		11	string	-	-
+PP_GA_ANRECPC_usu_distri		12	string	-	-
+PP_GA_ANRECPC_num_telrecar		13	string	-	-
+PP_GA_ANRECPC_cla_distrib		14	string	-	-
+PP_GA_ANRECPC__rpr_ret		15	long	-	-
+# FIN DE SERVICIO PP_GA_ANRECPC
+
+# Identificadores para el servicio PP_GA_CONRECPC
+# INICIO DE SERVICIO PP_GA_CONRECPC
+PP_GA_CONRECPC_n_regs		16	long	-	-
+PP_GA_CONRECPC_usu_distri		17	string	-	-
+PP_GA_CONRECPC_num_telrecar		18	string	-	-
+PP_GA_CONRECPC_cla_distrib		19	string	-	-
+PP_GA_CONRECPC_cod_referenci		20	string	-	-
+PP_GA_CONRECPC_fec_inicio		21	string	-	-
+PP_GA_CONRECPC_fec_fin		22	string	-	-
+PP_GA_CONRECPC_telrecar		23	string	-	-
+PP_GA_CONRECPC_lnum_telrecar		24	string	-	-
+PP_GA_CONRECPC_lcod_referenci		25	string	-	-
+PP_GA_CONRECPC_lnum_telefono		26	string	-	-
+PP_GA_CONRECPC_lestado		27	string	-	-
+PP_GA_CONRECPC_lfec_recarga		28	string	-	-
+PP_GA_CONRECPC_lfec_anulacion		29	string	-	-
+PP_GA_CONRECPC_lfec_instalac		30	string	-	-
+PP_GA_CONRECPC_lcod_origreca		31	string	-	-
+PP_GA_CONRECPClimporte_recar01		32	double	-	-
+PP_GA_CONRECPClimporte_corre01		33	double	-	-
+PP_GA_CONRECPC_lcod_moneda		34	string	-	-
+PP_GA_CONRECPC_lval_impuesto		35	double	-	-
+PP_GA_CONRECPC_lcod_usuario		36	string	-	-
+PP_GA_CONRECPC_sec_ultima		37	double	-	-
+PP_GA_CONRECPC__rpr_ret		38	long	-	-
+# FIN DE SERVICIO PP_GA_CONRECPC
+
+# Identificadores para el servicio PP_GA_CONRECP2
+# INICIO DE SERVICIO PP_GA_CONRECP2
+PP_GA_CONRECP2_n_regs		39	long	-	-
+PP_GA_CONRECP2_usu_distri		40	string	-	-
+PP_GA_CONRECP2_num_telrecar		41	string	-	-
+PP_GA_CONRECP2_cla_distrib		42	string	-	-
+PP_GA_CONRECP2_cod_referenci		43	string	-	-
+PP_GA_CONRECP2_fec_inicio		44	string	-	-
+PP_GA_CONRECP2_fec_fin		45	string	-	-
+PP_GA_CONRECP2_telrecar		46	string	-	-
+PP_GA_CONRECP2_cod_moneda		47	string	-	-
+PP_GA_CONRECP2_token		48	string	-	-
+PP_GA_CONRECP2_lnum_telrecar		49	string	-	-
+PP_GA_CONRECP2_lcod_referenci		50	string	-	-
+PP_GA_CONRECP2_lnum_telefono		51	string	-	-
+PP_GA_CONRECP2_lestado		52	string	-	-
+PP_GA_CONRECP2_lfec_recarga		53	string	-	-
+PP_GA_CONRECP2_lfec_anulacion		54	string	-	-
+PP_GA_CONRECP2_lfec_instalac		55	string	-	-
+PP_GA_CONRECP2_lcod_origreca		56	string	-	-
+PP_GA_CONRECP2limporte_recar01		57	double	-	-
+PP_GA_CONRECP2limporte_corre01		58	double	-	-
+PP_GA_CONRECP2_lcod_moneda		59	string	-	-
+PP_GA_CONRECP2_lval_impuesto		60	double	-	-
+PP_GA_CONRECP2_lcod_usuario		61	string	-	-
+PP_GA_CONRECP2_hayMas		62	long	-	-
+PP_GA_CONRECP2__rpr_ret		63	long	-	-
+# FIN DE SERVICIO PP_GA_CONRECP2
+
+# Identificadores para el servicio PP_GA_SOLRECP2
+# INICIO DE SERVICIO PP_GA_SOLRECP2
+PP_GA_SOLRECP2_num_telefono		64	string	-	-
+PP_GA_SOLRECP2_importe		65	double	-	-
+PP_GA_SOLRECP2_cod_moneda		66	string	-	-
+PP_GA_SOLRECP2_usu_distri		67	string	-	-
+PP_GA_SOLRECP2_num_telrecar		68	string	-	-
+PP_GA_SOLRECP2_cla_distrib		69	string	-	-
+PP_GA_SOLRECP2_mensaje		70	string	-	-
+PP_GA_SOLRECP2_cod_referenci		71	string	-	-
+PP_GA_SOLRECP2_fec_recarga		72	string	-	-
+PP_GA_SOLRECP2_sec_actuacion		73	long	-	-
+PP_GA_SOLRECP2__rpr_ret		74	long	-	-
+# FIN DE SERVICIO PP_GA_SOLRECP2
+
+# Identificadores para el servicio PP_GA_SOLRECP3
+# INICIO DE SERVICIO PP_GA_SOLRECP3
+PP_GA_SOLRECP3_num_telefono		75	string	-	-
+PP_GA_SOLRECP3_importe		76	double	-	-
+PP_GA_SOLRECP3_cod_moneda		77	string	-	-
+PP_GA_SOLRECP3_usu_distri		78	string	-	-
+PP_GA_SOLRECP3_num_telrecar		79	string	-	-
+PP_GA_SOLRECP3_cla_distrib		80	string	-	-
+PP_GA_SOLRECP3_mensaje		81	string	-	-
+PP_GA_SOLRECP3_cod_referenci		82	string	-	-
+PP_GA_SOLRECP3_fec_recarga		83	string	-	-
+PP_GA_SOLRECP3_sec_actuacion		84	string	-	-
+PP_GA_SOLRECP3__rpr_ret		85	long	-	-
+# FIN DE SERVICIO PP_GA_SOLRECP3
+

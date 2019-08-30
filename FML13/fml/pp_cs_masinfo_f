@@ -1,0 +1,55 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_masinfo.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_masinfo_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pp_cs_masinfo versión 1.0 
+#
+
+*base		3107000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_CS_INF_ADIC
+# INICIO DE SERVICIO PP_CS_INF_ADIC
+PP_CS_INF_ADIC_numTelefono		0	string	-	-
+PP_CS_INF_ADIC_fecha		1	string	-	-
+PP_CS_INF_ADIC_cid		2	string	-	-
+PP_CS_INF_ADIC_codIdioma		3	string	-	-
+PP_CS_INF_ADIC_infAdicional		4	string	-	-
+PP_CS_INF_ADIC_tipoUlt		5	string	-	-
+PP_CS_INF_ADIC_secUlt		6	long	-	-
+PP_CS_INF_ADIC_nRegs		7	long	-	-
+PP_CS_INF_ADIC_descripcion		8	string	-	-
+PP_CS_INF_ADIC_fechaEvento		9	string	-	-
+PP_CS_INF_ADIC_duracion		10	long	-	-
+PP_CS_INF_ADIC_descuento		11	double	-	-
+PP_CS_INF_ADIC_codListaDestino		12	long	-	-
+PP_CS_INF_ADIC_hayMas		13	long	-	-
+PP_CS_INF_ADIC__rpr_ret		14	long	-	-
+# FIN DE SERVICIO PP_CS_INF_ADIC
+
+# Identificadores para el servicio PP_CS_INF_ADI2
+# INICIO DE SERVICIO PP_CS_INF_ADI2
+PP_CS_INF_ADI2_numTelefono		15	string	-	-
+PP_CS_INF_ADI2_fecha		16	string	-	-
+PP_CS_INF_ADI2_cid		17	string	-	-
+PP_CS_INF_ADI2_codIdioma		18	string	-	-
+PP_CS_INF_ADI2_infAdicional		19	string	-	-
+PP_CS_INF_ADI2_categoria		20	string	-	-
+PP_CS_INF_ADI2_ultElemento		21	string	-	-
+PP_CS_INF_ADI2_nRegs		22	long	-	-
+PP_CS_INF_ADI2_descripcion		23	string	-	-
+PP_CS_INF_ADI2_tipoLlamada		24	string	-	-
+PP_CS_INF_ADI2_fechaEvento		25	string	-	-
+PP_CS_INF_ADI2_tipEventProm		26	string	-	-
+PP_CS_INF_ADI2_idEventProm		27	long	-	-
+PP_CS_INF_ADI2_valContador		28	long	-	-
+PP_CS_INF_ADI2_duracion		29	long	-	-
+PP_CS_INF_ADI2_valEventProm		30	double	-	-
+PP_CS_INF_ADI2_codListaDestino		31	long	-	-
+PP_CS_INF_ADI2_hayMas		32	long	-	-
+PP_CS_INF_ADI2__rpr_ret		33	long	-	-
+# FIN DE SERVICIO PP_CS_INF_ADI2
+

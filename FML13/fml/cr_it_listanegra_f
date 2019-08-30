@@ -1,0 +1,18 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [cr_it_listanegra.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# cr_it_listanegra_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3501000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio TR_INFOLN
+# INICIO DE SERVICIO TR_INFOLN
+TR_INFOLN_num_telefono		0	string	-	-
+TR_INFOLN_cod_existe		1	long	-	-
+TR_INFOLN__rpr_ret		2	long	-	-
+# FIN DE SERVICIO TR_INFOLN
+

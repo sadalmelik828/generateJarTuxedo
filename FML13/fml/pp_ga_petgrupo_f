@@ -1,0 +1,109 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_petgrupo.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_petgrupo_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3270000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_GETGRP
+# INICIO DE SERVICIO PP_GA_GETGRP
+PP_GA_GETGRP_num_telefono		0	string	-	-
+PP_GA_GETGRP_id_grupo		1	string	-	-
+PP_GA_GETGRP_cod_grupo		2	string	-	-
+PP_GA_GETGRP_cad_item_ini		3	string	-	-
+PP_GA_GETGRP_num_items		4	long	-	-
+PP_GA_GETGRP_cad_item		5	string	-	-
+PP_GA_GETGRP_hay_mas		6	carray	-	-
+PP_GA_GETGRP__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PP_GA_GETGRP
+
+# Identificadores para el servicio PP_GA_GRPALTAI
+# INICIO DE SERVICIO PP_GA_GRPALTAI
+PP_GA_GRPALTAI_id_grupo		8	string	-	-
+PP_GA_GRPALTAI_cod_grupo		9	string	-	-
+PP_GA_GRPALTAI_num_itemsprepa		10	long	-	-
+PP_GA_GRPALTAI_cad_itemprepa		11	string	-	-
+PP_GA_GRPALTAInum_itemsnopre01		12	long	-	-
+PP_GA_GRPALTAI_cad_itemnoprepa		13	string	-	-
+PP_GA_GRPALTAI_imp_coste		14	double	-	-
+PP_GA_GRPALTAI_cod_moneda		15	string	-	-
+PP_GA_GRPALTAI_cod_causa		16	string	-	-
+PP_GA_GRPALTAI_cod_usuario		17	string	-	-
+PP_GA_GRPALTAI_cod_errorprepa		18	long	-	-
+PP_GA_GRPALTAIcod_errornopre01		19	long	-	-
+PP_GA_GRPALTAI_sec_actuacion		20	carray	-	-
+PP_GA_GRPALTAI__rpr_ret		21	long	-	-
+# FIN DE SERVICIO PP_GA_GRPALTAI
+
+# Identificadores para el servicio PP_GA_VGRPALTI
+# INICIO DE SERVICIO PP_GA_VGRPALTI
+PP_GA_VGRPALTI_id_grupo		22	string	-	-
+PP_GA_VGRPALTI_cod_grupo		23	string	-	-
+PP_GA_VGRPALTI_cad_itemprepa		24	string	-	-
+PP_GA_VGRPALTI_imp_coste		25	double	-	-
+PP_GA_VGRPALTI_cod_moneda		26	string	-	-
+PP_GA_VGRPALTI_cod_causa		27	string	-	-
+PP_GA_VGRPALTI_cod_usuario		28	string	-	-
+PP_GA_VGRPALTI__rpr_ret		29	long	-	-
+# FIN DE SERVICIO PP_GA_VGRPALTI
+
+# Identificadores para el servicio PP_GA_GRPMODI
+# INICIO DE SERVICIO PP_GA_GRPMODI
+PP_GA_GRPMODI_id_grupo		30	string	-	-
+PP_GA_GRPMODI_cod_grupo		31	string	-	-
+PP_GA_GRPMODI_cad_itemant		32	string	-	-
+PP_GA_GRPMODI_cad_itempos		33	string	-	-
+PP_GA_GRPMODI_imp_coste		34	double	-	-
+PP_GA_GRPMODI_cod_moneda		35	string	-	-
+PP_GA_GRPMODI_cod_causa		36	string	-	-
+PP_GA_GRPMODI_cod_usuario		37	string	-	-
+PP_GA_GRPMODI__rpr_ret		38	long	-	-
+# FIN DE SERVICIO PP_GA_GRPMODI
+
+# Identificadores para el servicio PP_GA_GRPBAJI
+# INICIO DE SERVICIO PP_GA_GRPBAJI
+PP_GA_GRPBAJI_id_grupo		39	string	-	-
+PP_GA_GRPBAJI_cod_grupo		40	string	-	-
+PP_GA_GRPBAJI_num_itemsprepa		41	long	-	-
+PP_GA_GRPBAJI_cad_itemprepa		42	string	-	-
+PP_GA_GRPBAJI_num_itemsnoprepa		43	long	-	-
+PP_GA_GRPBAJI_cad_itemnoprepa		44	string	-	-
+PP_GA_GRPBAJI_imp_coste		45	double	-	-
+PP_GA_GRPBAJI_cod_moneda		46	string	-	-
+PP_GA_GRPBAJI_cod_causa		47	string	-	-
+PP_GA_GRPBAJI_cod_usuario		48	string	-	-
+PP_GA_GRPBAJI_cod_errorprepa		49	long	-	-
+PP_GA_GRPBAJI_cod_errornoprepa		50	long	-	-
+PP_GA_GRPBAJI_sec_actuacion		51	carray	-	-
+PP_GA_GRPBAJI__rpr_ret		52	long	-	-
+# FIN DE SERVICIO PP_GA_GRPBAJI
+
+# Identificadores para el servicio PP_GA_VGRPBAJI
+# INICIO DE SERVICIO PP_GA_VGRPBAJI
+PP_GA_VGRPBAJI_id_grupo		53	string	-	-
+PP_GA_VGRPBAJI_cod_grupo		54	string	-	-
+PP_GA_VGRPBAJI_cad_itemprepa		55	string	-	-
+PP_GA_VGRPBAJI_imp_coste		56	double	-	-
+PP_GA_VGRPBAJI_cod_moneda		57	string	-	-
+PP_GA_VGRPBAJI_cod_causa		58	string	-	-
+PP_GA_VGRPBAJI_cod_usuario		59	string	-	-
+PP_GA_VGRPBAJI__rpr_ret		60	long	-	-
+# FIN DE SERVICIO PP_GA_VGRPBAJI
+
+# Identificadores para el servicio PP_GA_BAJAGRP
+# INICIO DE SERVICIO PP_GA_BAJAGRP
+PP_GA_BAJAGRP_id_grupo		61	string	-	-
+PP_GA_BAJAGRP_cod_grupo		62	string	-	-
+PP_GA_BAJAGRP_imp_coste		63	double	-	-
+PP_GA_BAJAGRP_cod_moneda		64	string	-	-
+PP_GA_BAJAGRP_cod_causa		65	string	-	-
+PP_GA_BAJAGRP_cod_usuario		66	string	-	-
+PP_GA_BAJAGRP_num_itemsprepa		67	long	-	-
+PP_GA_BAJAGRP_sec_actuacion		68	carray	-	-
+PP_GA_BAJAGRP__rpr_ret		69	long	-	-
+# FIN DE SERVICIO PP_GA_BAJAGRP
+

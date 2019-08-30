@@ -1,0 +1,55 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [tg_gx_servgestor.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# tg_gx_servgestor_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3511000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio TG_GX_SUSERBAS
+# INICIO DE SERVICIO TG_GX_SUSERBAS
+TG_GX_SUSERBAS_msisdn		0	string	-	-
+TG_GX_SUSERBAS_cod_serv_bas		1	string	-	-
+TG_GX_SUSERBAS_tipo_linea		2	string	-	-
+TG_GX_SUSERBAS_ind_validacion		3	long	-	-
+TG_GX_SUSERBAS__rpr_ret		4	long	-	-
+# FIN DE SERVICIO TG_GX_SUSERBAS
+
+# Identificadores para el servicio TG_GX_HASERBAS
+# INICIO DE SERVICIO TG_GX_HASERBAS
+TG_GX_HASERBAS_msisdn		5	string	-	-
+TG_GX_HASERBAS_cod_serv_bas		6	string	-	-
+TG_GX_HASERBAS_tipo_linea		7	string	-	-
+TG_GX_HASERBAS_ind_validacion		8	long	-	-
+TG_GX_HASERBAS__rpr_ret		9	long	-	-
+# FIN DE SERVICIO TG_GX_HASERBAS
+
+# Identificadores para el servicio TG_GX_ALSERBAS
+# INICIO DE SERVICIO TG_GX_ALSERBAS
+TG_GX_ALSERBAS_msisdn		10	string	-	-
+TG_GX_ALSERBAS_cod_serv_bas		11	string	-	-
+TG_GX_ALSERBAS_tipo_linea		12	string	-	-
+TG_GX_ALSERBAS_ind_validacion		13	long	-	-
+TG_GX_ALSERBAS__rpr_ret		14	long	-	-
+# FIN DE SERVICIO TG_GX_ALSERBAS
+
+# Identificadores para el servicio TG_GX_BASERBAS
+# INICIO DE SERVICIO TG_GX_BASERBAS
+TG_GX_BASERBAS_msisdn		15	string	-	-
+TG_GX_BASERBAS_cod_serv_bas		16	string	-	-
+TG_GX_BASERBAS_tipo_linea		17	string	-	-
+TG_GX_BASERBAS_ind_validacion		18	long	-	-
+TG_GX_BASERBAS__rpr_ret		19	long	-	-
+# FIN DE SERVICIO TG_GX_BASERBAS
+
+# Identificadores para el servicio TG_GX_MIGLIN
+# INICIO DE SERVICIO TG_GX_MIGLIN
+TG_GX_MIGLIN_msisdn		20	string	-	-
+TG_GX_MIGLIN_tipo_migracion		21	long	-	-
+TG_GX_MIGLIN_ind_validacion		22	long	-	-
+TG_GX_MIGLIN__rpr_ret		23	long	-	-
+# FIN DE SERVICIO TG_GX_MIGLIN
+

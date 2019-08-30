@@ -1,0 +1,21 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_gesplatar.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_gesplatar_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2923000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_CONSTARIF
+# INICIO DE SERVICIO PO_GE_CONSTARIF
+PO_GE_CONSTARIF_msisdn		0	string	-	-
+PO_GE_CONSTARIF_nreg_servicios		1	long	-	-
+PO_GE_CONSTARIF_list_serv		2	string	-	-
+PO_GE_CONSTARIF_nreg_tarifas		3	long	-	-
+PO_GE_CONSTARIFlist_tarifser01		4	string	-	-
+PO_GE_CONSTARIF__rpr_ret		5	short	-	-
+# FIN DE SERVICIO PO_GE_CONSTARIF
+

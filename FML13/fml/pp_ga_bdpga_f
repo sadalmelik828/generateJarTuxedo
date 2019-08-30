@@ -1,0 +1,54 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_bdpga.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_bdpga_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3203000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_ESTADOS
+# INICIO DE SERVICIO PP_GA_ESTADOS
+PP_GA_ESTADOS_vcCodEstado		0	string	-	-
+PP_GA_ESTADOS_vcDesEstado		1	string	-	-
+# FIN DE SERVICIO PP_GA_ESTADOS
+
+# Identificadores para el servicio PP_GA_PERFILES
+# INICIO DE SERVICIO PP_GA_PERFILES
+PP_GA_PERFILES_vcCodPerfil		2	string	-	-
+PP_GA_PERFILES_vcDesPerfil		3	string	-	-
+# FIN DE SERVICIO PP_GA_PERFILES
+
+# Identificadores para el servicio PP_GA_PERFTARJ
+# INICIO DE SERVICIO PP_GA_PERFTARJ
+PP_GA_PERFTARJvcCodPerfTarje01		4	string	-	-
+PP_GA_PERFTARJvcDesPerfTarje01		5	string	-	-
+# FIN DE SERVICIO PP_GA_PERFTARJ
+
+# Identificadores para el servicio PP_GA_ZONAOPER
+# INICIO DE SERVICIO PP_GA_ZONAOPER
+PP_GA_ZONAOPER_vcCodZonaOper		6	string	-	-
+PP_GA_ZONAOPER_vcNomZonaOper		7	string	-	-
+# FIN DE SERVICIO PP_GA_ZONAOPER
+
+# Identificadores para el servicio PP_GA_CLASTARJ
+# INICIO DE SERVICIO PP_GA_CLASTARJ
+PP_GA_CLASTARJvcCodClaseTarj01		8	string	-	-
+PP_GA_CLASTARJvcDesClaseTarj01		9	string	-	-
+# FIN DE SERVICIO PP_GA_CLASTARJ
+
+# Identificadores para el servicio PP_GA_TIPOTARJ
+# INICIO DE SERVICIO PP_GA_TIPOTARJ
+PP_GA_TIPOTARJ_cCodTipoTarj		10	carray	-	-
+PP_GA_TIPOTARJ_vcDesTipoTarj		11	string	-	-
+# FIN DE SERVICIO PP_GA_TIPOTARJ
+
+# Identificadores para el servicio PP_GA_SBCLASTRJ
+# INICIO DE SERVICIO PP_GA_SBCLASTRJ
+PP_GA_SBCLASTRJvcCodClaseTar01		12	string	-	-
+PP_GA_SBCLASTRJvcCodSbClaseT01		13	string	-	-
+PP_GA_SBCLASTRJvcDesSbClaseT01		14	string	-	-
+# FIN DE SERVICIO PP_GA_SBCLASTRJ
+

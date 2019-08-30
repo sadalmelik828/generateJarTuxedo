@@ -1,0 +1,173 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_tribus.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_tribus_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3271000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_TRIBUALTA
+# INICIO DE SERVICIO PP_GA_TRIBUALTA
+PP_GA_TRIBUALTA_cod_abonado		0	string	-	-
+PP_GA_TRIBUALTA_cod_tribu		1	string	-	-
+PP_GA_TRIBUALTA_cod_moneda		2	string	-	-
+PP_GA_TRIBUALTA_cod_usuario		3	string	-	-
+PP_GA_TRIBUALTA_importe_coste		4	double	-	-
+PP_GA_TRIBUALTA__rpr_ret		5	long	-	-
+# FIN DE SERVICIO PP_GA_TRIBUALTA
+
+# Identificadores para el servicio PP_GA_TRIBUBAJA
+# INICIO DE SERVICIO PP_GA_TRIBUBAJA
+PP_GA_TRIBUBAJA_cod_abonado		6	string	-	-
+PP_GA_TRIBUBAJA_cod_tribu		7	string	-	-
+PP_GA_TRIBUBAJA_cod_moneda		8	string	-	-
+PP_GA_TRIBUBAJA_cod_usuario		9	string	-	-
+PP_GA_TRIBUBAJA_importe_coste		10	double	-	-
+PP_GA_TRIBUBAJA__rpr_ret		11	long	-	-
+# FIN DE SERVICIO PP_GA_TRIBUBAJA
+
+# Identificadores para el servicio PP_GA_CONTRIBU
+# INICIO DE SERVICIO PP_GA_CONTRIBU
+PP_GA_CONTRIBU_cod_abonado		12	string	-	-
+PP_GA_CONTRIBU_num_items		13	long	-	-
+PP_GA_CONTRIBU_lista_tribus		14	string	-	-
+PP_GA_CONTRIBU_fecha_tribus		15	string	-	-
+PP_GA_CONTRIBU_hay_mas		16	carray	-	-
+PP_GA_CONTRIBUultimo_cod_tri01		17	string	-	-
+PP_GA_CONTRIBU__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_CONTRIBU
+
+# Identificadores para el servicio PP_GA_CONTRIBUH
+# INICIO DE SERVICIO PP_GA_CONTRIBUH
+PP_GA_CONTRIBUH_cod_abonado		19	string	-	-
+PP_GA_CONTRIBUH_num_orden		20	string	-	-
+PP_GA_CONTRIBUH_num_items		21	long	-	-
+PP_GA_CONTRIBUH_lista_tribus		22	string	-	-
+PP_GA_CONTRIBUH_fecha_tribus		23	string	-	-
+PP_GA_CONTRIBUH_hay_mas		24	carray	-	-
+PP_GA_CONTRIBUHultimo_cod_tr01		25	string	-	-
+PP_GA_CONTRIBUH__rpr_ret		26	long	-	-
+# FIN DE SERVICIO PP_GA_CONTRIBUH
+
+# Identificadores para el servicio PP_GA_GETTRIBUS
+# INICIO DE SERVICIO PP_GA_GETTRIBUS
+PP_GA_GETTRIBUS_num_items		27	long	-	-
+PP_GA_GETTRIBUS_lista_tribus		28	string	-	-
+PP_GA_GETTRIBUS_fecha_tribus		29	string	-	-
+PP_GA_GETTRIBUS_hay_mas		30	carray	-	-
+PP_GA_GETTRIBUSultimo_cod_tr01		31	string	-	-
+PP_GA_GETTRIBUS__rpr_ret		32	long	-	-
+# FIN DE SERVICIO PP_GA_GETTRIBUS
+
+# Identificadores para el servicio GA_TRIBUALTA2
+# INICIO DE SERVICIO GA_TRIBUALTA2
+GA_TRIBUALTA2_cod_abonado		33	string	-	-
+GA_TRIBUALTA2_cod_tribu		34	string	-	-
+GA_TRIBUALTA2_cod_moneda		35	string	-	-
+GA_TRIBUALTA2_cod_usuario		36	string	-	-
+GA_TRIBUALTA2_importe_coste		37	double	-	-
+GA_TRIBUALTA2_mediaType		38	string	-	-
+GA_TRIBUALTA2_erReference		39	string	-	-
+GA_TRIBUALTA2_transaction_id		40	string	-	-
+GA_TRIBUALTA2_sec_actuacion		41	string	-	-
+GA_TRIBUALTA2__rpr_ret		42	long	-	-
+# FIN DE SERVICIO GA_TRIBUALTA2
+
+# Identificadores para el servicio GA_TRIBUBAJA2
+# INICIO DE SERVICIO GA_TRIBUBAJA2
+GA_TRIBUBAJA2_cod_abonado		43	string	-	-
+GA_TRIBUBAJA2_cod_tribu		44	string	-	-
+GA_TRIBUBAJA2_cod_moneda		45	string	-	-
+GA_TRIBUBAJA2_cod_usuario		46	string	-	-
+GA_TRIBUBAJA2_importe_coste		47	double	-	-
+GA_TRIBUBAJA2_mediaType		48	string	-	-
+GA_TRIBUBAJA2_erReference		49	string	-	-
+GA_TRIBUBAJA2_transaction_id		50	string	-	-
+GA_TRIBUBAJA2_sec_actuacion		51	string	-	-
+GA_TRIBUBAJA2__rpr_ret		52	long	-	-
+# FIN DE SERVICIO GA_TRIBUBAJA2
+
+# Identificadores para el servicio GA_TRIBUALTA3
+# INICIO DE SERVICIO GA_TRIBUALTA3
+GA_TRIBUALTA3_cod_abonado		53	string	-	-
+GA_TRIBUALTA3_cod_tribu		54	string	-	-
+GA_TRIBUALTA3_cod_subtribu		55	string	-	-
+GA_TRIBUALTA3_cod_moneda		56	string	-	-
+GA_TRIBUALTA3_cod_usuario		57	string	-	-
+GA_TRIBUALTA3_importe_coste		58	double	-	-
+GA_TRIBUALTA3_mediaType		59	string	-	-
+GA_TRIBUALTA3_erReference		60	string	-	-
+GA_TRIBUALTA3_transaction_id		61	string	-	-
+GA_TRIBUALTA3_sec_actuacion		62	string	-	-
+GA_TRIBUALTA3__rpr_ret		63	long	-	-
+# FIN DE SERVICIO GA_TRIBUALTA3
+
+# Identificadores para el servicio GA_TRIBUBAJA3
+# INICIO DE SERVICIO GA_TRIBUBAJA3
+GA_TRIBUBAJA3_cod_abonado		64	string	-	-
+GA_TRIBUBAJA3_cod_tribu		65	string	-	-
+GA_TRIBUBAJA3_cod_subtribu		66	string	-	-
+GA_TRIBUBAJA3_cod_moneda		67	string	-	-
+GA_TRIBUBAJA3_cod_usuario		68	string	-	-
+GA_TRIBUBAJA3_importe_coste		69	double	-	-
+GA_TRIBUBAJA3_mediaType		70	string	-	-
+GA_TRIBUBAJA3_erReference		71	string	-	-
+GA_TRIBUBAJA3_transaction_id		72	string	-	-
+GA_TRIBUBAJA3_sec_actuacion		73	string	-	-
+GA_TRIBUBAJA3__rpr_ret		74	long	-	-
+# FIN DE SERVICIO GA_TRIBUBAJA3
+
+# Identificadores para el servicio GA_CONSBTRIB
+# INICIO DE SERVICIO GA_CONSBTRIB
+GA_CONSBTRIB_num_telefono		75	string	-	-
+GA_CONSBTRIB_cod_tribu		76	string	-	-
+GA_CONSBTRIB_sec_actuacion		77	string	-	-
+GA_CONSBTRIB_num_items		78	long	-	-
+GA_CONSBTRIBultimo_cod_sbtri01		79	string	-	-
+GA_CONSBTRIB_lista_subtribus		80	string	-	-
+GA_CONSBTRIB_hay_mas		81	carray	-	-
+GA_CONSBTRIB_fecha_tribus		82	string	-	-
+GA_CONSBTRIB__rpr_ret		83	long	-	-
+# FIN DE SERVICIO GA_CONSBTRIB
+
+# Identificadores para el servicio GA_CONSBTRIH
+# INICIO DE SERVICIO GA_CONSBTRIH
+GA_CONSBTRIH_num_telefono		84	string	-	-
+GA_CONSBTRIH_cod_tribu		85	string	-	-
+GA_CONSBTRIH_sec_actuacion		86	string	-	-
+GA_CONSBTRIH_num_orden		87	string	-	-
+GA_CONSBTRIH_num_items		88	long	-	-
+GA_CONSBTRIHultimo_cod_sbtri01		89	string	-	-
+GA_CONSBTRIH_lista_subtribus		90	string	-	-
+GA_CONSBTRIH_hay_mas		91	carray	-	-
+GA_CONSBTRIH_fecha_tribus		92	string	-	-
+GA_CONSBTRIH__rpr_ret		93	long	-	-
+# FIN DE SERVICIO GA_CONSBTRIH
+
+# Identificadores para el servicio GA_TRIBUALTA4
+# INICIO DE SERVICIO GA_TRIBUALTA4
+GA_TRIBUALTA4_cod_abonado		94	string	-	-
+GA_TRIBUALTA4_cod_tribu		95	string	-	-
+GA_TRIBUALTA4_cod_subtribu		96	string	-	-
+GA_TRIBUALTA4_cod_moneda		97	string	-	-
+GA_TRIBUALTA4_cod_usuario		98	string	-	-
+GA_TRIBUALTA4_importe_coste		99	double	-	-
+GA_TRIBUALTA4_sec_actuacion		100	string	-	-
+GA_TRIBUALTA4__rpr_ret		101	long	-	-
+# FIN DE SERVICIO GA_TRIBUALTA4
+
+# Identificadores para el servicio GA_TRIBUBAJA4
+# INICIO DE SERVICIO GA_TRIBUBAJA4
+GA_TRIBUBAJA4_cod_abonado		102	string	-	-
+GA_TRIBUBAJA4_cod_tribu		103	string	-	-
+GA_TRIBUBAJA4_cod_subtribu		104	string	-	-
+GA_TRIBUBAJA4_cod_moneda		105	string	-	-
+GA_TRIBUBAJA4_cod_usuario		106	string	-	-
+GA_TRIBUBAJA4_importe_coste		107	double	-	-
+GA_TRIBUBAJA4_sec_actuacion		108	string	-	-
+GA_TRIBUBAJA4__rpr_ret		109	long	-	-
+# FIN DE SERVICIO GA_TRIBUBAJA4
+

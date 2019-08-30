@@ -1,0 +1,208 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_itinerancia.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_itinerancia_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pp_cs_itinerancia versión 1.0 
+#
+
+*base		3106000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_CS_FMM_TRO
+# INICIO DE SERVICIO PP_CS_FMM_TRO
+PP_CS_FMM_TRO_numTelefono		0	string	-	-
+PP_CS_FMM_TRO_fechaMin		1	string	-	-
+PP_CS_FMM_TRO_fechaMax		2	string	-	-
+PP_CS_FMM_TRO__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_CS_FMM_TRO
+
+# Identificadores para el servicio PP_CS_ACUM_TRO
+# INICIO DE SERVICIO PP_CS_ACUM_TRO
+PP_CS_ACUM_TRO_numTelefono		4	string	-	-
+PP_CS_ACUM_TRO_nMeses		5	long	-	-
+PP_CS_ACUM_TRO_fecha		6	string	-	-
+PP_CS_ACUM_TRO_importe		7	double	-	-
+PP_CS_ACUM_TRO__rpr_ret		8	long	-	-
+# FIN DE SERVICIO PP_CS_ACUM_TRO
+
+# Identificadores para el servicio PP_CS_DAT_TRO
+# INICIO DE SERVICIO PP_CS_DAT_TRO
+PP_CS_DAT_TRO_numTelefono		9	string	-	-
+PP_CS_DAT_TRO_fechaDesde		10	string	-	-
+PP_CS_DAT_TRO_fechaHasta		11	string	-	-
+PP_CS_DAT_TRO_mascara		12	string	-	-
+PP_CS_DAT_TRO_importeMinimo		13	double	-	-
+PP_CS_DAT_TRO_orden		14	long	-	-
+PP_CS_DAT_TRO_codIdioma		15	string	-	-
+PP_CS_DAT_TRO_catUlt		16	string	-	-
+PP_CS_DAT_TRO_fechaUlt		17	string	-	-
+PP_CS_DAT_TRO_cidUlt		18	string	-	-
+PP_CS_DAT_TRO_nRegs		19	long	-	-
+PP_CS_DAT_TRO_numTelefonoB		20	string	-	-
+PP_CS_DAT_TRO_tipoActiva		21	string	-	-
+PP_CS_DAT_TRO_descripcion		22	string	-	-
+PP_CS_DAT_TRO_fecha		23	string	-	-
+PP_CS_DAT_TRO_duracion		24	long	-	-
+PP_CS_DAT_TRO_importe		25	double	-	-
+PP_CS_DAT_TRO_cid		26	string	-	-
+PP_CS_DAT_TRO_hayMas		27	long	-	-
+PP_CS_DAT_TRO__rpr_ret		28	long	-	-
+# FIN DE SERVICIO PP_CS_DAT_TRO
+
+# Identificadores para el servicio PP_CS_DATX_TRO
+# INICIO DE SERVICIO PP_CS_DATX_TRO
+PP_CS_DATX_TRO_numTelefono		29	string	-	-
+PP_CS_DATX_TRO_fechaDesde		30	string	-	-
+PP_CS_DATX_TRO_fechaHasta		31	string	-	-
+PP_CS_DATX_TRO_mascara		32	string	-	-
+PP_CS_DATX_TRO_importeMinimo		33	double	-	-
+PP_CS_DATX_TRO_orden		34	long	-	-
+PP_CS_DATX_TRO_codIdioma		35	string	-	-
+PP_CS_DATX_TRO_catUlt		36	string	-	-
+PP_CS_DATX_TRO_fechaUlt		37	string	-	-
+PP_CS_DATX_TRO_cidUlt		38	string	-	-
+PP_CS_DATX_TRO_nRegs		39	long	-	-
+PP_CS_DATX_TRO_numTelefonoB		40	string	-	-
+PP_CS_DATX_TRO_tipoActiva		41	string	-	-
+PP_CS_DATX_TRO_descripcion		42	string	-	-
+PP_CS_DATX_TRO_fecha		43	string	-	-
+PP_CS_DATX_TRO_duracion		44	long	-	-
+PP_CS_DATX_TRO_importe		45	double	-	-
+PP_CS_DATX_TRO_cid		46	string	-	-
+PP_CS_DATX_TRO_hayMas		47	long	-	-
+PP_CS_DATX_TRO__rpr_ret		48	long	-	-
+# FIN DE SERVICIO PP_CS_DATX_TRO
+
+# Identificadores para el servicio PP_CS_FMM_ORO
+# INICIO DE SERVICIO PP_CS_FMM_ORO
+PP_CS_FMM_ORO_numTelefono		49	string	-	-
+PP_CS_FMM_ORO_fechaMin		50	string	-	-
+PP_CS_FMM_ORO_fechaMax		51	string	-	-
+PP_CS_FMM_ORO__rpr_ret		52	long	-	-
+# FIN DE SERVICIO PP_CS_FMM_ORO
+
+# Identificadores para el servicio PP_CS_ACUM_ORO
+# INICIO DE SERVICIO PP_CS_ACUM_ORO
+PP_CS_ACUM_ORO_numTelefono		53	string	-	-
+PP_CS_ACUM_ORO_nMeses		54	long	-	-
+PP_CS_ACUM_ORO_fecha		55	string	-	-
+PP_CS_ACUM_ORO_importe		56	double	-	-
+PP_CS_ACUM_ORO__rpr_ret		57	long	-	-
+# FIN DE SERVICIO PP_CS_ACUM_ORO
+
+# Identificadores para el servicio PP_CS_DAT_ORO
+# INICIO DE SERVICIO PP_CS_DAT_ORO
+PP_CS_DAT_ORO_numTelefono		58	string	-	-
+PP_CS_DAT_ORO_fechaDesde		59	string	-	-
+PP_CS_DAT_ORO_fechaHasta		60	string	-	-
+PP_CS_DAT_ORO_mascara		61	string	-	-
+PP_CS_DAT_ORO_importeMinimo		62	double	-	-
+PP_CS_DAT_ORO_orden		63	long	-	-
+PP_CS_DAT_ORO_codIdioma		64	string	-	-
+PP_CS_DAT_ORO_catUlt		65	string	-	-
+PP_CS_DAT_ORO_fechaUlt		66	string	-	-
+PP_CS_DAT_ORO_cidUlt		67	string	-	-
+PP_CS_DAT_ORO_nRegs		68	long	-	-
+PP_CS_DAT_ORO_numTelefonoB		69	string	-	-
+PP_CS_DAT_ORO_tipoActiva		70	string	-	-
+PP_CS_DAT_ORO_descripcion		71	string	-	-
+PP_CS_DAT_ORO_fecha		72	string	-	-
+PP_CS_DAT_ORO_duracion		73	long	-	-
+PP_CS_DAT_ORO_importe		74	double	-	-
+PP_CS_DAT_ORO_cid		75	string	-	-
+PP_CS_DAT_ORO_hayMas		76	long	-	-
+PP_CS_DAT_ORO__rpr_ret		77	long	-	-
+# FIN DE SERVICIO PP_CS_DAT_ORO
+
+# Identificadores para el servicio PP_CS_DATX_ORO
+# INICIO DE SERVICIO PP_CS_DATX_ORO
+PP_CS_DATX_ORO_numTelefono		78	string	-	-
+PP_CS_DATX_ORO_fechaDesde		79	string	-	-
+PP_CS_DATX_ORO_fechaHasta		80	string	-	-
+PP_CS_DATX_ORO_mascara		81	string	-	-
+PP_CS_DATX_ORO_importeMinimo		82	double	-	-
+PP_CS_DATX_ORO_orden		83	long	-	-
+PP_CS_DATX_ORO_codIdioma		84	string	-	-
+PP_CS_DATX_ORO_catUlt		85	string	-	-
+PP_CS_DATX_ORO_fechaUlt		86	string	-	-
+PP_CS_DATX_ORO_cidUlt		87	string	-	-
+PP_CS_DATX_ORO_nRegs		88	long	-	-
+PP_CS_DATX_ORO_numTelefonoB		89	string	-	-
+PP_CS_DATX_ORO_tipoActiva		90	string	-	-
+PP_CS_DATX_ORO_descripcion		91	string	-	-
+PP_CS_DATX_ORO_fecha		92	string	-	-
+PP_CS_DATX_ORO_duracion		93	long	-	-
+PP_CS_DATX_ORO_importe		94	double	-	-
+PP_CS_DATX_ORO_cid		95	string	-	-
+PP_CS_DATX_ORO_hayMas		96	long	-	-
+PP_CS_DATX_ORO__rpr_ret		97	long	-	-
+# FIN DE SERVICIO PP_CS_DATX_ORO
+
+# Identificadores para el servicio PP_CS_FMM_ITI
+# INICIO DE SERVICIO PP_CS_FMM_ITI
+PP_CS_FMM_ITI_numTelefono		98	string	-	-
+PP_CS_FMM_ITI_fechaMin		99	string	-	-
+PP_CS_FMM_ITI_fechaMax		100	string	-	-
+PP_CS_FMM_ITI__rpr_ret		101	long	-	-
+# FIN DE SERVICIO PP_CS_FMM_ITI
+
+# Identificadores para el servicio PP_CS_ACUM_ITI
+# INICIO DE SERVICIO PP_CS_ACUM_ITI
+PP_CS_ACUM_ITI_numTelefono		102	string	-	-
+PP_CS_ACUM_ITI_nMeses		103	long	-	-
+PP_CS_ACUM_ITI_fecha		104	string	-	-
+PP_CS_ACUM_ITI_importe		105	double	-	-
+PP_CS_ACUM_ITI__rpr_ret		106	long	-	-
+# FIN DE SERVICIO PP_CS_ACUM_ITI
+
+# Identificadores para el servicio PP_CS_DAT_ITI
+# INICIO DE SERVICIO PP_CS_DAT_ITI
+PP_CS_DAT_ITI_numTelefono		107	string	-	-
+PP_CS_DAT_ITI_fechaDesde		108	string	-	-
+PP_CS_DAT_ITI_fechaHasta		109	string	-	-
+PP_CS_DAT_ITI_mascara		110	string	-	-
+PP_CS_DAT_ITI_importeMinimo		111	double	-	-
+PP_CS_DAT_ITI_orden		112	long	-	-
+PP_CS_DAT_ITI_codIdioma		113	string	-	-
+PP_CS_DAT_ITI_catUlt		114	string	-	-
+PP_CS_DAT_ITI_fechaUlt		115	string	-	-
+PP_CS_DAT_ITI_cidUlt		116	string	-	-
+PP_CS_DAT_ITI_nRegs		117	long	-	-
+PP_CS_DAT_ITI_numTelefonoB		118	string	-	-
+PP_CS_DAT_ITI_tipoActiva		119	string	-	-
+PP_CS_DAT_ITI_descripcion		120	string	-	-
+PP_CS_DAT_ITI_fecha		121	string	-	-
+PP_CS_DAT_ITI_duracion		122	long	-	-
+PP_CS_DAT_ITI_importe		123	double	-	-
+PP_CS_DAT_ITI_cid		124	string	-	-
+PP_CS_DAT_ITI_hayMas		125	long	-	-
+PP_CS_DAT_ITI__rpr_ret		126	long	-	-
+# FIN DE SERVICIO PP_CS_DAT_ITI
+
+# Identificadores para el servicio PP_CS_DATX_ITI
+# INICIO DE SERVICIO PP_CS_DATX_ITI
+PP_CS_DATX_ITI_numTelefono		127	string	-	-
+PP_CS_DATX_ITI_fechaDesde		128	string	-	-
+PP_CS_DATX_ITI_fechaHasta		129	string	-	-
+PP_CS_DATX_ITI_mascara		130	string	-	-
+PP_CS_DATX_ITI_importeMinimo		131	double	-	-
+PP_CS_DATX_ITI_orden		132	long	-	-
+PP_CS_DATX_ITI_codIdioma		133	string	-	-
+PP_CS_DATX_ITI_catUlt		134	string	-	-
+PP_CS_DATX_ITI_fechaUlt		135	string	-	-
+PP_CS_DATX_ITI_cidUlt		136	string	-	-
+PP_CS_DATX_ITI_nRegs		137	long	-	-
+PP_CS_DATX_ITI_numTelefonoB		138	string	-	-
+PP_CS_DATX_ITI_tipoActiva		139	string	-	-
+PP_CS_DATX_ITI_descripcion		140	string	-	-
+PP_CS_DATX_ITI_fecha		141	string	-	-
+PP_CS_DATX_ITI_duracion		142	long	-	-
+PP_CS_DATX_ITI_importe		143	double	-	-
+PP_CS_DATX_ITI_cid		144	string	-	-
+PP_CS_DATX_ITI_hayMas		145	long	-	-
+PP_CS_DATX_ITI__rpr_ret		146	long	-	-
+# FIN DE SERVICIO PP_CS_DATX_ITI
+

@@ -1,0 +1,18 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_conccard.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_conccard_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2920000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_CONCCARD
+# INICIO DE SERVICIO PO_GE_CONCCARD
+PO_GE_CONCCARD_pin		0	string	-	-
+PO_GE_CONCCARD_msisdn		1	string	-	-
+PO_GE_CONCCARD__rpr_ret		2	long	-	-
+# FIN DE SERVICIO PO_GE_CONCCARD
+

@@ -1,0 +1,19 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_error.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_error_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3207000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PrepaPreDevolverError
+# INICIO DE SERVICIO PP_ERROR
+PP_ERROR_cod_error		0	long	-	-
+PP_ERROR_cod_idioma		1	long	-	-
+PP_ERROR_desc_error		2	string	-	-
+PP_ERROR__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_ERROR
+

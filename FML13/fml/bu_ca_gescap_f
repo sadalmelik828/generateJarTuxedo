@@ -1,0 +1,19 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [bu_ca_gescap.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# bu_ca_gescap_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3500000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio BU_CA_CAP_IMEI
+# INICIO DE SERVICIO BU_CA_CAP_IMEI
+BU_CA_CAP_IMEI_tex_imei		0	string	-	-
+BU_CA_CAP_IMEI_capacidad		1	string	-	-
+BU_CA_CAP_IMEI_valor		2	string	-	-
+BU_CA_CAP_IMEI__rpr_ret		3	long	-	-
+# FIN DE SERVICIO BU_CA_CAP_IMEI
+

@@ -1,0 +1,103 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gestarifas.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gestarifas_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3285000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_MODTARIFAS
+# INICIO DE SERVICIO GA_MODTARIFAS
+GA_MODTARIFAS_num_telefono		0	string	-	-
+GA_MODTARIFAS_iNumServ		1	long	-	-
+GA_MODTARIFAS_servicios_mod		2	string	-	-
+GA_MODTARIFAS_nuevas_tarifas		3	string	-	-
+GA_MODTARIFAS_imp_coste		4	double	-	-
+GA_MODTARIFAS_sCodMoneda		5	string	-	-
+GA_MODTARIFAS_sCodUsuario		6	string	-	-
+GA_MODTARIFAS_sSecActuacion		7	string	-	-
+GA_MODTARIFAS__rpr_ret		8	long	-	-
+# FIN DE SERVICIO GA_MODTARIFAS
+
+# Identificadores para el servicio GA_CONTARIFABO
+# INICIO DE SERVICIO GA_CONTARIFABO
+GA_CONTARIFABO_num_telefono		9	string	-	-
+GA_CONTARIFABO_iNumServ		10	long	-	-
+GA_CONTARIFABO_servicios_con		11	string	-	-
+GA_CONTARIFABO_lista_tarifas		12	string	-	-
+GA_CONTARIFABO__rpr_ret		13	long	-	-
+# FIN DE SERVICIO GA_CONTARIFABO
+
+# Identificadores para el servicio GA_CONTARIFSRV
+# INICIO DE SERVICIO GA_CONTARIFSRV
+GA_CONTARIFSRV_num_telefono		14	string	-	-
+GA_CONTARIFSRV_servicio		15	string	-	-
+GA_CONTARIFSRV_iNumTarifas		16	long	-	-
+GA_CONTARIFSRV_token		17	string	-	-
+GA_CONTARIFSRV_lista_tarifas		18	string	-	-
+GA_CONTARIFSRV_HayMas		19	carray	-	-
+GA_CONTARIFSRV__rpr_ret		20	long	-	-
+# FIN DE SERVICIO GA_CONTARIFSRV
+
+# Identificadores para el servicio GA_MODCICLO
+# INICIO DE SERVICIO GA_MODCICLO
+GA_MODCICLO_num_telefono		21	string	-	-
+GA_MODCICLO_coste		22	double	-	-
+GA_MODCICLO_cod_moneda		23	string	-	-
+GA_MODCICLO_cod_diaciclo		24	string	-	-
+GA_MODCICLO_cod_usuario		25	string	-	-
+GA_MODCICLO_sSecActuacion		26	string	-	-
+GA_MODCICLO__rpr_ret		27	long	-	-
+# FIN DE SERVICIO GA_MODCICLO
+
+# Identificadores para el servicio GA_MODDIVISASDP
+# INICIO DE SERVICIO GA_MODDIVISASDP
+GA_MODDIVISASDP_scod_moneda		28	string	-	-
+GA_MODDIVISASDP_dval_divisa		29	double	-	-
+GA_MODDIVISASDP_lnum_validez		30	long	-	-
+GA_MODDIVISASDP_scod_usuario		31	string	-	-
+GA_MODDIVISASDP__rpr_ret		32	long	-	-
+# FIN DE SERVICIO GA_MODDIVISASDP
+
+# Identificadores para el servicio GA_CONTARIFABO1
+# INICIO DE SERVICIO GA_CONTARIFABO1
+GA_CONTARIFABO1_num_telefono		33	string	-	-
+GA_CONTARIFABO1_lnum_serv		34	long	-	-
+GA_CONTARIFABO1aslista_servi01		35	string	-	-
+GA_CONTARIFABO1_stoken_tarifa		36	string	-	-
+GA_CONTARIFABO1_lnum_tarifa		37	long	-	-
+GA_CONTARIFABO1aslista_tarif01		38	string	-	-
+GA_CONTARIFABO1_chay_mas		39	carray	-	-
+GA_CONTARIFABO1__rpr_ret		40	long	-	-
+# FIN DE SERVICIO GA_CONTARIFABO1
+
+# Identificadores para el servicio GA_MODTARIFA1
+# INICIO DE SERVICIO GA_MODTARIFA1
+GA_MODTARIFA1_num_telefono		41	string	-	-
+GA_MODTARIFA1_lnum_serv		42	long	-	-
+GA_MODTARIFA1_asservicios_mod		43	string	-	-
+GA_MODTARIFA1_asnuevas_tarifas		44	string	-	-
+GA_MODTARIFA1_asfec_expiracion		45	string	-	-
+GA_MODTARIFA1_dimp_coste		46	double	-	-
+GA_MODTARIFA1_scod_moneda		47	string	-	-
+GA_MODTARIFA1_scod_usuario		48	string	-	-
+GA_MODTARIFA1_ssec_actuacion		49	string	-	-
+GA_MODTARIFA1__rpr_ret		50	long	-	-
+# FIN DE SERVICIO GA_MODTARIFA1
+
+# Identificadores para el servicio GA_MODCICLO1
+# INICIO DE SERVICIO GA_MODCICLO1
+GA_MODCICLO1_num_telefono		51	string	-	-
+GA_MODCICLO1_coste		52	double	-	-
+GA_MODCICLO1_modalidad_cobro		53	short	-	-
+GA_MODCICLO1_cod_moneda		54	string	-	-
+GA_MODCICLO1_cod_diaciclo		55	string	-	-
+GA_MODCICLO1_cod_usuario		56	string	-	-
+GA_MODCICLO1_flg_inmediato		57	string	-	-
+GA_MODCICLO1_sec_actuacion		58	string	-	-
+GA_MODCICLO1__rpr_ret		59	long	-	-
+# FIN DE SERVICIO GA_MODCICLO1
+

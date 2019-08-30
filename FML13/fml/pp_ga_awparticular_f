@@ -1,0 +1,221 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_awparticular.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_awparticular_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3239000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_DATRECAR
+# INICIO DE SERVICIO PP_GA_DATRECAR
+PP_GA_DATRECAR_num_telefonoA		0	string	-	-
+PP_GA_DATRECAR_fecha_desde		1	string	-	-
+PP_GA_DATRECAR_fecha_hasta		2	string	-	-
+PP_GA_DATRECAR_importe_min		3	double	-	-
+PP_GA_DATRECAR_orden		4	long	-	-
+PP_GA_DATRECAR_cod_idioma		5	string	-	-
+PP_GA_DATRECAR_n_regs		6	long	-	-
+PP_GA_DATRECAR_ult_categoria		7	string	-	-
+PP_GA_DATRECAR_ult_fecha		8	string	-	-
+PP_GA_DATRECARult_clave_regi01		9	string	-	-
+PP_GA_DATRECAR_descripcion		10	string	-	-
+PP_GA_DATRECAR_cod_descripcion		11	string	-	-
+PP_GA_DATRECAR_fecha_op		12	string	-	-
+PP_GA_DATRECAR_importe_pts		13	double	-	-
+PP_GA_DATRECAR_clave_registro		14	string	-	-
+PP_GA_DATRECAR_categoria		15	string	-	-
+PP_GA_DATRECAR_inf_adicional		16	string	-	-
+PP_GA_DATRECAR_reserva		17	string	-	-
+PP_GA_DATRECAR_hay_mas		18	long	-	-
+PP_GA_DATRECAR__rpr_ret		19	long	-	-
+# FIN DE SERVICIO PP_GA_DATRECAR
+
+# Identificadores para el servicio PP_GA_DATCTIPO
+# INICIO DE SERVICIO PP_GA_DATCTIPO
+PP_GA_DATCTIPO_num_telefonoA		20	string	-	-
+PP_GA_DATCTIPO_fecha_desde		21	string	-	-
+PP_GA_DATCTIPO_fecha_hasta		22	string	-	-
+PP_GA_DATCTIPO_importe_min		23	double	-	-
+PP_GA_DATCTIPO_orden		24	long	-	-
+PP_GA_DATCTIPO_cod_idioma		25	string	-	-
+PP_GA_DATCTIPO_n_regs		26	long	-	-
+PP_GA_DATCTIPO_ult_categoria		27	string	-	-
+PP_GA_DATCTIPO_ult_fecha		28	string	-	-
+PP_GA_DATCTIPOult_clave_regi01		29	string	-	-
+PP_GA_DATCTIPO_tipo_activa		30	string	-	-
+PP_GA_DATCTIPO_descripcion		31	string	-	-
+PP_GA_DATCTIPO_cod_descripcion		32	string	-	-
+PP_GA_DATCTIPO_fecha_op		33	string	-	-
+PP_GA_DATCTIPO_importe_pts		34	double	-	-
+PP_GA_DATCTIPO_clave_registro		35	string	-	-
+PP_GA_DATCTIPO_categoria		36	string	-	-
+PP_GA_DATCTIPO_inf_adicional		37	string	-	-
+PP_GA_DATCTIPO_reserva		38	string	-	-
+PP_GA_DATCTIPO_hay_mas		39	long	-	-
+PP_GA_DATCTIPO__rpr_ret		40	long	-	-
+# FIN DE SERVICIO PP_GA_DATCTIPO
+
+# Identificadores para el servicio PP_GA_FECMMREC
+# INICIO DE SERVICIO PP_GA_FECMMREC
+PP_GA_FECMMREC_num_telefonoA		41	string	-	-
+PP_GA_FECMMREC_fecha_min		42	string	-	-
+PP_GA_FECMMREC_fecha_max		43	string	-	-
+PP_GA_FECMMREC__rpr_ret		44	long	-	-
+# FIN DE SERVICIO PP_GA_FECMMREC
+
+# Identificadores para el servicio PP_GA_FECMMCTP
+# INICIO DE SERVICIO PP_GA_FECMMCTP
+PP_GA_FECMMCTP_num_telefonoA		45	string	-	-
+PP_GA_FECMMCTP_fecha_min		46	string	-	-
+PP_GA_FECMMCTP_fecha_max		47	string	-	-
+PP_GA_FECMMCTP__rpr_ret		48	long	-	-
+# FIN DE SERVICIO PP_GA_FECMMCTP
+
+# Identificadores para el servicio PP_GA_ACUMREC
+# INICIO DE SERVICIO PP_GA_ACUMREC
+PP_GA_ACUMREC_num_telefonoA		49	string	-	-
+PP_GA_ACUMREC_num_meses		50	long	-	-
+PP_GA_ACUMREC_fecha		51	string	-	-
+PP_GA_ACUMREC_importe		52	double	-	-
+PP_GA_ACUMREC__rpr_ret		53	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMREC
+
+# Identificadores para el servicio PP_GA_ACUMCTIP
+# INICIO DE SERVICIO PP_GA_ACUMCTIP
+PP_GA_ACUMCTIP_num_telefonoA		54	string	-	-
+PP_GA_ACUMCTIP_num_meses		55	long	-	-
+PP_GA_ACUMCTIP_fecha		56	string	-	-
+PP_GA_ACUMCTIP_importe		57	double	-	-
+PP_GA_ACUMCTIP__rpr_ret		58	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMCTIP
+
+# Identificadores para el servicio PP_GA_DATRECA2
+# INICIO DE SERVICIO PP_GA_DATRECA2
+PP_GA_DATRECA2_num_telefonoA		59	string	-	-
+PP_GA_DATRECA2_num_orden		60	long	-	-
+PP_GA_DATRECA2_fecha_desde		61	string	-	-
+PP_GA_DATRECA2_fecha_hasta		62	string	-	-
+PP_GA_DATRECA2_importe_min		63	double	-	-
+PP_GA_DATRECA2_orden		64	long	-	-
+PP_GA_DATRECA2_cod_moneda		65	string	-	-
+PP_GA_DATRECA2_cod_idioma		66	string	-	-
+PP_GA_DATRECA2_n_regs		67	long	-	-
+PP_GA_DATRECA2_ult_categoria		68	string	-	-
+PP_GA_DATRECA2_ult_fecha		69	string	-	-
+PP_GA_DATRECA2ult_clave_regi01		70	string	-	-
+PP_GA_DATRECA2_descripcion		71	string	-	-
+PP_GA_DATRECA2_cod_descripcion		72	string	-	-
+PP_GA_DATRECA2_fecha_op		73	string	-	-
+PP_GA_DATRECA2_importe_pts		74	double	-	-
+PP_GA_DATRECA2_clave_registro		75	string	-	-
+PP_GA_DATRECA2_categoria		76	string	-	-
+PP_GA_DATRECA2_inf_adicional		77	string	-	-
+PP_GA_DATRECA2_reserva		78	string	-	-
+PP_GA_DATRECA2_hay_mas		79	long	-	-
+PP_GA_DATRECA2__rpr_ret		80	long	-	-
+# FIN DE SERVICIO PP_GA_DATRECA2
+
+# Identificadores para el servicio PP_GA_DATCTIP2
+# INICIO DE SERVICIO PP_GA_DATCTIP2
+PP_GA_DATCTIP2_num_telefonoA		81	string	-	-
+PP_GA_DATCTIP2_num_orden		82	long	-	-
+PP_GA_DATCTIP2_fecha_desde		83	string	-	-
+PP_GA_DATCTIP2_fecha_hasta		84	string	-	-
+PP_GA_DATCTIP2_importe_min		85	double	-	-
+PP_GA_DATCTIP2_orden		86	long	-	-
+PP_GA_DATCTIP2_cod_moneda		87	string	-	-
+PP_GA_DATCTIP2_cod_idioma		88	string	-	-
+PP_GA_DATCTIP2_n_regs		89	long	-	-
+PP_GA_DATCTIP2_ult_categoria		90	string	-	-
+PP_GA_DATCTIP2_ult_fecha		91	string	-	-
+PP_GA_DATCTIP2ult_clave_regi01		92	string	-	-
+PP_GA_DATCTIP2_tipo_activa		93	string	-	-
+PP_GA_DATCTIP2_descripcion		94	string	-	-
+PP_GA_DATCTIP2_cod_descripcion		95	string	-	-
+PP_GA_DATCTIP2_fecha_op		96	string	-	-
+PP_GA_DATCTIP2_importe_pts		97	double	-	-
+PP_GA_DATCTIP2_clave_registro		98	string	-	-
+PP_GA_DATCTIP2_categoria		99	string	-	-
+PP_GA_DATCTIP2_inf_adicional		100	string	-	-
+PP_GA_DATCTIP2_reserva		101	string	-	-
+PP_GA_DATCTIP2_hay_mas		102	long	-	-
+PP_GA_DATCTIP2__rpr_ret		103	long	-	-
+# FIN DE SERVICIO PP_GA_DATCTIP2
+
+# Identificadores para el servicio PP_GA_DAT_ACT
+# INICIO DE SERVICIO PP_GA_DAT_ACT
+PP_GA_DAT_ACT_num_telefonoA		104	string	-	-
+PP_GA_DAT_ACT_num_orden		105	long	-	-
+PP_GA_DAT_ACT_fecha_desde		106	string	-	-
+PP_GA_DAT_ACT_fecha_hasta		107	string	-	-
+PP_GA_DAT_ACT_importe_min		108	double	-	-
+PP_GA_DAT_ACT_orden		109	long	-	-
+PP_GA_DAT_ACT_cod_moneda		110	string	-	-
+PP_GA_DAT_ACT_cod_idioma		111	string	-	-
+PP_GA_DAT_ACT_n_regs		112	long	-	-
+PP_GA_DAT_ACT_ult_categoria		113	string	-	-
+PP_GA_DAT_ACT_ult_fecha		114	string	-	-
+PP_GA_DAT_ACTult_clave_regis01		115	string	-	-
+PP_GA_DAT_ACT_tipo_activa		116	string	-	-
+PP_GA_DAT_ACT_descripcion		117	string	-	-
+PP_GA_DAT_ACT_cod_descripcion		118	string	-	-
+PP_GA_DAT_ACT_fecha_op		119	string	-	-
+PP_GA_DAT_ACT_importe_pts		120	double	-	-
+PP_GA_DAT_ACT_clave_registro		121	string	-	-
+PP_GA_DAT_ACT_categoria		122	string	-	-
+PP_GA_DAT_ACT_inf_adicional		123	string	-	-
+PP_GA_DAT_ACT_reserva		124	string	-	-
+PP_GA_DAT_ACT_hay_mas		125	long	-	-
+PP_GA_DAT_ACT__rpr_ret		126	long	-	-
+# FIN DE SERVICIO PP_GA_DAT_ACT
+
+# Identificadores para el servicio PP_GA_ACUM_ACT
+# INICIO DE SERVICIO PP_GA_ACUM_ACT
+PP_GA_ACUM_ACT_num_telefonoA		127	string	-	-
+PP_GA_ACUM_ACT_num_meses		128	long	-	-
+PP_GA_ACUM_ACT_fecha		129	string	-	-
+PP_GA_ACUM_ACT_importe		130	double	-	-
+PP_GA_ACUM_ACT__rpr_ret		131	long	-	-
+# FIN DE SERVICIO PP_GA_ACUM_ACT
+
+# Identificadores para el servicio PP_GA_FMM_ACT
+# INICIO DE SERVICIO PP_GA_FMM_ACT
+PP_GA_FMM_ACT_num_telefonoA		132	string	-	-
+PP_GA_FMM_ACT_fecha_min		133	string	-	-
+PP_GA_FMM_ACT_fecha_max		134	string	-	-
+PP_GA_FMM_ACT__rpr_ret		135	long	-	-
+# FIN DE SERVICIO PP_GA_FMM_ACT
+
+# Identificadores para el servicio PP_GA_ACUMRC2
+# INICIO DE SERVICIO PP_GA_ACUMRC2
+PP_GA_ACUMRC2_num_telefonoA		136	string	-	-
+PP_GA_ACUMRC2_cod_moneda		137	string	-	-
+PP_GA_ACUMRC2_fecha_inicio		138	string	-	-
+PP_GA_ACUMRC2_fecha_fin		139	string	-	-
+PP_GA_ACUMRC2_importe		140	double	-	-
+PP_GA_ACUMRC2__rpr_ret		141	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMRC2
+
+# Identificadores para el servicio PP_GA_ACUMTIP2
+# INICIO DE SERVICIO PP_GA_ACUMTIP2
+PP_GA_ACUMTIP2_num_telefonoA		142	string	-	-
+PP_GA_ACUMTIP2_cod_moneda		143	string	-	-
+PP_GA_ACUMTIP2_fecha_inicio		144	string	-	-
+PP_GA_ACUMTIP2_fecha_fin		145	string	-	-
+PP_GA_ACUMTIP2_importe		146	double	-	-
+PP_GA_ACUMTIP2__rpr_ret		147	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMTIP2
+
+# Identificadores para el servicio PP_GA_ACUMACT2
+# INICIO DE SERVICIO PP_GA_ACUMACT2
+PP_GA_ACUMACT2_num_telefonoA		148	string	-	-
+PP_GA_ACUMACT2_cod_moneda		149	string	-	-
+PP_GA_ACUMACT2_fecha_inicio		150	string	-	-
+PP_GA_ACUMACT2_fecha_fin		151	string	-	-
+PP_GA_ACUMACT2_importe		152	double	-	-
+PP_GA_ACUMACT2__rpr_ret		153	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMACT2
+

@@ -1,0 +1,20 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_co_conccard.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_co_conccard_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3507000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_CO_CONCCARD
+# INICIO DE SERVICIO PO_CO_CONCCARD
+PO_CO_CONCCARD_codadmin		0	string	-	-
+PO_CO_CONCCARD_consumo		1	string	-	-
+PO_CO_CONCCARD_credito		2	string	-	-
+PO_CO_CONCCARD_caducidad		3	long	-	-
+PO_CO_CONCCARD__rpr_ret		4	long	-	-
+# FIN DE SERVICIO PO_CO_CONCCARD
+

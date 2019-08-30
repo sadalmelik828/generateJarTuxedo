@@ -1,0 +1,148 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_activabo.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_activabo_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3200000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PrepaPreActivarAbonado
+# INICIO DE SERVICIO PP_GA_ACTIVABO
+PP_GA_ACTIVABO_cod_ventasesc1		0	string	-	-
+PP_GA_ACTIVABO_cod_ventasesc2		1	string	-	-
+PP_GA_ACTIVABO_cod_ventasesc3		2	string	-	-
+PP_GA_ACTIVABO_cod_ventasesc4		3	string	-	-
+PP_GA_ACTIVABO_num_telefono		4	string	-	-
+PP_GA_ACTIVABO_num_emei		5	string	-	-
+PP_GA_ACTIVABO_num_icc		6	string	-	-
+PP_GA_ACTIVABO__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PP_GA_ACTIVABO
+
+# Identificadores para el servicio PP_GA_SBBLOQ
+# INICIO DE SERVICIO PP_GA_SBBLOQ
+PP_GA_SBBLOQ_num_telefono		8	string	-	-
+PP_GA_SBBLOQ__rpr_ret		9	long	-	-
+# FIN DE SERVICIO PP_GA_SBBLOQ
+
+# Identificadores para el servicio PP_GA_ACTIVAB2
+# INICIO DE SERVICIO PP_GA_ACTIVAB2
+PP_GA_ACTIVAB2_cod_ventasesc1		10	string	-	-
+PP_GA_ACTIVAB2_cod_ventasesc2		11	string	-	-
+PP_GA_ACTIVAB2_cod_ventasesc3		12	string	-	-
+PP_GA_ACTIVAB2_cod_ventasesc4		13	string	-	-
+PP_GA_ACTIVAB2_num_telefono		14	string	-	-
+PP_GA_ACTIVAB2_num_emei		15	string	-	-
+PP_GA_ACTIVAB2_flg_gprs		16	string	-	-
+PP_GA_ACTIVAB2_num_icc		17	string	-	-
+PP_GA_ACTIVAB2__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_ACTIVAB2
+
+# Identificadores para el servicio PP_GA_SBBLOQ2
+# INICIO DE SERVICIO PP_GA_SBBLOQ2
+PP_GA_SBBLOQ2_num_telefono		19	string	-	-
+PP_GA_SBBLOQ2_cod_usuario		20	string	-	-
+PP_GA_SBBLOQ2_secuencia		21	long	-	-
+PP_GA_SBBLOQ2__rpr_ret		22	long	-	-
+# FIN DE SERVICIO PP_GA_SBBLOQ2
+
+# Identificadores para el servicio PP_GA_ACTIVANUM
+# INICIO DE SERVICIO PP_GA_ACTIVANUM
+PP_GA_ACTIVANUM_num_telefono		23	string	-	-
+PP_GA_ACTIVANUM_cod_moneda		24	string	-	-
+PP_GA_ACTIVANUM_imp_coste		25	double	-	-
+PP_GA_ACTIVANUM_cod_usuario		26	string	-	-
+PP_GA_ACTIVANUM_sec_actuacion		27	long	-	-
+PP_GA_ACTIVANUM__rpr_ret		28	long	-	-
+# FIN DE SERVICIO PP_GA_ACTIVANUM
+
+# Identificadores para el servicio PP_GA_ACTIVAB3
+# INICIO DE SERVICIO PP_GA_ACTIVAB3
+PP_GA_ACTIVAB3_cod_ventasesc1		29	string	-	-
+PP_GA_ACTIVAB3_cod_ventasesc2		30	string	-	-
+PP_GA_ACTIVAB3_cod_ventasesc3		31	string	-	-
+PP_GA_ACTIVAB3_cod_ventasesc4		32	string	-	-
+PP_GA_ACTIVAB3_num_telefono		33	string	-	-
+PP_GA_ACTIVAB3_num_emei		34	string	-	-
+PP_GA_ACTIVAB3_flg_gprs		35	string	-	-
+PP_GA_ACTIVAB3_num_icc		36	string	-	-
+PP_GA_ACTIVAB3_sSecActuacion		37	string	-	-
+PP_GA_ACTIVAB3__rpr_ret		38	long	-	-
+# FIN DE SERVICIO PP_GA_ACTIVAB3
+
+# Identificadores para el servicio PP_GA_SBBLOQ3
+# INICIO DE SERVICIO PP_GA_SBBLOQ3
+PP_GA_SBBLOQ3_num_telefono		39	string	-	-
+PP_GA_SBBLOQ3_cod_usuario		40	string	-	-
+PP_GA_SBBLOQ3_secuencia		41	string	-	-
+PP_GA_SBBLOQ3__rpr_ret		42	long	-	-
+# FIN DE SERVICIO PP_GA_SBBLOQ3
+
+# Identificadores para el servicio PP_GA_ACTIVAN2
+# INICIO DE SERVICIO PP_GA_ACTIVAN2
+PP_GA_ACTIVAN2_num_telefono		43	string	-	-
+PP_GA_ACTIVAN2_cod_moneda		44	string	-	-
+PP_GA_ACTIVAN2_imp_coste		45	double	-	-
+PP_GA_ACTIVAN2_cod_usuario		46	string	-	-
+PP_GA_ACTIVAN2_sec_actuacion		47	string	-	-
+PP_GA_ACTIVAN2__rpr_ret		48	long	-	-
+# FIN DE SERVICIO PP_GA_ACTIVAN2
+
+# Identificadores para el servicio GA_ACTIVAN3
+# INICIO DE SERVICIO GA_ACTIVAN3
+GA_ACTIVAN3_num_telefono		49	string	-	-
+GA_ACTIVAN3_cod_moneda		50	string	-	-
+GA_ACTIVAN3_imp_coste		51	double	-	-
+GA_ACTIVAN3_cod_usuario		52	string	-	-
+GA_ACTIVAN3_mediaType		53	string	-	-
+GA_ACTIVAN3_erReference		54	string	-	-
+GA_ACTIVAN3_transaction_id		55	string	-	-
+GA_ACTIVAN3_sec_actuacion		56	string	-	-
+GA_ACTIVAN3__rpr_ret		57	long	-	-
+# FIN DE SERVICIO GA_ACTIVAN3
+
+# Identificadores para el servicio GA_ACTIVAN4
+# INICIO DE SERVICIO GA_ACTIVAN4
+GA_ACTIVAN4_num_telefono		58	string	-	-
+GA_ACTIVAN4_cod_moneda		59	string	-	-
+GA_ACTIVAN4_imp_coste		60	double	-	-
+GA_ACTIVAN4_cod_usuario		61	string	-	-
+GA_ACTIVAN4_sec_actuacion		62	string	-	-
+GA_ACTIVAN4__rpr_ret		63	long	-	-
+# FIN DE SERVICIO GA_ACTIVAN4
+
+# Identificadores para el servicio GA_SOLCAMBEST
+# INICIO DE SERVICIO GA_SOLCAMBEST
+GA_SOLCAMBEST_num_telefono		64	string	-	-
+GA_SOLCAMBEST_sest_destino		65	string	-	-
+GA_SOLCAMBEST_ssubest_destino		66	string	-	-
+GA_SOLCAMBEST_scod_usuario		67	string	-	-
+GA_SOLCAMBEST_ssec_actuacion		68	string	-	-
+GA_SOLCAMBEST__rpr_ret		69	long	-	-
+# FIN DE SERVICIO GA_SOLCAMBEST
+
+# Identificadores para el servicio GA_ACTIVAN5
+# INICIO DE SERVICIO GA_ACTIVAN5
+GA_ACTIVAN5_num_telefono		70	string	-	-
+GA_ACTIVAN5_scod_moneda		71	string	-	-
+GA_ACTIVAN5_dimp_coste		72	double	-	-
+GA_ACTIVAN5_scod_usuario		73	string	-	-
+GA_ACTIVAN5_scod_promocio		74	string	-	-
+GA_ACTIVAN5_ssec_actuacion		75	string	-	-
+GA_ACTIVAN5__rpr_ret		76	long	-	-
+# FIN DE SERVICIO GA_ACTIVAN5
+
+# Identificadores para el servicio GA_ACTIVAN6
+# INICIO DE SERVICIO GA_ACTIVAN6
+GA_ACTIVAN6_num_telefono		77	string	-	-
+GA_ACTIVAN6_scod_moneda		78	string	-	-
+GA_ACTIVAN6_dimp_coste		79	double	-	-
+GA_ACTIVAN6_scod_usuario		80	string	-	-
+GA_ACTIVAN6_scod_promocio		81	string	-	-
+GA_ACTIVAN6_sid_bloque		82	string	-	-
+GA_ACTIVAN6_ssec_actuacion		83	string	-	-
+GA_ACTIVAN6__rpr_ret		84	long	-	-
+# FIN DE SERVICIO GA_ACTIVAN6
+

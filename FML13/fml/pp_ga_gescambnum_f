@@ -1,0 +1,402 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gescambnum.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gescambnum_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3254000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_CAMBNUM
+# INICIO DE SERVICIO PP_GA_CAMBNUM
+PP_GA_CAMBNUM_num_telefono_act		0	string	-	-
+PP_GA_CAMBNUMnum_telefono_nu01		1	string	-	-
+PP_GA_CAMBNUM_imp_coste		2	double	-	-
+PP_GA_CAMBNUM_cod_moneda		3	string	-	-
+PP_GA_CAMBNUM_cod_usuario		4	string	-	-
+PP_GA_CAMBNUM__rpr_ret		5	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBNUM
+
+# Identificadores para el servicio PP_GA_CAMBTERM
+# INICIO DE SERVICIO PP_GA_CAMBTERM
+PP_GA_CAMBTERM_num_telefono		6	string	-	-
+PP_GA_CAMBTERM_num_serie_ant		7	string	-	-
+PP_GA_CAMBTERM_num_serie_nuevo		8	string	-	-
+PP_GA_CAMBTERM_imp_coste		9	double	-	-
+PP_GA_CAMBTERM_cod_moneda		10	string	-	-
+PP_GA_CAMBTERM_cod_usuario		11	string	-	-
+PP_GA_CAMBTERM__rpr_ret		12	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTERM
+
+# Identificadores para el servicio PP_GA_CAMCRIER
+# INICIO DE SERVICIO PP_GA_CAMCRIER
+PP_GA_CAMCRIER_num_telefono		13	string	-	-
+PP_GA_CAMCRIER_num_carrier_ant		14	string	-	-
+PP_GA_CAMCRIERnum_carrier_nu01		15	string	-	-
+PP_GA_CAMCRIER_imp_coste		16	double	-	-
+PP_GA_CAMCRIER_cod_moneda		17	string	-	-
+PP_GA_CAMCRIER_cod_usuario		18	string	-	-
+PP_GA_CAMCRIER__rpr_ret		19	long	-	-
+# FIN DE SERVICIO PP_GA_CAMCRIER
+
+# Identificadores para el servicio PP_GA_CONSCBNU
+# INICIO DE SERVICIO PP_GA_CONSCBNU
+PP_GA_CONSCBNU_inum_telefono		20	string	-	-
+PP_GA_CONSCBNU_ifec_inicio		21	string	-	-
+PP_GA_CONSCBNU_ifec_fin		22	string	-	-
+PP_GA_CONSCBNU_num_regs		23	long	-	-
+PP_GA_CONSCBNU_reg_token		24	string	-	-
+PP_GA_CONSCBNU_osec_actuacion		25	string	-	-
+PP_GA_CONSCBNUonum_telefonoa01		26	string	-	-
+PP_GA_CONSCBNUonum_telefonon01		27	string	-	-
+PP_GA_CONSCBNU_fec_instalac		28	string	-	-
+PP_GA_CONSCBNU_hay_mas		29	string	-	-
+PP_GA_CONSCBNU__rpr_ret		30	long	-	-
+# FIN DE SERVICIO PP_GA_CONSCBNU
+
+# Identificadores para el servicio PP_GA_CONSTERM
+# INICIO DE SERVICIO PP_GA_CONSTERM
+PP_GA_CONSTERM_inum_telefono		31	string	-	-
+PP_GA_CONSTERM_ifec_inicio		32	string	-	-
+PP_GA_CONSTERM_ifec_fin		33	string	-	-
+PP_GA_CONSTERM_num_regs		34	long	-	-
+PP_GA_CONSTERM_reg_token		35	string	-	-
+PP_GA_CONSTERM_osec_actuacion		36	string	-	-
+PP_GA_CONSTERM_onum_serieant		37	string	-	-
+PP_GA_CONSTERM_onum_serienuevo		38	string	-	-
+PP_GA_CONSTERM_fec_instalac		39	string	-	-
+PP_GA_CONSTERM_hay_mas		40	string	-	-
+PP_GA_CONSTERM__rpr_ret		41	long	-	-
+# FIN DE SERVICIO PP_GA_CONSTERM
+
+# Identificadores para el servicio PP_GA_MODAVISO
+# INICIO DE SERVICIO PP_GA_MODAVISO
+PP_GA_MODAVISO_num_telefono		42	string	-	-
+PP_GA_MODAVISO_num_dias		43	long	-	-
+PP_GA_MODAVISO_imp_coste		44	double	-	-
+PP_GA_MODAVISO_cod_moneda		45	string	-	-
+PP_GA_MODAVISO_cod_usuario		46	string	-	-
+PP_GA_MODAVISO__rpr_ret		47	long	-	-
+# FIN DE SERVICIO PP_GA_MODAVISO
+
+# Identificadores para el servicio PP_GA_CONSTER2
+# INICIO DE SERVICIO PP_GA_CONSTER2
+PP_GA_CONSTER2_inum_telefono		48	string	-	-
+PP_GA_CONSTER2_isec_actuacion		49	long	-	-
+PP_GA_CONSTER2_ifec_inicio		50	string	-	-
+PP_GA_CONSTER2_ifec_fin		51	string	-	-
+PP_GA_CONSTER2_num_regs		52	long	-	-
+PP_GA_CONSTER2_reg_token		53	string	-	-
+PP_GA_CONSTER2_onum_telefono		54	string	-	-
+PP_GA_CONSTER2_osec_actuacion		55	long	-	-
+PP_GA_CONSTER2_onum_serieant		56	string	-	-
+PP_GA_CONSTER2_onum_serienuevo		57	string	-	-
+PP_GA_CONSTER2_fec_instalac		58	string	-	-
+PP_GA_CONSTER2_hay_mas		59	string	-	-
+PP_GA_CONSTER2__rpr_ret		60	long	-	-
+# FIN DE SERVICIO PP_GA_CONSTER2
+
+# Identificadores para el servicio PP_GA_CAMBTER2
+# INICIO DE SERVICIO PP_GA_CAMBTER2
+PP_GA_CAMBTER2_snum_telefono		61	string	-	-
+PP_GA_CAMBTER2_scod_tecnologia		62	string	-	-
+PP_GA_CAMBTER2_snum_serie_ant		63	string	-	-
+PP_GA_CAMBTER2snum_serie_nue01		64	string	-	-
+PP_GA_CAMBTER2_dimp_coste		65	double	-	-
+PP_GA_CAMBTER2_scod_moneda		66	string	-	-
+PP_GA_CAMBTER2_scod_usuario		67	string	-	-
+PP_GA_CAMBTER2__rpr_ret		68	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTER2
+
+# Identificadores para el servicio PP_GA_CAMBMIN
+# INICIO DE SERVICIO PP_GA_CAMBMIN
+PP_GA_CAMBMIN_num_telefono		69	string	-	-
+PP_GA_CAMBMIN_num_min		70	string	-	-
+PP_GA_CAMBMIN_imp_coste		71	double	-	-
+PP_GA_CAMBMIN_cod_moneda		72	string	-	-
+PP_GA_CAMBMIN_cod_usuario		73	string	-	-
+PP_GA_CAMBMIN_sec_actuacion		74	long	-	-
+PP_GA_CAMBMIN__rpr_ret		75	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBMIN
+
+# Identificadores para el servicio PP_GA_CONMIN
+# INICIO DE SERVICIO PP_GA_CONMIN
+PP_GA_CONMIN_num_telefono		76	string	-	-
+PP_GA_CONMIN_fec_inicio		77	string	-	-
+PP_GA_CONMIN_fec_fin		78	string	-	-
+PP_GA_CONMIN_cod_moneda		79	string	-	-
+PP_GA_CONMIN_sec_actuacion_in		80	long	-	-
+PP_GA_CONMIN_n_regs		81	long	-	-
+PP_GA_CONMIN_token		82	string	-	-
+PP_GA_CONMIN_sec_actuacion		83	long	-	-
+PP_GA_CONMIN_imp_coste		84	double	-	-
+PP_GA_CONMIN_num_min		85	string	-	-
+PP_GA_CONMIN_num_min_ant		86	string	-	-
+PP_GA_CONMIN__rpr_ret		87	long	-	-
+# FIN DE SERVICIO PP_GA_CONMIN
+
+# Identificadores para el servicio PP_GA_CAMBNIR
+# INICIO DE SERVICIO PP_GA_CAMBNIR
+PP_GA_CAMBNIR_num_telefono		88	string	-	-
+PP_GA_CAMBNIR_num_nir		89	string	-	-
+PP_GA_CAMBNIR_imp_coste		90	double	-	-
+PP_GA_CAMBNIR_cod_moneda		91	string	-	-
+PP_GA_CAMBNIR_cod_causa		92	string	-	-
+PP_GA_CAMBNIR_cod_usuario		93	string	-	-
+PP_GA_CAMBNIR_sec_actuacion		94	long	-	-
+PP_GA_CAMBNIR__rpr_ret		95	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBNIR
+
+# Identificadores para el servicio PP_GA_CBHLRGSM
+# INICIO DE SERVICIO PP_GA_CBHLRGSM
+PP_GA_CBHLRGSM_num_telefono		96	string	-	-
+PP_GA_CBHLRGSM_cod_hlr		97	string	-	-
+PP_GA_CBHLRGSM_num_imsi		98	string	-	-
+PP_GA_CBHLRGSM_imp_coste		99	double	-	-
+PP_GA_CBHLRGSM_cod_moneda		100	string	-	-
+PP_GA_CBHLRGSM_cod_usuario		101	string	-	-
+PP_GA_CBHLRGSM_sec_actuacion		102	string	-	-
+PP_GA_CBHLRGSM__rpr_ret		103	long	-	-
+# FIN DE SERVICIO PP_GA_CBHLRGSM
+
+# Identificadores para el servicio PP_GA_CBHLRCDMA
+# INICIO DE SERVICIO PP_GA_CBHLRCDMA
+PP_GA_CBHLRCDMA_num_telefono		104	string	-	-
+PP_GA_CBHLRCDMA_cod_hlr		105	string	-	-
+PP_GA_CBHLRCDMA_num_min		106	string	-	-
+PP_GA_CBHLRCDMA_imp_coste		107	double	-	-
+PP_GA_CBHLRCDMA_cod_moneda		108	string	-	-
+PP_GA_CBHLRCDMA_cod_usuario		109	string	-	-
+PP_GA_CBHLRCDMA_sec_actuacion		110	string	-	-
+PP_GA_CBHLRCDMA__rpr_ret		111	long	-	-
+# FIN DE SERVICIO PP_GA_CBHLRCDMA
+
+# Identificadores para el servicio PP_GA_CAMBCAT
+# INICIO DE SERVICIO PP_GA_CAMBCAT
+PP_GA_CAMBCAT_num_telefono		112	string	-	-
+PP_GA_CAMBCAT_cod_categoria		113	string	-	-
+PP_GA_CAMBCAT_imp_coste		114	double	-	-
+PP_GA_CAMBCAT_cod_moneda		115	string	-	-
+PP_GA_CAMBCAT_cod_usuario		116	string	-	-
+PP_GA_CAMBCAT_sec_actuacion		117	long	-	-
+PP_GA_CAMBCAT__rpr_ret		118	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBCAT
+
+# Identificadores para el servicio PP_GA_CAMBNUM2
+# INICIO DE SERVICIO PP_GA_CAMBNUM2
+PP_GA_CAMBNUM2num_telefono_a01		119	string	-	-
+PP_GA_CAMBNUM2num_telefono_n01		120	string	-	-
+PP_GA_CAMBNUM2_imp_coste		121	double	-	-
+PP_GA_CAMBNUM2_cod_moneda		122	string	-	-
+PP_GA_CAMBNUM2_cod_usuario		123	string	-	-
+PP_GA_CAMBNUM2_sSecActuacion		124	string	-	-
+PP_GA_CAMBNUM2__rpr_ret		125	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBNUM2
+
+# Identificadores para el servicio PP_GA_CAMBTER3
+# INICIO DE SERVICIO PP_GA_CAMBTER3
+PP_GA_CAMBTER3_snum_telefono		126	string	-	-
+PP_GA_CAMBTER3_scod_tecnologia		127	string	-	-
+PP_GA_CAMBTER3_snum_serie_ant		128	string	-	-
+PP_GA_CAMBTER3snum_serie_nue01		129	string	-	-
+PP_GA_CAMBTER3_dimp_coste		130	double	-	-
+PP_GA_CAMBTER3_scod_moneda		131	string	-	-
+PP_GA_CAMBTER3_scod_usuario		132	string	-	-
+PP_GA_CAMBTER3_sSecActuacion		133	string	-	-
+PP_GA_CAMBTER3__rpr_ret		134	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTER3
+
+# Identificadores para el servicio PP_GA_CAMBMIN2
+# INICIO DE SERVICIO PP_GA_CAMBMIN2
+PP_GA_CAMBMIN2_num_telefono		135	string	-	-
+PP_GA_CAMBMIN2_num_min		136	string	-	-
+PP_GA_CAMBMIN2_imp_coste		137	double	-	-
+PP_GA_CAMBMIN2_cod_moneda		138	string	-	-
+PP_GA_CAMBMIN2_cod_usuario		139	string	-	-
+PP_GA_CAMBMIN2_sec_actuacion		140	string	-	-
+PP_GA_CAMBMIN2__rpr_ret		141	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBMIN2
+
+# Identificadores para el servicio PP_GA_CONMIN2
+# INICIO DE SERVICIO PP_GA_CONMIN2
+PP_GA_CONMIN2_num_telefono		142	string	-	-
+PP_GA_CONMIN2_fec_inicio		143	string	-	-
+PP_GA_CONMIN2_fec_fin		144	string	-	-
+PP_GA_CONMIN2_cod_moneda		145	string	-	-
+PP_GA_CONMIN2_sec_actuacion_in		146	string	-	-
+PP_GA_CONMIN2_n_regs		147	long	-	-
+PP_GA_CONMIN2_token		148	string	-	-
+PP_GA_CONMIN2_sec_actuacion		149	string	-	-
+PP_GA_CONMIN2_imp_coste		150	double	-	-
+PP_GA_CONMIN2_num_min		151	string	-	-
+PP_GA_CONMIN2_num_min_ant		152	string	-	-
+PP_GA_CONMIN2__rpr_ret		153	long	-	-
+# FIN DE SERVICIO PP_GA_CONMIN2
+
+# Identificadores para el servicio PP_GA_CAMBNIR2
+# INICIO DE SERVICIO PP_GA_CAMBNIR2
+PP_GA_CAMBNIR2_num_telefono		154	string	-	-
+PP_GA_CAMBNIR2_num_nir		155	string	-	-
+PP_GA_CAMBNIR2_imp_coste		156	double	-	-
+PP_GA_CAMBNIR2_cod_moneda		157	string	-	-
+PP_GA_CAMBNIR2_cod_causa		158	string	-	-
+PP_GA_CAMBNIR2_cod_usuario		159	string	-	-
+PP_GA_CAMBNIR2_sec_actuacion		160	string	-	-
+PP_GA_CAMBNIR2__rpr_ret		161	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBNIR2
+
+# Identificadores para el servicio PP_GA_CONSTER3
+# INICIO DE SERVICIO PP_GA_CONSTER3
+PP_GA_CONSTER3_inum_telefono		162	string	-	-
+PP_GA_CONSTER3_sec_actuacion		163	string	-	-
+PP_GA_CONSTER3_ifec_inicio		164	string	-	-
+PP_GA_CONSTER3_ifec_fin		165	string	-	-
+PP_GA_CONSTER3_num_regs		166	long	-	-
+PP_GA_CONSTER3_reg_token		167	string	-	-
+PP_GA_CONSTER3_onum_telefono		168	string	-	-
+PP_GA_CONSTER3_osec_actuacion		169	string	-	-
+PP_GA_CONSTER3_onum_serieant		170	string	-	-
+PP_GA_CONSTER3_onum_serienuevo		171	string	-	-
+PP_GA_CONSTER3_fec_instalac		172	string	-	-
+PP_GA_CONSTER3_hay_mas		173	string	-	-
+PP_GA_CONSTER3__rpr_ret		174	long	-	-
+# FIN DE SERVICIO PP_GA_CONSTER3
+
+# Identificadores para el servicio PP_GA_CAMBCAT2
+# INICIO DE SERVICIO PP_GA_CAMBCAT2
+PP_GA_CAMBCAT2_num_telefono		175	string	-	-
+PP_GA_CAMBCAT2_cod_categoria		176	string	-	-
+PP_GA_CAMBCAT2_imp_coste		177	double	-	-
+PP_GA_CAMBCAT2_cod_moneda		178	string	-	-
+PP_GA_CAMBCAT2_cod_usuario		179	string	-	-
+PP_GA_CAMBCAT2_sec_actuacion		180	string	-	-
+PP_GA_CAMBCAT2__rpr_ret		181	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBCAT2
+
+# Identificadores para el servicio GA_CAMBNUM3
+# INICIO DE SERVICIO GA_CAMBNUM3
+GA_CAMBNUM3_num_telefono_act		182	string	-	-
+GA_CAMBNUM3_num_telefono_nuevo		183	string	-	-
+GA_CAMBNUM3_imp_coste		184	double	-	-
+GA_CAMBNUM3_cod_moneda		185	string	-	-
+GA_CAMBNUM3_cod_usuario		186	string	-	-
+GA_CAMBNUM3_mediaType		187	string	-	-
+GA_CAMBNUM3_erReference		188	string	-	-
+GA_CAMBNUM3_transaction_id		189	string	-	-
+GA_CAMBNUM3_sSecActuacion		190	string	-	-
+GA_CAMBNUM3__rpr_ret		191	long	-	-
+# FIN DE SERVICIO GA_CAMBNUM3
+
+# Identificadores para el servicio GA_CBHLRGSM2
+# INICIO DE SERVICIO GA_CBHLRGSM2
+GA_CBHLRGSM2_num_telefono		192	string	-	-
+GA_CBHLRGSM2_cod_hlr		193	string	-	-
+GA_CBHLRGSM2_num_imsi		194	string	-	-
+GA_CBHLRGSM2_imp_coste		195	double	-	-
+GA_CBHLRGSM2_cod_moneda		196	string	-	-
+GA_CBHLRGSM2_cod_usuario		197	string	-	-
+GA_CBHLRGSM2_mediaType		198	string	-	-
+GA_CBHLRGSM2_erReference		199	string	-	-
+GA_CBHLRGSM2_transaction_id		200	string	-	-
+GA_CBHLRGSM2_sec_actuacion		201	string	-	-
+GA_CBHLRGSM2__rpr_ret		202	long	-	-
+# FIN DE SERVICIO GA_CBHLRGSM2
+
+# Identificadores para el servicio GA_CBHLRGSM3
+# INICIO DE SERVICIO GA_CBHLRGSM3
+GA_CBHLRGSM3_num_telefono		203	string	-	-
+GA_CBHLRGSM3_scod_hlr		204	string	-	-
+GA_CBHLRGSM3_snum_imsi		205	string	-	-
+GA_CBHLRGSM3_dimp_coste		206	double	-	-
+GA_CBHLRGSM3_scod_moneda		207	string	-	-
+GA_CBHLRGSM3_scod_usuario		208	string	-	-
+GA_CBHLRGSM3_smediaType		209	string	-	-
+GA_CBHLRGSM3_serReference		210	string	-	-
+GA_CBHLRGSM3_stransaction_id		211	string	-	-
+GA_CBHLRGSM3_snum_icc		212	string	-	-
+GA_CBHLRGSM3_snum_puk		213	string	-	-
+GA_CBHLRGSM3_snum_puk2		214	string	-	-
+GA_CBHLRGSM3_ssec_actuacion		215	string	-	-
+GA_CBHLRGSM3__rpr_ret		216	long	-	-
+# FIN DE SERVICIO GA_CBHLRGSM3
+
+# Identificadores para el servicio GA_CAMBNUM4
+# INICIO DE SERVICIO GA_CAMBNUM4
+GA_CAMBNUM4_num_telefono		217	string	-	-
+GA_CAMBNUM4snum_telefono_nue01		218	string	-	-
+GA_CAMBNUM4_dimp_coste		219	double	-	-
+GA_CAMBNUM4_scod_moneda		220	string	-	-
+GA_CAMBNUM4_scod_usuario		221	string	-	-
+GA_CAMBNUM4_smediaType		222	string	-	-
+GA_CAMBNUM4_serReference		223	string	-	-
+GA_CAMBNUM4_stransaction_id		224	string	-	-
+GA_CAMBNUM4_snum_nrn		225	string	-	-
+GA_CAMBNUM4_sSecActuacion		226	string	-	-
+GA_CAMBNUM4__rpr_ret		227	long	-	-
+# FIN DE SERVICIO GA_CAMBNUM4
+
+# Identificadores para el servicio GA_COBONIRF
+# INICIO DE SERVICIO GA_COBONIRF
+GA_COBONIRF_num_telefono		228	string	-	-
+GA_COBONIRF_snir_fijo		229	string	-	-
+GA_COBONIRF__rpr_ret		230	long	-	-
+# FIN DE SERVICIO GA_COBONIRF
+
+# Identificadores para el servicio GA_CAMBNIR3
+# INICIO DE SERVICIO GA_CAMBNIR3
+GA_CAMBNIR3_num_telefono		231	string	-	-
+GA_CAMBNIR3_snum_nir		232	string	-	-
+GA_CAMBNIR3_sflg_nir_fijo		233	string	-	-
+GA_CAMBNIR3_dimp_coste		234	double	-	-
+GA_CAMBNIR3_lmod_cobro		235	long	-	-
+GA_CAMBNIR3_scod_moneda		236	string	-	-
+GA_CAMBNIR3_scod_causa		237	string	-	-
+GA_CAMBNIR3_scod_usuario		238	string	-	-
+GA_CAMBNIR3_ssec_actuacion		239	string	-	-
+GA_CAMBNIR3__rpr_ret		240	long	-	-
+# FIN DE SERVICIO GA_CAMBNIR3
+
+# Identificadores para el servicio GA_CAMBNUM5
+# INICIO DE SERVICIO GA_CAMBNUM5
+GA_CAMBNUM5_num_telefono		241	string	-	-
+GA_CAMBNUM5snum_telefono_nue01		242	string	-	-
+GA_CAMBNUM5_dimp_coste		243	double	-	-
+GA_CAMBNUM5_scod_moneda		244	string	-	-
+GA_CAMBNUM5_scod_usuario		245	string	-	-
+GA_CAMBNUM5_smediaType		246	string	-	-
+GA_CAMBNUM5_serReference		247	string	-	-
+GA_CAMBNUM5_stransaction_id		248	string	-	-
+GA_CAMBNUM5_snum_nrn		249	string	-	-
+GA_CAMBNUM5_sSecActuacion		250	string	-	-
+GA_CAMBNUM5__rpr_ret		251	long	-	-
+# FIN DE SERVICIO GA_CAMBNUM5
+
+# Identificadores para el servicio GA_CAMBNUM6
+# INICIO DE SERVICIO GA_CAMBNUM6
+GA_CAMBNUM6_num_telefono		252	string	-	-
+GA_CAMBNUM6snum_telefono_nue01		253	string	-	-
+GA_CAMBNUM6_dimp_coste		254	double	-	-
+GA_CAMBNUM6_scod_moneda		255	string	-	-
+GA_CAMBNUM6_scod_usuario		256	string	-	-
+GA_CAMBNUM6_snum_nrn		257	string	-	-
+GA_CAMBNUM6_sSecActuacion		258	string	-	-
+GA_CAMBNUM6__rpr_ret		259	long	-	-
+# FIN DE SERVICIO GA_CAMBNUM6
+
+# Identificadores para el servicio GA_CBHLRGSM4
+# INICIO DE SERVICIO GA_CBHLRGSM4
+GA_CBHLRGSM4_num_telefono		260	string	-	-
+GA_CBHLRGSM4_scod_hlr		261	string	-	-
+GA_CBHLRGSM4_snum_imsi		262	string	-	-
+GA_CBHLRGSM4_dimp_coste		263	double	-	-
+GA_CBHLRGSM4_scod_moneda		264	string	-	-
+GA_CBHLRGSM4_scod_usuario		265	string	-	-
+GA_CBHLRGSM4_snum_icc		266	string	-	-
+GA_CBHLRGSM4_snum_puk		267	string	-	-
+GA_CBHLRGSM4_snum_puk2		268	string	-	-
+GA_CBHLRGSM4_ssec_actuacion		269	string	-	-
+GA_CBHLRGSM4__rpr_ret		270	long	-	-
+# FIN DE SERVICIO GA_CBHLRGSM4
+

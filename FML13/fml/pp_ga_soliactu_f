@@ -1,0 +1,1254 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_soliactu.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_soliactu_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3218000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_CBTIPPRE
+# INICIO DE SERVICIO PP_GA_CBTIPPRE
+PP_GA_CBTIPPRE_num_telefono		0	string	-	-
+PP_GA_CBTIPPRE_importe		1	long	-	-
+PP_GA_CBTIPPRE_cod_moneda		2	string	-	-
+PP_GA_CBTIPPRE_cod_cauctarj		3	string	-	-
+PP_GA_CBTIPPRE_cod_tipprepa		4	string	-	-
+PP_GA_CBTIPPRE_cod_usuario		5	string	-	-
+PP_GA_CBTIPPRE_sec_actuacion		6	string	-	-
+PP_GA_CBTIPPRE__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PP_GA_CBTIPPRE
+
+# Identificadores para el servicio PP_GA_CAMBTARJ
+# INICIO DE SERVICIO PP_GA_CAMBTARJ
+PP_GA_CAMBTARJ_num_telefono		8	string	-	-
+PP_GA_CAMBTARJ_num_icc		9	string	-	-
+PP_GA_CAMBTARJ_cauc_tarj		10	string	-	-
+PP_GA_CAMBTARJ_cod_usuario		11	string	-	-
+PP_GA_CAMBTARJ_in_icc		12	string	-	-
+PP_GA_CAMBTARJ__rpr_ret		13	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTARJ
+
+# Identificadores para el servicio PP_GA_ANCAMBTJ
+# INICIO DE SERVICIO PP_GA_ANCAMBTJ
+PP_GA_ANCAMBTJ_num_telefono		14	string	-	-
+PP_GA_ANCAMBTJ_cod_usuario		15	string	-	-
+PP_GA_ANCAMBTJ_in_icc		16	string	-	-
+PP_GA_ANCAMBTJ_num_icc		17	string	-	-
+PP_GA_ANCAMBTJ__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_ANCAMBTJ
+
+# Identificadores para el servicio PP_GA_RECARGA
+# INICIO DE SERVICIO PP_GA_RECARGA
+PP_GA_RECARGA_num_telefono		19	string	-	-
+PP_GA_RECARGA_imp_recarga		20	double	-	-
+PP_GA_RECARGA_cod_moneda		21	string	-	-
+PP_GA_RECARGA_cod_promocion		22	string	-	-
+PP_GA_RECARGA_cod_usuario		23	string	-	-
+PP_GA_RECARGA_sec_actuacion		24	string	-	-
+PP_GA_RECARGA__rpr_ret		25	long	-	-
+# FIN DE SERVICIO PP_GA_RECARGA
+
+# Identificadores para el servicio PP_GA_ANREC
+# INICIO DE SERVICIO PP_GA_ANREC
+PP_GA_ANREC_num_telefono		26	string	-	-
+PP_GA_ANREC_cod_referenci		27	string	-	-
+PP_GA_ANREC_cod_usuario		28	string	-	-
+PP_GA_ANREC_flag		29	string	-	-
+PP_GA_ANREC__rpr_ret		30	long	-	-
+# FIN DE SERVICIO PP_GA_ANREC
+
+# Identificadores para el servicio PP_GA_VCAMBTARJ
+# INICIO DE SERVICIO PP_GA_VCAMBTARJ
+PP_GA_VCAMBTARJ_num_telefono		31	string	-	-
+PP_GA_VCAMBTARJ_in_icc		32	string	-	-
+PP_GA_VCAMBTARJ__rpr_ret		33	long	-	-
+# FIN DE SERVICIO PP_GA_VCAMBTARJ
+
+# Identificadores para el servicio PP_GA_CONCAMTJ
+# INICIO DE SERVICIO PP_GA_CONCAMTJ
+PP_GA_CONCAMTJ_num_telefono		34	string	-	-
+PP_GA_CONCAMTJ_cod_estarec		35	string	-	-
+PP_GA_CONCAMTJ_num_orden		36	long	-	-
+PP_GA_CONCAMTJ_fec_ini		37	string	-	-
+PP_GA_CONCAMTJ_fec_fin		38	string	-	-
+PP_GA_CONCAMTJ_n_regs		39	long	-	-
+PP_GA_CONCAMTJ_token		40	string	-	-
+PP_GA_CONCAMTJ_lnum_telefono		41	string	-	-
+PP_GA_CONCAMTJ_lfec_modifica		42	string	-	-
+PP_GA_CONCAMTJ_lnum_icc		43	string	-	-
+PP_GA_CONCAMTJ_lnum_puk		44	string	-	-
+PP_GA_CONCAMTJ_lnum_puk2		45	string	-	-
+PP_GA_CONCAMTJ_lcod_tipotarj		46	string	-	-
+PP_GA_CONCAMTJ_lcod_perftarj		47	string	-	-
+PP_GA_CONCAMTJ_lcod_tipprepa		48	string	-	-
+PP_GA_CONCAMTJ_lcod_zonaoper		49	string	-	-
+PP_GA_CONCAMTJ_lcod_clasetrj		50	string	-	-
+PP_GA_CONCAMTJ_lcod_sbclatrj		51	string	-	-
+PP_GA_CONCAMTJ_lcod_cauctarj		52	string	-	-
+PP_GA_CONCAMTJ_lcod_usuario		53	string	-	-
+PP_GA_CONCAMTJ_lfec_instalac		54	string	-	-
+PP_GA_CONCAMTJ_lcod_estarec		55	string	-	-
+PP_GA_CONCAMTJ_lcod_ventasesc1		56	string	-	-
+PP_GA_CONCAMTJ_lcod_ventasesc2		57	string	-	-
+PP_GA_CONCAMTJ_lcod_ventasesc3		58	string	-	-
+PP_GA_CONCAMTJ_lcod_ventasesc4		59	string	-	-
+PP_GA_CONCAMTJ_HayMas		60	carray	-	-
+PP_GA_CONCAMTJ__rpr_ret		61	long	-	-
+# FIN DE SERVICIO PP_GA_CONCAMTJ
+
+# Identificadores para el servicio PP_GA_CBTIPPR2
+# INICIO DE SERVICIO PP_GA_CBTIPPR2
+PP_GA_CBTIPPR2_num_telefono		62	string	-	-
+PP_GA_CBTIPPR2_cod_tipprepa		63	string	-	-
+PP_GA_CBTIPPR2_importe		64	double	-	-
+PP_GA_CBTIPPR2_cod_moneda		65	string	-	-
+PP_GA_CBTIPPR2_cod_causa		66	string	-	-
+PP_GA_CBTIPPR2_cod_usuario		67	string	-	-
+PP_GA_CBTIPPR2_secuencia		68	long	-	-
+PP_GA_CBTIPPR2__rpr_ret		69	long	-	-
+# FIN DE SERVICIO PP_GA_CBTIPPR2
+
+# Identificadores para el servicio PP_GA_ANRECSAD
+# INICIO DE SERVICIO PP_GA_ANRECSAD
+PP_GA_ANRECSAD_num_telefono		70	string	-	-
+PP_GA_ANRECSAD_cod_referenci		71	string	-	-
+PP_GA_ANRECSAD_cod_usuario		72	string	-	-
+PP_GA_ANRECSAD_flag		73	string	-	-
+PP_GA_ANRECSAD__rpr_ret		74	long	-	-
+# FIN DE SERVICIO PP_GA_ANRECSAD
+
+# Identificadores para el servicio PP_GA_SOLSUSP
+# INICIO DE SERVICIO PP_GA_SOLSUSP
+PP_GA_SOLSUSP_num_telefono		75	string	-	-
+PP_GA_SOLSUSP_importe		76	double	-	-
+PP_GA_SOLSUSP_cod_moneda		77	string	-	-
+PP_GA_SOLSUSP_cod_causa		78	string	-	-
+PP_GA_SOLSUSP_cod_usuario		79	string	-	-
+PP_GA_SOLSUSP_secuencia		80	long	-	-
+PP_GA_SOLSUSP__rpr_ret		81	long	-	-
+# FIN DE SERVICIO PP_GA_SOLSUSP
+
+# Identificadores para el servicio PP_GA_SOLASUSP
+# INICIO DE SERVICIO PP_GA_SOLASUSP
+PP_GA_SOLASUSP_num_telefono		82	string	-	-
+PP_GA_SOLASUSP_importe		83	double	-	-
+PP_GA_SOLASUSP_cod_moneda		84	string	-	-
+PP_GA_SOLASUSP_cod_usuario		85	string	-	-
+PP_GA_SOLASUSP_secuencia		86	long	-	-
+PP_GA_SOLASUSP__rpr_ret		87	long	-	-
+# FIN DE SERVICIO PP_GA_SOLASUSP
+
+# Identificadores para el servicio PP_GA_CAMBTAR2
+# INICIO DE SERVICIO PP_GA_CAMBTAR2
+PP_GA_CAMBTAR2_num_telefono		88	string	-	-
+PP_GA_CAMBTAR2_num_icc		89	string	-	-
+PP_GA_CAMBTAR2_cauc_tarj		90	string	-	-
+PP_GA_CAMBTAR2_cod_usuario		91	string	-	-
+PP_GA_CAMBTAR2_in_icc		92	string	-	-
+PP_GA_CAMBTAR2_sec_actuacion		93	string	-	-
+PP_GA_CAMBTAR2__rpr_ret		94	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTAR2
+
+# Identificadores para el servicio PP_GA_SUSMPROG
+# INICIO DE SERVICIO PP_GA_SUSMPROG
+PP_GA_SUSMPROG_snum_telefono		95	string	-	-
+PP_GA_SUSMPROG_dimporte		96	double	-	-
+PP_GA_SUSMPROG_scod_moneda		97	string	-	-
+PP_GA_SUSMPROG_scod_causa		98	string	-	-
+PP_GA_SUSMPROG_scod_usuario		99	string	-	-
+PP_GA_SUSMPROG_lnum_dias		100	long	-	-
+PP_GA_SUSMPROG_lsecuencia		101	long	-	-
+PP_GA_SUSMPROG__rpr_ret		102	long	-	-
+# FIN DE SERVICIO PP_GA_SUSMPROG
+
+# Identificadores para el servicio PP_GA_CAMBTER3_DES
+# INICIO DE SERVICIO PP_GA_CAMBTER3_DES
+PP_GA_CAMBTER3_DESnum_telefo01		103	string	-	-
+PP_GA_CAMBTER3_DES_num_icc_ant		104	string	-	-
+PP_GA_CAMBTER3_DESnum_icc_nu01		105	string	-	-
+PP_GA_CAMBTER3_DES_cod_moneda		106	string	-	-
+PP_GA_CAMBTER3_DES_imp_coste		107	double	-	-
+PP_GA_CAMBTER3_DES_cod_usuario		108	string	-	-
+PP_GA_CAMBTER3_DEScod_caucta01		109	string	-	-
+PP_GA_CAMBTER3_DEScod_perfta01		110	string	-	-
+PP_GA_CAMBTER3_DEScod_tipota01		111	string	-	-
+PP_GA_CAMBTER3_DEScod_zonaop01		112	string	-	-
+PP_GA_CAMBTER3_DEScod_claset01		113	string	-	-
+PP_GA_CAMBTER3_DEScod_sbclat01		114	string	-	-
+PP_GA_CAMBTER3_DES_lsecuencia		115	long	-	-
+PP_GA_CAMBTER3_DES__rpr_ret		116	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTER3_DES
+
+# Identificadores para el servicio PP_GA_ALTAABO
+# INICIO DE SERVICIO PP_GA_ALTAABO
+PP_GA_ALTAABO_num_telefono		117	string	-	-
+PP_GA_ALTAABO_num_icc		118	string	-	-
+PP_GA_ALTAABO_cod_moneda		119	string	-	-
+PP_GA_ALTAABO_imp_saldo		120	double	-	-
+PP_GA_ALTAABO_cod_usuario		121	string	-	-
+PP_GA_ALTAABO_cod_datosprepa		122	string	-	-
+PP_GA_ALTAABO_cod_tipotarj		123	string	-	-
+PP_GA_ALTAABO_cod_perftarj		124	string	-	-
+PP_GA_ALTAABO_cod_clasetrj		125	string	-	-
+PP_GA_ALTAABO_cod_sbclatrj		126	string	-	-
+PP_GA_ALTAABO_num_puk		127	string	-	-
+PP_GA_ALTAABO_num_puk2		128	string	-	-
+PP_GA_ALTAABO_num_imsi		129	string	-	-
+PP_GA_ALTAABO_num_hlr		130	string	-	-
+PP_GA_ALTAABO_cod_taxid		131	string	-	-
+PP_GA_ALTAABO_num_nir		132	string	-	-
+PP_GA_ALTAABO__rpr_ret		133	long	-	-
+# FIN DE SERVICIO PP_GA_ALTAABO
+
+# Identificadores para el servicio PP_GA_RECARAH
+# INICIO DE SERVICIO PP_GA_RECARAH
+PP_GA_RECARAH_num_telefono		134	string	-	-
+PP_GA_RECARAH_imp_recarga		135	double	-	-
+PP_GA_RECARAH_cod_moneda		136	string	-	-
+PP_GA_RECARAH_cod_usuario		137	string	-	-
+PP_GA_RECARAH_sec_actuacion		138	string	-	-
+PP_GA_RECARAH__rpr_ret		139	long	-	-
+# FIN DE SERVICIO PP_GA_RECARAH
+
+# Identificadores para el servicio PP_GA_CAMBTAR3
+# INICIO DE SERVICIO PP_GA_CAMBTAR3
+PP_GA_CAMBTAR3_num_telefono		140	string	-	-
+PP_GA_CAMBTAR3_num_icc		141	string	-	-
+PP_GA_CAMBTAR3_cauc_tarj		142	string	-	-
+PP_GA_CAMBTAR3_cod_usuario		143	string	-	-
+PP_GA_CAMBTAR3_cod_moneda		144	string	-	-
+PP_GA_CAMBTAR3_imp_coste		145	double	-	-
+PP_GA_CAMBTAR3_num_puk		146	string	-	-
+PP_GA_CAMBTAR3_num_puk2		147	string	-	-
+PP_GA_CAMBTAR3_num_imsi		148	string	-	-
+PP_GA_CAMBTAR3_in_icc		149	string	-	-
+PP_GA_CAMBTAR3_sec_actuacion		150	string	-	-
+PP_GA_CAMBTAR3__rpr_ret		151	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTAR3
+
+# Identificadores para el servicio PP_GA_RECARGA2
+# INICIO DE SERVICIO PP_GA_RECARGA2
+PP_GA_RECARGA2_snum_telefono		152	string	-	-
+PP_GA_RECARGA2_fimp_recarga		153	double	-	-
+PP_GA_RECARGA2_scod_moneda		154	string	-	-
+PP_GA_RECARGA2_scod_promocion		155	string	-	-
+PP_GA_RECARGA2_scod_usuario		156	string	-	-
+PP_GA_RECARGA2_lper_validez		157	long	-	-
+PP_GA_RECARGA2_ssec_actuacion		158	string	-	-
+PP_GA_RECARGA2__rpr_ret		159	long	-	-
+# FIN DE SERVICIO PP_GA_RECARGA2
+
+# Identificadores para el servicio PP_GA_CAMBTAR4
+# INICIO DE SERVICIO PP_GA_CAMBTAR4
+PP_GA_CAMBTAR4_num_telefono		160	string	-	-
+PP_GA_CAMBTAR4_num_icc_ant		161	string	-	-
+PP_GA_CAMBTAR4_num_icc_nuevo		162	string	-	-
+PP_GA_CAMBTAR4_num_puk		163	string	-	-
+PP_GA_CAMBTAR4_num_puk2		164	string	-	-
+PP_GA_CAMBTAR4_cod_cauctarj		165	string	-	-
+PP_GA_CAMBTAR4_cod_moneda		166	string	-	-
+PP_GA_CAMBTAR4_imp_coste		167	double	-	-
+PP_GA_CAMBTAR4_cod_usuario		168	string	-	-
+PP_GA_CAMBTAR4_cod_perftarj		169	string	-	-
+PP_GA_CAMBTAR4_cod_tipotarj		170	string	-	-
+PP_GA_CAMBTAR4_cod_zonaoper		171	string	-	-
+PP_GA_CAMBTAR4_cod_clasetrj		172	string	-	-
+PP_GA_CAMBTAR4_cod_sbclatrj		173	string	-	-
+PP_GA_CAMBTAR4_cod_ventasesc1		174	string	-	-
+PP_GA_CAMBTAR4_cod_ventasesc2		175	string	-	-
+PP_GA_CAMBTAR4_cod_ventasesc3		176	string	-	-
+PP_GA_CAMBTAR4_cod_ventasesc4		177	string	-	-
+PP_GA_CAMBTAR4_sec_actuacion		178	string	-	-
+PP_GA_CAMBTAR4__rpr_ret		179	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTAR4
+
+# Identificadores para el servicio PP_GA_RECARBAN
+# INICIO DE SERVICIO PP_GA_RECARBAN
+PP_GA_RECARBAN_num_telefono		180	string	-	-
+PP_GA_RECARBAN_imp_recarga		181	double	-	-
+PP_GA_RECARBAN_cod_moneda		182	string	-	-
+PP_GA_RECARBAN_cod_usuario		183	string	-	-
+PP_GA_RECARBAN_sec_actuacion		184	string	-	-
+PP_GA_RECARBAN__rpr_ret		185	long	-	-
+# FIN DE SERVICIO PP_GA_RECARBAN
+
+# Identificadores para el servicio PP_GA_ANRECSEC
+# INICIO DE SERVICIO PP_GA_ANRECSEC
+PP_GA_ANRECSEC_num_telefono		186	string	-	-
+PP_GA_ANRECSEC_sec_actuacion		187	string	-	-
+PP_GA_ANRECSEC_cod_usuario		188	string	-	-
+PP_GA_ANRECSEC_flag		189	string	-	-
+PP_GA_ANRECSEC__rpr_ret		190	long	-	-
+# FIN DE SERVICIO PP_GA_ANRECSEC
+
+# Identificadores para el servicio PP_GA_COCAMBTJ
+# INICIO DE SERVICIO PP_GA_COCAMBTJ
+PP_GA_COCAMBTJ_num_telefono		191	string	-	-
+PP_GA_COCAMBTJ_sec_actanul		192	long	-	-
+PP_GA_COCAMBTJ_importe		193	double	-	-
+PP_GA_COCAMBTJ_cod_moneda		194	string	-	-
+PP_GA_COCAMBTJ_cod_usuario		195	string	-	-
+PP_GA_COCAMBTJ_lsecuencia		196	long	-	-
+PP_GA_COCAMBTJ__rpr_ret		197	long	-	-
+# FIN DE SERVICIO PP_GA_COCAMBTJ
+
+# Identificadores para el servicio PP_GA_CAMBTAR5
+# INICIO DE SERVICIO PP_GA_CAMBTAR5
+PP_GA_CAMBTAR5_num_telefono		198	string	-	-
+PP_GA_CAMBTAR5_num_icc_ant		199	string	-	-
+PP_GA_CAMBTAR5_num_icc_nuevo		200	string	-	-
+PP_GA_CAMBTAR5_cod_cauctarj		201	string	-	-
+PP_GA_CAMBTAR5_cod_moneda		202	string	-	-
+PP_GA_CAMBTAR5_cod_usuario		203	string	-	-
+PP_GA_CAMBTAR5_cod_ventasesc1		204	string	-	-
+PP_GA_CAMBTAR5_imp_coste		205	double	-	-
+PP_GA_CAMBTAR5_sec_actuacion		206	string	-	-
+PP_GA_CAMBTAR5__rpr_ret		207	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTAR5
+
+# Identificadores para el servicio PP_GA_CONCATJ2
+# INICIO DE SERVICIO PP_GA_CONCATJ2
+PP_GA_CONCATJ2_num_telefono		208	string	-	-
+PP_GA_CONCATJ2_sec_actuacion		209	long	-	-
+PP_GA_CONCATJ2_cod_estarec		210	string	-	-
+PP_GA_CONCATJ2_num_orden		211	long	-	-
+PP_GA_CONCATJ2_fec_ini		212	string	-	-
+PP_GA_CONCATJ2_fec_fin		213	string	-	-
+PP_GA_CONCATJ2_n_regs		214	long	-	-
+PP_GA_CONCATJ2_token		215	string	-	-
+PP_GA_CONCATJ2_lnum_telefono		216	string	-	-
+PP_GA_CONCATJ2_lfec_modifica		217	string	-	-
+PP_GA_CONCATJ2_lnum_icc		218	string	-	-
+PP_GA_CONCATJ2_lnum_puk		219	string	-	-
+PP_GA_CONCATJ2_lnum_puk2		220	string	-	-
+PP_GA_CONCATJ2_lcod_tipotarj		221	string	-	-
+PP_GA_CONCATJ2_lcod_perftarj		222	string	-	-
+PP_GA_CONCATJ2_lcod_tipprepa		223	string	-	-
+PP_GA_CONCATJ2_lcod_zonaoper		224	string	-	-
+PP_GA_CONCATJ2_lcod_clasetrj		225	string	-	-
+PP_GA_CONCATJ2_lcod_sbclatrj		226	string	-	-
+PP_GA_CONCATJ2_lcod_cauctarj		227	string	-	-
+PP_GA_CONCATJ2_lcod_usuario		228	string	-	-
+PP_GA_CONCATJ2_lfec_instalac		229	string	-	-
+PP_GA_CONCATJ2_lcod_estarec		230	string	-	-
+PP_GA_CONCATJ2_lcod_ventasesc1		231	string	-	-
+PP_GA_CONCATJ2_lcod_ventasesc2		232	string	-	-
+PP_GA_CONCATJ2_lcod_ventasesc3		233	string	-	-
+PP_GA_CONCATJ2_lcod_ventasesc4		234	string	-	-
+PP_GA_CONCATJ2_HayMas		235	carray	-	-
+PP_GA_CONCATJ2__rpr_ret		236	long	-	-
+# FIN DE SERVICIO PP_GA_CONCATJ2
+
+# Identificadores para el servicio PP_GA_RECARTPV
+# INICIO DE SERVICIO PP_GA_RECARTPV
+PP_GA_RECARTPV_num_telefono		237	string	-	-
+PP_GA_RECARTPV_imp_recarga		238	double	-	-
+PP_GA_RECARTPV_cve_cadena		239	string	-	-
+PP_GA_RECARTPV_num_sec		240	string	-	-
+PP_GA_RECARTPV_nom_sucursal		241	string	-	-
+PP_GA_RECARTPV_caj_id		242	string	-	-
+PP_GA_RECARTPV_num_cta		243	string	-	-
+PP_GA_RECARTPV_cod_moneda		244	string	-	-
+PP_GA_RECARTPV_cod_usuario		245	string	-	-
+PP_GA_RECARTPV_sec_actuacion		246	long	-	-
+PP_GA_RECARTPV__rpr_ret		247	long	-	-
+# FIN DE SERVICIO PP_GA_RECARTPV
+
+# Identificadores para el servicio PP_GA_CAMBTEC
+# INICIO DE SERVICIO PP_GA_CAMBTEC
+PP_GA_CAMBTEC_snum_telefono		248	string	-	-
+PP_GA_CAMBTEC_dimporte		249	double	-	-
+PP_GA_CAMBTEC_scod_moneda		250	string	-	-
+PP_GA_CAMBTEC_scod_tecnologia		251	string	-	-
+PP_GA_CAMBTEC_scod_usuario		252	string	-	-
+PP_GA_CAMBTEC_lsecuencia		253	long	-	-
+PP_GA_CAMBTEC__rpr_ret		254	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTEC
+
+# Identificadores para el servicio PP_GA_CONCAMT2
+# INICIO DE SERVICIO PP_GA_CONCAMT2
+PP_GA_CONCAMT2_snum_telefono		255	string	-	-
+PP_GA_CONCAMT2_scod_estarec		256	string	-	-
+PP_GA_CONCAMT2_lnum_orden		257	long	-	-
+PP_GA_CONCAMT2_sfec_ini		258	string	-	-
+PP_GA_CONCAMT2_sfec_fin		259	string	-	-
+PP_GA_CONCAMT2_ln_regs		260	long	-	-
+PP_GA_CONCAMT2_stoken		261	string	-	-
+PP_GA_CONCAMT2_ssnum_telefono		262	string	-	-
+PP_GA_CONCAMT2_ssfec_modifica		263	string	-	-
+PP_GA_CONCAMT2_ssnum_icc		264	string	-	-
+PP_GA_CONCAMT2_ssnum_puk		265	string	-	-
+PP_GA_CONCAMT2_ssnum_puk2		266	string	-	-
+PP_GA_CONCAMT2_sscod_tipotarj		267	string	-	-
+PP_GA_CONCAMT2_sscod_perftarj		268	string	-	-
+PP_GA_CONCAMT2_sscod_tipprepa		269	string	-	-
+PP_GA_CONCAMT2_sscod_zonaoper		270	string	-	-
+PP_GA_CONCAMT2_sscod_clasetrj		271	string	-	-
+PP_GA_CONCAMT2_sscod_sbclatrj		272	string	-	-
+PP_GA_CONCAMT2_sscod_cauctarj		273	string	-	-
+PP_GA_CONCAMT2_sscod_usuario		274	string	-	-
+PP_GA_CONCAMT2_ssfec_instalac		275	string	-	-
+PP_GA_CONCAMT2_sscod_estarec		276	string	-	-
+PP_GA_CONCAMT2_sscod_ventas1		277	string	-	-
+PP_GA_CONCAMT2_sscod_ventas2		278	string	-	-
+PP_GA_CONCAMT2_sscod_ventas3		279	string	-	-
+PP_GA_CONCAMT2_sscod_ventas4		280	string	-	-
+PP_GA_CONCAMT2_sssec_actanul		281	string	-	-
+PP_GA_CONCAMT2_chay_mas		282	carray	-	-
+PP_GA_CONCAMT2__rpr_ret		283	long	-	-
+# FIN DE SERVICIO PP_GA_CONCAMT2
+
+# Identificadores para el servicio PP_GA_RECPROMO
+# INICIO DE SERVICIO PP_GA_RECPROMO
+PP_GA_RECPROMO_snum_telefono		284	string	-	-
+PP_GA_RECPROMO_fimp_recarga		285	double	-	-
+PP_GA_RECPROMO_scod_moneda		286	string	-	-
+PP_GA_RECPROMO_scod_origreca		287	string	-	-
+PP_GA_RECPROMO_scod_promocion		288	string	-	-
+PP_GA_RECPROMO_scod_usuario		289	string	-	-
+PP_GA_RECPROMO_sper_validez		290	string	-	-
+PP_GA_RECPROMO_ssec_actuacion		291	carray	-	-
+PP_GA_RECPROMO__rpr_ret		292	long	-	-
+# FIN DE SERVICIO PP_GA_RECPROMO
+
+# Identificadores para el servicio PP_GA_CBTIPPR3
+# INICIO DE SERVICIO PP_GA_CBTIPPR3
+PP_GA_CBTIPPR3_num_telefono		293	string	-	-
+PP_GA_CBTIPPR3_cod_tipprepa		294	string	-	-
+PP_GA_CBTIPPR3_importe		295	double	-	-
+PP_GA_CBTIPPR3_cod_moneda		296	string	-	-
+PP_GA_CBTIPPR3_cod_causa		297	string	-	-
+PP_GA_CBTIPPR3_cod_usuario		298	string	-	-
+PP_GA_CBTIPPR3_secuencia		299	carray	-	-
+PP_GA_CBTIPPR3__rpr_ret		300	long	-	-
+# FIN DE SERVICIO PP_GA_CBTIPPR3
+
+# Identificadores para el servicio PP_GA_SOLASUS2
+# INICIO DE SERVICIO PP_GA_SOLASUS2
+PP_GA_SOLASUS2_num_telefono		301	string	-	-
+PP_GA_SOLASUS2_importe		302	double	-	-
+PP_GA_SOLASUS2_cod_moneda		303	string	-	-
+PP_GA_SOLASUS2_cod_usuario		304	string	-	-
+PP_GA_SOLASUS2_secuencia		305	carray	-	-
+PP_GA_SOLASUS2__rpr_ret		306	long	-	-
+# FIN DE SERVICIO PP_GA_SOLASUS2
+
+# Identificadores para el servicio PP_GA_SUSMPRO2
+# INICIO DE SERVICIO PP_GA_SUSMPRO2
+PP_GA_SUSMPRO2_snum_telefono		307	string	-	-
+PP_GA_SUSMPRO2_dimporte		308	double	-	-
+PP_GA_SUSMPRO2_scod_moneda		309	string	-	-
+PP_GA_SUSMPRO2_scod_causa		310	string	-	-
+PP_GA_SUSMPRO2_scod_usuario		311	string	-	-
+PP_GA_SUSMPRO2_lnum_dias		312	long	-	-
+PP_GA_SUSMPRO2_lsecuencia		313	carray	-	-
+PP_GA_SUSMPRO2__rpr_ret		314	long	-	-
+# FIN DE SERVICIO PP_GA_SUSMPRO2
+
+# Identificadores para el servicio PP_GA_COCAMBT2
+# INICIO DE SERVICIO PP_GA_COCAMBT2
+PP_GA_COCAMBT2_num_telefono		315	string	-	-
+PP_GA_COCAMBT2_sec_actanul		316	long	-	-
+PP_GA_COCAMBT2_importe		317	double	-	-
+PP_GA_COCAMBT2_cod_moneda		318	string	-	-
+PP_GA_COCAMBT2_cod_usuario		319	string	-	-
+PP_GA_COCAMBT2_lsecuencia		320	carray	-	-
+PP_GA_COCAMBT2__rpr_ret		321	long	-	-
+# FIN DE SERVICIO PP_GA_COCAMBT2
+
+# Identificadores para el servicio PP_GA_CONCATJ3
+# INICIO DE SERVICIO PP_GA_CONCATJ3
+PP_GA_CONCATJ3_num_telefono		322	string	-	-
+PP_GA_CONCATJ3_sec_actuacion		323	carray	-	-
+PP_GA_CONCATJ3_cod_estarec		324	string	-	-
+PP_GA_CONCATJ3_num_orden		325	long	-	-
+PP_GA_CONCATJ3_fec_ini		326	string	-	-
+PP_GA_CONCATJ3_fec_fin		327	string	-	-
+PP_GA_CONCATJ3_n_regs		328	long	-	-
+PP_GA_CONCATJ3_token		329	string	-	-
+PP_GA_CONCATJ3_lnum_telefono		330	string	-	-
+PP_GA_CONCATJ3_lfec_modifica		331	string	-	-
+PP_GA_CONCATJ3_lnum_icc		332	string	-	-
+PP_GA_CONCATJ3_lnum_puk		333	string	-	-
+PP_GA_CONCATJ3_lnum_puk2		334	string	-	-
+PP_GA_CONCATJ3_lcod_tipotarj		335	string	-	-
+PP_GA_CONCATJ3_lcod_perftarj		336	string	-	-
+PP_GA_CONCATJ3_lcod_tipprepa		337	string	-	-
+PP_GA_CONCATJ3_lcod_zonaoper		338	string	-	-
+PP_GA_CONCATJ3_lcod_clasetrj		339	string	-	-
+PP_GA_CONCATJ3_lcod_sbclatrj		340	string	-	-
+PP_GA_CONCATJ3_lcod_cauctarj		341	string	-	-
+PP_GA_CONCATJ3_lcod_usuario		342	string	-	-
+PP_GA_CONCATJ3_lfec_instalac		343	string	-	-
+PP_GA_CONCATJ3_lcod_estarec		344	string	-	-
+PP_GA_CONCATJ3_lcod_ventasesc1		345	string	-	-
+PP_GA_CONCATJ3_lcod_ventasesc2		346	string	-	-
+PP_GA_CONCATJ3_lcod_ventasesc3		347	string	-	-
+PP_GA_CONCATJ3_lcod_ventasesc4		348	string	-	-
+PP_GA_CONCATJ3_HayMas		349	carray	-	-
+PP_GA_CONCATJ3__rpr_ret		350	long	-	-
+# FIN DE SERVICIO PP_GA_CONCATJ3
+
+# Identificadores para el servicio PP_GA_RECARTP2
+# INICIO DE SERVICIO PP_GA_RECARTP2
+PP_GA_RECARTP2_num_telefono		351	string	-	-
+PP_GA_RECARTP2_imp_recarga		352	double	-	-
+PP_GA_RECARTP2_cve_cadena		353	string	-	-
+PP_GA_RECARTP2_num_sec		354	string	-	-
+PP_GA_RECARTP2_nom_sucursal		355	string	-	-
+PP_GA_RECARTP2_caj_id		356	string	-	-
+PP_GA_RECARTP2_num_cta		357	string	-	-
+PP_GA_RECARTP2_cod_moneda		358	string	-	-
+PP_GA_RECARTP2_cod_usuario		359	string	-	-
+PP_GA_RECARTP2_sec_actuacion		360	carray	-	-
+PP_GA_RECARTP2__rpr_ret		361	long	-	-
+# FIN DE SERVICIO PP_GA_RECARTP2
+
+# Identificadores para el servicio PP_GA_CAMBTEC2
+# INICIO DE SERVICIO PP_GA_CAMBTEC2
+PP_GA_CAMBTEC2_snum_telefono		362	string	-	-
+PP_GA_CAMBTEC2_dimporte		363	double	-	-
+PP_GA_CAMBTEC2_scod_moneda		364	string	-	-
+PP_GA_CAMBTEC2_scod_tecnologia		365	string	-	-
+PP_GA_CAMBTEC2_scod_usuario		366	string	-	-
+PP_GA_CAMBTEC2_lsecuencia		367	carray	-	-
+PP_GA_CAMBTEC2__rpr_ret		368	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTEC2
+
+# Identificadores para el servicio PP_GA_ALTAABO2
+# INICIO DE SERVICIO PP_GA_ALTAABO2
+PP_GA_ALTAABO2_num_telefono		369	string	-	-
+PP_GA_ALTAABO2_num_icc		370	string	-	-
+PP_GA_ALTAABO2_cod_moneda		371	string	-	-
+PP_GA_ALTAABO2_imp_saldo		372	double	-	-
+PP_GA_ALTAABO2_cod_usuario		373	string	-	-
+PP_GA_ALTAABO2_cod_datosprepa		374	string	-	-
+PP_GA_ALTAABO2_cod_tipotarj		375	string	-	-
+PP_GA_ALTAABO2_cod_perftarj		376	string	-	-
+PP_GA_ALTAABO2_cod_clasetrj		377	string	-	-
+PP_GA_ALTAABO2_cod_sbclatrj		378	string	-	-
+PP_GA_ALTAABO2_num_puk		379	string	-	-
+PP_GA_ALTAABO2_num_puk2		380	string	-	-
+PP_GA_ALTAABO2_num_imsi		381	string	-	-
+PP_GA_ALTAABO2_num_hlr		382	string	-	-
+PP_GA_ALTAABO2_cod_taxid		383	string	-	-
+PP_GA_ALTAABO2_num_nir		384	string	-	-
+PP_GA_ALTAABO2_num_min		385	string	-	-
+PP_GA_ALTAABO2__rpr_ret		386	long	-	-
+# FIN DE SERVICIO PP_GA_ALTAABO2
+
+# Identificadores para el servicio PP_GA_ALTAABO3
+# INICIO DE SERVICIO PP_GA_ALTAABO3
+PP_GA_ALTAABO3_num_telefono		387	string	-	-
+PP_GA_ALTAABO3_num_icc		388	string	-	-
+PP_GA_ALTAABO3_cod_moneda		389	string	-	-
+PP_GA_ALTAABO3_imp_saldo		390	double	-	-
+PP_GA_ALTAABO3_cod_usuario		391	string	-	-
+PP_GA_ALTAABO3_cod_datosprepa		392	string	-	-
+PP_GA_ALTAABO3_cod_tipotarj		393	string	-	-
+PP_GA_ALTAABO3_cod_perftarj		394	string	-	-
+PP_GA_ALTAABO3_cod_clasetrj		395	string	-	-
+PP_GA_ALTAABO3_cod_sbclatrj		396	string	-	-
+PP_GA_ALTAABO3_num_puk		397	string	-	-
+PP_GA_ALTAABO3_num_puk2		398	string	-	-
+PP_GA_ALTAABO3_num_imsi		399	string	-	-
+PP_GA_ALTAABO3_num_hlr		400	string	-	-
+PP_GA_ALTAABO3_cod_taxid		401	string	-	-
+PP_GA_ALTAABO3_num_nir		402	string	-	-
+PP_GA_ALTAABO3_num_min		403	string	-	-
+PP_GA_ALTAABO3_cod_empresa		404	string	-	-
+PP_GA_ALTAABO3__rpr_ret		405	long	-	-
+# FIN DE SERVICIO PP_GA_ALTAABO3
+
+# Identificadores para el servicio PP_GA_ALTAABO4
+# INICIO DE SERVICIO PP_GA_ALTAABO4
+PP_GA_ALTAABO4_num_telefono		406	string	-	-
+PP_GA_ALTAABO4_num_icc		407	string	-	-
+PP_GA_ALTAABO4_cod_moneda		408	string	-	-
+PP_GA_ALTAABO4_imp_saldo		409	double	-	-
+PP_GA_ALTAABO4_cod_usuario		410	string	-	-
+PP_GA_ALTAABO4_cod_datosprepa		411	string	-	-
+PP_GA_ALTAABO4_cod_tipotarj		412	string	-	-
+PP_GA_ALTAABO4_cod_perftarj		413	string	-	-
+PP_GA_ALTAABO4_cod_clasetrj		414	string	-	-
+PP_GA_ALTAABO4_cod_sbclatrj		415	string	-	-
+PP_GA_ALTAABO4_num_puk		416	string	-	-
+PP_GA_ALTAABO4_num_puk2		417	string	-	-
+PP_GA_ALTAABO4_num_imsi		418	string	-	-
+PP_GA_ALTAABO4_num_hlr		419	string	-	-
+PP_GA_ALTAABO4_cod_taxid		420	string	-	-
+PP_GA_ALTAABO4_num_nir		421	string	-	-
+PP_GA_ALTAABO4_cod_empresa		422	string	-	-
+PP_GA_ALTAABO4__rpr_ret		423	long	-	-
+# FIN DE SERVICIO PP_GA_ALTAABO4
+
+# Identificadores para el servicio PP_GA_AJUSTES
+# INICIO DE SERVICIO PP_GA_AJUSTES
+PP_GA_AJUSTES_num_telefono		424	string	-	-
+PP_GA_AJUSTES_importe		425	double	-	-
+PP_GA_AJUSTES_flg_ajuste		426	string	-	-
+PP_GA_AJUSTES_cod_bolsa		427	string	-	-
+PP_GA_AJUSTES_cod_moneda		428	string	-	-
+PP_GA_AJUSTES_cod_causa		429	string	-	-
+PP_GA_AJUSTES_cod_usuario		430	string	-	-
+PP_GA_AJUSTES_sec_actuacion		431	long	-	-
+PP_GA_AJUSTES__rpr_ret		432	long	-	-
+# FIN DE SERVICIO PP_GA_AJUSTES
+
+# Identificadores para el servicio PP_GA_AJUSTES2
+# INICIO DE SERVICIO PP_GA_AJUSTES2
+PP_GA_AJUSTES2_num_telefono		433	string	-	-
+PP_GA_AJUSTES2_importe		434	double	-	-
+PP_GA_AJUSTES2_flg_ajuste		435	string	-	-
+PP_GA_AJUSTES2_cod_bolsa		436	string	-	-
+PP_GA_AJUSTES2_per_validez		437	string	-	-
+PP_GA_AJUSTES2_cod_moneda		438	string	-	-
+PP_GA_AJUSTES2_cod_causa		439	string	-	-
+PP_GA_AJUSTES2_cod_usuario		440	string	-	-
+PP_GA_AJUSTES2_sec_actuacion		441	long	-	-
+PP_GA_AJUSTES2__rpr_ret		442	long	-	-
+# FIN DE SERVICIO PP_GA_AJUSTES2
+
+# Identificadores para el servicio PP_GA_RECARGA3
+# INICIO DE SERVICIO PP_GA_RECARGA3
+PP_GA_RECARGA3_snum_telefono		443	string	-	-
+PP_GA_RECARGA3_stipo_recarga		444	string	-	-
+PP_GA_RECARGA3_fimp_recarga		445	double	-	-
+PP_GA_RECARGA3_scod_moneda		446	string	-	-
+PP_GA_RECARGA3_scod_promocion		447	string	-	-
+PP_GA_RECARGA3_scod_usuario		448	string	-	-
+PP_GA_RECARGA3_lper_validez		449	long	-	-
+PP_GA_RECARGA3_ssec_actuacion		450	string	-	-
+PP_GA_RECARGA3__rpr_ret		451	long	-	-
+# FIN DE SERVICIO PP_GA_RECARGA3
+
+# Identificadores para el servicio PP_GA_RECPROMO2
+# INICIO DE SERVICIO PP_GA_RECPROMO2
+PP_GA_RECPROMO2_snum_telefono		452	string	-	-
+PP_GA_RECPROMO2_fimp_recarga		453	double	-	-
+PP_GA_RECPROMO2_scod_moneda		454	string	-	-
+PP_GA_RECPROMO2_scod_origreca		455	string	-	-
+PP_GA_RECPROMO2_scod_promocion		456	string	-	-
+PP_GA_RECPROMO2_scod_usuario		457	string	-	-
+PP_GA_RECPROMO2_sper_validez		458	string	-	-
+PP_GA_RECPROMO2_ssec_actuacion		459	string	-	-
+PP_GA_RECPROMO2__rpr_ret		460	long	-	-
+# FIN DE SERVICIO PP_GA_RECPROMO2
+
+# Identificadores para el servicio PP_GA_RECCARD
+# INICIO DE SERVICIO PP_GA_RECCARD
+PP_GA_RECCARD_sPIN		461	string	-	-
+PP_GA_RECCARD_scod_origreca		462	string	-	-
+PP_GA_RECCARD_fimp_recarga		463	double	-	-
+PP_GA_RECCARD_scod_moneda		464	string	-	-
+PP_GA_RECCARD_scod_promocion		465	string	-	-
+PP_GA_RECCARD_scod_usuario		466	string	-	-
+PP_GA_RECCARD_lper_validez		467	long	-	-
+PP_GA_RECCARD_ssec_actuacion		468	string	-	-
+PP_GA_RECCARD__rpr_ret		469	long	-	-
+# FIN DE SERVICIO PP_GA_RECCARD
+
+# Identificadores para el servicio PP_GA_CAMBTECG
+# INICIO DE SERVICIO PP_GA_CAMBTECG
+PP_GA_CAMBTECG_snum_telefono		470	string	-	-
+PP_GA_CAMBTECG_dimporte		471	double	-	-
+PP_GA_CAMBTECG_scod_moneda		472	string	-	-
+PP_GA_CAMBTECG_scod_tecnologia		473	string	-	-
+PP_GA_CAMBTECG_scod_hlr		474	string	-	-
+PP_GA_CAMBTECG_scod_ICC		475	string	-	-
+PP_GA_CAMBTECG_scod_MIN		476	string	-	-
+PP_GA_CAMBTECG_scod_IMSI		477	string	-	-
+PP_GA_CAMBTECG_scod_usuario		478	string	-	-
+PP_GA_CAMBTECG_ssec_actuacion		479	string	-	-
+PP_GA_CAMBTECG__rpr_ret		480	long	-	-
+# FIN DE SERVICIO PP_GA_CAMBTECG
+
+# Identificadores para el servicio PP_GA_CONAJSOS
+# INICIO DE SERVICIO PP_GA_CONAJSOS
+PP_GA_CONAJSOS_sNumTelefono		481	string	-	-
+PP_GA_CONAJSOS_sCodReferencia		482	string	-	-
+PP_GA_CONAJSOS_sCodOrigreca		483	string	-	-
+PP_GA_CONAJSOS_num_orden		484	long	-	-
+PP_GA_CONAJSOS_sFecIni		485	string	-	-
+PP_GA_CONAJSOS_sFecFin		486	string	-	-
+PP_GA_CONAJSOS_n_regs		487	long	-	-
+PP_GA_CONAJSOS_token		488	string	-	-
+PP_GA_CONAJSOS_oSecActuacion		489	long	-	-
+PP_GA_CONAJSOS_oNumTelefono		490	string	-	-
+PP_GA_CONAJSOS_oFlgAjuste		491	string	-	-
+PP_GA_CONAJSOS_oCodBolsa		492	string	-	-
+PP_GA_CONAJSOS_oCodCausa		493	string	-	-
+PP_GA_CONAJSOS_oImporte		494	double	-	-
+PP_GA_CONAJSOS_oImpPenaliza		495	double	-	-
+PP_GA_CONAJSOS_oFecInstalac		496	string	-	-
+PP_GA_CONAJSOS_oCodReferencia		497	string	-	-
+PP_GA_CONAJSOS_oCodReferenSOS		498	string	-	-
+PP_GA_CONAJSOS_oFlgCompensa		499	string	-	-
+PP_GA_CONAJSOS_HayMas		500	carray	-	-
+PP_GA_CONAJSOS__rpr_ret		501	long	-	-
+# FIN DE SERVICIO PP_GA_CONAJSOS
+
+# Identificadores para el servicio PP_GA_CONAJUST
+# INICIO DE SERVICIO PP_GA_CONAJUST
+PP_GA_CONAJUST_sNumTelefono		502	string	-	-
+PP_GA_CONAJUST_lSecActuacion		503	long	-	-
+PP_GA_CONAJUST_sCodReferencia		504	string	-	-
+PP_GA_CONAJUST_num_orden		505	long	-	-
+PP_GA_CONAJUST_sFecIni		506	string	-	-
+PP_GA_CONAJUST_sFecFin		507	string	-	-
+PP_GA_CONAJUST_n_regs		508	long	-	-
+PP_GA_CONAJUST_token		509	string	-	-
+PP_GA_CONAJUST_oNumTelefono		510	string	-	-
+PP_GA_CONAJUST_oSecActuacion		511	long	-	-
+PP_GA_CONAJUST_oFlgAjuste		512	string	-	-
+PP_GA_CONAJUST_oCodBolsa		513	string	-	-
+PP_GA_CONAJUST_oTipCausa		514	string	-	-
+PP_GA_CONAJUST_oCodCausa		515	string	-	-
+PP_GA_CONAJUST_oImporte		516	double	-	-
+PP_GA_CONAJUST_oImpAjustado		517	double	-	-
+PP_GA_CONAJUST_oImpPenaliza		518	double	-	-
+PP_GA_CONAJUST_oCodReferencia		519	string	-	-
+PP_GA_CONAJUST_oCodReferenSOS		520	string	-	-
+PP_GA_CONAJUST_oFecInstalac		521	string	-	-
+PP_GA_CONAJUST_oFlgCompensa		522	string	-	-
+PP_GA_CONAJUST_HayMas		523	carray	-	-
+PP_GA_CONAJUST__rpr_ret		524	long	-	-
+# FIN DE SERVICIO PP_GA_CONAJUST
+
+# Identificadores para el servicio PP_GA_CCARD_MD
+# INICIO DE SERVICIO PP_GA_CCARD_MD
+PP_GA_CCARD_MD_num_ccard		525	string	-	-
+PP_GA_CCARD_MD_num_telefono		526	string	-	-
+PP_GA_CCARD_MD__rpr_ret		527	long	-	-
+# FIN DE SERVICIO PP_GA_CCARD_MD
+
+# Identificadores para el servicio PP_GA_CONASOS2
+# INICIO DE SERVICIO PP_GA_CONASOS2
+PP_GA_CONASOS2_sNumTelefono		528	string	-	-
+PP_GA_CONASOS2_sCodReferencia		529	string	-	-
+PP_GA_CONASOS2_sCodOrigreca		530	string	-	-
+PP_GA_CONASOS2_num_orden		531	long	-	-
+PP_GA_CONASOS2_sFecIni		532	string	-	-
+PP_GA_CONASOS2_sFecFin		533	string	-	-
+PP_GA_CONASOS2_scod_moneda		534	string	-	-
+PP_GA_CONASOS2_n_regs		535	long	-	-
+PP_GA_CONASOS2_token		536	string	-	-
+PP_GA_CONASOS2_oSecActuacion		537	long	-	-
+PP_GA_CONASOS2_oNumTelefono		538	string	-	-
+PP_GA_CONASOS2_oFlgAjuste		539	string	-	-
+PP_GA_CONASOS2_oCodBolsa		540	string	-	-
+PP_GA_CONASOS2_oCodCausa		541	string	-	-
+PP_GA_CONASOS2_oImporte		542	double	-	-
+PP_GA_CONASOS2_oImpPenaliza		543	double	-	-
+PP_GA_CONASOS2_oFecInstalac		544	string	-	-
+PP_GA_CONASOS2_oCodReferencia		545	string	-	-
+PP_GA_CONASOS2_oCodReferenSOS		546	string	-	-
+PP_GA_CONASOS2_oFlgCompensa		547	string	-	-
+PP_GA_CONASOS2_HayMas		548	carray	-	-
+PP_GA_CONASOS2__rpr_ret		549	long	-	-
+# FIN DE SERVICIO PP_GA_CONASOS2
+
+# Identificadores para el servicio PP_GA_CONAJUS2
+# INICIO DE SERVICIO PP_GA_CONAJUS2
+PP_GA_CONAJUS2_sNumTelefono		550	string	-	-
+PP_GA_CONAJUS2_lSecActuacion		551	long	-	-
+PP_GA_CONAJUS2_sCodReferencia		552	string	-	-
+PP_GA_CONAJUS2_num_orden		553	long	-	-
+PP_GA_CONAJUS2_sFecIni		554	string	-	-
+PP_GA_CONAJUS2_sFecFin		555	string	-	-
+PP_GA_CONAJUS2_scod_moneda		556	string	-	-
+PP_GA_CONAJUS2_n_regs		557	long	-	-
+PP_GA_CONAJUS2_token		558	string	-	-
+PP_GA_CONAJUS2_oNumTelefono		559	string	-	-
+PP_GA_CONAJUS2_oSecActuacion		560	long	-	-
+PP_GA_CONAJUS2_oFlgAjuste		561	string	-	-
+PP_GA_CONAJUS2_oCodBolsa		562	string	-	-
+PP_GA_CONAJUS2_oTipCausa		563	string	-	-
+PP_GA_CONAJUS2_oCodCausa		564	string	-	-
+PP_GA_CONAJUS2_oImporte		565	double	-	-
+PP_GA_CONAJUS2_oImpAjustado		566	double	-	-
+PP_GA_CONAJUS2_oImpPenaliza		567	double	-	-
+PP_GA_CONAJUS2_oCodReferencia		568	string	-	-
+PP_GA_CONAJUS2_oCodReferenSOS		569	string	-	-
+PP_GA_CONAJUS2_oFecInstalac		570	string	-	-
+PP_GA_CONAJUS2_oFlgCompensa		571	string	-	-
+PP_GA_CONAJUS2_HayMas		572	carray	-	-
+PP_GA_CONAJUS2__rpr_ret		573	long	-	-
+# FIN DE SERVICIO PP_GA_CONAJUS2
+
+# Identificadores para el servicio PP_GA_SOLSUSP2
+# INICIO DE SERVICIO PP_GA_SOLSUSP2
+PP_GA_SOLSUSP2_num_telefono		574	string	-	-
+PP_GA_SOLSUSP2_importe		575	double	-	-
+PP_GA_SOLSUSP2_cod_moneda		576	string	-	-
+PP_GA_SOLSUSP2_cod_causa		577	string	-	-
+PP_GA_SOLSUSP2_cod_usuario		578	string	-	-
+PP_GA_SOLSUSP2_secuencia		579	string	-	-
+PP_GA_SOLSUSP2__rpr_ret		580	long	-	-
+# FIN DE SERVICIO PP_GA_SOLSUSP2
+
+# Identificadores para el servicio PP_GA_SUSMPRO3
+# INICIO DE SERVICIO PP_GA_SUSMPRO3
+PP_GA_SUSMPRO3_snum_telefono		581	string	-	-
+PP_GA_SUSMPRO3_dimporte		582	double	-	-
+PP_GA_SUSMPRO3_scod_moneda		583	string	-	-
+PP_GA_SUSMPRO3_scod_causa		584	string	-	-
+PP_GA_SUSMPRO3_scod_usuario		585	string	-	-
+PP_GA_SUSMPRO3_lnum_dias		586	long	-	-
+PP_GA_SUSMPRO3_secuencia		587	string	-	-
+PP_GA_SUSMPRO3__rpr_ret		588	long	-	-
+# FIN DE SERVICIO PP_GA_SUSMPRO3
+
+# Identificadores para el servicio PP_GA_RECARTP3
+# INICIO DE SERVICIO PP_GA_RECARTP3
+PP_GA_RECARTP3_num_telefono		589	string	-	-
+PP_GA_RECARTP3_imp_recarga		590	double	-	-
+PP_GA_RECARTP3_cve_cadena		591	string	-	-
+PP_GA_RECARTP3_num_sec		592	string	-	-
+PP_GA_RECARTP3_nom_sucursal		593	string	-	-
+PP_GA_RECARTP3_caj_id		594	string	-	-
+PP_GA_RECARTP3_num_cta		595	string	-	-
+PP_GA_RECARTP3_cod_moneda		596	string	-	-
+PP_GA_RECARTP3_cod_usuario		597	string	-	-
+PP_GA_RECARTP3_secuencia		598	string	-	-
+PP_GA_RECARTP3__rpr_ret		599	long	-	-
+# FIN DE SERVICIO PP_GA_RECARTP3
+
+# Identificadores para el servicio PP_GA_AJUSTES3
+# INICIO DE SERVICIO PP_GA_AJUSTES3
+PP_GA_AJUSTES3_num_telefono		600	string	-	-
+PP_GA_AJUSTES3_importe		601	double	-	-
+PP_GA_AJUSTES3_flg_ajuste		602	string	-	-
+PP_GA_AJUSTES3_cod_bolsa		603	string	-	-
+PP_GA_AJUSTES3_per_validez		604	string	-	-
+PP_GA_AJUSTES3_cod_moneda		605	string	-	-
+PP_GA_AJUSTES3_cod_causa		606	string	-	-
+PP_GA_AJUSTES3_cod_usuario		607	string	-	-
+PP_GA_AJUSTES3_secuencia		608	string	-	-
+PP_GA_AJUSTES3__rpr_ret		609	long	-	-
+# FIN DE SERVICIO PP_GA_AJUSTES3
+
+# Identificadores para el servicio PP_GA_CBTIPPR4
+# INICIO DE SERVICIO PP_GA_CBTIPPR4
+PP_GA_CBTIPPR4_num_telefono		610	string	-	-
+PP_GA_CBTIPPR4_cod_tipprepa		611	string	-	-
+PP_GA_CBTIPPR4_importe		612	double	-	-
+PP_GA_CBTIPPR4_cod_moneda		613	string	-	-
+PP_GA_CBTIPPR4_cod_causa		614	string	-	-
+PP_GA_CBTIPPR4_cod_usuario		615	string	-	-
+PP_GA_CBTIPPR4_secuencia		616	string	-	-
+PP_GA_CBTIPPR4__rpr_ret		617	long	-	-
+# FIN DE SERVICIO PP_GA_CBTIPPR4
+
+# Identificadores para el servicio PP_GA_SOLASUS3
+# INICIO DE SERVICIO PP_GA_SOLASUS3
+PP_GA_SOLASUS3_num_telefono		618	string	-	-
+PP_GA_SOLASUS3_importe		619	double	-	-
+PP_GA_SOLASUS3_cod_moneda		620	string	-	-
+PP_GA_SOLASUS3_cod_usuario		621	string	-	-
+PP_GA_SOLASUS3_secuencia		622	string	-	-
+PP_GA_SOLASUS3__rpr_ret		623	long	-	-
+# FIN DE SERVICIO PP_GA_SOLASUS3
+
+# Identificadores para el servicio PP_GA_CONCATJ4
+# INICIO DE SERVICIO PP_GA_CONCATJ4
+PP_GA_CONCATJ4_num_telefono		624	string	-	-
+PP_GA_CONCATJ4_sec_actuacion		625	string	-	-
+PP_GA_CONCATJ4_cod_estarec		626	string	-	-
+PP_GA_CONCATJ4_num_orden		627	long	-	-
+PP_GA_CONCATJ4_fec_ini		628	string	-	-
+PP_GA_CONCATJ4_fec_fin		629	string	-	-
+PP_GA_CONCATJ4_n_regs		630	long	-	-
+PP_GA_CONCATJ4_token		631	string	-	-
+PP_GA_CONCATJ4_lnum_telefono		632	string	-	-
+PP_GA_CONCATJ4_lfec_modifica		633	string	-	-
+PP_GA_CONCATJ4_lnum_icc		634	string	-	-
+PP_GA_CONCATJ4_lnum_puk		635	string	-	-
+PP_GA_CONCATJ4_lnum_puk2		636	string	-	-
+PP_GA_CONCATJ4_lcod_tipotarj		637	string	-	-
+PP_GA_CONCATJ4_lcod_perftarj		638	string	-	-
+PP_GA_CONCATJ4_lcod_tipprepa		639	string	-	-
+PP_GA_CONCATJ4_lcod_zonaoper		640	string	-	-
+PP_GA_CONCATJ4_lcod_clasetrj		641	string	-	-
+PP_GA_CONCATJ4_lcod_sbclatrj		642	string	-	-
+PP_GA_CONCATJ4_lcod_cauctarj		643	string	-	-
+PP_GA_CONCATJ4_lcod_usuario		644	string	-	-
+PP_GA_CONCATJ4_lfec_instalac		645	string	-	-
+PP_GA_CONCATJ4_lcod_estarec		646	string	-	-
+PP_GA_CONCATJ4_lcod_ventasesc1		647	string	-	-
+PP_GA_CONCATJ4_lcod_ventasesc2		648	string	-	-
+PP_GA_CONCATJ4_lcod_ventasesc3		649	string	-	-
+PP_GA_CONCATJ4_lcod_ventasesc4		650	string	-	-
+PP_GA_CONCATJ4_HayMas		651	carray	-	-
+PP_GA_CONCATJ4__rpr_ret		652	long	-	-
+# FIN DE SERVICIO PP_GA_CONCATJ4
+
+# Identificadores para el servicio PP_GA_CONASOS3
+# INICIO DE SERVICIO PP_GA_CONASOS3
+PP_GA_CONASOS3_sNumTelefono		653	string	-	-
+PP_GA_CONASOS3_sCodReferencia		654	string	-	-
+PP_GA_CONASOS3_sCodOrigreca		655	string	-	-
+PP_GA_CONASOS3_num_orden		656	long	-	-
+PP_GA_CONASOS3_sFecIni		657	string	-	-
+PP_GA_CONASOS3_sFecFin		658	string	-	-
+PP_GA_CONASOS3_scod_moneda		659	string	-	-
+PP_GA_CONASOS3_n_regs		660	long	-	-
+PP_GA_CONASOS3_token		661	string	-	-
+PP_GA_CONASOS3_oSecActuacion		662	string	-	-
+PP_GA_CONASOS3_oNumTelefono		663	string	-	-
+PP_GA_CONASOS3_oFlgAjuste		664	string	-	-
+PP_GA_CONASOS3_oCodBolsa		665	string	-	-
+PP_GA_CONASOS3_oCodCausa		666	string	-	-
+PP_GA_CONASOS3_oImporte		667	double	-	-
+PP_GA_CONASOS3_oImpPenaliza		668	double	-	-
+PP_GA_CONASOS3_oFecInstalac		669	string	-	-
+PP_GA_CONASOS3_oCodReferencia		670	string	-	-
+PP_GA_CONASOS3_oCodReferenSOS		671	string	-	-
+PP_GA_CONASOS3_oFlgCompensa		672	string	-	-
+PP_GA_CONASOS3_HayMas		673	carray	-	-
+PP_GA_CONASOS3__rpr_ret		674	long	-	-
+# FIN DE SERVICIO PP_GA_CONASOS3
+
+# Identificadores para el servicio PP_GA_CONAJUS3
+# INICIO DE SERVICIO PP_GA_CONAJUS3
+PP_GA_CONAJUS3_sNumTelefono		675	string	-	-
+PP_GA_CONAJUS3_sec_actuacion		676	string	-	-
+PP_GA_CONAJUS3_sCodReferencia		677	string	-	-
+PP_GA_CONAJUS3_num_orden		678	long	-	-
+PP_GA_CONAJUS3_sFecIni		679	string	-	-
+PP_GA_CONAJUS3_sFecFin		680	string	-	-
+PP_GA_CONAJUS3_scod_moneda		681	string	-	-
+PP_GA_CONAJUS3_n_regs		682	long	-	-
+PP_GA_CONAJUS3_token		683	string	-	-
+PP_GA_CONAJUS3_oNumTelefono		684	string	-	-
+PP_GA_CONAJUS3_oSecActuacion		685	string	-	-
+PP_GA_CONAJUS3_oFlgAjuste		686	string	-	-
+PP_GA_CONAJUS3_oCodBolsa		687	string	-	-
+PP_GA_CONAJUS3_oTipCausa		688	string	-	-
+PP_GA_CONAJUS3_oCodCausa		689	string	-	-
+PP_GA_CONAJUS3_oImporte		690	double	-	-
+PP_GA_CONAJUS3_oImpAjustado		691	double	-	-
+PP_GA_CONAJUS3_oImpPenaliza		692	double	-	-
+PP_GA_CONAJUS3_oCodReferencia		693	string	-	-
+PP_GA_CONAJUS3_oCodReferenSOS		694	string	-	-
+PP_GA_CONAJUS3_oFecInstalac		695	string	-	-
+PP_GA_CONAJUS3_oFlgCompensa		696	string	-	-
+PP_GA_CONAJUS3_HayMas		697	carray	-	-
+PP_GA_CONAJUS3__rpr_ret		698	long	-	-
+# FIN DE SERVICIO PP_GA_CONAJUS3
+
+# Identificadores para el servicio GA_CONASOS4
+# INICIO DE SERVICIO GA_CONASOS4
+GA_CONASOS4_sNumTelefono		699	string	-	-
+GA_CONASOS4_sCodReferencia		700	string	-	-
+GA_CONASOS4_sCodOrigreca		701	string	-	-
+GA_CONASOS4_num_orden		702	long	-	-
+GA_CONASOS4_sFecIni		703	string	-	-
+GA_CONASOS4_sFecFin		704	string	-	-
+GA_CONASOS4_scod_moneda		705	string	-	-
+GA_CONASOS4_n_regs		706	long	-	-
+GA_CONASOS4_token		707	string	-	-
+GA_CONASOS4_oSecActuacion		708	string	-	-
+GA_CONASOS4_oNumTelefono		709	string	-	-
+GA_CONASOS4_oFlgAjuste		710	string	-	-
+GA_CONASOS4_oCodBolsa		711	string	-	-
+GA_CONASOS4_oCodCausa		712	string	-	-
+GA_CONASOS4_oImporte		713	double	-	-
+GA_CONASOS4_oImpPenaliza		714	double	-	-
+GA_CONASOS4_oFecInstalac		715	string	-	-
+GA_CONASOS4_oCodReferencia		716	string	-	-
+GA_CONASOS4_oCodReferenSOS		717	string	-	-
+GA_CONASOS4_oFlgCompensa		718	string	-	-
+GA_CONASOS4oSecActuacionAnul01		719	string	-	-
+GA_CONASOS4_HayMas		720	carray	-	-
+GA_CONASOS4__rpr_ret		721	long	-	-
+# FIN DE SERVICIO GA_CONASOS4
+
+# Identificadores para el servicio GA_CBTIPPR5
+# INICIO DE SERVICIO GA_CBTIPPR5
+GA_CBTIPPR5_num_telefono		722	string	-	-
+GA_CBTIPPR5_cod_tipprepa		723	string	-	-
+GA_CBTIPPR5_importe		724	double	-	-
+GA_CBTIPPR5_cod_moneda		725	string	-	-
+GA_CBTIPPR5_cod_causa		726	string	-	-
+GA_CBTIPPR5_cod_usuario		727	string	-	-
+GA_CBTIPPR5_mediaType		728	string	-	-
+GA_CBTIPPR5_erReference		729	string	-	-
+GA_CBTIPPR5_transaction_id		730	string	-	-
+GA_CBTIPPR5_secuencia		731	string	-	-
+GA_CBTIPPR5__rpr_ret		732	long	-	-
+# FIN DE SERVICIO GA_CBTIPPR5
+
+# Identificadores para el servicio GA_RECARGA4
+# INICIO DE SERVICIO GA_RECARGA4
+GA_RECARGA4_snum_telefono		733	string	-	-
+GA_RECARGA4_stipo_recarga		734	string	-	-
+GA_RECARGA4_fimp_recarga		735	double	-	-
+GA_RECARGA4_scod_moneda		736	string	-	-
+GA_RECARGA4_scod_promocion		737	string	-	-
+GA_RECARGA4_scod_usuario		738	string	-	-
+GA_RECARGA4_lper_validez		739	long	-	-
+GA_RECARGA4_mediaType		740	string	-	-
+GA_RECARGA4_erReference		741	string	-	-
+GA_RECARGA4_transaction_id		742	string	-	-
+GA_RECARGA4_ssec_actuacion		743	string	-	-
+GA_RECARGA4__rpr_ret		744	long	-	-
+# FIN DE SERVICIO GA_RECARGA4
+
+# Identificadores para el servicio GA_RECARGA5
+# INICIO DE SERVICIO GA_RECARGA5
+GA_RECARGA5_num_telefono		745	string	-	-
+GA_RECARGA5_stipo_recarga		746	string	-	-
+GA_RECARGA5_fimp_recarga		747	double	-	-
+GA_RECARGA5_scod_moneda		748	string	-	-
+GA_RECARGA5_scod_promocion		749	string	-	-
+GA_RECARGA5_scod_usuario		750	string	-	-
+GA_RECARGA5_lper_validez		751	long	-	-
+GA_RECARGA5_ssec_actuacion		752	string	-	-
+GA_RECARGA5__rpr_ret		753	long	-	-
+# FIN DE SERVICIO GA_RECARGA5
+
+# Identificadores para el servicio GA_AJUSTES4
+# INICIO DE SERVICIO GA_AJUSTES4
+GA_AJUSTES4_num_telefono		754	string	-	-
+GA_AJUSTES4_importe		755	double	-	-
+GA_AJUSTES4_flg_ajuste		756	string	-	-
+GA_AJUSTES4_cod_bolsa		757	string	-	-
+GA_AJUSTES4_per_validez		758	string	-	-
+GA_AJUSTES4_cod_moneda		759	string	-	-
+GA_AJUSTES4_cod_causa		760	string	-	-
+GA_AJUSTES4_cod_usuario		761	string	-	-
+GA_AJUSTES4_mediaType		762	string	-	-
+GA_AJUSTES4_erReference		763	string	-	-
+GA_AJUSTES4_transaction_id		764	string	-	-
+GA_AJUSTES4_secuencia		765	string	-	-
+GA_AJUSTES4__rpr_ret		766	long	-	-
+# FIN DE SERVICIO GA_AJUSTES4
+
+# Identificadores para el servicio GA_AJUSTES5
+# INICIO DE SERVICIO GA_AJUSTES5
+GA_AJUSTES5_num_telefono		767	string	-	-
+GA_AJUSTES5_importe		768	double	-	-
+GA_AJUSTES5_flg_ajuste		769	string	-	-
+GA_AJUSTES5_cod_bolsa		770	string	-	-
+GA_AJUSTES5_per_validez		771	string	-	-
+GA_AJUSTES5_cod_moneda		772	string	-	-
+GA_AJUSTES5_cod_causa		773	string	-	-
+GA_AJUSTES5_cod_usuario		774	string	-	-
+GA_AJUSTES5_secuencia		775	string	-	-
+GA_AJUSTES5__rpr_ret		776	long	-	-
+# FIN DE SERVICIO GA_AJUSTES5
+
+# Identificadores para el servicio GA_CAMBTAR6
+# INICIO DE SERVICIO GA_CAMBTAR6
+GA_CAMBTAR6_num_telefono		777	string	-	-
+GA_CAMBTAR6_num_icc		778	string	-	-
+GA_CAMBTAR6_cauc_tarj		779	string	-	-
+GA_CAMBTAR6_cod_usuario		780	string	-	-
+GA_CAMBTAR6_cod_moneda		781	string	-	-
+GA_CAMBTAR6_imp_coste		782	double	-	-
+GA_CAMBTAR6_num_puk		783	string	-	-
+GA_CAMBTAR6_num_puk2		784	string	-	-
+GA_CAMBTAR6_num_imsi		785	string	-	-
+GA_CAMBTAR6_media_type		786	string	-	-
+GA_CAMBTAR6_er_reference		787	string	-	-
+GA_CAMBTAR6_transaction_id		788	string	-	-
+GA_CAMBTAR6_mailable_flag		789	string	-	-
+GA_CAMBTAR6_extra_rating		790	string	-	-
+GA_CAMBTAR6_in_icc		791	string	-	-
+GA_CAMBTAR6_sec_actuacion		792	string	-	-
+GA_CAMBTAR6__rpr_ret		793	long	-	-
+# FIN DE SERVICIO GA_CAMBTAR6
+
+# Identificadores para el servicio GA_CONASOS5
+# INICIO DE SERVICIO GA_CONASOS5
+GA_CONASOS5_sNumTelefono		794	string	-	-
+GA_CONASOS5_sCodReferencia		795	string	-	-
+GA_CONASOS5_sCodOrigreca		796	string	-	-
+GA_CONASOS5_num_orden		797	long	-	-
+GA_CONASOS5_sFecIni		798	string	-	-
+GA_CONASOS5_sFecFin		799	string	-	-
+GA_CONASOS5_scod_moneda		800	string	-	-
+GA_CONASOS5_n_regs		801	long	-	-
+GA_CONASOS5_token		802	string	-	-
+GA_CONASOS5_oSecActuacion		803	string	-	-
+GA_CONASOS5_oNumTelefono		804	string	-	-
+GA_CONASOS5_oFlgAjuste		805	string	-	-
+GA_CONASOS5_oCodBolsa		806	string	-	-
+GA_CONASOS5_oCodCausa		807	string	-	-
+GA_CONASOS5_oImporte		808	double	-	-
+GA_CONASOS5_oImpPenaliza		809	double	-	-
+GA_CONASOS5_oFecInstalac		810	string	-	-
+GA_CONASOS5_oCodReferencia		811	string	-	-
+GA_CONASOS5_oCodReferenSOS		812	string	-	-
+GA_CONASOS5_oFlgCompensa		813	string	-	-
+GA_CONASOS5oSecActuacionAnul01		814	string	-	-
+GA_CONASOS5_oFlgTotal		815	string	-	-
+GA_CONASOS5_HayMas		816	carray	-	-
+GA_CONASOS5__rpr_ret		817	long	-	-
+# FIN DE SERVICIO GA_CONASOS5
+
+# Identificadores para el servicio GA_CBTIPPR6
+# INICIO DE SERVICIO GA_CBTIPPR6
+GA_CBTIPPR6_num_telefono		818	string	-	-
+GA_CBTIPPR6_scod_tipprepa		819	string	-	-
+GA_CBTIPPR6_dimporte		820	double	-	-
+GA_CBTIPPR6_scod_moneda		821	string	-	-
+GA_CBTIPPR6_scod_causa		822	string	-	-
+GA_CBTIPPR6_scod_usuario		823	string	-	-
+GA_CBTIPPR6_imod_cobro		824	short	-	-
+GA_CBTIPPR6_sflg_aplazado		825	string	-	-
+GA_CBTIPPR6_sfec_cambio		826	string	-	-
+GA_CBTIPPR6_lnum_horas		827	long	-	-
+GA_CBTIPPR6_smediaType		828	string	-	-
+GA_CBTIPPR6_serReference		829	string	-	-
+GA_CBTIPPR6_stransaction_id		830	string	-	-
+GA_CBTIPPR6_ssecuencia		831	string	-	-
+GA_CBTIPPR6__rpr_ret		832	long	-	-
+# FIN DE SERVICIO GA_CBTIPPR6
+
+# Identificadores para el servicio GA_CBTIPPR7
+# INICIO DE SERVICIO GA_CBTIPPR7
+GA_CBTIPPR7_num_telefono		833	string	-	-
+GA_CBTIPPR7_scod_tipprepa		834	string	-	-
+GA_CBTIPPR7_dimporte		835	double	-	-
+GA_CBTIPPR7_scod_moneda		836	string	-	-
+GA_CBTIPPR7_scod_causa		837	string	-	-
+GA_CBTIPPR7_scod_usuario		838	string	-	-
+GA_CBTIPPR7_imod_cobro		839	short	-	-
+GA_CBTIPPR7_sflg_aplazado		840	string	-	-
+GA_CBTIPPR7_sfec_cambio		841	string	-	-
+GA_CBTIPPR7_lnum_horas		842	long	-	-
+GA_CBTIPPR7_ssecuencia		843	string	-	-
+GA_CBTIPPR7__rpr_ret		844	long	-	-
+# FIN DE SERVICIO GA_CBTIPPR7
+
+# Identificadores para el servicio GA_SUSMPRO4
+# INICIO DE SERVICIO GA_SUSMPRO4
+GA_SUSMPRO4_num_telefono		845	string	-	-
+GA_SUSMPRO4_dimporte		846	double	-	-
+GA_SUSMPRO4_scod_moneda		847	string	-	-
+GA_SUSMPRO4_scod_causa		848	string	-	-
+GA_SUSMPRO4_scod_usuario		849	string	-	-
+GA_SUSMPRO4_lnum_dias		850	long	-	-
+GA_SUSMPRO4_smediaType		851	string	-	-
+GA_SUSMPRO4_serReference		852	string	-	-
+GA_SUSMPRO4_stransaction_id		853	string	-	-
+GA_SUSMPRO4_ssecuencia		854	string	-	-
+GA_SUSMPRO4__rpr_ret		855	long	-	-
+# FIN DE SERVICIO GA_SUSMPRO4
+
+# Identificadores para el servicio GA_SUSMPRO5
+# INICIO DE SERVICIO GA_SUSMPRO5
+GA_SUSMPRO5_num_telefono		856	string	-	-
+GA_SUSMPRO5_dimporte		857	double	-	-
+GA_SUSMPRO5_scod_moneda		858	string	-	-
+GA_SUSMPRO5_scod_causa		859	string	-	-
+GA_SUSMPRO5_scod_usuario		860	string	-	-
+GA_SUSMPRO5_lnum_dias		861	long	-	-
+GA_SUSMPRO5_ssecuencia		862	string	-	-
+GA_SUSMPRO5__rpr_ret		863	long	-	-
+# FIN DE SERVICIO GA_SUSMPRO5
+
+# Identificadores para el servicio GA_SOLASUS4
+# INICIO DE SERVICIO GA_SOLASUS4
+GA_SOLASUS4_num_telefono		864	string	-	-
+GA_SOLASUS4_dimporte		865	double	-	-
+GA_SOLASUS4_scod_moneda		866	string	-	-
+GA_SOLASUS4_scod_usuario		867	string	-	-
+GA_SOLASUS4_smediaType		868	string	-	-
+GA_SOLASUS4_serReference		869	string	-	-
+GA_SOLASUS4_stransaction_id		870	string	-	-
+GA_SOLASUS4_ssecuencia		871	string	-	-
+GA_SOLASUS4__rpr_ret		872	long	-	-
+# FIN DE SERVICIO GA_SOLASUS4
+
+# Identificadores para el servicio GA_SOLASUS5
+# INICIO DE SERVICIO GA_SOLASUS5
+GA_SOLASUS5_num_telefono		873	string	-	-
+GA_SOLASUS5_dimporte		874	double	-	-
+GA_SOLASUS5_scod_moneda		875	string	-	-
+GA_SOLASUS5_scod_usuario		876	string	-	-
+GA_SOLASUS5_ssecuencia		877	string	-	-
+GA_SOLASUS5__rpr_ret		878	long	-	-
+# FIN DE SERVICIO GA_SOLASUS5
+
+# Identificadores para el servicio GA_CAMBTAR7
+# INICIO DE SERVICIO GA_CAMBTAR7
+GA_CAMBTAR7_num_telefono		879	string	-	-
+GA_CAMBTAR7_num_icc		880	string	-	-
+GA_CAMBTAR7_cauc_tarj		881	string	-	-
+GA_CAMBTAR7_cod_usuario		882	string	-	-
+GA_CAMBTAR7_cod_moneda		883	string	-	-
+GA_CAMBTAR7_imp_coste		884	double	-	-
+GA_CAMBTAR7_num_puk		885	string	-	-
+GA_CAMBTAR7_num_puk2		886	string	-	-
+GA_CAMBTAR7_num_imsi		887	string	-	-
+GA_CAMBTAR7_media_type		888	string	-	-
+GA_CAMBTAR7_er_reference		889	string	-	-
+GA_CAMBTAR7_transaction_id		890	string	-	-
+GA_CAMBTAR7_mailable_flag		891	string	-	-
+GA_CAMBTAR7_extra_rating		892	string	-	-
+GA_CAMBTAR7_sflg_usoDeuda		893	string	-	-
+GA_CAMBTAR7_in_icc		894	string	-	-
+GA_CAMBTAR7_sec_actuacion		895	string	-	-
+GA_CAMBTAR7__rpr_ret		896	long	-	-
+# FIN DE SERVICIO GA_CAMBTAR7
+
+# Identificadores para el servicio GA_CAMBTAR8
+# INICIO DE SERVICIO GA_CAMBTAR8
+GA_CAMBTAR8_num_telefono		897	string	-	-
+GA_CAMBTAR8_num_icc		898	string	-	-
+GA_CAMBTAR8_cauc_tarj		899	string	-	-
+GA_CAMBTAR8_cod_usuario		900	string	-	-
+GA_CAMBTAR8_cod_moneda		901	string	-	-
+GA_CAMBTAR8_imp_coste		902	double	-	-
+GA_CAMBTAR8_num_puk		903	string	-	-
+GA_CAMBTAR8_num_puk2		904	string	-	-
+GA_CAMBTAR8_num_imsi		905	string	-	-
+GA_CAMBTAR8_mailable_flag		906	string	-	-
+GA_CAMBTAR8_extra_rating		907	string	-	-
+GA_CAMBTAR8_sflg_usoDeuda		908	string	-	-
+GA_CAMBTAR8_in_icc		909	string	-	-
+GA_CAMBTAR8_sec_actuacion		910	string	-	-
+GA_CAMBTAR8__rpr_ret		911	long	-	-
+# FIN DE SERVICIO GA_CAMBTAR8
+
+# Identificadores para el servicio GA_CBTIPPR8
+# INICIO DE SERVICIO GA_CBTIPPR8
+GA_CBTIPPR8_num_telefono		912	string	-	-
+GA_CBTIPPR8_scod_tipprepa		913	string	-	-
+GA_CBTIPPR8_dimporte		914	double	-	-
+GA_CBTIPPR8_scod_moneda		915	string	-	-
+GA_CBTIPPR8_scod_causa		916	string	-	-
+GA_CBTIPPR8_scod_usuario		917	string	-	-
+GA_CBTIPPR8_imod_cobro		918	short	-	-
+GA_CBTIPPR8_sflg_aplazado		919	string	-	-
+GA_CBTIPPR8_sfec_cambio		920	string	-	-
+GA_CBTIPPR8_lnum_horas		921	long	-	-
+GA_CBTIPPR8_sid_bloque		922	string	-	-
+GA_CBTIPPR8_ssecuencia		923	string	-	-
+GA_CBTIPPR8__rpr_ret		924	long	-	-
+# FIN DE SERVICIO GA_CBTIPPR8
+
+# Identificadores para el servicio GA_CBTIPPR9
+# INICIO DE SERVICIO GA_CBTIPPR9
+GA_CBTIPPR9_num_telefono		925	string	-	-
+GA_CBTIPPR9_scod_tipprepa		926	string	-	-
+GA_CBTIPPR9_dimporte		927	double	-	-
+GA_CBTIPPR9_scod_moneda		928	string	-	-
+GA_CBTIPPR9_scod_causa		929	string	-	-
+GA_CBTIPPR9_scod_usuario		930	string	-	-
+GA_CBTIPPR9_imod_cobro		931	short	-	-
+GA_CBTIPPR9_sflg_aplazado		932	string	-	-
+GA_CBTIPPR9_sfec_cambio		933	string	-	-
+GA_CBTIPPR9_lnum_horas		934	long	-	-
+GA_CBTIPPR9_sid_bloque		935	string	-	-
+GA_CBTIPPR9_sflg_cascada		936	string	-	-
+GA_CBTIPPR9_ssecuencia		937	string	-	-
+GA_CBTIPPR9__rpr_ret		938	long	-	-
+# FIN DE SERVICIO GA_CBTIPPR9
+

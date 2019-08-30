@@ -1,0 +1,128 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_product.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_product_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3291000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_SOLPRODUCT
+# INICIO DE SERVICIO GA_SOLPRODUCT
+GA_SOLPRODUCT_snum_telefono		0	string	-	-
+GA_SOLPRODUCT_scod_usuario		1	string	-	-
+GA_SOLPRODUCT_dimp_coste		2	double	-	-
+GA_SOLPRODUCT_scod_moneda		3	string	-	-
+GA_SOLPRODUCT_n_regsAsocServ		4	long	-	-
+GA_SOLPRODUCTscod_asociacion01		5	string	-	-
+GA_SOLPRODUCT_scod_producto		6	string	-	-
+GA_SOLPRODUCT_sfec_inicio		7	string	-	-
+GA_SOLPRODUCT_sfec_fin		8	string	-	-
+GA_SOLPRODUCT_sval_incremento		9	string	-	-
+GA_SOLPRODUCT_sval_offset		10	string	-	-
+GA_SOLPRODUCT_sflg_redondeo		11	string	-	-
+GA_SOLPRODUCT_sSecActuacion		12	string	-	-
+GA_SOLPRODUCT__rpr_ret		13	long	-	-
+# FIN DE SERVICIO GA_SOLPRODUCT
+
+# Identificadores para el servicio GA_CONPRODUCT
+# INICIO DE SERVICIO GA_CONPRODUCT
+GA_CONPRODUCT_snum_telefono		14	string	-	-
+GA_CONPRODUCT_sfec_inicio		15	string	-	-
+GA_CONPRODUCT_sfec_fin		16	string	-	-
+GA_CONPRODUCT_sestado		17	string	-	-
+GA_CONPRODUCT_scod_moneda		18	string	-	-
+GA_CONPRODUCTsflag_opcionalp01		19	string	-	-
+GA_CONPRODUCT_num_regs		20	long	-	-
+GA_CONPRODUCT_token		21	string	-	-
+GA_CONPRODUCTscod_asociacion01		22	string	-	-
+GA_CONPRODUCT_scod_product		23	string	-	-
+GA_CONPRODUCT_doimp_coste		24	double	-	-
+GA_CONPRODUCT_soestado		25	string	-	-
+GA_CONPRODUCT_sSecActuacion		26	string	-	-
+GA_CONPRODUCT_ofec_suscrip		27	string	-	-
+GA_CONPRODUCT_sflag_opProd		28	string	-	-
+GA_CONPRODUCT_ofec_inicio		29	string	-	-
+GA_CONPRODUCT_ofec_fin		30	string	-	-
+GA_CONPRODUCT_masDatos		31	carray	-	-
+GA_CONPRODUCT__rpr_ret		32	long	-	-
+# FIN DE SERVICIO GA_CONPRODUCT
+
+# Identificadores para el servicio GA_CONDATPROD
+# INICIO DE SERVICIO GA_CONDATPROD
+GA_CONDATPROD_snum_telefono		33	string	-	-
+GA_CONDATPROD_scod_tipprepa		34	string	-	-
+GA_CONDATPROD_num_regs		35	long	-	-
+GA_CONDATPROD_token		36	string	-	-
+GA_CONDATPRODscod_asociacion01		37	string	-	-
+GA_CONDATPROD_scod_product		38	string	-	-
+GA_CONDATPROD_masDatos		39	carray	-	-
+GA_CONDATPROD__rpr_ret		40	long	-	-
+# FIN DE SERVICIO GA_CONDATPROD
+
+# Identificadores para el servicio GA_BAJPRODUCT
+# INICIO DE SERVICIO GA_BAJPRODUCT
+GA_BAJPRODUCT_snum_telefono		41	string	-	-
+GA_BAJPRODUCT_scod_usuario		42	string	-	-
+GA_BAJPRODUCT_dimp_coste		43	double	-	-
+GA_BAJPRODUCT_scod_moneda		44	string	-	-
+GA_BAJPRODUCT_sSecActACanc		45	string	-	-
+GA_BAJPRODUCT_scod_producto		46	string	-	-
+GA_BAJPRODUCTsflg_borrar_cic01		47	string	-	-
+GA_BAJPRODUCT_sSecActuacion		48	string	-	-
+GA_BAJPRODUCT__rpr_ret		49	long	-	-
+# FIN DE SERVICIO GA_BAJPRODUCT
+
+# Identificadores para el servicio GA_SOLPRODUCT1
+# INICIO DE SERVICIO GA_SOLPRODUCT1
+GA_SOLPRODUCT1_snum_telefono		50	string	-	-
+GA_SOLPRODUCT1_scod_usuario		51	string	-	-
+GA_SOLPRODUCT1_dimp_coste		52	double	-	-
+GA_SOLPRODUCT1_scod_moneda		53	string	-	-
+GA_SOLPRODUCT1_n_regsAsocServ		54	long	-	-
+GA_SOLPRODUCT1scod_asociacio01		55	string	-	-
+GA_SOLPRODUCT1_scod_producto		56	string	-	-
+GA_SOLPRODUCT1_sfec_inicio		57	string	-	-
+GA_SOLPRODUCT1_sfec_fin		58	string	-	-
+GA_SOLPRODUCT1_sval_incremento		59	string	-	-
+GA_SOLPRODUCT1_sval_offset		60	string	-	-
+GA_SOLPRODUCT1_sflg_redondeo		61	string	-	-
+GA_SOLPRODUCT1_sid_bloque		62	string	-	-
+GA_SOLPRODUCT1_sSecActuacion		63	string	-	-
+GA_SOLPRODUCT1__rpr_ret		64	long	-	-
+# FIN DE SERVICIO GA_SOLPRODUCT1
+
+# Identificadores para el servicio GA_BLQINICIO
+# INICIO DE SERVICIO GA_BLQINICIO
+GA_BLQINICIO_snum_telefono		65	string	-	-
+GA_BLQINICIO_scod_usuario		66	string	-	-
+GA_BLQINICIO_sid_bloque		67	string	-	-
+GA_BLQINICIO_ssec_actuacion		68	string	-	-
+GA_BLQINICIO__rpr_ret		69	long	-	-
+# FIN DE SERVICIO GA_BLQINICIO
+
+# Identificadores para el servicio GA_BLQFIN
+# INICIO DE SERVICIO GA_BLQFIN
+GA_BLQFIN_snum_telefono		70	string	-	-
+GA_BLQFIN_sid_bloque		71	string	-	-
+GA_BLQFIN_scod_usuario		72	string	-	-
+GA_BLQFIN_ssec_actuacion		73	string	-	-
+GA_BLQFIN__rpr_ret		74	long	-	-
+# FIN DE SERVICIO GA_BLQFIN
+
+# Identificadores para el servicio GA_BAJPRODUCT1
+# INICIO DE SERVICIO GA_BAJPRODUCT1
+GA_BAJPRODUCT1_snum_telefono		75	string	-	-
+GA_BAJPRODUCT1_scod_usuario		76	string	-	-
+GA_BAJPRODUCT1_dimp_coste		77	double	-	-
+GA_BAJPRODUCT1_scod_moneda		78	string	-	-
+GA_BAJPRODUCT1_sSecActACanc		79	string	-	-
+GA_BAJPRODUCT1_scod_producto		80	string	-	-
+GA_BAJPRODUCT1sflg_borrar_ci01		81	string	-	-
+GA_BAJPRODUCT1_sid_bloque		82	string	-	-
+GA_BAJPRODUCT1_sSecActuacion		83	string	-	-
+GA_BAJPRODUCT1__rpr_ret		84	long	-	-
+# FIN DE SERVICIO GA_BAJPRODUCT1
+

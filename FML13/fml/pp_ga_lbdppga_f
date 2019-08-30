@@ -1,0 +1,167 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_lbdppga.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_lbdppga_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3205000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_LSTRECA
+# INICIO DE SERVICIO PP_GA_LSTRECA
+PP_GA_LSTRECA_vcNumTelefono		0	string	-	-
+PP_GA_LSTRECA_plNumItems		1	long	-	-
+PP_GA_LSTRECA_tRefFecModifica		2	carray	-	-
+PP_GA_LSTRECA_ptFecModifica		3	carray	-	-
+PP_GA_LSTRECA_psDesOrgRecarga		4	string	-	-
+PP_GA_LSTRECA_pdImpRecarga		5	double	-	-
+PP_GA_LSTRECA_psCodImpuesto		6	string	-	-
+PP_GA_LSTRECA_psCodMoneda		7	string	-	-
+PP_GA_LSTRECA_psNumTelRecarga		8	string	-	-
+PP_GA_LSTRECA_pcHayMas		9	carray	-	-
+# FIN DE SERVICIO PP_GA_LSTRECA
+
+# Identificadores para el servicio PP_GA_LSTMODA
+# INICIO DE SERVICIO PP_GA_LSTMODA
+PP_GA_LSTMODA_vcNumTelefono		10	string	-	-
+PP_GA_LSTMODA_plNumItems		11	long	-	-
+PP_GA_LSTMODA_tRefFecModifica		12	carray	-	-
+PP_GA_LSTMODA_ptFecModifica		13	carray	-	-
+PP_GA_LSTMODA_psDesPrePago		14	string	-	-
+PP_GA_LSTMODA_pdImpCamb		15	double	-	-
+PP_GA_LSTMODA_pcHayMas		16	carray	-	-
+# FIN DE SERVICIO PP_GA_LSTMODA
+
+# Identificadores para el servicio PP_GA_LSTESTA
+# INICIO DE SERVICIO PP_GA_LSTESTA
+PP_GA_LSTESTA_vcNumTelefono		17	string	-	-
+PP_GA_LSTESTA_plNumItems		18	long	-	-
+PP_GA_LSTESTA_tRefFecModifica		19	carray	-	-
+PP_GA_LSTESTA_ptFecModifica		20	carray	-	-
+PP_GA_LSTESTA_psDesEstaPrep		21	string	-	-
+PP_GA_LSTESTA_psDesSbEstaPrep		22	string	-	-
+PP_GA_LSTESTA_pcHayMas		23	carray	-	-
+# FIN DE SERVICIO PP_GA_LSTESTA
+
+# Identificadores para el servicio PP_CS_ACUM
+# INICIO DE SERVICIO PP_CS_ACUM
+PP_CS_ACUM_vcNumTelefono		24	string	-	-
+PP_CS_ACUM_pdImpAcumulado		25	double	-	-
+# FIN DE SERVICIO PP_CS_ACUM
+
+# Identificadores para el servicio PP_GA_LSTESTA2
+# INICIO DE SERVICIO PP_GA_LSTESTA2
+PP_GA_LSTESTA2_vcNumTelefono		26	string	-	-
+PP_GA_LSTESTA2_plNumItems		27	long	-	-
+PP_GA_LSTESTA2psRefFecModifi01		28	string	-	-
+PP_GA_LSTESTA2_num_orden		29	long	-	-
+PP_GA_LSTESTA2_ptFecModifica		30	string	-	-
+PP_GA_LSTESTA2_psDesEstaPrep		31	string	-	-
+PP_GA_LSTESTA2_psDesSbEstaPrep		32	string	-	-
+PP_GA_LSTESTA2_psReferencia		33	string	-	-
+PP_GA_LSTESTA2_psDesProceso		34	string	-	-
+PP_GA_LSTESTA2_psFecInstalac		35	string	-	-
+PP_GA_LSTESTA2_pcHayMas		36	carray	-	-
+PP_GA_LSTESTA2__rpr_ret		37	long	-	-
+# FIN DE SERVICIO PP_GA_LSTESTA2
+
+# Identificadores para el servicio PP_GA_LSTESTA3
+# INICIO DE SERVICIO PP_GA_LSTESTA3
+PP_GA_LSTESTA3_vcNumTelefono		38	string	-	-
+PP_GA_LSTESTA3_plNumItems		39	long	-	-
+PP_GA_LSTESTA3_psRefFecModIni		40	string	-	-
+PP_GA_LSTESTA3_psRefFecModFin		41	string	-	-
+PP_GA_LSTESTA3_num_orden		42	long	-	-
+PP_GA_LSTESTA3_ptFecModifica		43	string	-	-
+PP_GA_LSTESTA3_psDesEstaPrep		44	string	-	-
+PP_GA_LSTESTA3_psDesSbEstaPrep		45	string	-	-
+PP_GA_LSTESTA3_psCodEstaPrep		46	string	-	-
+PP_GA_LSTESTA3_psCodSbEstaPrep		47	string	-	-
+PP_GA_LSTESTA3psCodEstaPrepP01		48	string	-	-
+PP_GA_LSTESTA3psCodSbEstaPre01		49	string	-	-
+PP_GA_LSTESTA3_psReferencia		50	string	-	-
+PP_GA_LSTESTA3_psDesProceso		51	string	-	-
+PP_GA_LSTESTA3_psFecInstalac		52	string	-	-
+PP_GA_LSTESTA3_pcHayMas		53	carray	-	-
+PP_GA_LSTESTA3__rpr_ret		54	long	-	-
+# FIN DE SERVICIO PP_GA_LSTESTA3
+
+# Identificadores para el servicio PP_CS_ACUM2
+# INICIO DE SERVICIO PP_CS_ACUM2
+PP_CS_ACUM2_vcNumTelefono		55	string	-	-
+PP_CS_ACUM2_pdImpAcumulado		56	double	-	-
+# FIN DE SERVICIO PP_CS_ACUM2
+
+# Identificadores para el servicio PP_GA_LSTESTA4
+# INICIO DE SERVICIO PP_GA_LSTESTA4
+PP_GA_LSTESTA4_vcNumTelefono		57	string	-	-
+PP_GA_LSTESTA4_plNumItems		58	long	-	-
+PP_GA_LSTESTA4_psRefFecModIni		59	string	-	-
+PP_GA_LSTESTA4_psRefFecModFin		60	string	-	-
+PP_GA_LSTESTA4_num_orden		61	long	-	-
+PP_GA_LSTESTA4_ptFecModifica		62	string	-	-
+PP_GA_LSTESTA4_psDesEstaPrep		63	string	-	-
+PP_GA_LSTESTA4_psDesSbEstaPrep		64	string	-	-
+PP_GA_LSTESTA4_psCodEstaPrep		65	string	-	-
+PP_GA_LSTESTA4_psCodSbEstaPrep		66	string	-	-
+PP_GA_LSTESTA4psCodEstaPrepP01		67	string	-	-
+PP_GA_LSTESTA4psCodSbEstaPre01		68	string	-	-
+PP_GA_LSTESTA4_psReferencia		69	string	-	-
+PP_GA_LSTESTA4_psDesProceso		70	string	-	-
+PP_GA_LSTESTA4_psFecInstalac		71	string	-	-
+PP_GA_LSTESTA4_pcHayMas		72	carray	-	-
+PP_GA_LSTESTA4__rpr_ret		73	long	-	-
+# FIN DE SERVICIO PP_GA_LSTESTA4
+
+# Identificadores para el servicio PP_GA_MAXRECAR
+# INICIO DE SERVICIO PP_GA_MAXRECAR
+PP_GA_MAXRECAR_vcNumTelefono		74	string	-	-
+PP_GA_MAXRECAR_psFecModifica		75	string	-	-
+PP_GA_MAXRECAR_psDesOrgRecarga		76	string	-	-
+PP_GA_MAXRECAR_pdImpRecarga		77	double	-	-
+PP_GA_MAXRECAR_psCodImpuesto		78	string	-	-
+PP_GA_MAXRECAR_psCodMoneda		79	string	-	-
+PP_GA_MAXRECAR_psNumTelRecarga		80	string	-	-
+PP_GA_MAXRECAR__rpr_ret		81	long	-	-
+# FIN DE SERVICIO PP_GA_MAXRECAR
+
+# Identificadores para el servicio PP_GA_LSTESTA5
+# INICIO DE SERVICIO PP_GA_LSTESTA5
+PP_GA_LSTESTA5_vcNumTelefono		82	string	-	-
+PP_GA_LSTESTA5_plNumItems		83	long	-	-
+PP_GA_LSTESTA5_psRefFecModIni		84	string	-	-
+PP_GA_LSTESTA5_psRefFecModFin		85	string	-	-
+PP_GA_LSTESTA5_num_orden		86	long	-	-
+PP_GA_LSTESTA5_ptFecModifica		87	string	-	-
+PP_GA_LSTESTA5_psDesEstaPrep		88	string	-	-
+PP_GA_LSTESTA5_psDesSbEstaPrep		89	string	-	-
+PP_GA_LSTESTA5_psCodEstaPrep		90	string	-	-
+PP_GA_LSTESTA5_psCodSbEstaPrep		91	string	-	-
+PP_GA_LSTESTA5psCodEstaPrepP01		92	string	-	-
+PP_GA_LSTESTA5psCodSbEstaPre01		93	string	-	-
+PP_GA_LSTESTA5_psReferencia		94	string	-	-
+PP_GA_LSTESTA5_psDesProceso		95	string	-	-
+PP_GA_LSTESTA5_psFecInstalac		96	string	-	-
+PP_GA_LSTESTA5_psFecCaduca		97	string	-	-
+PP_GA_LSTESTA5_pcHayMas		98	carray	-	-
+PP_GA_LSTESTA5__rpr_ret		99	long	-	-
+# FIN DE SERVICIO PP_GA_LSTESTA5
+
+# Identificadores para el servicio GA_LSTRECA2
+# INICIO DE SERVICIO GA_LSTRECA2
+GA_LSTRECA2_num_telefono		100	string	-	-
+GA_LSTRECA2_lnum_items		101	long	-	-
+GA_LSTRECA2_tRefFecModifica		102	carray	-	-
+GA_LSTRECA2_atFecModifica		103	carray	-	-
+GA_LSTRECA2_asDesOrgRecarga		104	string	-	-
+GA_LSTRECA2_adImpRecarga		105	double	-	-
+GA_LSTRECA2_asCodImpuesto		106	string	-	-
+GA_LSTRECA2_asCodMoneda		107	string	-	-
+GA_LSTRECA2_asNumTelRecarga		108	string	-	-
+GA_LSTRECA2_asflg_recparc		109	string	-	-
+GA_LSTRECA2_adimp_nocargado		110	double	-	-
+GA_LSTRECA2_cHayMas		111	carray	-	-
+# FIN DE SERVICIO GA_LSTRECA2
+

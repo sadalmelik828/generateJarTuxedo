@@ -1,0 +1,18 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [aw_gc_cambnum.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# aw_gc_cambnum_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		133000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio AW_GC_CAMBNUM
+# INICIO DE SERVICIO AW_GC_CAMBNUM
+AW_GC_CAMBNUM_num_tel_antiguo		0	string	-	-
+AW_GC_CAMBNUM_num_tel_nuevo		1	string	-	-
+AW_GC_CAMBNUM__rpr_ret		2	long	-	-
+# FIN DE SERVICIO AW_GC_CAMBNUM
+

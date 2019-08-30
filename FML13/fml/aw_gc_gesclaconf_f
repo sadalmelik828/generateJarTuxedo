@@ -1,0 +1,261 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [aw_gc_gesclaconf.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# aw_gc_gesclaconf_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		105000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio AW_GC_CONSCOD
+# INICIO DE SERVICIO AW_GC_CONSCOD
+AW_GC_CONSCOD_tabla		0	string	-	-
+AW_GC_CONSCOD_codigo		1	string	-	-
+AW_GC_CONSCOD_descripcion		2	string	-	-
+AW_GC_CONSCOD_codIdioma		3	string	-	-
+AW_GC_CONSCOD__rpr_ret		4	long	-	-
+# FIN DE SERVICIO AW_GC_CONSCOD
+
+# Identificadores para el servicio AW_GC_LISTACOD
+# INICIO DE SERVICIO AW_GC_LISTACOD
+AW_GC_LISTACOD_tabla		5	string	-	-
+AW_GC_LISTACOD_num_items		6	short	-	-
+AW_GC_LISTACOD_descripcion		7	string	-	-
+AW_GC_LISTACOD_codigo		8	string	-	-
+AW_GC_LISTACOD_hay_mas		9	string	-	-
+AW_GC_LISTACOD__rpr_ret		10	long	-	-
+# FIN DE SERVICIO AW_GC_LISTACOD
+
+# Identificadores para el servicio AW_GC_PARAGS
+# INICIO DE SERVICIO AW_GC_PARAGS
+AW_GC_PARAGS_des_moneda		11	string	-	-
+AW_GC_PARAGS_des_idioma		12	string	-	-
+AW_GC_PARAGS_int_eventoscli		13	long	-	-
+AW_GC_PARAGS_max_numeventoscli		14	long	-	-
+AW_GC_PARAGS_min_numeventoscli		15	long	-	-
+AW_GC_PARAGS_int_eventos		16	long	-	-
+AW_GC_PARAGS_max_numeventos		17	long	-	-
+AW_GC_PARAGS_min_numeventos		18	long	-	-
+AW_GC_PARAGS__rpr_ret		19	long	-	-
+# FIN DE SERVICIO AW_GC_PARAGS
+
+# Identificadores para el servicio AW_GC_PARAGU
+# INICIO DE SERVICIO AW_GC_PARAGU
+AW_GC_PARAGU_cod_moneda		20	string	-	-
+AW_GC_PARAGU_cod_idioma		21	string	-	-
+AW_GC_PARAGU_int_eventoscli		22	long	-	-
+AW_GC_PARAGU_max_numeventoscli		23	long	-	-
+AW_GC_PARAGU_min_numeventoscli		24	long	-	-
+AW_GC_PARAGU_int_eventos		25	long	-	-
+AW_GC_PARAGU_max_numeventos		26	long	-	-
+AW_GC_PARAGU_min_numeventos		27	long	-	-
+AW_GC_PARAGU__rpr_ret		28	long	-	-
+# FIN DE SERVICIO AW_GC_PARAGU
+
+# Identificadores para el servicio AW_GC_PARATCS
+# INICIO DE SERVICIO AW_GC_PARATCS
+AW_GC_PARATCS_tipoClave		29	string	-	-
+AW_GC_PARATCS_val_clave		30	long	-	-
+AW_GC_PARATCS_umb_peticiones		31	long	-	-
+AW_GC_PARATCS_tem_peticiones		32	long	-	-
+AW_GC_PARATCS_per_paso_susp		33	long	-	-
+AW_GC_PARATCS_per_paso_preac		34	long	-	-
+AW_GC_PARATCS_int_fallidos		35	long	-	-
+AW_GC_PARATCS_tam_clav_num		36	long	-	-
+AW_GC_PARATCS_tam_clav_alf		37	long	-	-
+AW_GC_PARATCS_num_camb_per		38	long	-	-
+AW_GC_PARATCS_max_valestdiaria		39	long	-	-
+AW_GC_PARATCS_max_valpetdiaria		40	long	-	-
+AW_GC_PARATCSnum_clavessemil01		41	long	-	-
+AW_GC_PARATCS__rpr_ret		42	long	-	-
+# FIN DE SERVICIO AW_GC_PARATCS
+
+# Identificadores para el servicio AW_GC_PARATCU
+# INICIO DE SERVICIO AW_GC_PARATCU
+AW_GC_PARATCU_val_clave		43	long	-	-
+AW_GC_PARATCU_umb_peticiones		44	long	-	-
+AW_GC_PARATCU_tem_peticiones		45	long	-	-
+AW_GC_PARATCU_tipoClave		46	string	-	-
+AW_GC_PARATCU_max_valestdiaria		47	long	-	-
+AW_GC_PARATCU_max_valpetdiaria		48	long	-	-
+AW_GC_PARATCU_per_paso_susp		49	long	-	-
+AW_GC_PARATCU_per_paso_preac		50	long	-	-
+AW_GC_PARATCU_int_fallidos		51	long	-	-
+AW_GC_PARATCU_tam_clav_num		52	long	-	-
+AW_GC_PARATCU_tam_clav_alf		53	long	-	-
+AW_GC_PARATCU_num_camb_per		54	long	-	-
+AW_GC_PARATCUnum_clavessemil01		55	long	-	-
+AW_GC_PARATCU__rpr_ret		56	long	-	-
+# FIN DE SERVICIO AW_GC_PARATCU
+
+# Identificadores para el servicio AW_GC_PARATCI
+# INICIO DE SERVICIO AW_GC_PARATCI
+AW_GC_PARATCI_validezClave		57	long	-	-
+AW_GC_PARATCI_umbPeticiones		58	long	-	-
+AW_GC_PARATCI_temPeticiones		59	long	-	-
+AW_GC_PARATCI_tipoClave		60	string	-	-
+AW_GC_PARATCI_maxValestDiaria		61	long	-	-
+AW_GC_PARATCI_maxValpetDiaria		62	long	-	-
+AW_GC_PARATCI_perPasoSusp		63	long	-	-
+AW_GC_PARATCI_perPasoPreac		64	long	-	-
+AW_GC_PARATCI_intFallidos		65	long	-	-
+AW_GC_PARATCI_tamClaveNum		66	long	-	-
+AW_GC_PARATCI_tamClaveAlf		67	long	-	-
+AW_GC_PARATCI_numCambiosPer		68	long	-	-
+AW_GC_PARATCI_numClavesSem		69	long	-	-
+AW_GC_PARATCI__rpr_ret		70	long	-	-
+# FIN DE SERVICIO AW_GC_PARATCI
+
+# Identificadores para el servicio AW_GC_PARATCS2
+# INICIO DE SERVICIO AW_GC_PARATCS2
+AW_GC_PARATCS2_tipoClave		71	string	-	-
+AW_GC_PARATCS2_val_clave		72	long	-	-
+AW_GC_PARATCS2_umb_peticiones		73	long	-	-
+AW_GC_PARATCS2_tem_peticiones		74	long	-	-
+AW_GC_PARATCS2_per_paso_susp		75	long	-	-
+AW_GC_PARATCS2_per_paso_preac		76	long	-	-
+AW_GC_PARATCS2_int_fallidos		77	long	-	-
+AW_GC_PARATCS2_tam_clav_num		78	long	-	-
+AW_GC_PARATCS2_tam_clav_alf		79	long	-	-
+AW_GC_PARATCS2_num_camb_per		80	long	-	-
+AW_GC_PARATCS2max_valestdiar01		81	long	-	-
+AW_GC_PARATCS2max_valpetdiar01		82	long	-	-
+AW_GC_PARATCS2num_clavessemi01		83	long	-	-
+AW_GC_PARATCS2maxReintentosG01		84	long	-	-
+AW_GC_PARATCS2temGuardaReint01		85	long	-	-
+AW_GC_PARATCS2__rpr_ret		86	long	-	-
+# FIN DE SERVICIO AW_GC_PARATCS2
+
+# Identificadores para el servicio AW_GC_PARATCU2
+# INICIO DE SERVICIO AW_GC_PARATCU2
+AW_GC_PARATCU2_val_clave		87	long	-	-
+AW_GC_PARATCU2_umb_peticiones		88	long	-	-
+AW_GC_PARATCU2_tem_peticiones		89	long	-	-
+AW_GC_PARATCU2_tipoClave		90	string	-	-
+AW_GC_PARATCU2max_valestdiar01		91	long	-	-
+AW_GC_PARATCU2max_valpetdiar01		92	long	-	-
+AW_GC_PARATCU2_per_paso_susp		93	long	-	-
+AW_GC_PARATCU2_per_paso_preac		94	long	-	-
+AW_GC_PARATCU2_int_fallidos		95	long	-	-
+AW_GC_PARATCU2_tam_clav_num		96	long	-	-
+AW_GC_PARATCU2_tam_clav_alf		97	long	-	-
+AW_GC_PARATCU2_num_camb_per		98	long	-	-
+AW_GC_PARATCU2num_clavessemi01		99	long	-	-
+AW_GC_PARATCU2maxReintentosG01		100	long	-	-
+AW_GC_PARATCU2temGuardaReint01		101	long	-	-
+AW_GC_PARATCU2__rpr_ret		102	long	-	-
+# FIN DE SERVICIO AW_GC_PARATCU2
+
+# Identificadores para el servicio AW_GC_PARATCI2
+# INICIO DE SERVICIO AW_GC_PARATCI2
+AW_GC_PARATCI2_validezClave		103	long	-	-
+AW_GC_PARATCI2_umbPeticiones		104	long	-	-
+AW_GC_PARATCI2_temPeticiones		105	long	-	-
+AW_GC_PARATCI2_tipoClave		106	string	-	-
+AW_GC_PARATCI2_maxValestDiaria		107	long	-	-
+AW_GC_PARATCI2_maxValpetDiaria		108	long	-	-
+AW_GC_PARATCI2_perPasoSusp		109	long	-	-
+AW_GC_PARATCI2_perPasoPreac		110	long	-	-
+AW_GC_PARATCI2_intFallidos		111	long	-	-
+AW_GC_PARATCI2_tamClaveNum		112	long	-	-
+AW_GC_PARATCI2_tamClaveAlf		113	long	-	-
+AW_GC_PARATCI2_numCambiosPer		114	long	-	-
+AW_GC_PARATCI2_numClavesSem		115	long	-	-
+AW_GC_PARATCI2maxReintentosG01		116	long	-	-
+AW_GC_PARATCI2temGuardaReint01		117	long	-	-
+AW_GC_PARATCI2__rpr_ret		118	long	-	-
+# FIN DE SERVICIO AW_GC_PARATCI2
+
+# Identificadores para el servicio AW_GC_CONSERROR
+# INICIO DE SERVICIO AW_GC_CONSERROR
+AW_GC_CONSERROR_servicio		119	string	-	-
+AW_GC_CONSERROR_codigo		120	long	-	-
+AW_GC_CONSERROR_descripcion		121	string	-	-
+AW_GC_CONSERROR_codIdioma		122	string	-	-
+AW_GC_CONSERROR__rpr_ret		123	long	-	-
+# FIN DE SERVICIO AW_GC_CONSERROR
+
+# Identificadores para el servicio AW_GC_LCONSERR2
+# INICIO DE SERVICIO AW_GC_LCONSERR2
+AW_GC_LCONSERR2nomUltimoServ01		124	string	-	-
+AW_GC_LCONSERR2_codUltimoError		125	string	-	-
+AW_GC_LCONSERR2_codigoIdioma		126	string	-	-
+AW_GC_LCONSERR2numRegsSolici01		127	long	-	-
+AW_GC_LCONSERR2_lNomServicio		128	string	-	-
+AW_GC_LCONSERR2_lCodError		129	long	-	-
+AW_GC_LCONSERR2_lDescError		130	string	-	-
+AW_GC_LCONSERR2hayMasRegistr01		131	string	-	-
+AW_GC_LCONSERR2__rpr_ret		132	long	-	-
+# FIN DE SERVICIO AW_GC_LCONSERR2
+
+# Identificadores para el servicio AW_GC_LCONSERR
+# INICIO DE SERVICIO AW_GC_LCONSERR
+AW_GC_LCONSERRnomUltimoServi01		133	string	-	-
+AW_GC_LCONSERR_codUltimoError		134	string	-	-
+AW_GC_LCONSERRnumRegsSolicit01		135	long	-	-
+AW_GC_LCONSERR_lNomServicio		136	string	-	-
+AW_GC_LCONSERR_lCodError		137	long	-	-
+AW_GC_LCONSERR_lDescError		138	string	-	-
+AW_GC_LCONSERR_hayMasRegistros		139	string	-	-
+AW_GC_LCONSERR__rpr_ret		140	long	-	-
+# FIN DE SERVICIO AW_GC_LCONSERR
+
+# Identificadores para el servicio AW_GC_LISTACOD2
+# INICIO DE SERVICIO AW_GC_LISTACOD2
+AW_GC_LISTACOD2_tabla		141	string	-	-
+AW_GC_LISTACOD2_ultimoCodigo		142	string	-	-
+AW_GC_LISTACOD2numRegsSolici01		143	long	-	-
+AW_GC_LISTACOD2_ldescripcion		144	string	-	-
+AW_GC_LISTACOD2_lCodError		145	string	-	-
+AW_GC_LISTACOD2hayMasRegistr01		146	string	-	-
+AW_GC_LISTACOD2__rpr_ret		147	long	-	-
+# FIN DE SERVICIO AW_GC_LISTACOD2
+
+# Identificadores para el servicio AW_GC_LISTACOD3
+# INICIO DE SERVICIO AW_GC_LISTACOD3
+AW_GC_LISTACOD3_tabla		148	string	-	-
+AW_GC_LISTACOD3_ultimoCodigo		149	string	-	-
+AW_GC_LISTACOD3_codigoIdioma		150	string	-	-
+AW_GC_LISTACOD3numRegsSolici01		151	long	-	-
+AW_GC_LISTACOD3_ldescripcion		152	string	-	-
+AW_GC_LISTACOD3_lCodError		153	string	-	-
+AW_GC_LISTACOD3hayMasRegistr01		154	string	-	-
+AW_GC_LISTACOD3__rpr_ret		155	long	-	-
+# FIN DE SERVICIO AW_GC_LISTACOD3
+
+# Identificadores para el servicio AW_GC_COERRINT
+# INICIO DE SERVICIO AW_GC_COERRINT
+AW_GC_COERRINT_nomModulo		156	string	-	-
+AW_GC_COERRINT_codError		157	long	-	-
+AW_GC_COERRINT_descError		158	string	-	-
+AW_GC_COERRINT_codIdioma		159	string	-	-
+AW_GC_COERRINT__rpr_ret		160	long	-	-
+# FIN DE SERVICIO AW_GC_COERRINT
+
+# Identificadores para el servicio AW_GC_LCOERRINT
+# INICIO DE SERVICIO AW_GC_LCOERRINT
+AW_GC_LCOERRINTnomUltimoModu01		161	string	-	-
+AW_GC_LCOERRINT_codUltimoError		162	long	-	-
+AW_GC_LCOERRINTnumRegsSolici01		163	long	-	-
+AW_GC_LCOERRINT_lNomServicio		164	string	-	-
+AW_GC_LCOERRINT_lCodError		165	long	-	-
+AW_GC_LCOERRINT_lDescError		166	string	-	-
+AW_GC_LCOERRINThayMasRegistr01		167	string	-	-
+AW_GC_LCOERRINT__rpr_ret		168	long	-	-
+# FIN DE SERVICIO AW_GC_LCOERRINT
+
+# Identificadores para el servicio AW_GC_LCOERRIN2
+# INICIO DE SERVICIO AW_GC_LCOERRIN2
+AW_GC_LCOERRIN2nomUltimoModu01		169	string	-	-
+AW_GC_LCOERRIN2_codUltimoError		170	long	-	-
+AW_GC_LCOERRIN2_codigoIdioma		171	string	-	-
+AW_GC_LCOERRIN2numRegsSolici01		172	long	-	-
+AW_GC_LCOERRIN2_lNomServicio		173	string	-	-
+AW_GC_LCOERRIN2_lCodError		174	long	-	-
+AW_GC_LCOERRIN2_lDescError		175	string	-	-
+AW_GC_LCOERRIN2hayMasRegistr01		176	string	-	-
+AW_GC_LCOERRIN2__rpr_ret		177	long	-	-
+# FIN DE SERVICIO AW_GC_LCOERRIN2
+

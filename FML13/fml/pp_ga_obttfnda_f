@@ -1,0 +1,61 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_obttfnda.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_obttfnda_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3257000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_OBTFNDA
+# INICIO DE SERVICIO PP_GA_OBTFNDA
+PP_GA_OBTFNDA_cod_perfil		0	string	-	-
+PP_GA_OBTFNDA_plItem_max		1	long	-	-
+PP_GA_OBTFNDA_num_telefono		2	string	-	-
+PP_GA_OBTFNDA__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_GA_OBTFNDA
+
+# Identificadores para el servicio PP_GA_OBTLFASIG
+# INICIO DE SERVICIO PP_GA_OBTLFASIG
+PP_GA_OBTLFASIG_cod_perfil		4	carray	-	-
+PP_GA_OBTLFASIG_plItem_max		5	long	-	-
+PP_GA_OBTLFASIG_num_telefono		6	string	-	-
+PP_GA_OBTLFASIG__rpr_ret		7	long	-	-
+# FIN DE SERVICIO PP_GA_OBTLFASIG
+
+# Identificadores para el servicio PP_GA_INSTLF
+# INICIO DE SERVICIO PP_GA_INSTLF
+PP_GA_INSTLF_num_telefono		8	string	-	-
+PP_GA_INSTLF_esn		9	string	-	-
+PP_GA_INSTLF__rpr_ret		10	long	-	-
+# FIN DE SERVICIO PP_GA_INSTLF
+
+# Identificadores para el servicio PP_GA_OBTLFASI2
+# INICIO DE SERVICIO PP_GA_OBTLFASI2
+PP_GA_OBTLFASI2_cod_perfil		11	carray	-	-
+PP_GA_OBTLFASI2_zona_operacion		12	string	-	-
+PP_GA_OBTLFASI2_plItem_max		13	long	-	-
+PP_GA_OBTLFASI2_num_telefono		14	string	-	-
+PP_GA_OBTLFASI2__rpr_ret		15	long	-	-
+# FIN DE SERVICIO PP_GA_OBTLFASI2
+
+# Identificadores para el servicio PP_GA_INSTLF2
+# INICIO DE SERVICIO PP_GA_INSTLF2
+PP_GA_INSTLF2_snum_telefono		16	string	-	-
+PP_GA_INSTLF2_sesn		17	string	-	-
+PP_GA_INSTLF2_scod_datosprepa		18	string	-	-
+PP_GA_INSTLF2__rpr_ret		19	long	-	-
+# FIN DE SERVICIO PP_GA_INSTLF2
+
+# Identificadores para el servicio PP_GA_OBTLFASI3
+# INICIO DE SERVICIO PP_GA_OBTLFASI3
+PP_GA_OBTLFASI3scod_datospre01		20	string	-	-
+PP_GA_OBTLFASI3scod_tecnolog01		21	string	-	-
+PP_GA_OBTLFASI3szona_operaci01		22	string	-	-
+PP_GA_OBTLFASI3_plItem_max		23	long	-	-
+PP_GA_OBTLFASI3_snum_telefono		24	string	-	-
+PP_GA_OBTLFASI3__rpr_ret		25	long	-	-
+# FIN DE SERVICIO PP_GA_OBTLFASI3
+

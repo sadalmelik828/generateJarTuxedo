@@ -1,0 +1,75 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_client.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_client_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3292000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_CONABOCLI
+# INICIO DE SERVICIO GA_CONABOCLI
+GA_CONABOCLI_l_cliIDType		0	long	-	-
+GA_CONABOCLI_s_cliIDData		1	string	-	-
+GA_CONABOCLI_l_cliIDSubType		2	long	-	-
+GA_CONABOCLI_snum_telefono		3	string	-	-
+GA_CONABOCLI__rpr_ret		4	long	-	-
+# FIN DE SERVICIO GA_CONABOCLI
+
+# Identificadores para el servicio GA_LISSBTCLI
+# INICIO DE SERVICIO GA_LISSBTCLI
+GA_LISSBTCLI_l_icliIDType		5	long	-	-
+GA_LISSBTCLI_n_regs		6	long	-	-
+GA_LISSBTCLI_l_ocliIDType		7	long	-	-
+GA_LISSBTCLI_l_ocliIDSubType		8	long	-	-
+GA_LISSBTCLI_s_osubTypePref		9	string	-	-
+GA_LISSBTCLI_masDatos		10	carray	-	-
+GA_LISSBTCLI_token		11	string	-	-
+GA_LISSBTCLI__rpr_ret		12	long	-	-
+# FIN DE SERVICIO GA_LISSBTCLI
+
+# Identificadores para el servicio GA_MULTIPLEID
+# INICIO DE SERVICIO GA_MULTIPLEID
+GA_MULTIPLEID_snum_telefono		13	string	-	-
+GA_MULTIPLEID_scod_usuario		14	string	-	-
+GA_MULTIPLEID_dimp_coste		15	double	-	-
+GA_MULTIPLEID_scod_moneda		16	string	-	-
+GA_MULTIPLEID_soper_type		17	string	-	-
+GA_MULTIPLEID_l_cliIDType		18	long	-	-
+GA_MULTIPLEID_l_cliIDSubType		19	long	-	-
+GA_MULTIPLEID_s_actCliIDData		20	string	-	-
+GA_MULTIPLEID_s_newCliIDData		21	string	-	-
+GA_MULTIPLEID_ssec_actuacion		22	string	-	-
+GA_MULTIPLEID__rpr_ret		23	long	-	-
+# FIN DE SERVICIO GA_MULTIPLEID
+
+# Identificadores para el servicio GA_CONSEXCLI
+# INICIO DE SERVICIO GA_CONSEXCLI
+GA_CONSEXCLI_l_icliIDType		24	long	-	-
+GA_CONSEXCLI_s_icliIDData		25	string	-	-
+GA_CONSEXCLI_l_icliIDSubType		26	long	-	-
+GA_CONSEXCLI_n_regs		27	long	-	-
+GA_CONSEXCLI_l_ocliIDType		28	long	-	-
+GA_CONSEXCLI_s_ocliIDData		29	string	-	-
+GA_CONSEXCLI_l_ocliIDSubType		30	long	-	-
+GA_CONSEXCLI_s_osubTypePref		31	string	-	-
+GA_CONSEXCLI_masDatos		32	carray	-	-
+GA_CONSEXCLI_token		33	string	-	-
+GA_CONSEXCLI__rpr_ret		34	long	-	-
+# FIN DE SERVICIO GA_CONSEXCLI
+
+# Identificadores para el servicio GA_CONSABCLI
+# INICIO DE SERVICIO GA_CONSABCLI
+GA_CONSABCLI_snum_telefono		35	string	-	-
+GA_CONSABCLI_n_regs		36	long	-	-
+GA_CONSABCLI_l_cliIDType		37	long	-	-
+GA_CONSABCLI_s_cliIDData		38	string	-	-
+GA_CONSABCLI_l_cliIDSubType		39	long	-	-
+GA_CONSABCLI_s_subTypePref		40	string	-	-
+GA_CONSABCLI_masDatos		41	carray	-	-
+GA_CONSABCLI_token		42	string	-	-
+GA_CONSABCLI__rpr_ret		43	long	-	-
+# FIN DE SERVICIO GA_CONSABCLI
+

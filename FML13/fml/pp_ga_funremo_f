@@ -1,0 +1,18 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_funremo.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_funremo_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3266000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_NUMPERMX
+# INICIO DE SERVICIO PP_GA_NUMPERMX
+PP_GA_NUMPERMX_num_telefono		0	string	-	-
+PP_GA_NUMPERMX_es_abonado		1	string	-	-
+PP_GA_NUMPERMX__rpr_ret		2	long	-	-
+# FIN DE SERVICIO PP_GA_NUMPERMX
+

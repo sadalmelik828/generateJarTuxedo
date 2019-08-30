@@ -1,0 +1,333 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_estadis.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_estadis_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3224000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_PREACTIV
+# INICIO DE SERVICIO PP_GA_PREACTIV
+PP_GA_PREACTIV_cod_sbestaprep		0	string	-	-
+PP_GA_PREACTIV_fecha		1	string	-	-
+PP_GA_PREACTIVsum_num_tarjet01		2	double	-	-
+PP_GA_PREACTIV__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_GA_PREACTIV
+
+# Identificadores para el servicio PP_GA_MOVIMIEN
+# INICIO DE SERVICIO PP_GA_MOVIMIEN
+PP_GA_MOVIMIEN_cod_sbestaini		4	string	-	-
+PP_GA_MOVIMIEN_cod_sbestafin		5	string	-	-
+PP_GA_MOVIMIEN_fecha		6	string	-	-
+PP_GA_MOVIMIENsum_num_increm01		7	double	-	-
+PP_GA_MOVIMIEN__rpr_ret		8	long	-	-
+# FIN DE SERVICIO PP_GA_MOVIMIEN
+
+# Identificadores para el servicio PP_GA_ACUMRECA
+# INICIO DE SERVICIO PP_GA_ACUMRECA
+PP_GA_ACUMRECA_cod_origreca		9	string	-	-
+PP_GA_ACUMRECA_fecha		10	string	-	-
+PP_GA_ACUMRECAsum_num_recarg01		11	double	-	-
+PP_GA_ACUMRECAsum_imp_recarg01		12	double	-	-
+PP_GA_ACUMRECA__rpr_ret		13	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMRECA
+
+# Identificadores para el servicio PP_GA_CONESTACT
+# INICIO DE SERVICIO PP_GA_CONESTACT
+PP_GA_CONESTACT_fec_inicio		14	string	-	-
+PP_GA_CONESTACT_fec_fin		15	string	-	-
+PP_GA_CONESTACT_cod_moneda		16	string	-	-
+PP_GA_CONESTACT_cod_tipprepa		17	string	-	-
+PP_GA_CONESTACT_cod_actuacion		18	string	-	-
+PP_GA_CONESTACT_ind_anulacion		19	string	-	-
+PP_GA_CONESTACT_cod_usuario		20	string	-	-
+PP_GA_CONESTACT_n_regs		21	long	-	-
+PP_GA_CONESTACT_token		22	string	-	-
+PP_GA_CONESTACT_lfec_instalac		23	string	-	-
+PP_GA_CONESTACT_lcod_tipprepa		24	string	-	-
+PP_GA_CONESTACT_lcod_actuacion		25	string	-	-
+PP_GA_CONESTACT_lind_anulacion		26	string	-	-
+PP_GA_CONESTACT_lcod_usuario		27	string	-	-
+PP_GA_CONESTACTlnum_operacio01		28	long	-	-
+PP_GA_CONESTACT_ltotimporte		29	double	-	-
+PP_GA_CONESTACT__rpr_ret		30	long	-	-
+# FIN DE SERVICIO PP_GA_CONESTACT
+
+# Identificadores para el servicio GA_CONESTRECA
+# INICIO DE SERVICIO GA_CONESTRECA
+GA_CONESTRECA_cod_origreca		31	string	-	-
+GA_CONESTRECA_cod_tecnologia		32	string	-	-
+GA_CONESTRECA_cod_tipprepa		33	string	-	-
+GA_CONESTRECA_cod_codeID		34	string	-	-
+GA_CONESTRECA_cod_moneda		35	string	-	-
+GA_CONESTRECA_fec_inicio		36	string	-	-
+GA_CONESTRECA_fec_fin		37	string	-	-
+GA_CONESTRECA_n_regs		38	long	-	-
+GA_CONESTRECA_token		39	string	-	-
+GA_CONESTRECA_sfec_ejecucio		40	string	-	-
+GA_CONESTRECA_scod_origreca		41	string	-	-
+GA_CONESTRECA_scod_tecnologia		42	string	-	-
+GA_CONESTRECA_scod_tipprepa		43	string	-	-
+GA_CONESTRECA_scod_codeID		44	string	-	-
+GA_CONESTRECA_lind_anulacion		45	string	-	-
+GA_CONESTRECA_lnum_operaciones		46	long	-	-
+GA_CONESTRECA_ltotimporte		47	double	-	-
+GA_CONESTRECA__rpr_ret		48	long	-	-
+# FIN DE SERVICIO GA_CONESTRECA
+
+# Identificadores para el servicio PP_GA_PARQUE
+# INICIO DE SERVICIO PP_GA_PARQUE
+PP_GA_PARQUE_n_regs		49	long	-	-
+PP_GA_PARQUE_fec_ejecucio		50	string	-	-
+PP_GA_PARQUE_cod_tipprepa		51	string	-	-
+PP_GA_PARQUE_cod_idioma		52	string	-	-
+PP_GA_PARQUE_token		53	string	-	-
+PP_GA_PARQUE_lcod_tipprepa		54	string	-	-
+PP_GA_PARQUE_ldes_sbestaprep		55	string	-	-
+PP_GA_PARQUE_ltotales		56	long	-	-
+PP_GA_PARQUE__rpr_ret		57	long	-	-
+# FIN DE SERVICIO PP_GA_PARQUE
+
+# Identificadores para el servicio PP_GA_TRANSIC
+# INICIO DE SERVICIO PP_GA_TRANSIC
+PP_GA_TRANSIC_n_regs		58	long	-	-
+PP_GA_TRANSIC_fec_ejecucio		59	string	-	-
+PP_GA_TRANSIC_cod_tipprepa		60	string	-	-
+PP_GA_TRANSIC_cod_idioma		61	string	-	-
+PP_GA_TRANSIC_token		62	string	-	-
+PP_GA_TRANSIC_lcod_tipprepa		63	string	-	-
+PP_GA_TRANSICldes_sbestaprep01		64	string	-	-
+PP_GA_TRANSICldes_sbestaprep02		65	string	-	-
+PP_GA_TRANSIC_lacumdia		66	long	-	-
+PP_GA_TRANSIC_lacummes		67	long	-	-
+PP_GA_TRANSIC__rpr_ret		68	long	-	-
+# FIN DE SERVICIO PP_GA_TRANSIC
+
+# Identificadores para el servicio PP_GA_TOTPARQ
+# INICIO DE SERVICIO PP_GA_TOTPARQ
+PP_GA_TOTPARQ_fec_ejecucio		69	string	-	-
+PP_GA_TOTPARQ_cod_tipprepa		70	string	-	-
+PP_GA_TOTPARQ_cod_idioma		71	string	-	-
+PP_GA_TOTPARQ_total		72	long	-	-
+PP_GA_TOTPARQ__rpr_ret		73	long	-	-
+# FIN DE SERVICIO PP_GA_TOTPARQ
+
+# Identificadores para el servicio PP_GA_ACUMREC2
+# INICIO DE SERVICIO PP_GA_ACUMREC2
+PP_GA_ACUMREC2_cod_origreca		74	string	-	-
+PP_GA_ACUMREC2_fecha		75	string	-	-
+PP_GA_ACUMREC2_cod_moneda		76	string	-	-
+PP_GA_ACUMREC2sum_num_recarg01		77	double	-	-
+PP_GA_ACUMREC2sum_imp_recarg01		78	double	-	-
+PP_GA_ACUMREC2__rpr_ret		79	long	-	-
+# FIN DE SERVICIO PP_GA_ACUMREC2
+
+# Identificadores para el servicio PP_GA_PARQUESV
+# INICIO DE SERVICIO PP_GA_PARQUESV
+PP_GA_PARQUESV_n_regs		80	long	-	-
+PP_GA_PARQUESV_fec_ejecucio		81	string	-	-
+PP_GA_PARQUESV_cod_tipprepa		82	string	-	-
+PP_GA_PARQUESV_cod_servicio		83	string	-	-
+PP_GA_PARQUESV_token		84	string	-	-
+PP_GA_PARQUESV_lcod_tipprepa		85	string	-	-
+PP_GA_PARQUESV_lcod_servicio		86	string	-	-
+PP_GA_PARQUESV_ltotales		87	long	-	-
+PP_GA_PARQUESV__rpr_ret		88	long	-	-
+# FIN DE SERVICIO PP_GA_PARQUESV
+
+# Identificadores para el servicio PP_GA_OPERSERV
+# INICIO DE SERVICIO PP_GA_OPERSERV
+PP_GA_OPERSERV_n_regs		89	long	-	-
+PP_GA_OPERSERV_fec_ejecucio		90	string	-	-
+PP_GA_OPERSERV_cod_tipprepa		91	string	-	-
+PP_GA_OPERSERV_cod_servicio		92	string	-	-
+PP_GA_OPERSERV_ind_anul		93	string	-	-
+PP_GA_OPERSERV_cod_operserv		94	string	-	-
+PP_GA_OPERSERV_token		95	string	-	-
+PP_GA_OPERSERV_lcod_tipprepa		96	string	-	-
+PP_GA_OPERSERV_lcod_servicio		97	string	-	-
+PP_GA_OPERSERV_lind_anul		98	string	-	-
+PP_GA_OPERSERV_lcod_operserv		99	string	-	-
+PP_GA_OPERSERV_ltotales		100	long	-	-
+PP_GA_OPERSERV__rpr_ret		101	long	-	-
+# FIN DE SERVICIO PP_GA_OPERSERV
+
+# Identificadores para el servicio PP_GA_PARQUES2
+# INICIO DE SERVICIO PP_GA_PARQUES2
+PP_GA_PARQUES2_ln_regs		102	long	-	-
+PP_GA_PARQUES2_sfec_ejecucio		103	string	-	-
+PP_GA_PARQUES2_slis_tipprepain		104	string	-	-
+PP_GA_PARQUES2_scod_servicioin		105	string	-	-
+PP_GA_PARQUES2_stoken		106	string	-	-
+PP_GA_PARQUES2_scod_tipprepa		107	string	-	-
+PP_GA_PARQUES2_scod_servicio		108	string	-	-
+PP_GA_PARQUES2_ltotales		109	long	-	-
+PP_GA_PARQUES2__rpr_ret		110	long	-	-
+# FIN DE SERVICIO PP_GA_PARQUES2
+
+# Identificadores para el servicio PP_GA_OPERSER2
+# INICIO DE SERVICIO PP_GA_OPERSER2
+PP_GA_OPERSER2_ln_regs		111	long	-	-
+PP_GA_OPERSER2_sfec_ejecucioin		112	string	-	-
+PP_GA_OPERSER2_slis_tipprepain		113	string	-	-
+PP_GA_OPERSER2_scod_servicioin		114	string	-	-
+PP_GA_OPERSER2_sind_anulin		115	string	-	-
+PP_GA_OPERSER2_scod_operservin		116	string	-	-
+PP_GA_OPERSER2_stoken		117	string	-	-
+PP_GA_OPERSER2_scod_tipprepa		118	string	-	-
+PP_GA_OPERSER2_scod_servicio		119	string	-	-
+PP_GA_OPERSER2_sind_anul		120	string	-	-
+PP_GA_OPERSER2_scod_operserv		121	string	-	-
+PP_GA_OPERSER2_ltotales		122	long	-	-
+PP_GA_OPERSER2__rpr_ret		123	long	-	-
+# FIN DE SERVICIO PP_GA_OPERSER2
+
+# Identificadores para el servicio PP_GA_GETPARPRE
+# INICIO DE SERVICIO PP_GA_GETPARPRE
+PP_GA_GETPARPRE_cod_tecnologia		124	string	-	-
+PP_GA_GETPARPRE_cod_estado		125	string	-	-
+PP_GA_GETPARPRE_num_items		126	long	-	-
+PP_GA_GETPARPRE_dias_ini		127	long	-	-
+PP_GA_GETPARPRE_dias_precarga		128	long	-	-
+PP_GA_GETPARPRE_num_tarj_act		129	long	-	-
+PP_GA_GETPARPRE__rpr_ret		130	long	-	-
+# FIN DE SERVICIO PP_GA_GETPARPRE
+
+# Identificadores para el servicio PP_GA_GETRECFEC
+# INICIO DE SERVICIO PP_GA_GETRECFEC
+PP_GA_GETRECFEC_cod_moneda		131	string	-	-
+PP_GA_GETRECFEC_ind_anulac		132	string	-	-
+PP_GA_GETRECFEC_cod_origreca		133	string	-	-
+PP_GA_GETRECFEC_fecha_inicial		134	string	-	-
+PP_GA_GETRECFEC_fecha_final		135	string	-	-
+PP_GA_GETRECFEC_cod_tecnologia		136	string	-	-
+PP_GA_GETRECFEC_sum_recargas		137	double	-	-
+PP_GA_GETRECFEC_sum_importe		138	double	-	-
+PP_GA_GETRECFEC__rpr_ret		139	long	-	-
+# FIN DE SERVICIO PP_GA_GETRECFEC
+
+# Identificadores para el servicio PP_GA_GETRECUSU
+# INICIO DE SERVICIO PP_GA_GETRECUSU
+PP_GA_GETRECUSU_cod_moneda		140	string	-	-
+PP_GA_GETRECUSU_cod_usuario		141	string	-	-
+PP_GA_GETRECUSU_fecha_inicial		142	string	-	-
+PP_GA_GETRECUSU_fecha_final		143	string	-	-
+PP_GA_GETRECUSU_num_items		144	long	-	-
+PP_GA_GETRECUSU_fecha_ini		145	string	-	-
+PP_GA_GETRECUSU_sfecha		146	string	-	-
+PP_GA_GETRECUSU_snum_telefono		147	string	-	-
+PP_GA_GETRECUSU_scod_promo		148	string	-	-
+PP_GA_GETRECUSU_sum_importe		149	double	-	-
+PP_GA_GETRECUSU_sec_actanul		150	long	-	-
+PP_GA_GETRECUSU__rpr_ret		151	long	-	-
+# FIN DE SERVICIO PP_GA_GETRECUSU
+
+# Identificadores para el servicio PP_GA_GETRECACU
+# INICIO DE SERVICIO PP_GA_GETRECACU
+PP_GA_GETRECACU_fecha_inicial		152	string	-	-
+PP_GA_GETRECACU_fecha_final		153	string	-	-
+PP_GA_GETRECACU_cod_moneda		154	string	-	-
+PP_GA_GETRECACU_num_items		155	long	-	-
+PP_GA_GETRECACU_fecha_ini		156	string	-	-
+PP_GA_GETRECACU_soperador		157	string	-	-
+PP_GA_GETRECACU_sfecha		158	string	-	-
+PP_GA_GETRECACU_sum_rec_ope		159	long	-	-
+PP_GA_GETRECACU_sum_imp_ope		160	double	-	-
+PP_GA_GETRECACU_sum_rec_tot_op		161	long	-	-
+PP_GA_GETRECACU_sum_imp_tot_op		162	double	-	-
+PP_GA_GETRECACU_sum_rec_total		163	long	-	-
+PP_GA_GETRECACU_sum_imp_total		164	double	-	-
+PP_GA_GETRECACU__rpr_ret		165	long	-	-
+# FIN DE SERVICIO PP_GA_GETRECACU
+
+# Identificadores para el servicio GA_PARQUE_REG
+# INICIO DE SERVICIO GA_PARQUE_REG
+GA_PARQUE_REG_n_regs		166	long	-	-
+GA_PARQUE_REG_fec_ejecucio		167	string	-	-
+GA_PARQUE_REG_cod_tipprepa		168	string	-	-
+GA_PARQUE_REG_cod_idioma		169	string	-	-
+GA_PARQUE_REG_num_nir		170	string	-	-
+GA_PARQUE_REG_token		171	string	-	-
+GA_PARQUE_REG_lcod_tipprepa		172	string	-	-
+GA_PARQUE_REG_ldes_sbestaprep		173	string	-	-
+GA_PARQUE_REG_lnum_nir		174	string	-	-
+GA_PARQUE_REG_ltotales		175	long	-	-
+GA_PARQUE_REG__rpr_ret		176	long	-	-
+# FIN DE SERVICIO GA_PARQUE_REG
+
+# Identificadores para el servicio GA_PARQUEPREP
+# INICIO DE SERVICIO GA_PARQUEPREP
+GA_PARQUEPREP_cod_estaprep		177	string	-	-
+GA_PARQUEPREP_cod_tipprepa		178	string	-	-
+GA_PARQUEPREP_num_nir		179	string	-	-
+GA_PARQUEPREP_nRegs		180	long	-	-
+GA_PARQUEPREP_token		181	string	-	-
+GA_PARQUEPREP_lcod_tipprepa		182	string	-	-
+GA_PARQUEPREP_lcod_estaprep		183	string	-	-
+GA_PARQUEPREP_lnum_nir		184	string	-	-
+GA_PARQUEPREP_ltotales		185	long	-	-
+GA_PARQUEPREP__rpr_ret		186	long	-	-
+# FIN DE SERVICIO GA_PARQUEPREP
+
+# Identificadores para el servicio GA_REC_PROMO
+# INICIO DE SERVICIO GA_REC_PROMO
+GA_REC_PROMO_num_telefono		187	string	-	-
+GA_REC_PROMO_scod_moneda		188	string	-	-
+GA_REC_PROMO_sfec_inicio		189	string	-	-
+GA_REC_PROMO_sfec_fin		190	string	-	-
+GA_REC_PROMO_ln_regs		191	long	-	-
+GA_REC_PROMO_stoken		192	string	-	-
+GA_REC_PROMO_lnum_recargas		193	long	-	-
+GA_REC_PROMO_dimp_recarga		194	double	-	-
+GA_REC_PROMO_ascod_promo		195	string	-	-
+GA_REC_PROMO_asfec_promo		196	string	-	-
+GA_REC_PROMO_asfec_uso		197	string	-	-
+GA_REC_PROMO_asfec_caduca		198	string	-	-
+GA_REC_PROMO_asflg_perpe		199	string	-	-
+GA_REC_PROMO_con_usos		200	long	-	-
+GA_REC_PROMO_chay_mas		201	carray	-	-
+GA_REC_PROMO__rpr_ret		202	long	-	-
+# FIN DE SERVICIO GA_REC_PROMO
+
+# Identificadores para el servicio GA_GETRECFEC
+# INICIO DE SERVICIO GA_GETRECFEC
+GA_GETRECFEC_scod_moneda		203	string	-	-
+GA_GETRECFEC_sind_anulac		204	string	-	-
+GA_GETRECFEC_sfecha_ini		205	string	-	-
+GA_GETRECFEC_sfecha_fin		206	string	-	-
+GA_GETRECFEC_scod_tecno		207	string	-	-
+GA_GETRECFEC_ln_filtros		208	long	-	-
+GA_GETRECFEC_asfcod_origrec		209	string	-	-
+GA_GETRECFEC_asfcod_gre		210	string	-	-
+GA_GETRECFEC_asfcod_zona		211	string	-	-
+GA_GETRECFEC_ln_regs		212	long	-	-
+GA_GETRECFEC_stoken		213	string	-	-
+GA_GETRECFEC_ascod_origreca		214	string	-	-
+GA_GETRECFEC_ascod_gre		215	string	-	-
+GA_GETRECFEC_ascod_zona		216	string	-	-
+GA_GETRECFEC_adsum_recargas		217	double	-	-
+GA_GETRECFEC_adsum_importe		218	double	-	-
+GA_GETRECFEC_shay_mas		219	string	-	-
+GA_GETRECFEC__rpr_ret		220	long	-	-
+# FIN DE SERVICIO GA_GETRECFEC
+
+# Identificadores para el servicio GA_CONESTA_SMS
+# INICIO DE SERVICIO GA_CONESTA_SMS
+GA_CONESTA_SMS_sfec_ini		221	string	-	-
+GA_CONESTA_SMS_sfec_fin		222	string	-	-
+GA_CONESTA_SMS_ln_filtros		223	long	-	-
+GA_CONESTA_SMS_ascod_actuIn		224	string	-	-
+GA_CONESTA_SMS_ascod_claveIn		225	string	-	-
+GA_CONESTA_SMS_ln_regs		226	long	-	-
+GA_CONESTA_SMS_stoken		227	string	-	-
+GA_CONESTA_SMS_asfec_acum		228	string	-	-
+GA_CONESTA_SMS_ascod_actuOut		229	string	-	-
+GA_CONESTA_SMS_ascod_claveOut		230	string	-	-
+GA_CONESTA_SMS_adnum_sms		231	double	-	-
+GA_CONESTA_SMS_shay_mas		232	string	-	-
+GA_CONESTA_SMS__rpr_ret		233	long	-	-
+# FIN DE SERVICIO GA_CONESTA_SMS
+

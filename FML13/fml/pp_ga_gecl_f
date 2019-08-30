@@ -1,0 +1,183 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gecl.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gecl_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz Gecl versión 1.0 
+#
+
+*base		3275000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_GECLASRV
+# INICIO DE SERVICIO PP_GA_GECLASRV
+PP_GA_GECLASRV_szNumTelefono		0	string	-	-
+PP_GA_GECLASRV_szCodServicio		1	string	-	-
+PP_GA_GECLASRV_lCoste		2	long	-	-
+PP_GA_GECLASRV_cod_usuario		3	string	-	-
+PP_GA_GECLASRV_cod_moneda		4	string	-	-
+PP_GA_GECLASRV_clave		5	string	-	-
+PP_GA_GECLASRV__rpr_ret		6	long	-	-
+# FIN DE SERVICIO PP_GA_GECLASRV
+
+# Identificadores para el servicio PP_GA_GECLBSRV
+# INICIO DE SERVICIO PP_GA_GECLBSRV
+PP_GA_GECLBSRV_szNumTelefono		7	string	-	-
+PP_GA_GECLBSRV_szCodServicio		8	string	-	-
+PP_GA_GECLBSRV_lCoste		9	long	-	-
+PP_GA_GECLBSRV_cod_usuario		10	string	-	-
+PP_GA_GECLBSRV_cod_moneda		11	string	-	-
+PP_GA_GECLBSRV__rpr_ret		12	long	-	-
+# FIN DE SERVICIO PP_GA_GECLBSRV
+
+# Identificadores para el servicio PP_GA_GECLMCLV
+# INICIO DE SERVICIO PP_GA_GECLMCLV
+PP_GA_GECLMCLV_szNumTelefono		13	string	-	-
+PP_GA_GECLMCLV_szCodServicio		14	string	-	-
+PP_GA_GECLMCLV_lCoste		15	long	-	-
+PP_GA_GECLMCLV_cod_usuario		16	string	-	-
+PP_GA_GECLMCLV_cod_moneda		17	string	-	-
+PP_GA_GECLMCLV_clave_antigua		18	string	-	-
+PP_GA_GECLMCLV_clave_nueva		19	string	-	-
+PP_GA_GECLMCLV_validacion		20	short	-	-
+PP_GA_GECLMCLV__rpr_ret		21	long	-	-
+# FIN DE SERVICIO PP_GA_GECLMCLV
+
+# Identificadores para el servicio PP_GA_GECLCCLV
+# INICIO DE SERVICIO PP_GA_GECLCCLV
+PP_GA_GECLCCLV_szNumTelefono		22	string	-	-
+PP_GA_GECLCCLV_szCodServicio		23	string	-	-
+PP_GA_GECLCCLV_clave		24	string	-	-
+PP_GA_GECLCCLV__rpr_ret		25	long	-	-
+# FIN DE SERVICIO PP_GA_GECLCCLV
+
+# Identificadores para el servicio PP_GA_GECLICLV
+# INICIO DE SERVICIO PP_GA_GECLICLV
+PP_GA_GECLICLV_szNumTelefono		26	string	-	-
+PP_GA_GECLICLV_szCodServicio		27	string	-	-
+PP_GA_GECLICLV_lCoste		28	long	-	-
+PP_GA_GECLICLV_cod_usuario		29	string	-	-
+PP_GA_GECLICLV_cod_moneda		30	string	-	-
+PP_GA_GECLICLV__rpr_ret		31	long	-	-
+# FIN DE SERVICIO PP_GA_GECLICLV
+
+# Identificadores para el servicio PP_GA_GECLMTLF
+# INICIO DE SERVICIO PP_GA_GECLMTLF
+PP_GA_GECLMTLF_szNumTlfAnt		32	string	-	-
+PP_GA_GECLMTLF_szNumTlfNuevo		33	string	-	-
+PP_GA_GECLMTLF_lCoste		34	long	-	-
+PP_GA_GECLMTLF_cod_usuario		35	string	-	-
+PP_GA_GECLMTLF_cod_moneda		36	string	-	-
+PP_GA_GECLMTLF__rpr_ret		37	long	-	-
+# FIN DE SERVICIO PP_GA_GECLMTLF
+
+# Identificadores para el servicio PP_GA_GECLBAJ
+# INICIO DE SERVICIO PP_GA_GECLBAJ
+PP_GA_GECLBAJ_szNumTelefono		38	string	-	-
+PP_GA_GECLBAJ_cod_causbaja		39	string	-	-
+PP_GA_GECLBAJ_lCoste		40	long	-	-
+PP_GA_GECLBAJ_cod_usuario		41	string	-	-
+PP_GA_GECLBAJ_cod_moneda		42	string	-	-
+PP_GA_GECLBAJ__rpr_ret		43	long	-	-
+# FIN DE SERVICIO PP_GA_GECLBAJ
+
+# Identificadores para el servicio GA_GECLASRV2
+# INICIO DE SERVICIO GA_GECLASRV2
+GA_GECLASRV2_sNumTelefono		44	string	-	-
+GA_GECLASRV2_sCodServicio		45	string	-	-
+GA_GECLASRV2_dCoste		46	double	-	-
+GA_GECLASRV2_sCodUsuario		47	string	-	-
+GA_GECLASRV2_sCodMoneda		48	string	-	-
+GA_GECLASRV2_sClave		49	string	-	-
+GA_GECLASRV2__rpr_ret		50	long	-	-
+# FIN DE SERVICIO GA_GECLASRV2
+
+# Identificadores para el servicio GA_GECLBSRV2
+# INICIO DE SERVICIO GA_GECLBSRV2
+GA_GECLBSRV2_sNumTelefono		51	string	-	-
+GA_GECLBSRV2_sCodServicio		52	string	-	-
+GA_GECLBSRV2_dCoste		53	double	-	-
+GA_GECLBSRV2_sCodUsuario		54	string	-	-
+GA_GECLBSRV2_sCodMoneda		55	string	-	-
+GA_GECLBSRV2__rpr_ret		56	long	-	-
+# FIN DE SERVICIO GA_GECLBSRV2
+
+# Identificadores para el servicio GA_GECLMCLV2
+# INICIO DE SERVICIO GA_GECLMCLV2
+GA_GECLMCLV2_sNumTelefono		57	string	-	-
+GA_GECLMCLV2_sCodServicio		58	string	-	-
+GA_GECLMCLV2_dCoste		59	double	-	-
+GA_GECLMCLV2_sCodUsuario		60	string	-	-
+GA_GECLMCLV2_sCodMoneda		61	string	-	-
+GA_GECLMCLV2_sClaveAntigua		62	string	-	-
+GA_GECLMCLV2_sClaveNueva		63	string	-	-
+GA_GECLMCLV2_iValidacion		64	short	-	-
+GA_GECLMCLV2__rpr_ret		65	long	-	-
+# FIN DE SERVICIO GA_GECLMCLV2
+
+# Identificadores para el servicio GA_GECLICLV2
+# INICIO DE SERVICIO GA_GECLICLV2
+GA_GECLICLV2_sNumTelefono		66	string	-	-
+GA_GECLICLV2_sCodServicio		67	string	-	-
+GA_GECLICLV2_dCoste		68	double	-	-
+GA_GECLICLV2_sCodUsuario		69	string	-	-
+GA_GECLICLV2_sCodMoneda		70	string	-	-
+GA_GECLICLV2__rpr_ret		71	long	-	-
+# FIN DE SERVICIO GA_GECLICLV2
+
+# Identificadores para el servicio GA_GECLMTLF2
+# INICIO DE SERVICIO GA_GECLMTLF2
+GA_GECLMTLF2_sNumTlfAnt		72	string	-	-
+GA_GECLMTLF2_sNumTlfNuevo		73	string	-	-
+GA_GECLMTLF2_dCoste		74	double	-	-
+GA_GECLMTLF2_sCodUsuario		75	string	-	-
+GA_GECLMTLF2_sCodMoneda		76	string	-	-
+GA_GECLMTLF2__rpr_ret		77	long	-	-
+# FIN DE SERVICIO GA_GECLMTLF2
+
+# Identificadores para el servicio GA_GECLBAJ2
+# INICIO DE SERVICIO GA_GECLBAJ2
+GA_GECLBAJ2_sNumTelefono		78	string	-	-
+GA_GECLBAJ2_sCodCausbaja		79	string	-	-
+GA_GECLBAJ2_dCoste		80	double	-	-
+GA_GECLBAJ2_sCodUsuario		81	string	-	-
+GA_GECLBAJ2_sCodMoneda		82	string	-	-
+GA_GECLBAJ2__rpr_ret		83	long	-	-
+# FIN DE SERVICIO GA_GECLBAJ2
+
+# Identificadores para el servicio GA_GECLVALCLV
+# INICIO DE SERVICIO GA_GECLVALCLV
+GA_GECLVALCLV_sNumTelefono		84	string	-	-
+GA_GECLVALCLV_sCodServicio		85	string	-	-
+GA_GECLVALCLV_sClave		86	string	-	-
+GA_GECLVALCLV_dCoste		87	double	-	-
+GA_GECLVALCLV_sCodUsuario		88	string	-	-
+GA_GECLVALCLV_sCodMoneda		89	string	-	-
+GA_GECLVALCLV__rpr_ret		90	long	-	-
+# FIN DE SERVICIO GA_GECLVALCLV
+
+# Identificadores para el servicio GA_GECLESTCLV
+# INICIO DE SERVICIO GA_GECLESTCLV
+GA_GECLESTCLV_sNumTelefono		91	string	-	-
+GA_GECLESTCLV_sCodServicio		92	string	-	-
+GA_GECLESTCLV_dCoste		93	double	-	-
+GA_GECLESTCLV_sCodUsuario		94	string	-	-
+GA_GECLESTCLV_sCodMoneda		95	string	-	-
+GA_GECLESTCLV_sCodEstado		96	string	-	-
+GA_GECLESTCLV__rpr_ret		97	long	-	-
+# FIN DE SERVICIO GA_GECLESTCLV
+
+# Identificadores para el servicio GA_GECLACDECLV
+# INICIO DE SERVICIO GA_GECLACDECLV
+GA_GECLACDECLV_sNumTelefono		98	string	-	-
+GA_GECLACDECLV_sCodServicio		99	string	-	-
+GA_GECLACDECLV_sClave		100	string	-	-
+GA_GECLACDECLV_iTipoActuacion		101	short	-	-
+GA_GECLACDECLV_dCoste		102	double	-	-
+GA_GECLACDECLV_sCodUsuario		103	string	-	-
+GA_GECLACDECLV_sCodMoneda		104	string	-	-
+GA_GECLACDECLV__rpr_ret		105	long	-	-
+# FIN DE SERVICIO GA_GECLACDECLV
+

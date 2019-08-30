@@ -1,0 +1,332 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_configuracion.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_configuracion_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3236000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_DETPROMO
+# INICIO DE SERVICIO PP_GA_DETPROMO
+PP_GA_DETPROMO_cod_promocion		0	string	-	-
+PP_GA_DETPROMO_cod_tipprepa		1	string	-	-
+PP_GA_DETPROMO_cod_modven		2	string	-	-
+PP_GA_DETPROMO_fec_inicio		3	string	-	-
+PP_GA_DETPROMO_cod_origreca		4	string	-	-
+PP_GA_DETPROMO_cod_servicio		5	string	-	-
+PP_GA_DETPROMO_descripcion		6	string	-	-
+PP_GA_DETPROMO_fec_fin		7	string	-	-
+PP_GA_DETPROMO_inc_promocion		8	double	-	-
+PP_GA_DETPROMO_val_promocion		9	double	-	-
+PP_GA_DETPROMO_imp_tramo		10	double	-	-
+PP_GA_DETPROMO_flg_cambest		11	string	-	-
+PP_GA_DETPROMO_flg_repetible		12	string	-	-
+PP_GA_DETPROMO_cod_moneda		13	string	-	-
+PP_GA_DETPROMO_cod_envmensa		14	string	-	-
+PP_GA_DETPROMO_cod_usuario		15	string	-	-
+PP_GA_DETPROMO__rpr_ret		16	long	-	-
+# FIN DE SERVICIO PP_GA_DETPROMO
+
+# Identificadores para el servicio PP_GA_LPROMO
+# INICIO DE SERVICIO PP_GA_LPROMO
+PP_GA_LPROMO_n_regs		17	long	-	-
+PP_GA_LPROMO_cod_promocion		18	string	-	-
+PP_GA_LPROMO_cod_tipprepa		19	string	-	-
+PP_GA_LPROMO_cod_modven		20	string	-	-
+PP_GA_LPROMO_fec_inicio		21	string	-	-
+PP_GA_LPROMO_cod_origreca		22	string	-	-
+PP_GA_LPROMO_cod_servicio		23	string	-	-
+PP_GA_LPROMO_pcod_promocion		24	string	-	-
+PP_GA_LPROMO_pcod_tipprepa		25	string	-	-
+PP_GA_LPROMO_pcod_modven		26	string	-	-
+PP_GA_LPROMO_pfec_inicio		27	string	-	-
+PP_GA_LPROMO_pcod_origreca		28	string	-	-
+PP_GA_LPROMO_pcod_servicio		29	string	-	-
+PP_GA_LPROMO_lcod_promocion		30	string	-	-
+PP_GA_LPROMO_lcod_tipprepa		31	string	-	-
+PP_GA_LPROMO_lcod_modven		32	string	-	-
+PP_GA_LPROMO_lfec_inicio		33	string	-	-
+PP_GA_LPROMO_lcod_origreca		34	string	-	-
+PP_GA_LPROMO_lcod_servicio		35	string	-	-
+PP_GA_LPROMO_descripcion		36	string	-	-
+PP_GA_LPROMO_lfec_fin		37	string	-	-
+PP_GA_LPROMO_linc_promocion		38	double	-	-
+PP_GA_LPROMO_lval_promocion		39	double	-	-
+PP_GA_LPROMO_limp_tramo		40	double	-	-
+PP_GA_LPROMO_lflg_cambest		41	string	-	-
+PP_GA_LPROMO_lflg_repetible		42	string	-	-
+PP_GA_LPROMO_lcod_moneda		43	string	-	-
+PP_GA_LPROMO_lcod_envmensa		44	string	-	-
+PP_GA_LPROMO_lcod_usuario		45	string	-	-
+PP_GA_LPROMO__rpr_ret		46	long	-	-
+# FIN DE SERVICIO PP_GA_LPROMO
+
+# Identificadores para el servicio PP_GA_MODMC
+# INICIO DE SERVICIO PP_GA_MODMC
+PP_GA_MODMC_cod_envmensaje		47	string	-	-
+PP_GA_MODMC_cod_idioma		48	string	-	-
+PP_GA_MODMC_num_servicio		49	string	-	-
+PP_GA_MODMC_lit_mensaje		50	string	-	-
+PP_GA_MODMC__rpr_ret		51	long	-	-
+# FIN DE SERVICIO PP_GA_MODMC
+
+# Identificadores para el servicio PP_GA_USUGA
+# INICIO DE SERVICIO PP_GA_USUGA
+PP_GA_USUGA_cod_usuario		52	string	-	-
+PP_GA_USUGA_nom_usuario		53	string	-	-
+PP_GA_USUGA__rpr_ret		54	long	-	-
+# FIN DE SERVICIO PP_GA_USUGA
+
+# Identificadores para el servicio PP_GA_DIVISA
+# INICIO DE SERVICIO PP_GA_DIVISA
+PP_GA_DIVISA_importe_origen		55	double	-	-
+PP_GA_DIVISA_cod_moneda_origen		56	string	-	-
+PP_GA_DIVISAcod_moneda_desti01		57	string	-	-
+PP_GA_DIVISA_importe_destino		58	double	-	-
+PP_GA_DIVISA__rpr_ret		59	long	-	-
+# FIN DE SERVICIO PP_GA_DIVISA
+
+# Identificadores para el servicio PP_GA_PRECISION
+# INICIO DE SERVICIO PP_GA_PRECISION
+PP_GA_PRECISION_cod_moneda		60	string	-	-
+PP_GA_PRECISION_con_pasos		61	double	-	-
+PP_GA_PRECISION_precision		62	long	-	-
+PP_GA_PRECISION__rpr_ret		63	long	-	-
+# FIN DE SERVICIO PP_GA_PRECISION
+
+# Identificadores para el servicio PP_GA_OBTCRT
+# INICIO DE SERVICIO PP_GA_OBTCRT
+PP_GA_OBTCRT_cod_promocion		64	string	-	-
+PP_GA_OBTCRT_clave		65	string	-	-
+PP_GA_OBTCRT_cod_actuacio		66	string	-	-
+PP_GA_OBTCRT_cod_tipprepa		67	string	-	-
+PP_GA_OBTCRT_cod_modventa		68	string	-	-
+PP_GA_OBTCRT_hora_ini		69	long	-	-
+PP_GA_OBTCRT_hora_fin		70	long	-	-
+PP_GA_OBTCRT_dia		71	string	-	-
+PP_GA_OBTCRT_fec_ini		72	string	-	-
+PP_GA_OBTCRT_fec_fin		73	string	-	-
+PP_GA_OBTCRT_flg_perpetu		74	string	-	-
+PP_GA_OBTCRT_num_dias		75	long	-	-
+PP_GA_OBTCRT__rpr_ret		76	long	-	-
+# FIN DE SERVICIO PP_GA_OBTCRT
+
+# Identificadores para el servicio PP_GA_CATMSJ
+# INICIO DE SERVICIO PP_GA_CATMSJ
+PP_GA_CATMSJ_token		77	string	-	-
+PP_GA_CATMSJ_n_regs		78	long	-	-
+PP_GA_CATMSJ_cod_msj		79	string	-	-
+PP_GA_CATMSJ_des_msj		80	string	-	-
+PP_GA_CATMSJ__rpr_ret		81	long	-	-
+# FIN DE SERVICIO PP_GA_CATMSJ
+
+# Identificadores para el servicio PP_GA_DETPROM2
+# INICIO DE SERVICIO PP_GA_DETPROM2
+PP_GA_DETPROM2_cod_promocion		82	string	-	-
+PP_GA_DETPROM2_cod_tipprepa		83	string	-	-
+PP_GA_DETPROM2_cod_modven		84	string	-	-
+PP_GA_DETPROM2_fec_inicio		85	string	-	-
+PP_GA_DETPROM2_cod_origreca		86	string	-	-
+PP_GA_DETPROM2_cod_servicio		87	string	-	-
+PP_GA_DETPROM2_scod_moneda		88	string	-	-
+PP_GA_DETPROM2_descripcion		89	string	-	-
+PP_GA_DETPROM2_fec_fin		90	string	-	-
+PP_GA_DETPROM2_inc_promocion		91	double	-	-
+PP_GA_DETPROM2_val_promocion		92	double	-	-
+PP_GA_DETPROM2_imp_tramo		93	double	-	-
+PP_GA_DETPROM2_flg_cambest		94	string	-	-
+PP_GA_DETPROM2_flg_repetible		95	string	-	-
+PP_GA_DETPROM2_cod_moneda		96	string	-	-
+PP_GA_DETPROM2_cod_envmensa		97	string	-	-
+PP_GA_DETPROM2_cod_usuario		98	string	-	-
+PP_GA_DETPROM2__rpr_ret		99	long	-	-
+# FIN DE SERVICIO PP_GA_DETPROM2
+
+# Identificadores para el servicio PP_GA_LPROMO2
+# INICIO DE SERVICIO PP_GA_LPROMO2
+PP_GA_LPROMO2_n_regs		100	long	-	-
+PP_GA_LPROMO2_cod_promocion		101	string	-	-
+PP_GA_LPROMO2_cod_tipprepa		102	string	-	-
+PP_GA_LPROMO2_cod_modven		103	string	-	-
+PP_GA_LPROMO2_fec_inicio		104	string	-	-
+PP_GA_LPROMO2_cod_origreca		105	string	-	-
+PP_GA_LPROMO2_cod_servicio		106	string	-	-
+PP_GA_LPROMO2_scod_moneda		107	string	-	-
+PP_GA_LPROMO2_token		108	string	-	-
+PP_GA_LPROMO2_lcod_promocion		109	string	-	-
+PP_GA_LPROMO2_lcod_tipprepa		110	string	-	-
+PP_GA_LPROMO2_lcod_modven		111	string	-	-
+PP_GA_LPROMO2_lfec_inicio		112	string	-	-
+PP_GA_LPROMO2_lcod_origreca		113	string	-	-
+PP_GA_LPROMO2_lcod_servicio		114	string	-	-
+PP_GA_LPROMO2_descripcion		115	string	-	-
+PP_GA_LPROMO2_lfec_fin		116	string	-	-
+PP_GA_LPROMO2_linc_promocion		117	double	-	-
+PP_GA_LPROMO2_lval_promocion		118	double	-	-
+PP_GA_LPROMO2_limp_tramo		119	double	-	-
+PP_GA_LPROMO2_lflg_cambest		120	string	-	-
+PP_GA_LPROMO2_lflg_repetible		121	string	-	-
+PP_GA_LPROMO2_lcod_moneda		122	string	-	-
+PP_GA_LPROMO2_lcod_envmensa		123	string	-	-
+PP_GA_LPROMO2_lcod_usuario		124	string	-	-
+PP_GA_LPROMO2_hayMas		125	long	-	-
+PP_GA_LPROMO2__rpr_ret		126	long	-	-
+# FIN DE SERVICIO PP_GA_LPROMO2
+
+# Identificadores para el servicio PP_GA_CONCBTIP
+# INICIO DE SERVICIO PP_GA_CONCBTIP
+PP_GA_CONCBTIP_tip_origen		127	string	-	-
+PP_GA_CONCBTIP_num_items		128	long	-	-
+PP_GA_CONCBTIP_tip_destino		129	string	-	-
+PP_GA_CONCBTIP__rpr_ret		130	long	-	-
+# FIN DE SERVICIO PP_GA_CONCBTIP
+
+# Identificadores para el servicio PP_GA_CATMSJ2
+# INICIO DE SERVICIO PP_GA_CATMSJ2
+PP_GA_CATMSJ2_token		131	string	-	-
+PP_GA_CATMSJ2_n_regs		132	long	-	-
+PP_GA_CATMSJ2_cod_idioma		133	string	-	-
+PP_GA_CATMSJ2_cod_msj		134	string	-	-
+PP_GA_CATMSJ2_des_msj		135	string	-	-
+PP_GA_CATMSJ2__rpr_ret		136	long	-	-
+# FIN DE SERVICIO PP_GA_CATMSJ2
+
+# Identificadores para el servicio PP_GA_CONVBLE
+# INICIO DE SERVICIO PP_GA_CONVBLE
+PP_GA_CONVBLE_cod_moneda		137	string	-	-
+PP_GA_CONVBLE_n_regs		138	long	-	-
+PP_GA_CONVBLE_token		139	string	-	-
+PP_GA_CONVBLE_valor		140	double	-	-
+PP_GA_CONVBLE__rpr_ret		141	long	-	-
+# FIN DE SERVICIO PP_GA_CONVBLE
+
+# Identificadores para el servicio PP_GA_ALTALIT
+# INICIO DE SERVICIO PP_GA_ALTALIT
+PP_GA_ALTALIT_scod_literal		142	string	-	-
+PP_GA_ALTALIT_scod_idioma		143	string	-	-
+PP_GA_ALTALIT_stipo_codigo		144	string	-	-
+PP_GA_ALTALIT_sdescripcion		145	string	-	-
+PP_GA_ALTALIT_scod_usuario		146	string	-	-
+PP_GA_ALTALIT__rpr_ret		147	long	-	-
+# FIN DE SERVICIO PP_GA_ALTALIT
+
+# Identificadores para el servicio PP_GA_BAJALIT
+# INICIO DE SERVICIO PP_GA_BAJALIT
+PP_GA_BAJALIT_scod_literal		148	string	-	-
+PP_GA_BAJALIT_scod_idioma		149	string	-	-
+PP_GA_BAJALIT_stipo_codigo		150	string	-	-
+PP_GA_BAJALIT__rpr_ret		151	long	-	-
+# FIN DE SERVICIO PP_GA_BAJALIT
+
+# Identificadores para el servicio PP_GA_MODLIT
+# INICIO DE SERVICIO PP_GA_MODLIT
+PP_GA_MODLIT_scod_literal		152	string	-	-
+PP_GA_MODLIT_scod_idioma		153	string	-	-
+PP_GA_MODLIT_stipo_codigo		154	string	-	-
+PP_GA_MODLIT_sdescripcionl		155	string	-	-
+PP_GA_MODLIT_scod_usuario		156	string	-	-
+PP_GA_MODLIT__rpr_ret		157	long	-	-
+# FIN DE SERVICIO PP_GA_MODLIT
+
+# Identificadores para el servicio PP_GA_CONSCONFI
+# INICIO DE SERVICIO PP_GA_CONSCONFI
+PP_GA_CONSCONFI_snom_variable		158	string	-	-
+PP_GA_CONSCONFI_sval_variable		159	string	-	-
+PP_GA_CONSCONFI_sdes_variable		160	string	-	-
+PP_GA_CONSCONFI_sflg_activa		161	string	-	-
+PP_GA_CONSCONFI__rpr_ret		162	long	-	-
+# FIN DE SERVICIO PP_GA_CONSCONFI
+
+# Identificadores para el servicio PP_GA_CONTIPRE
+# INICIO DE SERVICIO PP_GA_CONTIPRE
+PP_GA_CONTIPRE_scod_tecnologia		163	string	-	-
+PP_GA_CONTIPRE_lnum_regs		164	long	-	-
+PP_GA_CONTIPRE_stoken		165	string	-	-
+PP_GA_CONTIPRE_scod_tipprepa		166	string	-	-
+PP_GA_CONTIPRE__rpr_ret		167	long	-	-
+# FIN DE SERVICIO PP_GA_CONTIPRE
+
+# Identificadores para el servicio PP_GA_CAUBOLSA
+# INICIO DE SERVICIO PP_GA_CAUBOLSA
+PP_GA_CAUBOLSA_cod_bolsa		168	string	-	-
+PP_GA_CAUBOLSA_num_items		169	long	-	-
+PP_GA_CAUBOLSA_cod_causa		170	string	-	-
+PP_GA_CAUBOLSA_des_causa		171	string	-	-
+PP_GA_CAUBOLSA_des_bolsa		172	string	-	-
+PP_GA_CAUBOLSA__rpr_ret		173	long	-	-
+# FIN DE SERVICIO PP_GA_CAUBOLSA
+
+# Identificadores para el servicio PP_GA_CONCBTIP2
+# INICIO DE SERVICIO PP_GA_CONCBTIP2
+PP_GA_CONCBTIP2_tip_origen		174	string	-	-
+PP_GA_CONCBTIP2_num_items		175	long	-	-
+PP_GA_CONCBTIP2_tip_dest_ini		176	string	-	-
+PP_GA_CONCBTIP2_hay_mas		177	carray	-	-
+PP_GA_CONCBTIP2_tip_destino		178	string	-	-
+PP_GA_CONCBTIP2__rpr_ret		179	long	-	-
+# FIN DE SERVICIO PP_GA_CONCBTIP2
+
+# Identificadores para el servicio PP_GA_CONCBTIP3
+# INICIO DE SERVICIO PP_GA_CONCBTIP3
+PP_GA_CONCBTIP3_tip_origen		180	string	-	-
+PP_GA_CONCBTIP3_num_items		181	long	-	-
+PP_GA_CONCBTIP3_tip_dest_ini		182	string	-	-
+PP_GA_CONCBTIP3_cod_usuario		183	string	-	-
+PP_GA_CONCBTIP3_hay_mas		184	carray	-	-
+PP_GA_CONCBTIP3_tip_destino		185	string	-	-
+PP_GA_CONCBTIP3__rpr_ret		186	long	-	-
+# FIN DE SERVICIO PP_GA_CONCBTIP3
+
+# Identificadores para el servicio GA_CONPLAN
+# INICIO DE SERVICIO GA_CONPLAN
+GA_CONPLAN_sperfil_tarifario		187	string	-	-
+GA_CONPLAN_scod_tarifario		188	string	-	-
+GA_CONPLAN_scod_modven		189	string	-	-
+GA_CONPLAN_scod_sbestaprep		190	string	-	-
+GA_CONPLAN_scod_perfilsdp		191	string	-	-
+GA_CONPLAN_dimp_facial		192	double	-	-
+GA_CONPLAN_scod_tipoalta		193	string	-	-
+GA_CONPLAN_sflag_desbloqueo		194	string	-	-
+GA_CONPLAN_scod_tecnologia		195	string	-	-
+GA_CONPLAN_sflag_activacion		196	string	-	-
+GA_CONPLAN__rpr_ret		197	long	-	-
+# FIN DE SERVICIO GA_CONPLAN
+
+# Identificadores para el servicio PP_GA_CAUBOLSA2
+# INICIO DE SERVICIO PP_GA_CAUBOLSA2
+PP_GA_CAUBOLSA2_cod_bolsa		198	string	-	-
+PP_GA_CAUBOLSA2_num_items		199	long	-	-
+PP_GA_CAUBOLSA2_scod_idioma		200	string	-	-
+PP_GA_CAUBOLSA2_cod_causa		201	string	-	-
+PP_GA_CAUBOLSA2_des_causa		202	string	-	-
+PP_GA_CAUBOLSA2_des_bolsa		203	string	-	-
+PP_GA_CAUBOLSA2__rpr_ret		204	long	-	-
+# FIN DE SERVICIO PP_GA_CAUBOLSA2
+
+# Identificadores para el servicio GA_CATIMEIRANGE
+# INICIO DE SERVICIO GA_CATIMEIRANGE
+GA_CATIMEIRANGE_sid_range_in		205	string	-	-
+GA_CATIMEIRANGE_stoken		206	string	-	-
+GA_CATIMEIRANGE_ln_regs		207	long	-	-
+GA_CATIMEIRANGE_asid_rangimei		208	string	-	-
+GA_CATIMEIRANGE_asdes_rangimei		209	string	-	-
+GA_CATIMEIRANGE_aslim_low		210	string	-	-
+GA_CATIMEIRANGE_aslim_up		211	string	-	-
+GA_CATIMEIRANGE_cHayMas		212	carray	-	-
+GA_CATIMEIRANGE__rpr_ret		213	long	-	-
+# FIN DE SERVICIO GA_CATIMEIRANGE
+
+# Identificadores para el servicio GA_CATIMEICLASS
+# INICIO DE SERVICIO GA_CATIMEICLASS
+GA_CATIMEICLASS_sid_class_in		214	string	-	-
+GA_CATIMEICLASS_stoken		215	string	-	-
+GA_CATIMEICLASS_ln_regs		216	long	-	-
+GA_CATIMEICLASS_asid_clasimei		217	string	-	-
+GA_CATIMEICLASS_asdes_clasimei		218	string	-	-
+GA_CATIMEICLASS_cHayMas		219	carray	-	-
+GA_CATIMEICLASS__rpr_ret		220	long	-	-
+# FIN DE SERVICIO GA_CATIMEICLASS
+

@@ -1,0 +1,214 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_flujoeco.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_flujoeco_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3238000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_CFLUJOEC
+# INICIO DE SERVICIO PP_GA_CFLUJOEC
+PP_GA_CFLUJOEC_fec_inicio		0	string	-	-
+PP_GA_CFLUJOEC_fec_fin		1	string	-	-
+PP_GA_CFLUJOEC_cod_actuacion		2	string	-	-
+PP_GA_CFLUJOEC_plItem_max		3	short	-	-
+PP_GA_CFLUJOEC_actuacion		4	string	-	-
+PP_GA_CFLUJOEC_importe		5	string	-	-
+PP_GA_CFLUJOEC__rpr_ret		6	long	-	-
+# FIN DE SERVICIO PP_GA_CFLUJOEC
+
+# Identificadores para el servicio PP_GA_CFLUJOE2
+# INICIO DE SERVICIO PP_GA_CFLUJOE2
+PP_GA_CFLUJOE2_fec_inicio		7	string	-	-
+PP_GA_CFLUJOE2_fec_fin		8	string	-	-
+PP_GA_CFLUJOE2_cod_actuacion		9	string	-	-
+PP_GA_CFLUJOE2_plItem_max		10	short	-	-
+PP_GA_CFLUJOE2_actuacion		11	string	-	-
+PP_GA_CFLUJOE2_importe		12	string	-	-
+PP_GA_CFLUJOE2_num_actuacio		13	double	-	-
+PP_GA_CFLUJOE2_tip_codigo		14	string	-	-
+PP_GA_CFLUJOE2__rpr_ret		15	long	-	-
+# FIN DE SERVICIO PP_GA_CFLUJOE2
+
+# Identificadores para el servicio PP_GA_CFLUJODE
+# INICIO DE SERVICIO PP_GA_CFLUJODE
+PP_GA_CFLUJODE_fec_inicio		16	string	-	-
+PP_GA_CFLUJODE_fec_fin		17	string	-	-
+PP_GA_CFLUJODE_cod_actuacion		18	string	-	-
+PP_GA_CFLUJODE_flg_promocional		19	string	-	-
+PP_GA_CFLUJODE_plItem_max		20	short	-	-
+PP_GA_CFLUJODE_cod_desglosado		21	string	-	-
+PP_GA_CFLUJODE_num_actuacio		22	double	-	-
+PP_GA_CFLUJODE_imp_acumulado		23	string	-	-
+PP_GA_CFLUJODE_tip_codigo		24	string	-	-
+PP_GA_CFLUJODE__rpr_ret		25	long	-	-
+# FIN DE SERVICIO PP_GA_CFLUJODE
+
+# Identificadores para el servicio PP_GA_CFLUJOIM
+# INICIO DE SERVICIO PP_GA_CFLUJOIM
+PP_GA_CFLUJOIM_sfec_inicio		26	string	-	-
+PP_GA_CFLUJOIM_sfec_fin		27	string	-	-
+PP_GA_CFLUJOIM_scod_actuacion		28	string	-	-
+PP_GA_CFLUJOIM_ditem_max		29	short	-	-
+PP_GA_CFLUJOIM_sactuacion		30	string	-	-
+PP_GA_CFLUJOIM_simporte		31	string	-	-
+PP_GA_CFLUJOIM_fnum_actuacio		32	double	-	-
+PP_GA_CFLUJOIM_ltax_value		33	long	-	-
+PP_GA_CFLUJOIM_stip_codigo		34	string	-	-
+PP_GA_CFLUJOIM__rpr_ret		35	long	-	-
+# FIN DE SERVICIO PP_GA_CFLUJOIM
+
+# Identificadores para el servicio PP_GA_CFLUJOD2
+# INICIO DE SERVICIO PP_GA_CFLUJOD2
+PP_GA_CFLUJOD2_fec_inicio		36	string	-	-
+PP_GA_CFLUJOD2_fec_fin		37	string	-	-
+PP_GA_CFLUJOD2_cod_actuacion		38	string	-	-
+PP_GA_CFLUJOD2_flg_promocional		39	string	-	-
+PP_GA_CFLUJOD2_plItem_max		40	short	-	-
+PP_GA_CFLUJOD2_cod_desglosado		41	string	-	-
+PP_GA_CFLUJOD2_num_actuacio		42	double	-	-
+PP_GA_CFLUJOD2_imp_acumulado		43	string	-	-
+PP_GA_CFLUJOD2_ltax_value		44	long	-	-
+PP_GA_CFLUJOD2_tip_codigo		45	string	-	-
+PP_GA_CFLUJOD2__rpr_ret		46	long	-	-
+# FIN DE SERVICIO PP_GA_CFLUJOD2
+
+# Identificadores para el servicio PP_GA_SEUDOCAU
+# INICIO DE SERVICIO PP_GA_SEUDOCAU
+PP_GA_SEUDOCAU_plItem_max		47	short	-	-
+PP_GA_SEUDOCAU_fec_inicio		48	string	-	-
+PP_GA_SEUDOCAU_fec_fin		49	string	-	-
+PP_GA_SEUDOCAU_cod_actuacio		50	string	-	-
+PP_GA_SEUDOCAUcod_pseudocaud01		51	string	-	-
+PP_GA_SEUDOCAU_num_actuacio		52	double	-	-
+PP_GA_SEUDOCAU_tot_saldo		53	string	-	-
+PP_GA_SEUDOCAU__rpr_ret		54	long	-	-
+# FIN DE SERVICIO PP_GA_SEUDOCAU
+
+# Identificadores para el servicio PP_GA_CFLUJOD3
+# INICIO DE SERVICIO PP_GA_CFLUJOD3
+PP_GA_CFLUJOD3_sfec_inicio		55	string	-	-
+PP_GA_CFLUJOD3_sfec_fin		56	string	-	-
+PP_GA_CFLUJOD3_scod_actuacion		57	string	-	-
+PP_GA_CFLUJOD3sflg_promocion01		58	string	-	-
+PP_GA_CFLUJOD3_plItem_max		59	short	-	-
+PP_GA_CFLUJOD3_scod_tipprepa		60	string	-	-
+PP_GA_CFLUJOD3_scod_desglosado		61	string	-	-
+PP_GA_CFLUJOD3_sflg_anulacion		62	string	-	-
+PP_GA_CFLUJOD3_lnum_actuacio		63	long	-	-
+PP_GA_CFLUJOD3_simp_acumulado		64	string	-	-
+PP_GA_CFLUJOD3_ltax_value		65	long	-	-
+PP_GA_CFLUJOD3_stip_codigo		66	string	-	-
+PP_GA_CFLUJOD3__rpr_ret		67	long	-	-
+# FIN DE SERVICIO PP_GA_CFLUJOD3
+
+# Identificadores para el servicio PP_GA_CFLUJOI2
+# INICIO DE SERVICIO PP_GA_CFLUJOI2
+PP_GA_CFLUJOI2_sfec_inicio		68	string	-	-
+PP_GA_CFLUJOI2_sfec_fin		69	string	-	-
+PP_GA_CFLUJOI2_scod_actuacion		70	string	-	-
+PP_GA_CFLUJOI2_plItem_max		71	short	-	-
+PP_GA_CFLUJOI2_sactuacion		72	string	-	-
+PP_GA_CFLUJOI2_scod_tipprepa		73	string	-	-
+PP_GA_CFLUJOI2_sflg_anulacion		74	string	-	-
+PP_GA_CFLUJOI2_simporte		75	string	-	-
+PP_GA_CFLUJOI2_lnum_actuacio		76	long	-	-
+PP_GA_CFLUJOI2_ltax_value		77	long	-	-
+PP_GA_CFLUJOI2_stip_codigo		78	string	-	-
+PP_GA_CFLUJOI2__rpr_ret		79	long	-	-
+# FIN DE SERVICIO PP_GA_CFLUJOI2
+
+# Identificadores para el servicio PP_GA_FLUJOCON
+# INICIO DE SERVICIO PP_GA_FLUJOCON
+PP_GA_FLUJOCON_fec_inicio		80	string	-	-
+PP_GA_FLUJOCON_fec_fin		81	string	-	-
+PP_GA_FLUJOCON_n_regs		82	short	-	-
+PP_GA_FLUJOCON_token		83	string	-	-
+PP_GA_FLUJOCON_fec_instalac		84	string	-	-
+PP_GA_FLUJOCON_cri_contable		85	string	-	-
+PP_GA_FLUJOCON_tot_importe		86	string	-	-
+PP_GA_FLUJOCON_num_actuaciones		87	long	-	-
+PP_GA_FLUJOCON__rpr_ret		88	long	-	-
+# FIN DE SERVICIO PP_GA_FLUJOCON
+
+# Identificadores para el servicio PP_GA_INBNCONT
+# INICIO DE SERVICIO PP_GA_INBNCONT
+PP_GA_INBNCONT_lNumTiposBono		89	long	-	-
+PP_GA_INBNCONT_tiposBono		90	string	-	-
+PP_GA_INBNCONT_sToken		91	string	-	-
+PP_GA_INBNCONT_plNumItems		92	long	-	-
+PP_GA_INBNCONT_sTipoBono		93	string	-	-
+PP_GA_INBNCONT_plNumTotal		94	long	-	-
+PP_GA_INBNCONT_pcHayMas		95	carray	-	-
+PP_GA_INBNCONT__rpr_ret		96	long	-	-
+# FIN DE SERVICIO PP_GA_INBNCONT
+
+# Identificadores para el servicio PP_GA_INFBONOS
+# INICIO DE SERVICIO PP_GA_INFBONOS
+PP_GA_INFBONOS_lNumTiposBono		97	long	-	-
+PP_GA_INFBONOS_tiposBono		98	string	-	-
+PP_GA_INFBONOS_cIntAgrega		99	carray	-	-
+PP_GA_INFBONOS_sFechaIni		100	string	-	-
+PP_GA_INFBONOS_sFechaFin		101	string	-	-
+PP_GA_INFBONOS_sCodMoneda		102	string	-	-
+PP_GA_INFBONOS_sToken		103	string	-	-
+PP_GA_INFBONOS_plNumItems		104	long	-	-
+PP_GA_INFBONOS_sFechaValor		105	string	-	-
+PP_GA_INFBONOS_sTipoBono		106	string	-	-
+PP_GA_INFBONOS_plNumTotal		107	long	-	-
+PP_GA_INFBONOS_pfImpTotal		108	double	-	-
+PP_GA_INFBONOS_plAcumTotal		109	long	-	-
+PP_GA_INFBONOS_pfAcumImporte		110	double	-	-
+PP_GA_INFBONOS_pcHayMas		111	carray	-	-
+PP_GA_INFBONOS__rpr_ret		112	long	-	-
+# FIN DE SERVICIO PP_GA_INFBONOS
+
+# Identificadores para el servicio GA_FLUJOCON_HO
+# INICIO DE SERVICIO GA_FLUJOCON_HO
+GA_FLUJOCON_HO_fec_inicio		113	string	-	-
+GA_FLUJOCON_HO_fec_fin		114	string	-	-
+GA_FLUJOCON_HO_n_regs		115	short	-	-
+GA_FLUJOCON_HO_token		116	string	-	-
+GA_FLUJOCON_HO_fec_instalac		117	string	-	-
+GA_FLUJOCON_HO_cri_contable		118	string	-	-
+GA_FLUJOCON_HO_tot_importe		119	string	-	-
+GA_FLUJOCON_HO_num_actuaciones		120	long	-	-
+GA_FLUJOCON_HO__rpr_ret		121	long	-	-
+# FIN DE SERVICIO GA_FLUJOCON_HO
+
+# Identificadores para el servicio GA_CFLUJOI3
+# INICIO DE SERVICIO GA_CFLUJOI3
+GA_CFLUJOI3_sfec_inicio		122	string	-	-
+GA_CFLUJOI3_sfec_fin		123	string	-	-
+GA_CFLUJOI3_scod_actuacion		124	string	-	-
+GA_CFLUJOI3_plItem_max		125	short	-	-
+GA_CFLUJOI3_sactuacion		126	string	-	-
+GA_CFLUJOI3_scod_tipprepa		127	string	-	-
+GA_CFLUJOI3_sflg_anulacion		128	string	-	-
+GA_CFLUJOI3_simporte		129	string	-	-
+GA_CFLUJOI3_lnum_actuacio		130	long	-	-
+GA_CFLUJOI3_ltax_value		131	double	-	-
+GA_CFLUJOI3_stip_codigo		132	string	-	-
+GA_CFLUJOI3__rpr_ret		133	long	-	-
+# FIN DE SERVICIO GA_CFLUJOI3
+
+# Identificadores para el servicio GA_CFLUJOD4
+# INICIO DE SERVICIO GA_CFLUJOD4
+GA_CFLUJOD4_sfec_inicio		134	string	-	-
+GA_CFLUJOD4_sfec_fin		135	string	-	-
+GA_CFLUJOD4_scod_actuacion		136	string	-	-
+GA_CFLUJOD4_sflg_promocional		137	string	-	-
+GA_CFLUJOD4_plItem_max		138	short	-	-
+GA_CFLUJOD4_scod_tipprepa		139	string	-	-
+GA_CFLUJOD4_scod_desglosado		140	string	-	-
+GA_CFLUJOD4_sflg_anulacion		141	string	-	-
+GA_CFLUJOD4_lnum_actuacio		142	long	-	-
+GA_CFLUJOD4_simp_acumulado		143	string	-	-
+GA_CFLUJOD4_ltax_value		144	double	-	-
+GA_CFLUJOD4_stip_codigo		145	string	-	-
+GA_CFLUJOD4__rpr_ret		146	long	-	-
+# FIN DE SERVICIO GA_CFLUJOD4
+

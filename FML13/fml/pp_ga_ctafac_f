@@ -1,0 +1,453 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_ctafac.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_ctafac_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3209000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_RAUALTFAC
+# INICIO DE SERVICIO PP_GA_RAUALTFAC
+PP_GA_RAUALTFAC_cod_cuentcli		0	string	-	-
+PP_GA_RAUALTFAC_des_nombempr		1	string	-	-
+PP_GA_RAUALTFAC_des_apellid1		2	string	-	-
+PP_GA_RAUALTFAC_des_apellid2		3	string	-	-
+PP_GA_RAUALTFAC_cod_identifi		4	string	-	-
+PP_GA_RAUALTFAC_num_identifi		5	string	-	-
+PP_GA_RAUALTFAC_cod_tipoimpu		6	string	-	-
+PP_GA_RAUALTFAC_cod_provinci		7	string	-	-
+PP_GA_RAUALTFAC_cod_poblacio		8	string	-	-
+PP_GA_RAUALTFAC_cod_calle		9	string	-	-
+PP_GA_RAUALTFAC_num_calle		10	string	-	-
+PP_GA_RAUALTFAC_cod_postal		11	string	-	-
+PP_GA_RAUALTFAC_cod_banco		12	string	-	-
+PP_GA_RAUALTFAC_cod_sucursal		13	string	-	-
+PP_GA_RAUALTFAC_cta_corriente		14	string	-	-
+PP_GA_RAUALTFAC_dig_control		15	string	-	-
+PP_GA_RAUALTFAC_ind_impresion		16	string	-	-
+PP_GA_RAUALTFAC_ref_factura		17	string	-	-
+PP_GA_RAUALTFAC_fec_alta		18	string	-	-
+PP_GA_RAUALTFAC_fec_ultpreem		19	string	-	-
+PP_GA_RAUALTFAC_fec_baja		20	string	-	-
+PP_GA_RAUALTFAC_cod_idioma		21	string	-	-
+PP_GA_RAUALTFAC_cod_sistcobr		22	string	-	-
+PP_GA_RAUALTFAC_cta_facturac		23	string	-	-
+PP_GA_RAUALTFAC__rpr_ret		24	long	-	-
+# FIN DE SERVICIO PP_GA_RAUALTFAC
+
+# Identificadores para el servicio PP_GA_ALTFAC
+# INICIO DE SERVICIO PP_GA_ALTFAC
+PP_GA_ALTFAC_cod_cuentcli		25	string	-	-
+PP_GA_ALTFAC_des_nombempr		26	string	-	-
+PP_GA_ALTFAC_des_apellid1		27	string	-	-
+PP_GA_ALTFAC_des_apellid2		28	string	-	-
+PP_GA_ALTFAC_cod_identifi		29	string	-	-
+PP_GA_ALTFAC_num_identifi		30	string	-	-
+PP_GA_ALTFAC_cod_tipoimpu		31	string	-	-
+PP_GA_ALTFAC_cod_provinci		32	string	-	-
+PP_GA_ALTFAC_cod_poblacio		33	string	-	-
+PP_GA_ALTFAC_cod_calle		34	string	-	-
+PP_GA_ALTFAC_num_calle		35	string	-	-
+PP_GA_ALTFAC_cod_postal		36	string	-	-
+PP_GA_ALTFAC_cod_banco		37	string	-	-
+PP_GA_ALTFAC_cod_sucursal		38	string	-	-
+PP_GA_ALTFAC_cta_corriente		39	string	-	-
+PP_GA_ALTFAC_dig_control		40	string	-	-
+PP_GA_ALTFAC_ind_impresion		41	string	-	-
+PP_GA_ALTFAC_ref_factura		42	string	-	-
+PP_GA_ALTFAC_fec_alta		43	string	-	-
+PP_GA_ALTFAC_fec_ultpreem		44	string	-	-
+PP_GA_ALTFAC_fec_baja		45	string	-	-
+PP_GA_ALTFAC_cod_idioma		46	string	-	-
+PP_GA_ALTFAC_cod_sistcobr		47	string	-	-
+PP_GA_ALTFAC_num_tarjeta		48	string	-	-
+PP_GA_ALTFAC_cod_emisora		49	string	-	-
+PP_GA_ALTFAC_fec_caduc		50	string	-	-
+PP_GA_ALTFAC_des_titular		51	string	-	-
+PP_GA_ALTFAC_tip_tarjeta		52	string	-	-
+PP_GA_ALTFAC_ind_euro		53	string	-	-
+PP_GA_ALTFAC_cta_facturac		54	string	-	-
+PP_GA_ALTFAC__rpr_ret		55	long	-	-
+# FIN DE SERVICIO PP_GA_ALTFAC
+
+# Identificadores para el servicio PP_GA_RAUMODFAC
+# INICIO DE SERVICIO PP_GA_RAUMODFAC
+PP_GA_RAUMODFAC_cod_cuentcli		56	string	-	-
+PP_GA_RAUMODFAC_des_nombempr		57	string	-	-
+PP_GA_RAUMODFAC_des_apellid1		58	string	-	-
+PP_GA_RAUMODFAC_des_apellid2		59	string	-	-
+PP_GA_RAUMODFAC_cod_identifi		60	string	-	-
+PP_GA_RAUMODFAC_num_identifi		61	string	-	-
+PP_GA_RAUMODFAC_cod_tipoimpu		62	string	-	-
+PP_GA_RAUMODFAC_cod_provinci		63	string	-	-
+PP_GA_RAUMODFAC_cod_poblacio		64	string	-	-
+PP_GA_RAUMODFAC_cod_calle		65	string	-	-
+PP_GA_RAUMODFAC_num_calle		66	string	-	-
+PP_GA_RAUMODFAC_cod_postal		67	string	-	-
+PP_GA_RAUMODFAC_cod_banco		68	string	-	-
+PP_GA_RAUMODFAC_cod_sucursal		69	string	-	-
+PP_GA_RAUMODFAC_cta_corriente		70	string	-	-
+PP_GA_RAUMODFAC_dig_control		71	string	-	-
+PP_GA_RAUMODFAC_ind_impresion		72	string	-	-
+PP_GA_RAUMODFAC_ref_factura		73	string	-	-
+PP_GA_RAUMODFAC_fec_alta		74	string	-	-
+PP_GA_RAUMODFAC_fec_ultpreem		75	string	-	-
+PP_GA_RAUMODFAC_fec_baja		76	string	-	-
+PP_GA_RAUMODFAC_cod_idioma		77	string	-	-
+PP_GA_RAUMODFAC_cta_facturac		78	string	-	-
+PP_GA_RAUMODFAC__rpr_ret		79	long	-	-
+# FIN DE SERVICIO PP_GA_RAUMODFAC
+
+# Identificadores para el servicio PP_GA_MODFAC
+# INICIO DE SERVICIO PP_GA_MODFAC
+PP_GA_MODFAC_cod_cuentcli		80	string	-	-
+PP_GA_MODFAC_des_nombempr		81	string	-	-
+PP_GA_MODFAC_des_apellid1		82	string	-	-
+PP_GA_MODFAC_des_apellid2		83	string	-	-
+PP_GA_MODFAC_cod_identifi		84	string	-	-
+PP_GA_MODFAC_num_identifi		85	string	-	-
+PP_GA_MODFAC_cod_tipoimpu		86	string	-	-
+PP_GA_MODFAC_cod_provinci		87	string	-	-
+PP_GA_MODFAC_cod_poblacio		88	string	-	-
+PP_GA_MODFAC_cod_calle		89	string	-	-
+PP_GA_MODFAC_num_calle		90	string	-	-
+PP_GA_MODFAC_cod_postal		91	string	-	-
+PP_GA_MODFAC_cod_banco		92	string	-	-
+PP_GA_MODFAC_cod_sucursal		93	string	-	-
+PP_GA_MODFAC_cta_corriente		94	string	-	-
+PP_GA_MODFAC_dig_control		95	string	-	-
+PP_GA_MODFAC_ind_impresion		96	string	-	-
+PP_GA_MODFAC_ref_factura		97	string	-	-
+PP_GA_MODFAC_fec_alta		98	string	-	-
+PP_GA_MODFAC_fec_ultpreem		99	string	-	-
+PP_GA_MODFAC_fec_baja		100	string	-	-
+PP_GA_MODFAC_cod_idioma		101	string	-	-
+PP_GA_MODFAC_num_tarjeta		102	string	-	-
+PP_GA_MODFAC_cod_emisora		103	string	-	-
+PP_GA_MODFAC_fec_caduc		104	string	-	-
+PP_GA_MODFAC_des_titular		105	string	-	-
+PP_GA_MODFAC_tip_tarjeta		106	string	-	-
+PP_GA_MODFAC_ind_euro		107	string	-	-
+PP_GA_MODFAC_cta_facturac		108	string	-	-
+PP_GA_MODFAC__rpr_ret		109	long	-	-
+# FIN DE SERVICIO PP_GA_MODFAC
+
+# Identificadores para el servicio PP_GA_RAULISFAC
+# INICIO DE SERVICIO PP_GA_RAULISFAC
+PP_GA_RAULISFAC_cod_cuentcli		110	string	-	-
+PP_GA_RAULISFAC_plNumItems		111	short	-	-
+PP_GA_RAULISFACtRefcta_factu01		112	string	-	-
+PP_GA_RAULISFAC_cta_facturac		113	string	-	-
+PP_GA_RAULISFAC_pcHayMas		114	short	-	-
+PP_GA_RAULISFAC__rpr_ret		115	long	-	-
+# FIN DE SERVICIO PP_GA_RAULISFAC
+
+# Identificadores para el servicio PP_GA_LISFAC
+# INICIO DE SERVICIO PP_GA_LISFAC
+PP_GA_LISFAC_cod_cuentcli		116	string	-	-
+PP_GA_LISFAC_plNumItems		117	short	-	-
+PP_GA_LISFAC_tRefcta_facturac		118	string	-	-
+PP_GA_LISFAC_cta_facturac		119	string	-	-
+PP_GA_LISFAC_pcHayMas		120	short	-	-
+PP_GA_LISFAC__rpr_ret		121	long	-	-
+# FIN DE SERVICIO PP_GA_LISFAC
+
+# Identificadores para el servicio PP_GA_RAUSELCF
+# INICIO DE SERVICIO PP_GA_RAUSELCF
+PP_GA_RAUSELCF_cta_facturac		122	string	-	-
+PP_GA_RAUSELCF_cod_cuentcli		123	string	-	-
+PP_GA_RAUSELCF_des_nombempr		124	string	-	-
+PP_GA_RAUSELCF_des_apellid1		125	string	-	-
+PP_GA_RAUSELCF_des_apellid2		126	string	-	-
+PP_GA_RAUSELCF_cod_identifi		127	string	-	-
+PP_GA_RAUSELCF_cod_planfact		128	string	-	-
+PP_GA_RAUSELCF_num_identifi		129	string	-	-
+PP_GA_RAUSELCF_cod_tipoimpu		130	string	-	-
+PP_GA_RAUSELCF_cod_ciclo		131	string	-	-
+PP_GA_RAUSELCF_cod_sistcobr		132	string	-	-
+PP_GA_RAUSELCF_ind_pascobro		133	string	-	-
+PP_GA_RAUSELCF_cod_provinci		134	string	-	-
+PP_GA_RAUSELCF_cod_poblacio		135	string	-	-
+PP_GA_RAUSELCF_cod_calle		136	string	-	-
+PP_GA_RAUSELCF_num_calle		137	string	-	-
+PP_GA_RAUSELCF_cod_postal		138	string	-	-
+PP_GA_RAUSELCF_cod_banco		139	string	-	-
+PP_GA_RAUSELCF_cod_sucursal		140	string	-	-
+PP_GA_RAUSELCF_cta_corriente		141	string	-	-
+PP_GA_RAUSELCF_dig_control		142	string	-	-
+PP_GA_RAUSELCF_cod_ciclfact		143	string	-	-
+PP_GA_RAUSELCF_est_preemis		144	string	-	-
+PP_GA_RAUSELCF_ind_impresion		145	string	-	-
+PP_GA_RAUSELCF_ind_baja		146	string	-	-
+PP_GA_RAUSELCF_ref_factura		147	string	-	-
+PP_GA_RAUSELCF_fec_alta		148	string	-	-
+PP_GA_RAUSELCF_fec_ultpreem		149	string	-	-
+PP_GA_RAUSELCF_fec_baja		150	string	-	-
+PP_GA_RAUSELCF_cod_idioma		151	string	-	-
+PP_GA_RAUSELCF__rpr_ret		152	long	-	-
+# FIN DE SERVICIO PP_GA_RAUSELCF
+
+# Identificadores para el servicio PP_GA_SELCF
+# INICIO DE SERVICIO PP_GA_SELCF
+PP_GA_SELCF_cta_facturac		153	string	-	-
+PP_GA_SELCF_cod_cuentcli		154	string	-	-
+PP_GA_SELCF_des_nombempr		155	string	-	-
+PP_GA_SELCF_des_apellid1		156	string	-	-
+PP_GA_SELCF_des_apellid2		157	string	-	-
+PP_GA_SELCF_cod_identifi		158	string	-	-
+PP_GA_SELCF_cod_planfact		159	string	-	-
+PP_GA_SELCF_num_identifi		160	string	-	-
+PP_GA_SELCF_cod_tipoimpu		161	string	-	-
+PP_GA_SELCF_cod_ciclo		162	string	-	-
+PP_GA_SELCF_cod_sistcobr		163	string	-	-
+PP_GA_SELCF_ind_pascobro		164	string	-	-
+PP_GA_SELCF_cod_provinci		165	string	-	-
+PP_GA_SELCF_cod_poblacio		166	string	-	-
+PP_GA_SELCF_cod_calle		167	string	-	-
+PP_GA_SELCF_num_calle		168	string	-	-
+PP_GA_SELCF_cod_postal		169	string	-	-
+PP_GA_SELCF_cod_banco		170	string	-	-
+PP_GA_SELCF_cod_sucursal		171	string	-	-
+PP_GA_SELCF_cta_corriente		172	string	-	-
+PP_GA_SELCF_dig_control		173	string	-	-
+PP_GA_SELCF_cod_ciclfact		174	string	-	-
+PP_GA_SELCF_est_preemis		175	string	-	-
+PP_GA_SELCF_ind_impresion		176	string	-	-
+PP_GA_SELCF_ind_baja		177	string	-	-
+PP_GA_SELCF_ref_factura		178	string	-	-
+PP_GA_SELCF_fec_alta		179	string	-	-
+PP_GA_SELCF_fec_ultpreem		180	string	-	-
+PP_GA_SELCF_fec_baja		181	string	-	-
+PP_GA_SELCF_cod_idioma		182	string	-	-
+PP_GA_SELCF_num_tarjeta		183	string	-	-
+PP_GA_SELCF_cod_emisora		184	string	-	-
+PP_GA_SELCF_fec_caduc		185	string	-	-
+PP_GA_SELCF_des_titular		186	string	-	-
+PP_GA_SELCF_tip_tarjeta		187	string	-	-
+PP_GA_SELCF_ind_euro		188	string	-	-
+PP_GA_SELCF__rpr_ret		189	long	-	-
+# FIN DE SERVICIO PP_GA_SELCF
+
+# Identificadores para el servicio PP_GA_RAUCAMCTA
+# INICIO DE SERVICIO PP_GA_RAUCAMCTA
+PP_GA_RAUCAMCTAcod_idcuenta_01		190	string	-	-
+PP_GA_RAUCAMCTAcod_idcuenta_02		191	string	-	-
+PP_GA_RAUCAMCTA_num_telefono		192	string	-	-
+PP_GA_RAUCAMCTA__rpr_ret		193	long	-	-
+# FIN DE SERVICIO PP_GA_RAUCAMCTA
+
+# Identificadores para el servicio PP_GA_CAMCTA
+# INICIO DE SERVICIO PP_GA_CAMCTA
+PP_GA_CAMCTA_cta_facturac_ant		194	string	-	-
+PP_GA_CAMCTA_cta_facturac_nue		195	string	-	-
+PP_GA_CAMCTA_num_telefono		196	string	-	-
+PP_GA_CAMCTA_cod_servicio		197	string	-	-
+PP_GA_CAMCTA__rpr_ret		198	long	-	-
+# FIN DE SERVICIO PP_GA_CAMCTA
+
+# Identificadores para el servicio PP_GA_ALTACTA
+# INICIO DE SERVICIO PP_GA_ALTACTA
+PP_GA_ALTACTA_cod_idcuenta		199	string	-	-
+PP_GA_ALTACTA_cod_origreca		200	string	-	-
+PP_GA_ALTACTA_imp_maximo		201	double	-	-
+PP_GA_ALTACTA_cod_cuentcli		202	string	-	-
+PP_GA_ALTACTA__rpr_ret		203	long	-	-
+# FIN DE SERVICIO PP_GA_ALTACTA
+
+# Identificadores para el servicio PP_GA_BAJACTA
+# INICIO DE SERVICIO PP_GA_BAJACTA
+PP_GA_BAJACTA_cod_idcuenta		204	string	-	-
+PP_GA_BAJACTA__rpr_ret		205	long	-	-
+# FIN DE SERVICIO PP_GA_BAJACTA
+
+# Identificadores para el servicio PP_GA_MODIFCTA
+# INICIO DE SERVICIO PP_GA_MODIFCTA
+PP_GA_MODIFCTA_cod_idcuenta		206	string	-	-
+PP_GA_MODIFCTA_cod_origreca		207	string	-	-
+PP_GA_MODIFCTA_imp_maximo		208	double	-	-
+PP_GA_MODIFCTA__rpr_ret		209	long	-	-
+# FIN DE SERVICIO PP_GA_MODIFCTA
+
+# Identificadores para el servicio PP_GA_HABILCTA
+# INICIO DE SERVICIO PP_GA_HABILCTA
+PP_GA_HABILCTA_cod_idcuenta		210	string	-	-
+PP_GA_HABILCTA_cod_inactivo		211	string	-	-
+PP_GA_HABILCTA__rpr_ret		212	long	-	-
+# FIN DE SERVICIO PP_GA_HABILCTA
+
+# Identificadores para el servicio PP_GA_CONCUE
+# INICIO DE SERVICIO PP_GA_CONCUE
+PP_GA_CONCUE_cod_idcuenta		213	string	-	-
+PP_GA_CONCUE_cod_origreca		214	string	-	-
+PP_GA_CONCUE_cod_cuentcli		215	string	-	-
+PP_GA_CONCUE_imp_maximo		216	double	-	-
+PP_GA_CONCUE_cod_inactivo		217	string	-	-
+PP_GA_CONCUE_fec_alta		218	string	-	-
+PP_GA_CONCUE__rpr_ret		219	long	-	-
+# FIN DE SERVICIO PP_GA_CONCUE
+
+# Identificadores para el servicio PP_GA_CONCUE2
+# INICIO DE SERVICIO PP_GA_CONCUE2
+PP_GA_CONCUE2_cod_idcuenta		220	string	-	-
+PP_GA_CONCUE2_cod_origreca		221	string	-	-
+PP_GA_CONCUE2_cod_cuentcli		222	string	-	-
+PP_GA_CONCUE2_cod_moneda		223	string	-	-
+PP_GA_CONCUE2_imp_maximo		224	double	-	-
+PP_GA_CONCUE2_cod_inactivo		225	string	-	-
+PP_GA_CONCUE2_fec_alta		226	string	-	-
+PP_GA_CONCUE2__rpr_ret		227	long	-	-
+# FIN DE SERVICIO PP_GA_CONCUE2
+
+# Identificadores para el servicio PP_GA_ALTACTA2
+# INICIO DE SERVICIO PP_GA_ALTACTA2
+PP_GA_ALTACTA2_cod_idcuenta		228	string	-	-
+PP_GA_ALTACTA2_cod_origreca		229	string	-	-
+PP_GA_ALTACTA2_imp_maximo		230	double	-	-
+PP_GA_ALTACTA2_cod_cuentcli		231	string	-	-
+PP_GA_ALTACTA2_cod_moneda		232	string	-	-
+PP_GA_ALTACTA2__rpr_ret		233	long	-	-
+# FIN DE SERVICIO PP_GA_ALTACTA2
+
+# Identificadores para el servicio PP_GA_MODCTA2
+# INICIO DE SERVICIO PP_GA_MODCTA2
+PP_GA_MODCTA2_cod_idcuenta		234	string	-	-
+PP_GA_MODCTA2_cod_origreca		235	string	-	-
+PP_GA_MODCTA2_imp_maximo		236	double	-	-
+PP_GA_MODCTA2_cod_moneda		237	string	-	-
+PP_GA_MODCTA2__rpr_ret		238	long	-	-
+# FIN DE SERVICIO PP_GA_MODCTA2
+
+# Identificadores para el servicio PP_GA_SELCF2
+# INICIO DE SERVICIO PP_GA_SELCF2
+PP_GA_SELCF2_n_regs		239	long	-	-
+PP_GA_SELCF2_token		240	string	-	-
+PP_GA_SELCF2_cta_facturac_in		241	string	-	-
+PP_GA_SELCF2_cod_cuentcli_in		242	string	-	-
+PP_GA_SELCF2_cta_corriente_in		243	string	-	-
+PP_GA_SELCF2_num_tarjeta_in		244	string	-	-
+PP_GA_SELCF2_cta_facturac		245	string	-	-
+PP_GA_SELCF2_cod_cuentcli		246	string	-	-
+PP_GA_SELCF2_des_nombempr		247	string	-	-
+PP_GA_SELCF2_des_apellid1		248	string	-	-
+PP_GA_SELCF2_des_apellid2		249	string	-	-
+PP_GA_SELCF2_cod_identifi		250	string	-	-
+PP_GA_SELCF2_cod_planfact		251	string	-	-
+PP_GA_SELCF2_num_identifi		252	string	-	-
+PP_GA_SELCF2_cod_tipoimpu		253	string	-	-
+PP_GA_SELCF2_cod_ciclo		254	string	-	-
+PP_GA_SELCF2_cod_sistcobr		255	string	-	-
+PP_GA_SELCF2_ind_pascobro		256	string	-	-
+PP_GA_SELCF2_cod_provinci		257	string	-	-
+PP_GA_SELCF2_cod_poblacio		258	string	-	-
+PP_GA_SELCF2_cod_calle		259	string	-	-
+PP_GA_SELCF2_num_calle		260	string	-	-
+PP_GA_SELCF2_cod_postal		261	string	-	-
+PP_GA_SELCF2_cod_banco		262	string	-	-
+PP_GA_SELCF2_cod_sucursal		263	string	-	-
+PP_GA_SELCF2_cta_corriente		264	string	-	-
+PP_GA_SELCF2_dig_control		265	string	-	-
+PP_GA_SELCF2_cod_ciclfact		266	string	-	-
+PP_GA_SELCF2_est_preemis		267	string	-	-
+PP_GA_SELCF2_ind_impresion		268	string	-	-
+PP_GA_SELCF2_ind_baja		269	string	-	-
+PP_GA_SELCF2_ref_factura		270	string	-	-
+PP_GA_SELCF2_fec_alta		271	string	-	-
+PP_GA_SELCF2_fec_ultpreem		272	string	-	-
+PP_GA_SELCF2_fec_baja		273	string	-	-
+PP_GA_SELCF2_cod_idioma		274	string	-	-
+PP_GA_SELCF2_num_tarjeta		275	string	-	-
+PP_GA_SELCF2_cod_emisora		276	string	-	-
+PP_GA_SELCF2_fec_caduc		277	string	-	-
+PP_GA_SELCF2_des_titular		278	string	-	-
+PP_GA_SELCF2_tip_tarjeta		279	string	-	-
+PP_GA_SELCF2_ind_euro		280	string	-	-
+PP_GA_SELCF2__rpr_ret		281	long	-	-
+# FIN DE SERVICIO PP_GA_SELCF2
+
+# Identificadores para el servicio PP_GA_CAMCTA2
+# INICIO DE SERVICIO PP_GA_CAMCTA2
+PP_GA_CAMCTA2_snum_telefono		282	string	-	-
+PP_GA_CAMCTA2scta_facturac_a01		283	string	-	-
+PP_GA_CAMCTA2scta_facturac_a02		284	string	-	-
+PP_GA_CAMCTA2_scod_usuario		285	string	-	-
+PP_GA_CAMCTA2_lsec_actuacion		286	long	-	-
+PP_GA_CAMCTA2__rpr_ret		287	long	-	-
+# FIN DE SERVICIO PP_GA_CAMCTA2
+
+# Identificadores para el servicio PP_GA_DETCTA
+# INICIO DE SERVICIO PP_GA_DETCTA
+PP_GA_DETCTA_n_regs		288	long	-	-
+PP_GA_DETCTA_cta_facturac_in		289	string	-	-
+PP_GA_DETCTA_fec_inicio		290	string	-	-
+PP_GA_DETCTA_fec_fin		291	string	-	-
+PP_GA_DETCTA_token		292	string	-	-
+PP_GA_DETCTA_cta_facturac		293	string	-	-
+PP_GA_DETCTA_cod_cuentcli		294	string	-	-
+PP_GA_DETCTA_des_nombempr		295	string	-	-
+PP_GA_DETCTA_des_apellid1		296	string	-	-
+PP_GA_DETCTA_des_apellid2		297	string	-	-
+PP_GA_DETCTA_cod_identifi		298	string	-	-
+PP_GA_DETCTA_cod_planfact		299	string	-	-
+PP_GA_DETCTA_num_identifi		300	string	-	-
+PP_GA_DETCTA_cod_tipoimpu		301	string	-	-
+PP_GA_DETCTA_cod_ciclo		302	string	-	-
+PP_GA_DETCTA_cod_sistcobr		303	string	-	-
+PP_GA_DETCTA_ind_pascobro		304	string	-	-
+PP_GA_DETCTA_cod_provinci		305	string	-	-
+PP_GA_DETCTA_cod_poblacio		306	string	-	-
+PP_GA_DETCTA_cod_calle		307	string	-	-
+PP_GA_DETCTA_num_calle		308	string	-	-
+PP_GA_DETCTA_cod_postal		309	string	-	-
+PP_GA_DETCTA_cod_banco		310	string	-	-
+PP_GA_DETCTA_cod_sucursal		311	string	-	-
+PP_GA_DETCTA_cta_corriente		312	string	-	-
+PP_GA_DETCTA_dig_control		313	string	-	-
+PP_GA_DETCTA_cod_ciclfact		314	string	-	-
+PP_GA_DETCTA_est_preemis		315	string	-	-
+PP_GA_DETCTA_ind_impresion		316	string	-	-
+PP_GA_DETCTA_ind_baja		317	string	-	-
+PP_GA_DETCTA_ref_factura		318	string	-	-
+PP_GA_DETCTA_fec_alta		319	string	-	-
+PP_GA_DETCTA_fec_ultpreem		320	string	-	-
+PP_GA_DETCTA_fec_baja		321	string	-	-
+PP_GA_DETCTA_cod_idioma		322	string	-	-
+PP_GA_DETCTA_num_tarjeta		323	string	-	-
+PP_GA_DETCTA_cod_emisora		324	string	-	-
+PP_GA_DETCTA_fec_caduc		325	string	-	-
+PP_GA_DETCTA_des_titular		326	string	-	-
+PP_GA_DETCTA_tip_tarjeta		327	string	-	-
+PP_GA_DETCTA_ind_euro		328	string	-	-
+PP_GA_DETCTA_fec_modif		329	string	-	-
+PP_GA_DETCTA__rpr_ret		330	long	-	-
+# FIN DE SERVICIO PP_GA_DETCTA
+
+# Identificadores para el servicio PP_GA_MODCTA3
+# INICIO DE SERVICIO PP_GA_MODCTA3
+PP_GA_MODCTA3_cod_idcuenta		331	string	-	-
+PP_GA_MODCTA3_imp_maximo		332	double	-	-
+PP_GA_MODCTA3_cod_moneda		333	string	-	-
+PP_GA_MODCTA3__rpr_ret		334	long	-	-
+# FIN DE SERVICIO PP_GA_MODCTA3
+
+# Identificadores para el servicio PP_GA_ALTACTA3
+# INICIO DE SERVICIO PP_GA_ALTACTA3
+PP_GA_ALTACTA3_cod_idcuenta		335	string	-	-
+PP_GA_ALTACTA3_imp_maximo		336	double	-	-
+PP_GA_ALTACTA3_cod_cuentcli		337	string	-	-
+PP_GA_ALTACTA3_cod_moneda		338	string	-	-
+PP_GA_ALTACTA3__rpr_ret		339	long	-	-
+# FIN DE SERVICIO PP_GA_ALTACTA3
+
+# Identificadores para el servicio PP_GA_CAMCTA3
+# INICIO DE SERVICIO PP_GA_CAMCTA3
+PP_GA_CAMCTA3_snum_telefono		340	string	-	-
+PP_GA_CAMCTA3scta_facturac_a01		341	string	-	-
+PP_GA_CAMCTA3scta_facturac_a02		342	string	-	-
+PP_GA_CAMCTA3_scod_usuario		343	string	-	-
+PP_GA_CAMCTA3_sec_actuacion		344	string	-	-
+PP_GA_CAMCTA3__rpr_ret		345	long	-	-
+# FIN DE SERVICIO PP_GA_CAMCTA3
+

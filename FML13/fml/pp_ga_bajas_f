@@ -1,0 +1,199 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_bajas.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_bajas_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3244000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_SOLBAJA
+# INICIO DE SERVICIO PP_GA_SOLBAJA
+PP_GA_SOLBAJA_num_telefono		0	string	-	-
+PP_GA_SOLBAJA_cod_causbaja		1	string	-	-
+PP_GA_SOLBAJA_cod_usuario		2	string	-	-
+PP_GA_SOLBAJA__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_GA_SOLBAJA
+
+# Identificadores para el servicio PP_GA_CORBAJA
+# INICIO DE SERVICIO PP_GA_CORBAJA
+PP_GA_CORBAJA_num_telefono		4	string	-	-
+PP_GA_CORBAJA_sec_actuacion		5	long	-	-
+PP_GA_CORBAJA_cod_estaprep		6	string	-	-
+PP_GA_CORBAJA_cod_sbestaprep		7	string	-	-
+PP_GA_CORBAJA_fec_estaprep		8	string	-	-
+PP_GA_CORBAJA_cod_usuario		9	string	-	-
+PP_GA_CORBAJA__rpr_ret		10	long	-	-
+# FIN DE SERVICIO PP_GA_CORBAJA
+
+# Identificadores para el servicio PP_GA_CONSREUT
+# INICIO DE SERVICIO PP_GA_CONSREUT
+PP_GA_CONSREUT_fec_inicio		11	string	-	-
+PP_GA_CONSREUT_fec_fin		12	string	-	-
+PP_GA_CONSREUT_n_regs		13	long	-	-
+PP_GA_CONSREUT_token		14	string	-	-
+PP_GA_CONSREUT_cod_zonaoper		15	string	-	-
+PP_GA_CONSREUT_fec_baja		16	string	-	-
+PP_GA_CONSREUT_est_prochist		17	string	-	-
+PP_GA_CONSREUT_num_procesados		18	long	-	-
+PP_GA_CONSREUT__rpr_ret		19	long	-	-
+# FIN DE SERVICIO PP_GA_CONSREUT
+
+# Identificadores para el servicio PP_GA_DEFBAJA
+# INICIO DE SERVICIO PP_GA_DEFBAJA
+PP_GA_DEFBAJA_num_telefono		20	string	-	-
+PP_GA_DEFBAJA_cod_causbaja		21	string	-	-
+PP_GA_DEFBAJA_cod_usuario		22	string	-	-
+PP_GA_DEFBAJA__rpr_ret		23	long	-	-
+# FIN DE SERVICIO PP_GA_DEFBAJA
+
+# Identificadores para el servicio PP_GA_BAJAUTOMA
+# INICIO DE SERVICIO PP_GA_BAJAUTOMA
+PP_GA_BAJAUTOMA_snum_telefono		24	string	-	-
+PP_GA_BAJAUTOMA_scod_causbaja		25	string	-	-
+PP_GA_BAJAUTOMA_sflg_reporte		26	string	-	-
+PP_GA_BAJAUTOMA_scod_usuario		27	string	-	-
+PP_GA_BAJAUTOMA_ssec_actuacion		28	string	-	-
+PP_GA_BAJAUTOMA__rpr_ret		29	long	-	-
+# FIN DE SERVICIO PP_GA_BAJAUTOMA
+
+# Identificadores para el servicio PP_GA_CORBAJA2
+# INICIO DE SERVICIO PP_GA_CORBAJA2
+PP_GA_CORBAJA2_num_telefono		30	string	-	-
+PP_GA_CORBAJA2_sec_actuacion		31	long	-	-
+PP_GA_CORBAJA2_cod_usuario		32	string	-	-
+PP_GA_CORBAJA2_sSecActuacion		33	string	-	-
+PP_GA_CORBAJA2__rpr_ret		34	long	-	-
+# FIN DE SERVICIO PP_GA_CORBAJA2
+
+# Identificadores para el servicio PP_GA_DEFBAJA2
+# INICIO DE SERVICIO PP_GA_DEFBAJA2
+PP_GA_DEFBAJA2_num_telefono		35	string	-	-
+PP_GA_DEFBAJA2_cod_causbaja		36	string	-	-
+PP_GA_DEFBAJA2_cod_usuario		37	string	-	-
+PP_GA_DEFBAJA2_sSecActuacion		38	string	-	-
+PP_GA_DEFBAJA2__rpr_ret		39	long	-	-
+# FIN DE SERVICIO PP_GA_DEFBAJA2
+
+# Identificadores para el servicio PP_GA_SOLBAJA2
+# INICIO DE SERVICIO PP_GA_SOLBAJA2
+PP_GA_SOLBAJA2_num_telefono		40	string	-	-
+PP_GA_SOLBAJA2_cod_causbaja		41	string	-	-
+PP_GA_SOLBAJA2_cod_usuario		42	string	-	-
+PP_GA_SOLBAJA2_sSecActuacion		43	string	-	-
+PP_GA_SOLBAJA2__rpr_ret		44	long	-	-
+# FIN DE SERVICIO PP_GA_SOLBAJA2
+
+# Identificadores para el servicio PP_GA_ELM_ABO
+# INICIO DE SERVICIO PP_GA_ELM_ABO
+PP_GA_ELM_ABO_num_telefono		45	string	-	-
+PP_GA_ELM_ABO_cod_causbaja		46	string	-	-
+PP_GA_ELM_ABO_cod_usuario		47	string	-	-
+PP_GA_ELM_ABO_sSecActuacion		48	string	-	-
+PP_GA_ELM_ABO__rpr_ret		49	long	-	-
+# FIN DE SERVICIO PP_GA_ELM_ABO
+
+# Identificadores para el servicio PP_GA_CORBAJA3
+# INICIO DE SERVICIO PP_GA_CORBAJA3
+PP_GA_CORBAJA3_num_telefono		50	string	-	-
+PP_GA_CORBAJA3_sec_actuacion		51	string	-	-
+PP_GA_CORBAJA3_cod_usuario		52	string	-	-
+PP_GA_CORBAJA3_sSecActuacion		53	string	-	-
+PP_GA_CORBAJA3__rpr_ret		54	long	-	-
+# FIN DE SERVICIO PP_GA_CORBAJA3
+
+# Identificadores para el servicio GA_BAJAUTOMA2
+# INICIO DE SERVICIO GA_BAJAUTOMA2
+GA_BAJAUTOMA2_snum_telefono		55	string	-	-
+GA_BAJAUTOMA2_scod_causbaja		56	string	-	-
+GA_BAJAUTOMA2_sflg_reporte		57	string	-	-
+GA_BAJAUTOMA2_scod_usuario		58	string	-	-
+GA_BAJAUTOMA2_mediaType		59	string	-	-
+GA_BAJAUTOMA2_erReference		60	string	-	-
+GA_BAJAUTOMA2_transaction_id		61	string	-	-
+GA_BAJAUTOMA2_ssec_actuacion		62	string	-	-
+GA_BAJAUTOMA2__rpr_ret		63	long	-	-
+# FIN DE SERVICIO GA_BAJAUTOMA2
+
+# Identificadores para el servicio GA_CAMMODALIDAD
+# INICIO DE SERVICIO GA_CAMMODALIDAD
+GA_CAMMODALIDAD_snum_telefono		64	string	-	-
+GA_CAMMODALIDAD_cod_datosprepa		65	string	-	-
+GA_CAMMODALIDAD_imp_saldo		66	double	-	-
+GA_CAMMODALIDAD_cod_usuario		67	string	-	-
+GA_CAMMODALIDAD_cod_moneda		68	string	-	-
+GA_CAMMODALIDAD_cod_diaciclo		69	string	-	-
+GA_CAMMODALIDAD_num_hlr		70	string	-	-
+GA_CAMMODALIDAD_cod_sdp		71	string	-	-
+GA_CAMMODALIDAD_cod_categoria		72	string	-	-
+GA_CAMMODALIDAD_cod_cliente		73	string	-	-
+GA_CAMMODALIDADsflg_controlC01		74	string	-	-
+GA_CAMMODALIDADln_regs_limit01		75	long	-	-
+GA_CAMMODALIDADsid_limiteCon01		76	string	-	-
+GA_CAMMODALIDADdimp_limiteCo01		77	double	-	-
+GA_CAMMODALIDADdimp_limiteCo02		78	double	-	-
+GA_CAMMODALIDADdimp_limiteCo03		79	double	-	-
+GA_CAMMODALIDADln_regs_umbra01		80	long	-	-
+GA_CAMMODALIDADsid_umbralLim01		81	string	-	-
+GA_CAMMODALIDADdimp_umbralLi01		82	double	-	-
+GA_CAMMODALIDADdimp_umbralLi02		83	double	-	-
+GA_CAMMODALIDADln_regs_event01		84	long	-	-
+GA_CAMMODALIDADsid_eventosLi01		85	string	-	-
+GA_CAMMODALIDADsflg_eventoLi01		86	string	-	-
+GA_CAMMODALIDADsflg_eventoUm01		87	string	-	-
+GA_CAMMODALIDADsflg_eventoLi02		88	string	-	-
+GA_CAMMODALIDADsflg_eventoUm02		89	string	-	-
+GA_CAMMODALIDADsflg_tasarAdi01		90	string	-	-
+GA_CAMMODALIDAD_ssec_actuacion		91	string	-	-
+GA_CAMMODALIDAD__rpr_ret		92	long	-	-
+# FIN DE SERVICIO GA_CAMMODALIDAD
+
+# Identificadores para el servicio GA_BAJAGRUPO
+# INICIO DE SERVICIO GA_BAJAGRUPO
+GA_BAJAGRUPO_num_telefono		93	string	-	-
+GA_BAJAGRUPO_scod_causbaja		94	string	-	-
+GA_BAJAGRUPO_scod_usuario		95	string	-	-
+GA_BAJAGRUPO_sflg_bajalogica		96	string	-	-
+GA_BAJAGRUPO_lnum_diasLatencia		97	long	-	-
+GA_BAJAGRUPO_scod_media_type		98	string	-	-
+GA_BAJAGRUPO_ser_reference		99	string	-	-
+GA_BAJAGRUPOssec_transaction01		100	string	-	-
+GA_BAJAGRUPO_ssec_actuacion		101	string	-	-
+GA_BAJAGRUPO__rpr_ret		102	long	-	-
+# FIN DE SERVICIO GA_BAJAGRUPO
+
+# Identificadores para el servicio GA_MODBAJGRUPO
+# INICIO DE SERVICIO GA_MODBAJGRUPO
+GA_MODBAJGRUPO_num_telefono		103	string	-	-
+GA_MODBAJGRUPO_scod_usuario		104	string	-	-
+GA_MODBAJGRUPOlnum_diasLaten01		105	long	-	-
+GA_MODBAJGRUPO_scod_media_type		106	string	-	-
+GA_MODBAJGRUPO_ser_reference		107	string	-	-
+GA_MODBAJGRUPOssec_transacti01		108	string	-	-
+GA_MODBAJGRUPO_ssec_actuacion		109	string	-	-
+GA_MODBAJGRUPO__rpr_ret		110	long	-	-
+# FIN DE SERVICIO GA_MODBAJGRUPO
+
+# Identificadores para el servicio GA_BAJAUTOMA3
+# INICIO DE SERVICIO GA_BAJAUTOMA3
+GA_BAJAUTOMA3_num_telefono		111	string	-	-
+GA_BAJAUTOMA3_scod_causbaja		112	string	-	-
+GA_BAJAUTOMA3_sflg_reporte		113	string	-	-
+GA_BAJAUTOMA3_scod_usuario		114	string	-	-
+GA_BAJAUTOMA3_ssec_actuacion		115	string	-	-
+GA_BAJAUTOMA3__rpr_ret		116	long	-	-
+# FIN DE SERVICIO GA_BAJAUTOMA3
+
+# Identificadores para el servicio GA_BAJAGRP2
+# INICIO DE SERVICIO GA_BAJAGRP2
+GA_BAJAGRP2_num_telefono		117	string	-	-
+GA_BAJAGRP2_scod_causbaja		118	string	-	-
+GA_BAJAGRP2_scod_usuario		119	string	-	-
+GA_BAJAGRP2_sflg_bajalogica		120	string	-	-
+GA_BAJAGRP2_lnum_diasLatencia		121	long	-	-
+GA_BAJAGRP2_ssec_actuacion		122	string	-	-
+GA_BAJAGRP2__rpr_ret		123	long	-	-
+# FIN DE SERVICIO GA_BAJAGRP2
+

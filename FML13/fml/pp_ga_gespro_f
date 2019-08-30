@@ -1,0 +1,234 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_gespro.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_gespro_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3249000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_ALTPRM
+# INICIO DE SERVICIO PP_GA_ALTPRM
+PP_GA_ALTPRM_cod_usuario		0	string	-	-
+PP_GA_ALTPRM_cod_promocion		1	string	-	-
+PP_GA_ALTPRM_des_promocion		2	string	-	-
+PP_GA_ALTPRM__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_GA_ALTPRM
+
+# Identificadores para el servicio PP_GA_ALTCRT
+# INICIO DE SERVICIO PP_GA_ALTCRT
+PP_GA_ALTCRT_cod_usuario		4	string	-	-
+PP_GA_ALTCRT_cod_promocion		5	string	-	-
+PP_GA_ALTCRT_clave		6	string	-	-
+PP_GA_ALTCRT_cod_actuacio		7	string	-	-
+PP_GA_ALTCRT_ind_anul		8	string	-	-
+PP_GA_ALTCRT_cod_tipprepa		9	string	-	-
+PP_GA_ALTCRT_cod_modventa		10	string	-	-
+PP_GA_ALTCRT_hora_ini		11	long	-	-
+PP_GA_ALTCRT_hora_fin		12	long	-	-
+PP_GA_ALTCRT_dia		13	string	-	-
+PP_GA_ALTCRT_fec_ini		14	string	-	-
+PP_GA_ALTCRT_fec_fin		15	string	-	-
+PP_GA_ALTCRT_flg_perpetu		16	string	-	-
+PP_GA_ALTCRT_num_dias		17	string	-	-
+PP_GA_ALTCRT__rpr_ret		18	long	-	-
+# FIN DE SERVICIO PP_GA_ALTCRT
+
+# Identificadores para el servicio PP_GA_ENLACE
+# INICIO DE SERVICIO PP_GA_ENLACE
+PP_GA_ENLACE_cod_usuario		19	string	-	-
+PP_GA_ENLACE_cod_promocion		20	string	-	-
+PP_GA_ENLACE_des_promocion		21	string	-	-
+PP_GA_ENLACE_max_promociones		22	long	-	-
+PP_GA_ENLACE_nom_libreria		23	string	-	-
+PP_GA_ENLACE_nom_funcion		24	string	-	-
+PP_GA_ENLACE_cod_envmensa		25	string	-	-
+PP_GA_ENLACE_fec_baja		26	string	-	-
+PP_GA_ENLACE__rpr_ret		27	long	-	-
+# FIN DE SERVICIO PP_GA_ENLACE
+
+# Identificadores para el servicio PP_GA_INSPROMO
+# INICIO DE SERVICIO PP_GA_INSPROMO
+PP_GA_INSPROMO_num_telefono		28	string	-	-
+PP_GA_INSPROMO_cod_actuacio		29	string	-	-
+PP_GA_INSPROMO_imp_coste		30	long	-	-
+PP_GA_INSPROMO_cod_promocion		31	string	-	-
+PP_GA_INSPROMO_fec_usada		32	string	-	-
+PP_GA_INSPROMO_flg_perpetu		33	string	-	-
+PP_GA_INSPROMO_fec_caduca		34	string	-	-
+PP_GA_INSPROMO_con_usada		35	long	-	-
+PP_GA_INSPROMO_cod_moneda		36	string	-	-
+PP_GA_INSPROMO_num_promociones		37	long	-	-
+PP_GA_INSPROMO__rpr_ret		38	long	-	-
+# FIN DE SERVICIO PP_GA_INSPROMO
+
+# Identificadores para el servicio PP_GA_CONPROMO
+# INICIO DE SERVICIO PP_GA_CONPROMO
+PP_GA_CONPROMO_num_telefono		39	string	-	-
+PP_GA_CONPROMO_cod_promocion		40	string	-	-
+PP_GA_CONPROMO_cod_actuacion		41	string	-	-
+PP_GA_CONPROMO_cod_moneda		42	string	-	-
+PP_GA_CONPROMO_lnum_items		43	long	-	-
+PP_GA_CONPROMO_snum_telefono		44	string	-	-
+PP_GA_CONPROMO_scod_actuacion		45	string	-	-
+PP_GA_CONPROMO_imp_coste		46	double	-	-
+PP_GA_CONPROMO_sfec_promocion		47	string	-	-
+PP_GA_CONPROMO_scod_promocion		48	string	-	-
+PP_GA_CONPROMO_sfec_usada		49	string	-	-
+PP_GA_CONPROMO_sflg_perpetu		50	string	-	-
+PP_GA_CONPROMO_sfec_caduca		51	string	-	-
+PP_GA_CONPROMO_con_usada		52	long	-	-
+PP_GA_CONPROMO_HayMas		53	carray	-	-
+PP_GA_CONPROMO__rpr_ret		54	long	-	-
+# FIN DE SERVICIO PP_GA_CONPROMO
+
+# Identificadores para el servicio PP_GA_ALPERABO
+# INICIO DE SERVICIO PP_GA_ALPERABO
+PP_GA_ALPERABO_snum_telefono		55	string	-	-
+PP_GA_ALPERABO_scod_perfilabo		56	string	-	-
+PP_GA_ALPERABO__rpr_ret		57	long	-	-
+# FIN DE SERVICIO PP_GA_ALPERABO
+
+# Identificadores para el servicio PP_GA_BAPERABO
+# INICIO DE SERVICIO PP_GA_BAPERABO
+PP_GA_BAPERABO_snum_telefono		58	string	-	-
+PP_GA_BAPERABO_scod_perfilabo		59	string	-	-
+PP_GA_BAPERABO__rpr_ret		60	long	-	-
+# FIN DE SERVICIO PP_GA_BAPERABO
+
+# Identificadores para el servicio PP_GA_CONPERABO
+# INICIO DE SERVICIO PP_GA_CONPERABO
+PP_GA_CONPERABO_snum_telefono		61	string	-	-
+PP_GA_CONPERABO_stoken		62	string	-	-
+PP_GA_CONPERABO_ln_regs		63	long	-	-
+PP_GA_CONPERABO_scod_perfilabo		64	string	-	-
+PP_GA_CONPERABO_sfecha		65	string	-	-
+PP_GA_CONPERABO__rpr_ret		66	long	-	-
+# FIN DE SERVICIO PP_GA_CONPERABO
+
+# Identificadores para el servicio GA_ALPERABO
+# INICIO DE SERVICIO GA_ALPERABO
+GA_ALPERABO_snum_telefono		67	string	-	-
+GA_ALPERABO_scod_perfilabo		68	string	-	-
+GA_ALPERABO_dcoste		69	double	-	-
+GA_ALPERABO_scod_moneda		70	string	-	-
+GA_ALPERABO_scod_usuario		71	string	-	-
+GA_ALPERABO_ssec_actuacion		72	string	-	-
+GA_ALPERABO__rpr_ret		73	long	-	-
+# FIN DE SERVICIO GA_ALPERABO
+
+# Identificadores para el servicio GA_BAPERABO
+# INICIO DE SERVICIO GA_BAPERABO
+GA_BAPERABO_snum_telefono		74	string	-	-
+GA_BAPERABO_scod_perfilabo		75	string	-	-
+GA_BAPERABO_dcoste		76	double	-	-
+GA_BAPERABO_scod_moneda		77	string	-	-
+GA_BAPERABO_scod_usuario		78	string	-	-
+GA_BAPERABO_ssec_actuacion		79	string	-	-
+GA_BAPERABO__rpr_ret		80	long	-	-
+# FIN DE SERVICIO GA_BAPERABO
+
+# Identificadores para el servicio GA_PROVPROM
+# INICIO DE SERVICIO GA_PROVPROM
+GA_PROVPROM_num_telefono		81	string	-	-
+GA_PROVPROM_dcoste		82	double	-	-
+GA_PROVPROM_scod_moneda		83	string	-	-
+GA_PROVPROM_scod_usuario		84	string	-	-
+GA_PROVPROM_sfilteringFlag		85	string	-	-
+GA_PROVPROM_scod_promocio		86	string	-	-
+GA_PROVPROM_ssec_actuacion		87	string	-	-
+GA_PROVPROM__rpr_ret		88	long	-	-
+# FIN DE SERVICIO GA_PROVPROM
+
+# Identificadores para el servicio GA_DELPROM
+# INICIO DE SERVICIO GA_DELPROM
+GA_DELPROM_num_telefono		89	string	-	-
+GA_DELPROM_dcoste		90	double	-	-
+GA_DELPROM_scod_moneda		91	string	-	-
+GA_DELPROM_scod_usuario		92	string	-	-
+GA_DELPROM_scod_promocio		93	string	-	-
+GA_DELPROM_ssec_act_ent		94	string	-	-
+GA_DELPROM_ssec_actuacion		95	string	-	-
+GA_DELPROM__rpr_ret		96	long	-	-
+# FIN DE SERVICIO GA_DELPROM
+
+# Identificadores para el servicio GA_CONPROM
+# INICIO DE SERVICIO GA_CONPROM
+GA_CONPROM_num_telefono		97	string	-	-
+GA_CONPROM_scod_promocio		98	string	-	-
+GA_CONPROM_scod_moneda		99	string	-	-
+GA_CONPROM_ssec_actuacion		100	string	-	-
+GA_CONPROM_ln_regs		101	long	-	-
+GA_CONPROM_stoken		102	string	-	-
+GA_CONPROM_ascod_promo		103	string	-	-
+GA_CONPROM_alpercDisc		104	long	-	-
+GA_CONPROM_adcoste		105	double	-	-
+GA_CONPROM_alnumDesc		106	long	-	-
+GA_CONPROM_asFecIni		107	string	-	-
+GA_CONPROM_asFecFin		108	string	-	-
+GA_CONPROM_cHayMas		109	carray	-	-
+GA_CONPROM__rpr_ret		110	long	-	-
+# FIN DE SERVICIO GA_CONPROM
+
+# Identificadores para el servicio GA_ALPERABO2
+# INICIO DE SERVICIO GA_ALPERABO2
+GA_ALPERABO2_num_telefono		111	string	-	-
+GA_ALPERABO2_scod_perfilabo		112	string	-	-
+GA_ALPERABO2_scod_moneda		113	string	-	-
+GA_ALPERABO2_dcoste		114	double	-	-
+GA_ALPERABO2_lmod_cobro		115	long	-	-
+GA_ALPERABO2_scod_usuario		116	string	-	-
+GA_ALPERABO2_sfec_ini		117	string	-	-
+GA_ALPERABO2_sfec_fin		118	string	-	-
+GA_ALPERABO2_lvalidez		119	long	-	-
+GA_ALPERABO2_ssec_actuacion		120	string	-	-
+GA_ALPERABO2__rpr_ret		121	long	-	-
+# FIN DE SERVICIO GA_ALPERABO2
+
+# Identificadores para el servicio GA_BAPERABO2
+# INICIO DE SERVICIO GA_BAPERABO2
+GA_BAPERABO2_num_telefono		122	string	-	-
+GA_BAPERABO2_scod_perfilabo		123	string	-	-
+GA_BAPERABO2_ssec_suscrip		124	string	-	-
+GA_BAPERABO2_scod_moneda		125	string	-	-
+GA_BAPERABO2_dcoste		126	double	-	-
+GA_BAPERABO2_lmod_cobro		127	long	-	-
+GA_BAPERABO2_scod_usuario		128	string	-	-
+GA_BAPERABO2_ssec_actuacion		129	string	-	-
+GA_BAPERABO2__rpr_ret		130	long	-	-
+# FIN DE SERVICIO GA_BAPERABO2
+
+# Identificadores para el servicio GA_MODPERABO
+# INICIO DE SERVICIO GA_MODPERABO
+GA_MODPERABO_num_telefono		131	string	-	-
+GA_MODPERABO_ssec_suscrip		132	string	-	-
+GA_MODPERABO_scod_moneda		133	string	-	-
+GA_MODPERABO_scod_usuario		134	string	-	-
+GA_MODPERABO_dcoste		135	double	-	-
+GA_MODPERABO_lmod_cobro		136	long	-	-
+GA_MODPERABO_sfec_ini		137	string	-	-
+GA_MODPERABO_sfec_fin		138	string	-	-
+GA_MODPERABO_lvalidez		139	long	-	-
+GA_MODPERABO_ssec_actuacion		140	string	-	-
+GA_MODPERABO__rpr_ret		141	long	-	-
+# FIN DE SERVICIO GA_MODPERABO
+
+# Identificadores para el servicio GA_CONPERABO
+# INICIO DE SERVICIO GA_CONPERABO
+GA_CONPERABO_num_telefono		142	string	-	-
+GA_CONPERABO_sflg_activo		143	string	-	-
+GA_CONPERABO_sfec_iniexpira		144	string	-	-
+GA_CONPERABO_sfec_finexpira		145	string	-	-
+GA_CONPERABO_stoken		146	string	-	-
+GA_CONPERABO_ln_regs		147	long	-	-
+GA_CONPERABO_scod_perfil		148	string	-	-
+GA_CONPERABO_ssec_suscrip		149	string	-	-
+GA_CONPERABO_sfecha		150	string	-	-
+GA_CONPERABO_sfec_ini		151	string	-	-
+GA_CONPERABO_sfec_fin		152	string	-	-
+GA_CONPERABO_sflagSOS		153	string	-	-
+GA_CONPERABO__rpr_ret		154	long	-	-
+# FIN DE SERVICIO GA_CONPERABO
+

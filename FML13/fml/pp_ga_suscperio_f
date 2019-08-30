@@ -1,0 +1,1018 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_suscperio.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_suscperio_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz Suscripciones versión 1.0 
+#
+
+*base		3274000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_BAJSUSPER
+# INICIO DE SERVICIO PP_GA_BAJSUSPER
+PP_GA_BAJSUSPER_telefono		0	string	-	-
+PP_GA_BAJSUSPER_sec_actuacion		1	long	-	-
+PP_GA_BAJSUSPER_cod_usuario		2	string	-	-
+PP_GA_BAJSUSPER__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_GA_BAJSUSPER
+
+# Identificadores para el servicio PP_GA_CONSUSPER
+# INICIO DE SERVICIO PP_GA_CONSUSPER
+PP_GA_CONSUSPER_n_regs		4	long	-	-
+PP_GA_CONSUSPER_cod_tipactper		5	string	-	-
+PP_GA_CONSUSPER_cod_tarea		6	string	-	-
+PP_GA_CONSUSPER_hay_ejecucione		7	string	-	-
+PP_GA_CONSUSPER_num_ejecucione		8	string	-	-
+PP_GA_CONSUSPER_cod_temporizac		9	string	-	-
+PP_GA_CONSUSPER_int_temporizac		10	string	-	-
+PP_GA_CONSUSPER_des_tipactper		11	string	-	-
+PP_GA_CONSUSPER_dia_referencia		12	string	-	-
+PP_GA_CONSUSPER_token		13	string	-	-
+PP_GA_CONSUSPER_masDatos		14	carray	-	-
+PP_GA_CONSUSPER__rpr_ret		15	long	-	-
+# FIN DE SERVICIO PP_GA_CONSUSPER
+
+# Identificadores para el servicio PP_GA_SUSPERABO
+# INICIO DE SERVICIO PP_GA_SUSPERABO
+PP_GA_SUSPERABO_telefono		16	string	-	-
+PP_GA_SUSPERABO_n_regs		17	long	-	-
+PP_GA_SUSPERABO_sec_actuacion		18	long	-	-
+PP_GA_SUSPERABO_cod_tipactper		19	string	-	-
+PP_GA_SUSPERABO_fec_activacion		20	string	-	-
+PP_GA_SUSPERABO_flg_activo		21	string	-	-
+PP_GA_SUSPERABO_masDatos		22	carray	-	-
+PP_GA_SUSPERABO_token		23	string	-	-
+PP_GA_SUSPERABO__rpr_ret		24	long	-	-
+# FIN DE SERVICIO PP_GA_SUSPERABO
+
+# Identificadores para el servicio PP_GA_ALRECARGA
+# INICIO DE SERVICIO PP_GA_ALRECARGA
+PP_GA_ALRECARGA_stelefono		25	string	-	-
+PP_GA_ALRECARGA_cod_tipactper		26	string	-	-
+PP_GA_ALRECARGA_fimp_recarga		27	double	-	-
+PP_GA_ALRECARGA_scod_moneda		28	string	-	-
+PP_GA_ALRECARGA_scod_usuario		29	string	-	-
+PP_GA_ALRECARGA_ssec_actuacion		30	string	-	-
+PP_GA_ALRECARGA__rpr_ret		31	long	-	-
+# FIN DE SERVICIO PP_GA_ALRECARGA
+
+# Identificadores para el servicio PP_GA_ALRECPER
+# INICIO DE SERVICIO PP_GA_ALRECPER
+PP_GA_ALRECPER_stelefono		32	string	-	-
+PP_GA_ALRECPER_cod_tipactper		33	string	-	-
+PP_GA_ALRECPER_fimp_recarga		34	double	-	-
+PP_GA_ALRECPER_scod_moneda		35	string	-	-
+PP_GA_ALRECPER_sfec_ejecucion		36	string	-	-
+PP_GA_ALRECPER_scod_usuario		37	string	-	-
+PP_GA_ALRECPER_ssec_actuacion		38	string	-	-
+PP_GA_ALRECPER__rpr_ret		39	long	-	-
+# FIN DE SERVICIO PP_GA_ALRECPER
+
+# Identificadores para el servicio PP_GA_ALBONPER
+# INICIO DE SERVICIO PP_GA_ALBONPER
+PP_GA_ALBONPER_stelefono		40	string	-	-
+PP_GA_ALBONPER_cod_tipactper		41	string	-	-
+PP_GA_ALBONPER_lcan_bonifica		42	long	-	-
+PP_GA_ALBONPER_sfec_ejecucion		43	string	-	-
+PP_GA_ALBONPER_scod_usuario		44	string	-	-
+PP_GA_ALBONPER_ssec_actuacion		45	string	-	-
+PP_GA_ALBONPER__rpr_ret		46	long	-	-
+# FIN DE SERVICIO PP_GA_ALBONPER
+
+# Identificadores para el servicio PP_GA_ALBONPER2
+# INICIO DE SERVICIO PP_GA_ALBONPER2
+PP_GA_ALBONPER2_stelefono		47	string	-	-
+PP_GA_ALBONPER2_cod_tipactper		48	string	-	-
+PP_GA_ALBONPER2_lcan_bonifica		49	long	-	-
+PP_GA_ALBONPER2_sfec_ejecucion		50	string	-	-
+PP_GA_ALBONPER2_scod_usuario		51	string	-	-
+PP_GA_ALBONPER2_cod_moneda		52	string	-	-
+PP_GA_ALBONPER2_dCoste		53	double	-	-
+PP_GA_ALBONPER2_ssec_actuacion		54	string	-	-
+PP_GA_ALBONPER2__rpr_ret		55	long	-	-
+# FIN DE SERVICIO PP_GA_ALBONPER2
+
+# Identificadores para el servicio PP_GA_BAJSUSPE2
+# INICIO DE SERVICIO PP_GA_BAJSUSPE2
+PP_GA_BAJSUSPE2_telefono		56	string	-	-
+PP_GA_BAJSUSPE2_sec_actuacion		57	long	-	-
+PP_GA_BAJSUSPE2_cod_usuario		58	string	-	-
+PP_GA_BAJSUSPE2_sSecActuacion		59	string	-	-
+PP_GA_BAJSUSPE2__rpr_ret		60	long	-	-
+# FIN DE SERVICIO PP_GA_BAJSUSPE2
+
+# Identificadores para el servicio PP_GA_SUSPERAB2
+# INICIO DE SERVICIO PP_GA_SUSPERAB2
+PP_GA_SUSPERAB2_telefono		61	string	-	-
+PP_GA_SUSPERAB2_flg_activoIn		62	string	-	-
+PP_GA_SUSPERAB2_n_regs		63	long	-	-
+PP_GA_SUSPERAB2_sec_actuacion		64	long	-	-
+PP_GA_SUSPERAB2_cod_tipactper		65	string	-	-
+PP_GA_SUSPERAB2_fec_activacion		66	string	-	-
+PP_GA_SUSPERAB2_fec_referencia		67	string	-	-
+PP_GA_SUSPERAB2fec_sgte_ejec01		68	string	-	-
+PP_GA_SUSPERAB2_num_realizadas		69	long	-	-
+PP_GA_SUSPERAB2_cantidad		70	long	-	-
+PP_GA_SUSPERAB2_flg_activo		71	string	-	-
+PP_GA_SUSPERAB2_flg_ejecutado		72	string	-	-
+PP_GA_SUSPERAB2_masDatos		73	carray	-	-
+PP_GA_SUSPERAB2_token		74	string	-	-
+PP_GA_SUSPERAB2__rpr_ret		75	long	-	-
+# FIN DE SERVICIO PP_GA_SUSPERAB2
+
+# Identificadores para el servicio PP_GA_CONACTPER
+# INICIO DE SERVICIO PP_GA_CONACTPER
+PP_GA_CONACTPER_sec_actuacion		76	string	-	-
+PP_GA_CONACTPER_n_regs		77	long	-	-
+PP_GA_CONACTPER_sec_actperio		78	long	-	-
+PP_GA_CONACTPER_fec_actuacion		79	string	-	-
+PP_GA_CONACTPER_cod_estarec		80	string	-	-
+PP_GA_CONACTPERsec_actreinte01		81	long	-	-
+PP_GA_CONACTPER_masDatos		82	carray	-	-
+PP_GA_CONACTPER_token		83	string	-	-
+PP_GA_CONACTPER__rpr_ret		84	long	-	-
+# FIN DE SERVICIO PP_GA_CONACTPER
+
+# Identificadores para el servicio PP_GA_ALBONPE3
+# INICIO DE SERVICIO PP_GA_ALBONPE3
+PP_GA_ALBONPE3_stelefono		85	string	-	-
+PP_GA_ALBONPE3_cod_tipactper		86	string	-	-
+PP_GA_ALBONPE3_lcan_bonifica		87	long	-	-
+PP_GA_ALBONPE3_sfec_ejecucion		88	string	-	-
+PP_GA_ALBONPE3_scod_usuario		89	string	-	-
+PP_GA_ALBONPE3_cod_moneda		90	string	-	-
+PP_GA_ALBONPE3_dCoste		91	double	-	-
+PP_GA_ALBONPE3_ssec_actuacion		92	string	-	-
+PP_GA_ALBONPE3__rpr_ret		93	long	-	-
+# FIN DE SERVICIO PP_GA_ALBONPE3
+
+# Identificadores para el servicio PP_GA_ALCOBPER
+# INICIO DE SERVICIO PP_GA_ALCOBPER
+PP_GA_ALCOBPER_stelefono		94	string	-	-
+PP_GA_ALCOBPER_cod_tipactper		95	string	-	-
+PP_GA_ALCOBPER_fimp_recarga		96	double	-	-
+PP_GA_ALCOBPER_scod_moneda		97	string	-	-
+PP_GA_ALCOBPER_sfec_ejecucion		98	string	-	-
+PP_GA_ALCOBPER_scod_usuario		99	string	-	-
+PP_GA_ALCOBPER_ssec_actuacion		100	string	-	-
+PP_GA_ALCOBPER__rpr_ret		101	long	-	-
+# FIN DE SERVICIO PP_GA_ALCOBPER
+
+# Identificadores para el servicio PP_GA_BAJSUSP3
+# INICIO DE SERVICIO PP_GA_BAJSUSP3
+PP_GA_BAJSUSP3_telefono		102	string	-	-
+PP_GA_BAJSUSP3_sec_actuacion		103	string	-	-
+PP_GA_BAJSUSP3_cod_usuario		104	string	-	-
+PP_GA_BAJSUSP3_sSecActuacion		105	string	-	-
+PP_GA_BAJSUSP3__rpr_ret		106	long	-	-
+# FIN DE SERVICIO PP_GA_BAJSUSP3
+
+# Identificadores para el servicio PP_GA_SUSPERA4
+# INICIO DE SERVICIO PP_GA_SUSPERA4
+PP_GA_SUSPERA4_telefono		107	string	-	-
+PP_GA_SUSPERA4_flg_activoIn		108	string	-	-
+PP_GA_SUSPERA4_n_regs		109	long	-	-
+PP_GA_SUSPERA4_sec_actuacion		110	string	-	-
+PP_GA_SUSPERA4_cod_tipactper		111	string	-	-
+PP_GA_SUSPERA4_fec_activacion		112	string	-	-
+PP_GA_SUSPERA4_fec_referencia		113	string	-	-
+PP_GA_SUSPERA4fec_sgte_ejecu01		114	string	-	-
+PP_GA_SUSPERA4_num_realizadas		115	long	-	-
+PP_GA_SUSPERA4_cantidad		116	long	-	-
+PP_GA_SUSPERA4_flg_activo		117	string	-	-
+PP_GA_SUSPERA4_flg_ejecutado		118	string	-	-
+PP_GA_SUSPERA4_masDatos		119	carray	-	-
+PP_GA_SUSPERA4_token		120	string	-	-
+PP_GA_SUSPERA4__rpr_ret		121	long	-	-
+# FIN DE SERVICIO PP_GA_SUSPERA4
+
+# Identificadores para el servicio PP_GA_CONACTP2
+# INICIO DE SERVICIO PP_GA_CONACTP2
+PP_GA_CONACTP2_sec_actuacion		122	string	-	-
+PP_GA_CONACTP2_n_regs		123	long	-	-
+PP_GA_CONACTP2_sec_actperio		124	string	-	-
+PP_GA_CONACTP2_fec_actuacion		125	string	-	-
+PP_GA_CONACTP2_cod_estarec		126	string	-	-
+PP_GA_CONACTP2sec_actreinten01		127	string	-	-
+PP_GA_CONACTP2_masDatos		128	carray	-	-
+PP_GA_CONACTP2_token		129	string	-	-
+PP_GA_CONACTP2__rpr_ret		130	long	-	-
+# FIN DE SERVICIO PP_GA_CONACTP2
+
+# Identificadores para el servicio PP_GA_SUSPERA3
+# INICIO DE SERVICIO PP_GA_SUSPERA3
+PP_GA_SUSPERA3_telefono		131	string	-	-
+PP_GA_SUSPERA3_n_regs		132	long	-	-
+PP_GA_SUSPERA3_sec_actuacion		133	string	-	-
+PP_GA_SUSPERA3_cod_tipactper		134	string	-	-
+PP_GA_SUSPERA3_fec_activacion		135	string	-	-
+PP_GA_SUSPERA3_flg_activo		136	string	-	-
+PP_GA_SUSPERA3_masDatos		137	carray	-	-
+PP_GA_SUSPERA3_token		138	string	-	-
+PP_GA_SUSPERA3__rpr_ret		139	long	-	-
+# FIN DE SERVICIO PP_GA_SUSPERA3
+
+# Identificadores para el servicio PP_GA_ALBONPE4
+# INICIO DE SERVICIO PP_GA_ALBONPE4
+PP_GA_ALBONPE4_stelefono		140	string	-	-
+PP_GA_ALBONPE4_cod_tipactper		141	string	-	-
+PP_GA_ALBONPE4_lcan_bonifica		142	long	-	-
+PP_GA_ALBONPE4_sfec_ejecucion		143	string	-	-
+PP_GA_ALBONPE4_scod_usuario		144	string	-	-
+PP_GA_ALBONPE4_cod_moneda		145	string	-	-
+PP_GA_ALBONPE4_dCoste		146	double	-	-
+PP_GA_ALBONPE4_dCosteAP		147	double	-	-
+PP_GA_ALBONPE4_ssec_actuacion		148	string	-	-
+PP_GA_ALBONPE4__rpr_ret		149	long	-	-
+# FIN DE SERVICIO PP_GA_ALBONPE4
+
+# Identificadores para el servicio PP_GA_ALRECPE2
+# INICIO DE SERVICIO PP_GA_ALRECPE2
+PP_GA_ALRECPE2_stelefono		150	string	-	-
+PP_GA_ALRECPE2_cod_tipactper		151	string	-	-
+PP_GA_ALRECPE2_fimp_recarga		152	double	-	-
+PP_GA_ALRECPE2_scod_moneda		153	string	-	-
+PP_GA_ALRECPE2_sfec_ejecucion		154	string	-	-
+PP_GA_ALRECPE2_scod_usuario		155	string	-	-
+PP_GA_ALRECPE2_dCosteAP		156	double	-	-
+PP_GA_ALRECPE2_ssec_actuacion		157	string	-	-
+PP_GA_ALRECPE2__rpr_ret		158	long	-	-
+# FIN DE SERVICIO PP_GA_ALRECPE2
+
+# Identificadores para el servicio PP_GA_ALBONPE5
+# INICIO DE SERVICIO PP_GA_ALBONPE5
+PP_GA_ALBONPE5_stelefono		159	string	-	-
+PP_GA_ALBONPE5_cod_tipactper		160	string	-	-
+PP_GA_ALBONPE5_lcan_bonifica		161	double	-	-
+PP_GA_ALBONPE5_sfec_ejecucion		162	string	-	-
+PP_GA_ALBONPE5_scod_usuario		163	string	-	-
+PP_GA_ALBONPE5_cod_moneda		164	string	-	-
+PP_GA_ALBONPE5_dCoste		165	double	-	-
+PP_GA_ALBONPE5_dCosteAP		166	double	-	-
+PP_GA_ALBONPE5_ssec_actuacion		167	string	-	-
+PP_GA_ALBONPE5__rpr_ret		168	long	-	-
+# FIN DE SERVICIO PP_GA_ALBONPE5
+
+# Identificadores para el servicio PP_GA_SUSPERA5
+# INICIO DE SERVICIO PP_GA_SUSPERA5
+PP_GA_SUSPERA5_telefono		169	string	-	-
+PP_GA_SUSPERA5_flg_activoIn		170	string	-	-
+PP_GA_SUSPERA5_n_regs		171	long	-	-
+PP_GA_SUSPERA5_sec_actuacion		172	string	-	-
+PP_GA_SUSPERA5_cod_tipactper		173	string	-	-
+PP_GA_SUSPERA5_fec_activacion		174	string	-	-
+PP_GA_SUSPERA5_fec_referencia		175	string	-	-
+PP_GA_SUSPERA5fec_sgte_ejecu01		176	string	-	-
+PP_GA_SUSPERA5_num_realizadas		177	long	-	-
+PP_GA_SUSPERA5_cantidad		178	long	-	-
+PP_GA_SUSPERA5_cod_importe		179	string	-	-
+PP_GA_SUSPERA5_flg_activo		180	string	-	-
+PP_GA_SUSPERA5_flg_ejecutado		181	string	-	-
+PP_GA_SUSPERA5_masDatos		182	carray	-	-
+PP_GA_SUSPERA5_token		183	string	-	-
+PP_GA_SUSPERA5__rpr_ret		184	long	-	-
+# FIN DE SERVICIO PP_GA_SUSPERA5
+
+# Identificadores para el servicio PP_GA_ALRECPE3
+# INICIO DE SERVICIO PP_GA_ALRECPE3
+PP_GA_ALRECPE3_stelefono		185	string	-	-
+PP_GA_ALRECPE3_cod_tipactper		186	string	-	-
+PP_GA_ALRECPE3_scod_importe		187	string	-	-
+PP_GA_ALRECPE3_fimp_recarga		188	double	-	-
+PP_GA_ALRECPE3_scod_moneda		189	string	-	-
+PP_GA_ALRECPE3_sfec_ejecucion		190	string	-	-
+PP_GA_ALRECPE3_scod_usuario		191	string	-	-
+PP_GA_ALRECPE3_dCosteAP		192	double	-	-
+PP_GA_ALRECPE3_ssec_actuacion		193	string	-	-
+PP_GA_ALRECPE3__rpr_ret		194	long	-	-
+# FIN DE SERVICIO PP_GA_ALRECPE3
+
+# Identificadores para el servicio PP_GA_CONCODIMP
+# INICIO DE SERVICIO PP_GA_CONCODIMP
+PP_GA_CONCODIMP_scod_importe		195	string	-	-
+PP_GA_CONCODIMP_scod_moneda		196	string	-	-
+PP_GA_CONCODIMP_importe		197	long	-	-
+PP_GA_CONCODIMP__rpr_ret		198	long	-	-
+# FIN DE SERVICIO PP_GA_CONCODIMP
+
+# Identificadores para el servicio GA_ALBONPE_PR
+# INICIO DE SERVICIO GA_ALBONPE_PR
+GA_ALBONPE_PR_stelefono		199	string	-	-
+GA_ALBONPE_PR_cod_tipactper		200	string	-	-
+GA_ALBONPE_PR_lcan_bonifica		201	long	-	-
+GA_ALBONPE_PR_sfec_ejecucion		202	string	-	-
+GA_ALBONPE_PR_scod_usuario		203	string	-	-
+GA_ALBONPE_PR_cod_moneda		204	string	-	-
+GA_ALBONPE_PR_dCoste		205	double	-	-
+GA_ALBONPE_PR_dCosteAP		206	double	-	-
+GA_ALBONPE_PR_cprimer_bono		207	string	-	-
+GA_ALBONPE_PR_ssec_actuacion		208	string	-	-
+GA_ALBONPE_PR_ssec_actuacion2		209	string	-	-
+GA_ALBONPE_PR__rpr_ret		210	long	-	-
+# FIN DE SERVICIO GA_ALBONPE_PR
+
+# Identificadores para el servicio GA_ALBONPE6
+# INICIO DE SERVICIO GA_ALBONPE6
+GA_ALBONPE6_stelefono		211	string	-	-
+GA_ALBONPE6_cod_tipactper		212	string	-	-
+GA_ALBONPE6_lcan_bonifica		213	double	-	-
+GA_ALBONPE6_sfec_ejecucion		214	string	-	-
+GA_ALBONPE6_scod_usuario		215	string	-	-
+GA_ALBONPE6_cod_moneda		216	string	-	-
+GA_ALBONPE6_dCoste		217	double	-	-
+GA_ALBONPE6_dCosteAP		218	double	-	-
+GA_ALBONPE6_cprimer_bono		219	string	-	-
+GA_ALBONPE6_lNumSesiones		220	long	-	-
+GA_ALBONPE6_ssec_actuacion		221	string	-	-
+GA_ALBONPE6_ssec_actuacion2		222	string	-	-
+GA_ALBONPE6__rpr_ret		223	long	-	-
+# FIN DE SERVICIO GA_ALBONPE6
+
+# Identificadores para el servicio GA_SUSPERA6
+# INICIO DE SERVICIO GA_SUSPERA6
+GA_SUSPERA6_telefono		224	string	-	-
+GA_SUSPERA6_flg_activoIn		225	string	-	-
+GA_SUSPERA6_scod_moneda		226	string	-	-
+GA_SUSPERA6_n_regs		227	long	-	-
+GA_SUSPERA6_sec_actuacion		228	string	-	-
+GA_SUSPERA6_cod_tipactper		229	string	-	-
+GA_SUSPERA6_fec_activacion		230	string	-	-
+GA_SUSPERA6_fec_referencia		231	string	-	-
+GA_SUSPERA6_fec_sgte_ejec		232	string	-	-
+GA_SUSPERA6_num_realizadas		233	long	-	-
+GA_SUSPERA6_cantidad		234	double	-	-
+GA_SUSPERA6_cod_importe		235	string	-	-
+GA_SUSPERA6_num_sesiones		236	string	-	-
+GA_SUSPERA6_flg_activo		237	string	-	-
+GA_SUSPERA6_flg_ejecutado		238	string	-	-
+GA_SUSPERA6_masDatos		239	carray	-	-
+GA_SUSPERA6_token		240	string	-	-
+GA_SUSPERA6__rpr_ret		241	long	-	-
+# FIN DE SERVICIO GA_SUSPERA6
+
+# Identificadores para el servicio GA_ALRECPE4
+# INICIO DE SERVICIO GA_ALRECPE4
+GA_ALRECPE4_stelefono		242	string	-	-
+GA_ALRECPE4_cod_tipactper		243	string	-	-
+GA_ALRECPE4_scod_importe		244	string	-	-
+GA_ALRECPE4_fimp_recarga		245	double	-	-
+GA_ALRECPE4_scod_moneda		246	string	-	-
+GA_ALRECPE4_sfec_ejecucion		247	string	-	-
+GA_ALRECPE4_scod_usuario		248	string	-	-
+GA_ALRECPE4_dCosteAP		249	double	-	-
+GA_ALRECPE4_cprimer_recarga		250	string	-	-
+GA_ALRECPE4_ssec_actuacion		251	string	-	-
+GA_ALRECPE4__rpr_ret		252	long	-	-
+# FIN DE SERVICIO GA_ALRECPE4
+
+# Identificadores para el servicio GA_SUSPERA7
+# INICIO DE SERVICIO GA_SUSPERA7
+GA_SUSPERA7_telefono		253	string	-	-
+GA_SUSPERA7_flg_activoIn		254	string	-	-
+GA_SUSPERA7_scod_moneda		255	string	-	-
+GA_SUSPERA7_n_regs		256	long	-	-
+GA_SUSPERA7_sec_actuacion		257	string	-	-
+GA_SUSPERA7_cod_tipactper		258	string	-	-
+GA_SUSPERA7_fec_activacion		259	string	-	-
+GA_SUSPERA7_fec_referencia		260	string	-	-
+GA_SUSPERA7_fec_sgte_ejec		261	string	-	-
+GA_SUSPERA7_num_realizadas		262	long	-	-
+GA_SUSPERA7_cod_importe		263	string	-	-
+GA_SUSPERA7_flg_activo		264	string	-	-
+GA_SUSPERA7_flg_ejecutado		265	string	-	-
+GA_SUSPERA7_cad_cantidad		266	string	-	-
+GA_SUSPERA7_cad_sesiones		267	string	-	-
+GA_SUSPERA7_masDatos		268	carray	-	-
+GA_SUSPERA7_token		269	string	-	-
+GA_SUSPERA7__rpr_ret		270	long	-	-
+# FIN DE SERVICIO GA_SUSPERA7
+
+# Identificadores para el servicio GA_ALBONGEN
+# INICIO DE SERVICIO GA_ALBONGEN
+GA_ALBONGEN_snum_telefono		271	string	-	-
+GA_ALBONGEN_sbolt_on_code		272	string	-	-
+GA_ALBONGEN_lcan_bonifica		273	double	-	-
+GA_ALBONGEN_sfec_ejecucion		274	string	-	-
+GA_ALBONGEN_sfecha_ini		275	string	-	-
+GA_ALBONGEN_sfecha_fin		276	string	-	-
+GA_ALBONGEN_lnum_dias		277	long	-	-
+GA_ALBONGEN_lnum_minutos		278	long	-	-
+GA_ALBONGEN_lcan_bonifica2		279	double	-	-
+GA_ALBONGEN_lnum_sesiones		280	long	-	-
+GA_ALBONGEN_scod_usuario		281	string	-	-
+GA_ALBONGEN_scod_moneda		282	string	-	-
+GA_ALBONGEN_dCoste		283	double	-	-
+GA_ALBONGEN_dCosteAP		284	double	-	-
+GA_ALBONGEN_cprimer_bono		285	string	-	-
+GA_ALBONGEN_media_type		286	string	-	-
+GA_ALBONGEN_transaction_id		287	string	-	-
+GA_ALBONGEN_er_reference		288	string	-	-
+GA_ALBONGEN_firstCycleFee		289	double	-	-
+GA_ALBONGEN_secondCycleFee		290	double	-	-
+GA_ALBONGEN_thirdCycleFee		291	double	-	-
+GA_ALBONGEN_ssec_actuacion		292	string	-	-
+GA_ALBONGEN_ssec_actuacion2		293	string	-	-
+GA_ALBONGEN__rpr_ret		294	long	-	-
+# FIN DE SERVICIO GA_ALBONGEN
+
+# Identificadores para el servicio GA_BAJBONGEN
+# INICIO DE SERVICIO GA_BAJBONGEN
+GA_BAJBONGEN_snum_telefono		295	string	-	-
+GA_BAJBONGEN_sbolt_on_code		296	string	-	-
+GA_BAJBONGEN_scod_usuario		297	string	-	-
+GA_BAJBONGEN_importe		298	double	-	-
+GA_BAJBONGEN_cod_moneda		299	string	-	-
+GA_BAJBONGEN_media_type		300	string	-	-
+GA_BAJBONGEN_transaction_id		301	string	-	-
+GA_BAJBONGEN_er_reference		302	string	-	-
+GA_BAJBONGEN_deleteNow		303	string	-	-
+GA_BAJBONGEN_ssec_actuacion		304	string	-	-
+GA_BAJBONGEN__rpr_ret		305	long	-	-
+# FIN DE SERVICIO GA_BAJBONGEN
+
+# Identificadores para el servicio GA_CONBONGEN
+# INICIO DE SERVICIO GA_CONBONGEN
+GA_CONBONGEN_snum_telefono		306	string	-	-
+GA_CONBONGEN_fecha_desde		307	string	-	-
+GA_CONBONGEN_fecha_hasta		308	string	-	-
+GA_CONBONGEN_cod_moneda		309	string	-	-
+GA_CONBONGEN_flag_activo_in		310	string	-	-
+GA_CONBONGEN_n_regs		311	long	-	-
+GA_CONBONGEN_token		312	string	-	-
+GA_CONBONGEN_bolt_on_code		313	string	-	-
+GA_CONBONGEN_Coste		314	double	-	-
+GA_CONBONGEN_CosteAP		315	double	-	-
+GA_CONBONGEN_fec_altabono		316	string	-	-
+GA_CONBONGEN_fec_caduca		317	string	-	-
+GA_CONBONGEN_lcan_bonifica		318	double	-	-
+GA_CONBONGEN_lcantidad		319	double	-	-
+GA_CONBONGEN_snum_sesiones		320	string	-	-
+GA_CONBONGEN_lNumSesiones		321	string	-	-
+GA_CONBONGEN_tipo_bono		322	string	-	-
+GA_CONBONGEN_estado		323	string	-	-
+GA_CONBONGEN_fec_estabono		324	string	-	-
+GA_CONBONGEN_cod_modbono		325	string	-	-
+GA_CONBONGEN_flag_cancel		326	string	-	-
+GA_CONBONGEN_lcan_bonifica2		327	double	-	-
+GA_CONBONGEN_flag_incremento		328	string	-	-
+GA_CONBONGEN_flag_cyclic		329	string	-	-
+GA_CONBONGEN_fec_activacion		330	string	-	-
+GA_CONBONGEN_fec_sgte_ejec		331	string	-	-
+GA_CONBONGEN_num_realizadas		332	double	-	-
+GA_CONBONGEN_flag_activo_out		333	string	-	-
+GA_CONBONGEN__rpr_ret		334	long	-	-
+# FIN DE SERVICIO GA_CONBONGEN
+
+# Identificadores para el servicio GA_ALRECPE5
+# INICIO DE SERVICIO GA_ALRECPE5
+GA_ALRECPE5_num_telefono		335	string	-	-
+GA_ALRECPE5_cod_tipactper		336	string	-	-
+GA_ALRECPE5_fec_ejecucion		337	string	-	-
+GA_ALRECPE5_flg_inmediato		338	string	-	-
+GA_ALRECPE5_flg_prorrateo		339	string	-	-
+GA_ALRECPE5_flg_prorrateo_CC		340	string	-	-
+GA_ALRECPE5_cod_usuario		341	string	-	-
+GA_ALRECPE5_cod_moneda		342	string	-	-
+GA_ALRECPE5_coste_alta		343	double	-	-
+GA_ALRECPE5_modalidad_cobro		344	short	-	-
+GA_ALRECPE5_num_ciclos1		345	short	-	-
+GA_ALRECPE5_cod_recargas		346	string	-	-
+GA_ALRECPE5_num_ciclos2		347	short	-	-
+GA_ALRECPE5_imp_recargas		348	double	-	-
+GA_ALRECPE5_tipo_calculo		349	short	-	-
+GA_ALRECPE5_cod_recarga_CC		350	string	-	-
+GA_ALRECPE5_importe_CC		351	double	-	-
+GA_ALRECPE5_tipo_calculo_CC		352	short	-	-
+GA_ALRECPE5_num_auxiliares		353	short	-	-
+GA_ALRECPE5_id_auxiliares		354	string	-	-
+GA_ALRECPE5_auxiliares		355	string	-	-
+GA_ALRECPE5_sec_actu_alta		356	string	-	-
+GA_ALRECPE5_sec_actu_recarga		357	string	-	-
+GA_ALRECPE5__rpr_ret		358	long	-	-
+# FIN DE SERVICIO GA_ALRECPE5
+
+# Identificadores para el servicio GA_ALCOBPER1
+# INICIO DE SERVICIO GA_ALCOBPER1
+GA_ALCOBPER1_num_telefono		359	string	-	-
+GA_ALCOBPER1_cod_tipactper		360	string	-	-
+GA_ALCOBPER1_fec_ejecucion		361	string	-	-
+GA_ALCOBPER1_flg_inmediato		362	string	-	-
+GA_ALCOBPER1_flg_prorrateo		363	string	-	-
+GA_ALCOBPER1_flg_prorrateo_CC		364	string	-	-
+GA_ALCOBPER1_cod_usuario		365	string	-	-
+GA_ALCOBPER1_cod_moneda		366	string	-	-
+GA_ALCOBPER1_coste_alta		367	double	-	-
+GA_ALCOBPER1_modalidad_cobro		368	short	-	-
+GA_ALCOBPER1_num_ciclos		369	short	-	-
+GA_ALCOBPER1_imp_cobros		370	double	-	-
+GA_ALCOBPER1_mod_cobro_ciclo		371	short	-	-
+GA_ALCOBPER1_flg_total		372	string	-	-
+GA_ALCOBPER1_tipo_calculo		373	short	-	-
+GA_ALCOBPER1_imp_cobro_CC		374	double	-	-
+GA_ALCOBPER1_mod_cobro_CC		375	short	-	-
+GA_ALCOBPER1_tipo_calculo_CC		376	short	-	-
+GA_ALCOBPER1_flg_total_CC		377	carray	-	-
+GA_ALCOBPER1_num_auxiliares		378	short	-	-
+GA_ALCOBPER1_id_auxiliares		379	string	-	-
+GA_ALCOBPER1_auxiliares		380	string	-	-
+GA_ALCOBPER1_sec_actu_alta		381	string	-	-
+GA_ALCOBPER1_sec_actu_cobro		382	string	-	-
+GA_ALCOBPER1__rpr_ret		383	long	-	-
+# FIN DE SERVICIO GA_ALCOBPER1
+
+# Identificadores para el servicio GA_ALBONGEN1
+# INICIO DE SERVICIO GA_ALBONGEN1
+GA_ALBONGEN1_num_telefono		384	string	-	-
+GA_ALBONGEN1_cod_tipactper		385	string	-	-
+GA_ALBONGEN1_fec_ejecucion		386	string	-	-
+GA_ALBONGEN1_flg_inmediato		387	string	-	-
+GA_ALBONGEN1_flg_prorrateo		388	string	-	-
+GA_ALBONGEN1_flg_prorrateo_CC		389	string	-	-
+GA_ALBONGEN1_cod_usuario		390	string	-	-
+GA_ALBONGEN1_cod_moneda		391	string	-	-
+GA_ALBONGEN1_coste_alta		392	double	-	-
+GA_ALBONGEN1_modalidad_cobro		393	short	-	-
+GA_ALBONGEN1_cod_bonolargo		394	string	-	-
+GA_ALBONGEN1_num_ciclos1		395	short	-	-
+GA_ALBONGEN1_can_bonifica		396	double	-	-
+GA_ALBONGEN1_tipo_calculo1		397	short	-	-
+GA_ALBONGEN1_num_ciclos2		398	short	-	-
+GA_ALBONGEN1_can_bonifica2		399	double	-	-
+GA_ALBONGEN1_tipo_calculo2		400	short	-	-
+GA_ALBONGEN1_num_ciclos3		401	short	-	-
+GA_ALBONGEN1_imp_coste		402	double	-	-
+GA_ALBONGEN1_mod_cobro_bono		403	short	-	-
+GA_ALBONGEN1_tipo_calculo3		404	short	-	-
+GA_ALBONGEN1_num_ciclos4		405	short	-	-
+GA_ALBONGEN1_num_sesiones		406	long	-	-
+GA_ALBONGEN1_tipo_calculo4		407	short	-	-
+GA_ALBONGEN1_can_bonifica_CC		408	double	-	-
+GA_ALBONGEN1_tipo_calculo1_CC		409	short	-	-
+GA_ALBONGEN1_can_bonifica2_CC		410	double	-	-
+GA_ALBONGEN1_tipo_calculo2_CC		411	short	-	-
+GA_ALBONGEN1_coste_CC		412	double	-	-
+GA_ALBONGEN1_mod_cobro_CC		413	short	-	-
+GA_ALBONGEN1_tipo_calculo3_CC		414	short	-	-
+GA_ALBONGEN1_num_sesiones_CC		415	long	-	-
+GA_ALBONGEN1_tipo_calculo4_CC		416	short	-	-
+GA_ALBONGEN1_fecha_ini		417	string	-	-
+GA_ALBONGEN1_fecha_fin		418	string	-	-
+GA_ALBONGEN1_num_dias		419	long	-	-
+GA_ALBONGEN1_num_horas		420	long	-	-
+GA_ALBONGEN1_num_auxiliares		421	short	-	-
+GA_ALBONGEN1_id_auxiliares		422	string	-	-
+GA_ALBONGEN1_auxiliares		423	string	-	-
+GA_ALBONGEN1_sec_actu_alta		424	string	-	-
+GA_ALBONGEN1_sec_actu_bono		425	string	-	-
+GA_ALBONGEN1__rpr_ret		426	long	-	-
+# FIN DE SERVICIO GA_ALBONGEN1
+
+# Identificadores para el servicio GA_SUSPERA8
+# INICIO DE SERVICIO GA_SUSPERA8
+GA_SUSPERA8_num_telefono		427	string	-	-
+GA_SUSPERA8_flg_activoIn		428	string	-	-
+GA_SUSPERA8_flag_asociadoCA		429	string	-	-
+GA_SUSPERA8_scod_moneda		430	string	-	-
+GA_SUSPERA8_n_regs		431	long	-	-
+GA_SUSPERA8_sec_actuacion		432	string	-	-
+GA_SUSPERA8_cod_tipactper		433	string	-	-
+GA_SUSPERA8_fec_activacion		434	string	-	-
+GA_SUSPERA8_fec_referencia		435	string	-	-
+GA_SUSPERA8_fec_sgte_ejec		436	string	-	-
+GA_SUSPERA8_num_realizadas		437	long	-	-
+GA_SUSPERA8_cod_importe		438	string	-	-
+GA_SUSPERA8_flg_activo		439	string	-	-
+GA_SUSPERA8_flg_ejecutado		440	string	-	-
+GA_SUSPERA8_cad_cantidad		441	string	-	-
+GA_SUSPERA8_cad_sesiones		442	string	-	-
+GA_SUSPERA8_flg_CA		443	string	-	-
+GA_SUSPERA8_estado_actper		444	string	-	-
+GA_SUSPERA8_flg_estadoInactivo		445	string	-	-
+GA_SUSPERA8flg_cambFechaRecu01		446	string	-	-
+GA_SUSPERA8_flg_reintentos		447	string	-	-
+GA_SUSPERA8_flg_recuperable		448	string	-	-
+GA_SUSPERA8_cad_promociones		449	string	-	-
+GA_SUSPERA8flg_cambest_notif01		450	string	-	-
+GA_SUSPERA8flg_cambfecha_not01		451	string	-	-
+GA_SUSPERA8_masDatos		452	carray	-	-
+GA_SUSPERA8_token		453	string	-	-
+GA_SUSPERA8__rpr_ret		454	long	-	-
+# FIN DE SERVICIO GA_SUSPERA8
+
+# Identificadores para el servicio GA_CONBONACTPR
+# INICIO DE SERVICIO GA_CONBONACTPR
+GA_CONBONACTPR_scod_tipactper		455	string	-	-
+GA_CONBONACTPR_scod_bono		456	string	-	-
+GA_CONBONACTPR__rpr_ret		457	long	-	-
+# FIN DE SERVICIO GA_CONBONACTPR
+
+# Identificadores para el servicio GA_CONPROMATPR
+# INICIO DE SERVICIO GA_CONPROMATPR
+GA_CONPROMATPR_scod_tipactper		458	string	-	-
+GA_CONPROMATPR_scod_promocion		459	string	-	-
+GA_CONPROMATPR__rpr_ret		460	long	-	-
+# FIN DE SERVICIO GA_CONPROMATPR
+
+# Identificadores para el servicio GA_ALBONGEN2
+# INICIO DE SERVICIO GA_ALBONGEN2
+GA_ALBONGEN2_num_telefono		461	string	-	-
+GA_ALBONGEN2_cod_tipactper		462	string	-	-
+GA_ALBONGEN2_fec_ejecucion		463	string	-	-
+GA_ALBONGEN2_flg_inmediato		464	string	-	-
+GA_ALBONGEN2_flg_prorrateo		465	string	-	-
+GA_ALBONGEN2_flg_prorrateo_CC		466	string	-	-
+GA_ALBONGEN2_cod_usuario		467	string	-	-
+GA_ALBONGEN2_cod_moneda		468	string	-	-
+GA_ALBONGEN2_coste_alta		469	double	-	-
+GA_ALBONGEN2_modalidad_cobro		470	short	-	-
+GA_ALBONGEN2_cod_bonolargo		471	string	-	-
+GA_ALBONGEN2_num_ciclos1		472	short	-	-
+GA_ALBONGEN2_can_bonifica		473	double	-	-
+GA_ALBONGEN2_tipo_calculo1		474	short	-	-
+GA_ALBONGEN2_num_ciclos2		475	short	-	-
+GA_ALBONGEN2_can_bonifica2		476	double	-	-
+GA_ALBONGEN2_tipo_calculo2		477	short	-	-
+GA_ALBONGEN2_num_ciclos3		478	short	-	-
+GA_ALBONGEN2_imp_coste		479	double	-	-
+GA_ALBONGEN2_mod_cobro_bono		480	short	-	-
+GA_ALBONGEN2_tipo_calculo3		481	short	-	-
+GA_ALBONGEN2_num_ciclos4		482	short	-	-
+GA_ALBONGEN2_num_sesiones		483	long	-	-
+GA_ALBONGEN2_tipo_calculo4		484	short	-	-
+GA_ALBONGEN2_can_bonifica_CC		485	double	-	-
+GA_ALBONGEN2_tipo_calculo1_CC		486	short	-	-
+GA_ALBONGEN2_can_bonifica2_CC		487	double	-	-
+GA_ALBONGEN2_tipo_calculo2_CC		488	short	-	-
+GA_ALBONGEN2_coste_CC		489	double	-	-
+GA_ALBONGEN2_mod_cobro_CC		490	short	-	-
+GA_ALBONGEN2_tipo_calculo3_CC		491	short	-	-
+GA_ALBONGEN2_num_sesiones_CC		492	long	-	-
+GA_ALBONGEN2_tipo_calculo4_CC		493	short	-	-
+GA_ALBONGEN2_fecha_ini		494	string	-	-
+GA_ALBONGEN2_fecha_fin		495	string	-	-
+GA_ALBONGEN2_num_dias		496	long	-	-
+GA_ALBONGEN2_num_horas		497	long	-	-
+GA_ALBONGEN2_num_minutos		498	long	-	-
+GA_ALBONGEN2_num_auxiliares		499	short	-	-
+GA_ALBONGEN2_id_auxiliares		500	string	-	-
+GA_ALBONGEN2_auxiliares		501	string	-	-
+GA_ALBONGEN2_sec_actu_alta		502	string	-	-
+GA_ALBONGEN2_sec_actu_bono		503	string	-	-
+GA_ALBONGEN2__rpr_ret		504	long	-	-
+# FIN DE SERVICIO GA_ALBONGEN2
+
+# Identificadores para el servicio GA_ALBONGEN3
+# INICIO DE SERVICIO GA_ALBONGEN3
+GA_ALBONGEN3_num_telefono		505	string	-	-
+GA_ALBONGEN3_cod_tipactper		506	string	-	-
+GA_ALBONGEN3_fec_ejecucion		507	string	-	-
+GA_ALBONGEN3_flg_inmediato		508	string	-	-
+GA_ALBONGEN3_flg_prorrateo		509	string	-	-
+GA_ALBONGEN3_flg_prorrateo_CC		510	string	-	-
+GA_ALBONGEN3_cod_usuario		511	string	-	-
+GA_ALBONGEN3_cod_moneda		512	string	-	-
+GA_ALBONGEN3_coste_alta		513	double	-	-
+GA_ALBONGEN3_modalidad_cobro		514	short	-	-
+GA_ALBONGEN3_cod_bonolargo		515	string	-	-
+GA_ALBONGEN3_num_ciclos1		516	short	-	-
+GA_ALBONGEN3_can_bonifica		517	double	-	-
+GA_ALBONGEN3_tipo_calculo1		518	short	-	-
+GA_ALBONGEN3_num_ciclos2		519	short	-	-
+GA_ALBONGEN3_can_bonifica2		520	double	-	-
+GA_ALBONGEN3_tipo_calculo2		521	short	-	-
+GA_ALBONGEN3_num_ciclos3		522	short	-	-
+GA_ALBONGEN3_imp_coste		523	double	-	-
+GA_ALBONGEN3_mod_cobro_bono		524	short	-	-
+GA_ALBONGEN3_tipo_calculo3		525	short	-	-
+GA_ALBONGEN3_num_ciclos4		526	short	-	-
+GA_ALBONGEN3_num_sesiones		527	long	-	-
+GA_ALBONGEN3_tipo_calculo4		528	short	-	-
+GA_ALBONGEN3_can_bonifica_CC		529	double	-	-
+GA_ALBONGEN3_tipo_calculo1_CC		530	short	-	-
+GA_ALBONGEN3_can_bonifica2_CC		531	double	-	-
+GA_ALBONGEN3_tipo_calculo2_CC		532	short	-	-
+GA_ALBONGEN3_coste_CC		533	double	-	-
+GA_ALBONGEN3_mod_cobro_CC		534	short	-	-
+GA_ALBONGEN3_tipo_calculo3_CC		535	short	-	-
+GA_ALBONGEN3_num_sesiones_CC		536	long	-	-
+GA_ALBONGEN3_tipo_calculo4_CC		537	short	-	-
+GA_ALBONGEN3_fecha_ini		538	string	-	-
+GA_ALBONGEN3_fecha_fin		539	string	-	-
+GA_ALBONGEN3_num_dias		540	long	-	-
+GA_ALBONGEN3_num_horas		541	long	-	-
+GA_ALBONGEN3_num_minutos		542	long	-	-
+GA_ALBONGEN3_num_auxiliares		543	short	-	-
+GA_ALBONGEN3_id_auxiliares		544	string	-	-
+GA_ALBONGEN3_auxiliares		545	string	-	-
+GA_ALBONGEN3_sec_actu_alta		546	string	-	-
+GA_ALBONGEN3_sec_actu_bono		547	string	-	-
+GA_ALBONGEN3__rpr_ret		548	long	-	-
+# FIN DE SERVICIO GA_ALBONGEN3
+
+# Identificadores para el servicio GA_BAJSUSP4
+# INICIO DE SERVICIO GA_BAJSUSP4
+GA_BAJSUSP4_num_telefono		549	string	-	-
+GA_BAJSUSP4_ssec_actuacion		550	string	-	-
+GA_BAJSUSP4_dimporte		551	double	-	-
+GA_BAJSUSP4_scod_moneda		552	string	-	-
+GA_BAJSUSP4_scod_usuario		553	string	-	-
+GA_BAJSUSP4_smediaType		554	string	-	-
+GA_BAJSUSP4_serReference		555	string	-	-
+GA_BAJSUSP4_stransaction_id		556	string	-	-
+GA_BAJSUSP4_sSecActuacion		557	string	-	-
+GA_BAJSUSP4__rpr_ret		558	long	-	-
+# FIN DE SERVICIO GA_BAJSUSP4
+
+# Identificadores para el servicio GA_BAJBONGEN1
+# INICIO DE SERVICIO GA_BAJBONGEN1
+GA_BAJBONGEN1_num_telefono		559	string	-	-
+GA_BAJBONGEN1_sbolt_on_code		560	string	-	-
+GA_BAJBONGEN1_scod_usuario		561	string	-	-
+GA_BAJBONGEN1_dimporte		562	double	-	-
+GA_BAJBONGEN1_scod_moneda		563	string	-	-
+GA_BAJBONGEN1_smedia_type		564	string	-	-
+GA_BAJBONGEN1_stransaction_id		565	string	-	-
+GA_BAJBONGEN1_ser_reference		566	string	-	-
+GA_BAJBONGEN1_sdeleteNow		567	string	-	-
+GA_BAJBONGEN1_ssec_actuacion		568	string	-	-
+GA_BAJBONGEN1__rpr_ret		569	long	-	-
+# FIN DE SERVICIO GA_BAJBONGEN1
+
+# Identificadores para el servicio GA_ALCOBPER2
+# INICIO DE SERVICIO GA_ALCOBPER2
+GA_ALCOBPER2_num_telefono		570	string	-	-
+GA_ALCOBPER2_cod_tipactper		571	string	-	-
+GA_ALCOBPER2_fec_ejecucion		572	string	-	-
+GA_ALCOBPER2_flg_inmediato		573	string	-	-
+GA_ALCOBPER2_flg_prorrateo		574	string	-	-
+GA_ALCOBPER2_flg_prorrateo_CC		575	string	-	-
+GA_ALCOBPER2_cod_usuario		576	string	-	-
+GA_ALCOBPER2_cod_moneda		577	string	-	-
+GA_ALCOBPER2_coste_alta		578	double	-	-
+GA_ALCOBPER2_modalidad_cobro		579	short	-	-
+GA_ALCOBPER2_num_ciclos		580	short	-	-
+GA_ALCOBPER2_imp_cobros		581	double	-	-
+GA_ALCOBPER2_mod_cobro_ciclo		582	short	-	-
+GA_ALCOBPER2_flg_total		583	string	-	-
+GA_ALCOBPER2_tipo_calculo		584	short	-	-
+GA_ALCOBPER2_imp_cobro_CC		585	double	-	-
+GA_ALCOBPER2_mod_cobro_CC		586	short	-	-
+GA_ALCOBPER2_tipo_calculo_CC		587	short	-	-
+GA_ALCOBPER2_flg_total_CC		588	carray	-	-
+GA_ALCOBPER2_num_auxiliares		589	short	-	-
+GA_ALCOBPER2_id_auxiliares		590	string	-	-
+GA_ALCOBPER2_auxiliares		591	string	-	-
+GA_ALCOBPER2_sec_actu_alta		592	string	-	-
+GA_ALCOBPER2_sec_actu_cobro		593	string	-	-
+GA_ALCOBPER2__rpr_ret		594	long	-	-
+# FIN DE SERVICIO GA_ALCOBPER2
+
+# Identificadores para el servicio GA_BAJSUSP5
+# INICIO DE SERVICIO GA_BAJSUSP5
+GA_BAJSUSP5_num_telefono		595	string	-	-
+GA_BAJSUSP5_ssec_actuacion		596	string	-	-
+GA_BAJSUSP5_dimporte		597	double	-	-
+GA_BAJSUSP5_scod_moneda		598	string	-	-
+GA_BAJSUSP5_scod_usuario		599	string	-	-
+GA_BAJSUSP5_sSecActuacion		600	string	-	-
+GA_BAJSUSP5__rpr_ret		601	long	-	-
+# FIN DE SERVICIO GA_BAJSUSP5
+
+# Identificadores para el servicio GA_BAJSUSP6
+# INICIO DE SERVICIO GA_BAJSUSP6
+GA_BAJSUSP6_num_telefono		602	string	-	-
+GA_BAJSUSP6_ssec_actuacion		603	string	-	-
+GA_BAJSUSP6_cod_tipactper		604	string	-	-
+GA_BAJSUSP6_dimporte		605	double	-	-
+GA_BAJSUSP6_scod_moneda		606	string	-	-
+GA_BAJSUSP6_scod_usuario		607	string	-	-
+GA_BAJSUSP6sflg_borrar_cicli01		608	string	-	-
+GA_BAJSUSP6_sSecActuacion		609	string	-	-
+GA_BAJSUSP6__rpr_ret		610	long	-	-
+# FIN DE SERVICIO GA_BAJSUSP6
+
+# Identificadores para el servicio GA_ALBONGEN4
+# INICIO DE SERVICIO GA_ALBONGEN4
+GA_ALBONGEN4_num_telefono		611	string	-	-
+GA_ALBONGEN4_cod_tipactper		612	string	-	-
+GA_ALBONGEN4_fec_ejecucion		613	string	-	-
+GA_ALBONGEN4_flg_inmediato		614	string	-	-
+GA_ALBONGEN4_flg_prorrateo		615	string	-	-
+GA_ALBONGEN4_flg_prorrateo_CC		616	string	-	-
+GA_ALBONGEN4_cod_usuario		617	string	-	-
+GA_ALBONGEN4_cod_moneda		618	string	-	-
+GA_ALBONGEN4_coste_alta		619	double	-	-
+GA_ALBONGEN4_modalidad_cobro		620	short	-	-
+GA_ALBONGEN4_cod_bonolargo		621	string	-	-
+GA_ALBONGEN4_smedia_type		622	string	-	-
+GA_ALBONGEN4_num_ciclos1		623	short	-	-
+GA_ALBONGEN4_can_bonifica		624	double	-	-
+GA_ALBONGEN4_tipo_calculo1		625	short	-	-
+GA_ALBONGEN4_num_ciclos2		626	short	-	-
+GA_ALBONGEN4_can_bonifica2		627	double	-	-
+GA_ALBONGEN4_tipo_calculo2		628	short	-	-
+GA_ALBONGEN4_num_ciclos3		629	short	-	-
+GA_ALBONGEN4_imp_coste		630	double	-	-
+GA_ALBONGEN4_mod_cobro_bono		631	short	-	-
+GA_ALBONGEN4_tipo_calculo3		632	short	-	-
+GA_ALBONGEN4_num_ciclos4		633	short	-	-
+GA_ALBONGEN4_num_sesiones		634	long	-	-
+GA_ALBONGEN4_tipo_calculo4		635	short	-	-
+GA_ALBONGEN4_admax_uni_sesion		636	double	-	-
+GA_ALBONGEN4_tipo_calculo5		637	short	-	-
+GA_ALBONGEN4_can_bonifica_CC		638	double	-	-
+GA_ALBONGEN4_tipo_calculo1_CC		639	short	-	-
+GA_ALBONGEN4_can_bonifica2_CC		640	double	-	-
+GA_ALBONGEN4_tipo_calculo2_CC		641	short	-	-
+GA_ALBONGEN4_coste_CC		642	double	-	-
+GA_ALBONGEN4_mod_cobro_CC		643	short	-	-
+GA_ALBONGEN4_tipo_calculo3_CC		644	short	-	-
+GA_ALBONGEN4_num_sesiones_CC		645	long	-	-
+GA_ALBONGEN4_tipo_calculo4_CC		646	short	-	-
+GA_ALBONGEN4_fecha_ini		647	string	-	-
+GA_ALBONGEN4_fecha_fin		648	string	-	-
+GA_ALBONGEN4_num_dias		649	long	-	-
+GA_ALBONGEN4_num_horas		650	long	-	-
+GA_ALBONGEN4_num_minutos		651	long	-	-
+GA_ALBONGEN4dmax_uni_sesion_01		652	double	-	-
+GA_ALBONGEN4_tipo_calculo5_CC		653	short	-	-
+GA_ALBONGEN4_num_auxiliares		654	short	-	-
+GA_ALBONGEN4_id_auxiliares		655	string	-	-
+GA_ALBONGEN4_auxiliares		656	string	-	-
+GA_ALBONGEN4_sec_actu_alta		657	string	-	-
+GA_ALBONGEN4_sec_actu_bono		658	string	-	-
+GA_ALBONGEN4__rpr_ret		659	long	-	-
+# FIN DE SERVICIO GA_ALBONGEN4
+
+# Identificadores para el servicio GA_ALBONPE7
+# INICIO DE SERVICIO GA_ALBONPE7
+GA_ALBONPE7_stelefono		660	string	-	-
+GA_ALBONPE7_cod_tipactper		661	string	-	-
+GA_ALBONPE7_lcan_bonifica		662	double	-	-
+GA_ALBONPE7_sfec_ejecucion		663	string	-	-
+GA_ALBONPE7_scod_usuario		664	string	-	-
+GA_ALBONPE7_cod_moneda		665	string	-	-
+GA_ALBONPE7_dCoste		666	double	-	-
+GA_ALBONPE7_dCosteAP		667	double	-	-
+GA_ALBONPE7_cprimer_bono		668	string	-	-
+GA_ALBONPE7_lNumSesiones		669	long	-	-
+GA_ALBONPE7_dmax_uni_sesion		670	double	-	-
+GA_ALBONPE7_ssec_actuacion		671	string	-	-
+GA_ALBONPE7_ssec_actuacion2		672	string	-	-
+GA_ALBONPE7__rpr_ret		673	long	-	-
+# FIN DE SERVICIO GA_ALBONPE7
+
+# Identificadores para el servicio GA_CONBONGEN2
+# INICIO DE SERVICIO GA_CONBONGEN2
+GA_CONBONGEN2_snum_telefono		674	string	-	-
+GA_CONBONGEN2_fecha_desde		675	string	-	-
+GA_CONBONGEN2_fecha_hasta		676	string	-	-
+GA_CONBONGEN2_cod_moneda		677	string	-	-
+GA_CONBONGEN2_flag_activo_in		678	string	-	-
+GA_CONBONGEN2_n_regs		679	long	-	-
+GA_CONBONGEN2_token		680	string	-	-
+GA_CONBONGEN2_bolt_on_code		681	string	-	-
+GA_CONBONGEN2_Coste		682	double	-	-
+GA_CONBONGEN2_CosteAP		683	double	-	-
+GA_CONBONGEN2_fec_altabono		684	string	-	-
+GA_CONBONGEN2_fec_caduca		685	string	-	-
+GA_CONBONGEN2_lcan_bonifica		686	double	-	-
+GA_CONBONGEN2_lcantidad		687	double	-	-
+GA_CONBONGEN2_snum_sesiones		688	string	-	-
+GA_CONBONGEN2_lNumSesiones		689	string	-	-
+GA_CONBONGEN2_tipo_bono		690	string	-	-
+GA_CONBONGEN2_estado		691	string	-	-
+GA_CONBONGEN2_fec_estabono		692	string	-	-
+GA_CONBONGEN2_cod_modbono		693	string	-	-
+GA_CONBONGEN2_flag_cancel		694	string	-	-
+GA_CONBONGEN2_lcan_bonifica2		695	double	-	-
+GA_CONBONGEN2_flag_incremento		696	string	-	-
+GA_CONBONGEN2_flag_cyclic		697	string	-	-
+GA_CONBONGEN2_fec_activacion		698	string	-	-
+GA_CONBONGEN2_fec_sgte_ejec		699	string	-	-
+GA_CONBONGEN2_num_realizadas		700	double	-	-
+GA_CONBONGEN2_flag_activo_out		701	string	-	-
+GA_CONBONGEN2_admax_uni_sesion		702	double	-	-
+GA_CONBONGEN2__rpr_ret		703	long	-	-
+# FIN DE SERVICIO GA_CONBONGEN2
+
+# Identificadores para el servicio GA_ALTRSALPE
+# INICIO DE SERVICIO GA_ALTRSALPE
+GA_ALTRSALPE_num_telefono		704	string	-	-
+GA_ALTRSALPE_scod_tipactper		705	string	-	-
+GA_ALTRSALPE_sfec_ejecucion		706	string	-	-
+GA_ALTRSALPE_sflg_inmediato		707	string	-	-
+GA_ALTRSALPE_sflg_prorrateo		708	string	-	-
+GA_ALTRSALPE_sflg_prorratCC		709	string	-	-
+GA_ALTRSALPE_scod_usuario		710	string	-	-
+GA_ALTRSALPE_scod_moneda		711	string	-	-
+GA_ALTRSALPE_snum_receptor		712	string	-	-
+GA_ALTRSALPE_dcoste_alta		713	double	-	-
+GA_ALTRSALPE_imod_cobro		714	short	-	-
+GA_ALTRSALPE_inum_ciclos1		715	short	-	-
+GA_ALTRSALPE_acoste_transf		716	double	-	-
+GA_ALTRSALPE_itip_calculo1		717	short	-	-
+GA_ALTRSALPE_dcoste_tranSCC		718	double	-	-
+GA_ALTRSALPE_itip_calc1_CC		719	short	-	-
+GA_ALTRSALPE_sflg_pagador		720	string	-	-
+GA_ALTRSALPE_inum_ciclos2		721	short	-	-
+GA_ALTRSALPE_aimp_transf		722	double	-	-
+GA_ALTRSALPE_itip_calculo2		723	short	-	-
+GA_ALTRSALPE_dimp_tranSCC		724	double	-	-
+GA_ALTRSALPE_itip_calc2_CC		725	short	-	-
+GA_ALTRSALPE_scod_bolsa		726	string	-	-
+GA_ALTRSALPE_scod_origreca		727	string	-	-
+GA_ALTRSALPE_scod_bono		728	string	-	-
+GA_ALTRSALPE_ssec_actu_alta		729	string	-	-
+GA_ALTRSALPE_ssec_act_tranf		730	string	-	-
+GA_ALTRSALPE__rpr_ret		731	long	-	-
+# FIN DE SERVICIO GA_ALTRSALPE
+
+# Identificadores para el servicio GA_SUSPERA9
+# INICIO DE SERVICIO GA_SUSPERA9
+GA_SUSPERA9_num_telefono		732	string	-	-
+GA_SUSPERA9_sflg_activoIn		733	string	-	-
+GA_SUSPERA9_sflg_asociaCA		734	string	-	-
+GA_SUSPERA9_scod_moneda		735	string	-	-
+GA_SUSPERA9_lnum_regs		736	long	-	-
+GA_SUSPERA9_ssec_act_alta		737	string	-	-
+GA_SUSPERA9_scod_tipactper		738	string	-	-
+GA_SUSPERA9_sfec_activa		739	string	-	-
+GA_SUSPERA9_sfec_referen		740	string	-	-
+GA_SUSPERA9_sfec_sgte_ejec		741	string	-	-
+GA_SUSPERA9_lnum_realizada		742	long	-	-
+GA_SUSPERA9_scod_importe		743	string	-	-
+GA_SUSPERA9_sflg_activo		744	string	-	-
+GA_SUSPERA9_sflg_ejecutado		745	string	-	-
+GA_SUSPERA9_scad_cantidad		746	string	-	-
+GA_SUSPERA9_scad_sesiones		747	string	-	-
+GA_SUSPERA9scad_max_uni_sesi01		748	string	-	-
+GA_SUSPERA9_sflg_CA		749	string	-	-
+GA_SUSPERA9_sestado_actper		750	string	-	-
+GA_SUSPERA9_sflg_eInactivo		751	string	-	-
+GA_SUSPERA9_sflg_cambFecR		752	string	-	-
+GA_SUSPERA9_sflg_reintenta		753	string	-	-
+GA_SUSPERA9_sflg_recuperab		754	string	-	-
+GA_SUSPERA9_scad_promos		755	string	-	-
+GA_SUSPERA9_sflg_notCamest		756	string	-	-
+GA_SUSPERA9_sflg_notCamfec		757	string	-	-
+GA_SUSPERA9_snum_receiver		758	string	-	-
+GA_SUSPERA9_adimp_coste		759	double	-	-
+GA_SUSPERA9_shay_mas		760	carray	-	-
+GA_SUSPERA9_stoken		761	string	-	-
+GA_SUSPERA9__rpr_ret		762	long	-	-
+# FIN DE SERVICIO GA_SUSPERA9
+
+# Identificadores para el servicio GA_CONACTP3
+# INICIO DE SERVICIO GA_CONACTP3
+GA_CONACTP3_sec_actuacion		763	string	-	-
+GA_CONACTP3_n_regs		764	long	-	-
+GA_CONACTP3_orden		765	long	-	-
+GA_CONACTP3_sec_actperio		766	string	-	-
+GA_CONACTP3_fec_actuacion		767	string	-	-
+GA_CONACTP3_cod_estarec		768	string	-	-
+GA_CONACTP3_sec_actreintento		769	string	-	-
+GA_CONACTP3_masDatos		770	carray	-	-
+GA_CONACTP3_token		771	string	-	-
+GA_CONACTP3__rpr_ret		772	long	-	-
+# FIN DE SERVICIO GA_CONACTP3
+
+# Identificadores para el servicio GA_SUSPER10
+# INICIO DE SERVICIO GA_SUSPER10
+GA_SUSPER10_num_telefono		773	string	-	-
+GA_SUSPER10_sflg_activoIn		774	string	-	-
+GA_SUSPER10_sflg_asociaCA		775	string	-	-
+GA_SUSPER10_scod_moneda		776	string	-	-
+GA_SUSPER10_scod_tarea		777	string	-	-
+GA_SUSPER10_lnum_regs		778	long	-	-
+GA_SUSPER10_ssec_act_alta		779	string	-	-
+GA_SUSPER10_scod_tipactper		780	string	-	-
+GA_SUSPER10_sfec_activa		781	string	-	-
+GA_SUSPER10_sfec_referen		782	string	-	-
+GA_SUSPER10_sfec_sgte_ejec		783	string	-	-
+GA_SUSPER10_lnum_realizada		784	long	-	-
+GA_SUSPER10_scod_importe		785	string	-	-
+GA_SUSPER10_sflg_activo		786	string	-	-
+GA_SUSPER10_sflg_ejecutado		787	string	-	-
+GA_SUSPER10_scad_cantidad		788	string	-	-
+GA_SUSPER10_scad_sesiones		789	string	-	-
+GA_SUSPER10scad_max_uni_sesi01		790	string	-	-
+GA_SUSPER10_sflg_CA		791	string	-	-
+GA_SUSPER10_sestado_actper		792	string	-	-
+GA_SUSPER10_sflg_eInactivo		793	string	-	-
+GA_SUSPER10_sflg_cambFecR		794	string	-	-
+GA_SUSPER10_sflg_reintenta		795	string	-	-
+GA_SUSPER10_sflg_recuperab		796	string	-	-
+GA_SUSPER10_scad_promos		797	string	-	-
+GA_SUSPER10_sflg_notCamest		798	string	-	-
+GA_SUSPER10_sflg_notCamfec		799	string	-	-
+GA_SUSPER10_snum_receiver		800	string	-	-
+GA_SUSPER10_adimp_coste		801	double	-	-
+GA_SUSPER10_shay_mas		802	carray	-	-
+GA_SUSPER10_stoken		803	string	-	-
+GA_SUSPER10__rpr_ret		804	long	-	-
+# FIN DE SERVICIO GA_SUSPER10
+

@@ -1,0 +1,101 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_solrecper.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_solrecper_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3273000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_RECDIFER
+# INICIO DE SERVICIO PP_GA_RECDIFER
+PP_GA_RECDIFER_snum_telefono		0	string	-	-
+PP_GA_RECDIFER_fimp_recarga		1	double	-	-
+PP_GA_RECDIFER_scod_moneda		2	string	-	-
+PP_GA_RECDIFERscod_tiprecdif01		3	string	-	-
+PP_GA_RECDIFER_scod_usuario		4	string	-	-
+PP_GA_RECDIFER_ssec_actuacion		5	long	-	-
+PP_GA_RECDIFER__rpr_ret		6	long	-	-
+# FIN DE SERVICIO PP_GA_RECDIFER
+
+# Identificadores para el servicio PP_GA_CAMRDIFER
+# INICIO DE SERVICIO PP_GA_CAMRDIFER
+PP_GA_CAMRDIFER_ssec_actuacion		7	long	-	-
+PP_GA_CAMRDIFER_scod_activo		8	string	-	-
+PP_GA_CAMRDIFER__rpr_ret		9	long	-	-
+# FIN DE SERVICIO PP_GA_CAMRDIFER
+
+# Identificadores para el servicio PP_GA_CONDIFER
+# INICIO DE SERVICIO PP_GA_CONDIFER
+PP_GA_CONDIFER_snum_telefono		10	string	-	-
+PP_GA_CONDIFER_lsecuencia		11	long	-	-
+PP_GA_CONDIFER_lnum_items		12	long	-	-
+PP_GA_CONDIFER_snum_telefono2		13	string	-	-
+PP_GA_CONDIFER_lsecuencia2		14	long	-	-
+PP_GA_CONDIFER_scod_origreca		15	string	-	-
+PP_GA_CONDIFER_sfec_sigrec		16	string	-	-
+PP_GA_CONDIFER_sflg_activo		17	string	-	-
+PP_GA_CONDIFER_fimp_rec		18	double	-	-
+PP_GA_CONDIFER_lnum_rec		19	long	-	-
+PP_GA_CONDIFER_fimp_min		20	string	-	-
+PP_GA_CONDIFER__rpr_ret		21	long	-	-
+# FIN DE SERVICIO PP_GA_CONDIFER
+
+# Identificadores para el servicio PP_GA_ALTADIFER
+# INICIO DE SERVICIO PP_GA_ALTADIFER
+PP_GA_ALTADIFER_snum_telefono		22	string	-	-
+PP_GA_ALTADIFER_fimp_recarga		23	double	-	-
+PP_GA_ALTADIFER_scod_moneda		24	string	-	-
+PP_GA_ALTADIFERscod_tiprecdi01		25	string	-	-
+PP_GA_ALTADIFER_scod_usuario		26	string	-	-
+PP_GA_ALTADIFER_ssec_actuacion		27	long	-	-
+PP_GA_ALTADIFER__rpr_ret		28	long	-	-
+# FIN DE SERVICIO PP_GA_ALTADIFER
+
+# Identificadores para el servicio PP_GA_RECDIFE2
+# INICIO DE SERVICIO PP_GA_RECDIFE2
+PP_GA_RECDIFE2_snum_telefono		29	string	-	-
+PP_GA_RECDIFE2_fimp_recarga		30	double	-	-
+PP_GA_RECDIFE2_scod_moneda		31	string	-	-
+PP_GA_RECDIFE2scod_tiprecdif01		32	string	-	-
+PP_GA_RECDIFE2_scod_usuario		33	string	-	-
+PP_GA_RECDIFE2_ssec_actuacion		34	string	-	-
+PP_GA_RECDIFE2__rpr_ret		35	long	-	-
+# FIN DE SERVICIO PP_GA_RECDIFE2
+
+# Identificadores para el servicio PP_GA_CAMRDIF2
+# INICIO DE SERVICIO PP_GA_CAMRDIF2
+PP_GA_CAMRDIF2_ssec_actuacion		36	string	-	-
+PP_GA_CAMRDIF2_scod_activo		37	string	-	-
+PP_GA_CAMRDIF2__rpr_ret		38	long	-	-
+# FIN DE SERVICIO PP_GA_CAMRDIF2
+
+# Identificadores para el servicio PP_GA_CONDIFE2
+# INICIO DE SERVICIO PP_GA_CONDIFE2
+PP_GA_CONDIFE2_snum_telefono		39	string	-	-
+PP_GA_CONDIFE2_secuencia		40	string	-	-
+PP_GA_CONDIFE2_lnum_items		41	long	-	-
+PP_GA_CONDIFE2_snum_telefono2		42	string	-	-
+PP_GA_CONDIFE2_ssecuencia2		43	string	-	-
+PP_GA_CONDIFE2_scod_origreca		44	string	-	-
+PP_GA_CONDIFE2_sfec_sigrec		45	string	-	-
+PP_GA_CONDIFE2_sflg_activo		46	string	-	-
+PP_GA_CONDIFE2_fimp_rec		47	double	-	-
+PP_GA_CONDIFE2_lnum_rec		48	long	-	-
+PP_GA_CONDIFE2_fimp_min		49	string	-	-
+PP_GA_CONDIFE2__rpr_ret		50	long	-	-
+# FIN DE SERVICIO PP_GA_CONDIFE2
+
+# Identificadores para el servicio PP_GA_ALTADIF2
+# INICIO DE SERVICIO PP_GA_ALTADIF2
+PP_GA_ALTADIF2_snum_telefono		51	string	-	-
+PP_GA_ALTADIF2_fimp_recarga		52	double	-	-
+PP_GA_ALTADIF2_scod_moneda		53	string	-	-
+PP_GA_ALTADIF2scod_tiprecdif01		54	string	-	-
+PP_GA_ALTADIF2_scod_usuario		55	string	-	-
+PP_GA_ALTADIF2_ssec_actuacion		56	string	-	-
+PP_GA_ALTADIF2__rpr_ret		57	long	-	-
+# FIN DE SERVICIO PP_GA_ALTADIF2
+

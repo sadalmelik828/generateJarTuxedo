@@ -1,0 +1,156 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_datosperson.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_datosperson_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3211000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_INSDATOSP
+# INICIO DE SERVICIO PP_GA_INSDATOSP
+PP_GA_INSDATOSP_num_telefono		0	string	-	-
+PP_GA_INSDATOSP_num_identifi		1	string	-	-
+PP_GA_INSDATOSP_cod_identifi		2	string	-	-
+PP_GA_INSDATOSP_des_apellid1		3	string	-	-
+PP_GA_INSDATOSP_des_apellid2		4	string	-	-
+PP_GA_INSDATOSP_des_nombre		5	string	-	-
+PP_GA_INSDATOSP_nom_persauto		6	string	-	-
+PP_GA_INSDATOSP_dni_persauto		7	string	-	-
+PP_GA_INSDATOSP_pod_notarial		8	string	-	-
+PP_GA_INSDATOSP_pod_protnum		9	string	-	-
+PP_GA_INSDATOSP__rpr_ret		10	long	-	-
+# FIN DE SERVICIO PP_GA_INSDATOSP
+
+# Identificadores para el servicio PP_GA_MODDATOSP
+# INICIO DE SERVICIO PP_GA_MODDATOSP
+PP_GA_MODDATOSP_num_telefono		11	string	-	-
+PP_GA_MODDATOSP_num_identifi		12	string	-	-
+PP_GA_MODDATOSP_cod_identifi		13	string	-	-
+PP_GA_MODDATOSP_des_apellid1		14	string	-	-
+PP_GA_MODDATOSP_des_apellid2		15	string	-	-
+PP_GA_MODDATOSP_des_nombre		16	string	-	-
+PP_GA_MODDATOSP_nom_persauto		17	string	-	-
+PP_GA_MODDATOSP_dni_persauto		18	string	-	-
+PP_GA_MODDATOSP_pod_notarial		19	string	-	-
+PP_GA_MODDATOSP_pod_protnum		20	string	-	-
+PP_GA_MODDATOSP__rpr_ret		21	long	-	-
+# FIN DE SERVICIO PP_GA_MODDATOSP
+
+# Identificadores para el servicio PP_GA_CONDATOSP
+# INICIO DE SERVICIO PP_GA_CONDATOSP
+PP_GA_CONDATOSP_num_telefono		22	string	-	-
+PP_GA_CONDATOSP_num_identifi		23	string	-	-
+PP_GA_CONDATOSP_cod_identifi		24	string	-	-
+PP_GA_CONDATOSP_des_apellid1		25	string	-	-
+PP_GA_CONDATOSP_des_apellid2		26	string	-	-
+PP_GA_CONDATOSP_des_nombre		27	string	-	-
+PP_GA_CONDATOSP_nom_persauto		28	string	-	-
+PP_GA_CONDATOSP_dni_persauto		29	string	-	-
+PP_GA_CONDATOSP_pod_notarial		30	string	-	-
+PP_GA_CONDATOSP_pod_protnum		31	string	-	-
+PP_GA_CONDATOSP__rpr_ret		32	long	-	-
+# FIN DE SERVICIO PP_GA_CONDATOSP
+
+# Identificadores para el servicio PP_GA_INSDATOP
+# INICIO DE SERVICIO PP_GA_INSDATOP
+PP_GA_INSDATOP_num_telefono		33	string	-	-
+PP_GA_INSDATOP_num_identifi		34	string	-	-
+PP_GA_INSDATOP_cod_identifi		35	string	-	-
+PP_GA_INSDATOP_des_apellid1		36	string	-	-
+PP_GA_INSDATOP_des_apellid2		37	string	-	-
+PP_GA_INSDATOP_des_nombre		38	string	-	-
+PP_GA_INSDATOP_nom_persauto		39	string	-	-
+PP_GA_INSDATOP_dni_persauto		40	string	-	-
+PP_GA_INSDATOP_pod_notarial		41	string	-	-
+PP_GA_INSDATOP_pod_protnum		42	string	-	-
+PP_GA_INSDATOP_cod_provinci		43	string	-	-
+PP_GA_INSDATOP_cod_poblacio		44	string	-	-
+PP_GA_INSDATOP_cod_calle		45	string	-	-
+PP_GA_INSDATOP_num_calle		46	string	-	-
+PP_GA_INSDATOP_cod_postal		47	string	-	-
+PP_GA_INSDATOP_ind_autlordtad		48	string	-	-
+PP_GA_INSDATOP__rpr_ret		49	long	-	-
+# FIN DE SERVICIO PP_GA_INSDATOP
+
+# Identificadores para el servicio PP_GA_MODDATOP
+# INICIO DE SERVICIO PP_GA_MODDATOP
+PP_GA_MODDATOP_num_telefono		50	string	-	-
+PP_GA_MODDATOP_num_identifi		51	string	-	-
+PP_GA_MODDATOP_cod_identifi		52	string	-	-
+PP_GA_MODDATOP_des_apellid1		53	string	-	-
+PP_GA_MODDATOP_des_apellid2		54	string	-	-
+PP_GA_MODDATOP_des_nombre		55	string	-	-
+PP_GA_MODDATOP_nom_persauto		56	string	-	-
+PP_GA_MODDATOP_dni_persauto		57	string	-	-
+PP_GA_MODDATOP_pod_notarial		58	string	-	-
+PP_GA_MODDATOP_pod_protnum		59	string	-	-
+PP_GA_MODDATOP_cod_provinci		60	string	-	-
+PP_GA_MODDATOP_cod_poblacio		61	string	-	-
+PP_GA_MODDATOP_cod_calle		62	string	-	-
+PP_GA_MODDATOP_num_calle		63	string	-	-
+PP_GA_MODDATOP_cod_postal		64	string	-	-
+PP_GA_MODDATOP_ind_autlordtad		65	string	-	-
+PP_GA_MODDATOP__rpr_ret		66	long	-	-
+# FIN DE SERVICIO PP_GA_MODDATOP
+
+# Identificadores para el servicio PP_GA_CONDATOP
+# INICIO DE SERVICIO PP_GA_CONDATOP
+PP_GA_CONDATOP_num_telefono		67	string	-	-
+PP_GA_CONDATOP_num_identifi		68	string	-	-
+PP_GA_CONDATOP_cod_identifi		69	string	-	-
+PP_GA_CONDATOP_des_apellid1		70	string	-	-
+PP_GA_CONDATOP_des_apellid2		71	string	-	-
+PP_GA_CONDATOP_des_nombre		72	string	-	-
+PP_GA_CONDATOP_nom_persauto		73	string	-	-
+PP_GA_CONDATOP_dni_persauto		74	string	-	-
+PP_GA_CONDATOP_pod_notarial		75	string	-	-
+PP_GA_CONDATOP_pod_protnum		76	string	-	-
+PP_GA_CONDATOP_cod_provinci		77	string	-	-
+PP_GA_CONDATOP_cod_poblacio		78	string	-	-
+PP_GA_CONDATOP_cod_calle		79	string	-	-
+PP_GA_CONDATOP_num_calle		80	string	-	-
+PP_GA_CONDATOP_cod_postal		81	string	-	-
+PP_GA_CONDATOP_ind_autlordtad		82	string	-	-
+PP_GA_CONDATOP__rpr_ret		83	long	-	-
+# FIN DE SERVICIO PP_GA_CONDATOP
+
+# Identificadores para el servicio PP_GA_CONDATP2
+# INICIO DE SERVICIO PP_GA_CONDATP2
+PP_GA_CONDATP2_num_telefono		84	string	-	-
+PP_GA_CONDATP2_num_orden		85	long	-	-
+PP_GA_CONDATP2_num_identifi		86	string	-	-
+PP_GA_CONDATP2_cod_identifi		87	string	-	-
+PP_GA_CONDATP2_des_apellid1		88	string	-	-
+PP_GA_CONDATP2_des_apellid2		89	string	-	-
+PP_GA_CONDATP2_des_nombre		90	string	-	-
+PP_GA_CONDATP2_nom_persauto		91	string	-	-
+PP_GA_CONDATP2_dni_persauto		92	string	-	-
+PP_GA_CONDATP2_pod_notarial		93	string	-	-
+PP_GA_CONDATP2_pod_protnum		94	string	-	-
+PP_GA_CONDATP2_cod_provinci		95	string	-	-
+PP_GA_CONDATP2_cod_poblacio		96	string	-	-
+PP_GA_CONDATP2_cod_calle		97	string	-	-
+PP_GA_CONDATP2_num_calle		98	string	-	-
+PP_GA_CONDATP2_cod_postal		99	string	-	-
+PP_GA_CONDATP2_ind_autlordtad		100	string	-	-
+PP_GA_CONDATP2__rpr_ret		101	long	-	-
+# FIN DE SERVICIO PP_GA_CONDATP2
+
+# Identificadores para el servicio PP_GA_FLGDATPE
+# INICIO DE SERVICIO PP_GA_FLGDATPE
+PP_GA_FLGDATPE_num_telefono		102	string	-	-
+PP_GA_FLGDATPE_flg_datper		103	carray	-	-
+PP_GA_FLGDATPE__rpr_ret		104	long	-	-
+# FIN DE SERVICIO PP_GA_FLGDATPE
+
+# Identificadores para el servicio PP_GA_VFGDATPE
+# INICIO DE SERVICIO PP_GA_VFGDATPE
+PP_GA_VFGDATPE_num_telefono		105	string	-	-
+PP_GA_VFGDATPE_flg_datper		106	carray	-	-
+PP_GA_VFGDATPE_num_icc		107	string	-	-
+PP_GA_VFGDATPE__rpr_ret		108	long	-	-
+# FIN DE SERVICIO PP_GA_VFGDATPE
+

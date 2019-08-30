@@ -1,0 +1,212 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_controles.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_controles_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3284000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_CONCONSUMO
+# INICIO DE SERVICIO GA_CONCONSUMO
+GA_CONCONSUMO_num_telefono		0	string	-	-
+GA_CONCONSUMO_cod_moneda		1	string	-	-
+GA_CONCONSUMO_id_control		2	string	-	-
+GA_CONCONSUMO_umbrales		3	string	-	-
+GA_CONCONSUMO_tipbonos		4	string	-	-
+GA_CONCONSUMO_codbonos		5	string	-	-
+GA_CONCONSUMO_valor_contador		6	double	-	-
+GA_CONCONSUMO_saldo		7	double	-	-
+GA_CONCONSUMO__rpr_ret		8	long	-	-
+# FIN DE SERVICIO GA_CONCONSUMO
+
+# Identificadores para el servicio GA_CONCONTADOR
+# INICIO DE SERVICIO GA_CONCONTADOR
+GA_CONCONTADOR_num_telefono		9	string	-	-
+GA_CONCONTADOR_n_regs		10	long	-	-
+GA_CONCONTADOR_token		11	string	-	-
+GA_CONCONTADOR_id_control		12	string	-	-
+GA_CONCONTADOR_hay_mas		13	long	-	-
+GA_CONCONTADOR__rpr_ret		14	long	-	-
+# FIN DE SERVICIO GA_CONCONTADOR
+
+# Identificadores para el servicio GA_ALTCCPERI
+# INICIO DE SERVICIO GA_ALTCCPERI
+GA_ALTCCPERI_num_telefono		15	string	-	-
+GA_ALTCCPERI_coste		16	double	-	-
+GA_ALTCCPERI_cod_moneda		17	string	-	-
+GA_ALTCCPERI_cod_usuario		18	string	-	-
+GA_ALTCCPERI_id_control		19	string	-	-
+GA_ALTCCPERI_Limite		20	double	-	-
+GA_ALTCCPERI_fechaInicio		21	string	-	-
+GA_ALTCCPERI_fechaFin		22	string	-	-
+GA_ALTCCPERI_idPromocion		23	string	-	-
+GA_ALTCCPERI_sec_actuacion		24	string	-	-
+GA_ALTCCPERI__rpr_ret		25	long	-	-
+# FIN DE SERVICIO GA_ALTCCPERI
+
+# Identificadores para el servicio GA_BAJCCPERI
+# INICIO DE SERVICIO GA_BAJCCPERI
+GA_BAJCCPERI_num_telefono		26	string	-	-
+GA_BAJCCPERI_coste		27	double	-	-
+GA_BAJCCPERI_cod_moneda		28	string	-	-
+GA_BAJCCPERI_cod_usuario		29	string	-	-
+GA_BAJCCPERI_id_control		30	string	-	-
+GA_BAJCCPERI_sec_actuacion		31	string	-	-
+GA_BAJCCPERI__rpr_ret		32	long	-	-
+# FIN DE SERVICIO GA_BAJCCPERI
+
+# Identificadores para el servicio GA_VALCONTADOR
+# INICIO DE SERVICIO GA_VALCONTADOR
+GA_VALCONTADOR_num_telefono		33	string	-	-
+GA_VALCONTADOR_cod_moneda		34	string	-	-
+GA_VALCONTADOR_cod_usuario		35	string	-	-
+GA_VALCONTADOR_id_control		36	string	-	-
+GA_VALCONTADOR_valor_contador		37	double	-	-
+GA_VALCONTADOR_saldo		38	double	-	-
+GA_VALCONTADOR__rpr_ret		39	long	-	-
+# FIN DE SERVICIO GA_VALCONTADOR
+
+# Identificadores para el servicio GA_MODLIMICC
+# INICIO DE SERVICIO GA_MODLIMICC
+GA_MODLIMICC_num_telefono		40	string	-	-
+GA_MODLIMICC_coste		41	double	-	-
+GA_MODLIMICC_cod_moneda		42	string	-	-
+GA_MODLIMICC_cod_usuario		43	string	-	-
+GA_MODLIMICC_id_control		44	string	-	-
+GA_MODLIMICC_Limite		45	double	-	-
+GA_MODLIMICC_sec_actuacion		46	string	-	-
+GA_MODLIMICC__rpr_ret		47	long	-	-
+# FIN DE SERVICIO GA_MODLIMICC
+
+# Identificadores para el servicio GA_ALTCCPERI2
+# INICIO DE SERVICIO GA_ALTCCPERI2
+GA_ALTCCPERI2_num_telefono		48	string	-	-
+GA_ALTCCPERI2_coste		49	double	-	-
+GA_ALTCCPERI2_cod_moneda		50	string	-	-
+GA_ALTCCPERI2_cod_usuario		51	string	-	-
+GA_ALTCCPERI2_id_control		52	string	-	-
+GA_ALTCCPERI2_Limite		53	double	-	-
+GA_ALTCCPERI2_fechaInicio		54	string	-	-
+GA_ALTCCPERI2_fechaFin		55	string	-	-
+GA_ALTCCPERI2_idPromocion		56	string	-	-
+GA_ALTCCPERI2_mediaType		57	string	-	-
+GA_ALTCCPERI2_erReference		58	string	-	-
+GA_ALTCCPERI2_transaction_id		59	string	-	-
+GA_ALTCCPERI2_tipAcumulado		60	double	-	-
+GA_ALTCCPERI2_impValorConAcum		61	double	-	-
+GA_ALTCCPERI2_sec_actuacion		62	string	-	-
+GA_ALTCCPERI2__rpr_ret		63	long	-	-
+# FIN DE SERVICIO GA_ALTCCPERI2
+
+# Identificadores para el servicio GA_BAJCCPERI2
+# INICIO DE SERVICIO GA_BAJCCPERI2
+GA_BAJCCPERI2_num_telefono		64	string	-	-
+GA_BAJCCPERI2_coste		65	double	-	-
+GA_BAJCCPERI2_cod_moneda		66	string	-	-
+GA_BAJCCPERI2_cod_usuario		67	string	-	-
+GA_BAJCCPERI2_id_control		68	string	-	-
+GA_BAJCCPERI2_mediaType		69	string	-	-
+GA_BAJCCPERI2_erReference		70	string	-	-
+GA_BAJCCPERI2_transaction_id		71	string	-	-
+GA_BAJCCPERI2_sec_actuacion		72	string	-	-
+GA_BAJCCPERI2__rpr_ret		73	long	-	-
+# FIN DE SERVICIO GA_BAJCCPERI2
+
+# Identificadores para el servicio GA_MODVALICC
+# INICIO DE SERVICIO GA_MODVALICC
+GA_MODVALICC_num_telefono		74	string	-	-
+GA_MODVALICC_coste		75	double	-	-
+GA_MODVALICC_cod_moneda		76	string	-	-
+GA_MODVALICC_cod_usuario		77	string	-	-
+GA_MODVALICC_id_control		78	string	-	-
+GA_MODVALICC_mediaType		79	string	-	-
+GA_MODVALICC_erReference		80	string	-	-
+GA_MODVALICC_transaction_id		81	string	-	-
+GA_MODVALICC_amount		82	double	-	-
+GA_MODVALICC_sec_actuacion		83	string	-	-
+GA_MODVALICC__rpr_ret		84	long	-	-
+# FIN DE SERVICIO GA_MODVALICC
+
+# Identificadores para el servicio GA_CONTACONSUM
+# INICIO DE SERVICIO GA_CONTACONSUM
+GA_CONTACONSUM_num_telefono		85	string	-	-
+GA_CONTACONSUM_cod_moneda		86	string	-	-
+GA_CONTACONSUM_n_regs		87	long	-	-
+GA_CONTACONSUM_token		88	string	-	-
+GA_CONTACONSUM_id_control		89	string	-	-
+GA_CONTACONSUM_umbrales		90	string	-	-
+GA_CONTACONSUM_valor_contador		91	double	-	-
+GA_CONTACONSUM_saldo		92	double	-	-
+GA_CONTACONSUM_hay_mas		93	long	-	-
+GA_CONTACONSUM__rpr_ret		94	long	-	-
+# FIN DE SERVICIO GA_CONTACONSUM
+
+# Identificadores para el servicio GA_CONCONTA1
+# INICIO DE SERVICIO GA_CONCONTAD1
+GA_CONCONTAD1_num_telefono		95	string	-	-
+GA_CONCONTAD1_n_regs		96	long	-	-
+GA_CONCONTAD1_token		97	string	-	-
+GA_CONCONTAD1_id_control		98	string	-	-
+GA_CONCONTAD1_modalidad		99	string	-	-
+GA_CONCONTAD1_hay_mas		100	long	-	-
+GA_CONCONTAD1__rpr_ret		101	long	-	-
+# FIN DE SERVICIO GA_CONCONTAD1
+
+# Identificadores para el servicio GA_CONTACONSU1
+# INICIO DE SERVICIO GA_CONTACONSU1
+GA_CONTACONSU1_num_telefono		102	string	-	-
+GA_CONTACONSU1_cod_moneda		103	string	-	-
+GA_CONTACONSU1_n_regs		104	long	-	-
+GA_CONTACONSU1_token		105	string	-	-
+GA_CONTACONSU1_id_control		106	string	-	-
+GA_CONTACONSU1_id_conjunto		107	long	-	-
+GA_CONTACONSU1_umbrales		108	string	-	-
+GA_CONTACONSU1_valor_contador		109	double	-	-
+GA_CONTACONSU1_saldo		110	double	-	-
+GA_CONTACONSU1_hay_mas		111	long	-	-
+GA_CONTACONSU1__rpr_ret		112	long	-	-
+# FIN DE SERVICIO GA_CONTACONSU1
+
+# Identificadores para el servicio GA_ALTCCPERI3
+# INICIO DE SERVICIO GA_ALTCCPERI3
+GA_ALTCCPERI3_num_telefono		113	string	-	-
+GA_ALTCCPERI3_coste		114	double	-	-
+GA_ALTCCPERI3_cod_moneda		115	string	-	-
+GA_ALTCCPERI3_cod_usuario		116	string	-	-
+GA_ALTCCPERI3_id_control		117	string	-	-
+GA_ALTCCPERI3_Limite		118	double	-	-
+GA_ALTCCPERI3_fechaInicio		119	string	-	-
+GA_ALTCCPERI3_fechaFin		120	string	-	-
+GA_ALTCCPERI3_idPromocion		121	string	-	-
+GA_ALTCCPERI3_tipAcumulado		122	double	-	-
+GA_ALTCCPERI3_impValorConAcum		123	double	-	-
+GA_ALTCCPERI3_sec_actuacion		124	string	-	-
+GA_ALTCCPERI3__rpr_ret		125	long	-	-
+# FIN DE SERVICIO GA_ALTCCPERI3
+
+# Identificadores para el servicio GA_BAJCCPERI3
+# INICIO DE SERVICIO GA_BAJCCPERI3
+GA_BAJCCPERI3_num_telefono		126	string	-	-
+GA_BAJCCPERI3_coste		127	double	-	-
+GA_BAJCCPERI3_cod_moneda		128	string	-	-
+GA_BAJCCPERI3_cod_usuario		129	string	-	-
+GA_BAJCCPERI3_id_control		130	string	-	-
+GA_BAJCCPERI3_sec_actuacion		131	string	-	-
+GA_BAJCCPERI3__rpr_ret		132	long	-	-
+# FIN DE SERVICIO GA_BAJCCPERI3
+
+# Identificadores para el servicio GA_MODVALIC2
+# INICIO DE SERVICIO GA_MODVALIC2
+GA_MODVALIC2_num_telefono		133	string	-	-
+GA_MODVALIC2_coste		134	double	-	-
+GA_MODVALIC2_cod_moneda		135	string	-	-
+GA_MODVALIC2_cod_usuario		136	string	-	-
+GA_MODVALIC2_id_control		137	string	-	-
+GA_MODVALIC2_amount		138	double	-	-
+GA_MODVALIC2_sec_actuacion		139	string	-	-
+GA_MODVALIC2__rpr_ret		140	long	-	-
+# FIN DE SERVICIO GA_MODVALIC2
+

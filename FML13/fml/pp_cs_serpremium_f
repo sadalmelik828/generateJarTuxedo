@@ -1,0 +1,61 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_serpremium.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_serpremium_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pp_cs_serpremium versión 1.0 
+#
+
+*base		3123000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_CS_FMM_PRE
+# INICIO DE SERVICIO PP_CS_FMM_PRE
+PP_CS_FMM_PRE_numTelefono		0	string	-	-
+PP_CS_FMM_PRE_categ		1	string	-	-
+PP_CS_FMM_PRE_fechaMin		2	string	-	-
+PP_CS_FMM_PRE_fechaMax		3	string	-	-
+PP_CS_FMM_PRE__rpr_ret		4	long	-	-
+# FIN DE SERVICIO PP_CS_FMM_PRE
+
+# Identificadores para el servicio PP_CS_ACUM_PRE
+# INICIO DE SERVICIO PP_CS_ACUM_PRE
+PP_CS_ACUM_PRE_numTelefono		5	string	-	-
+PP_CS_ACUM_PRE_categ		6	string	-	-
+PP_CS_ACUM_PRE_nMeses		7	long	-	-
+PP_CS_ACUM_PRE_fecha		8	string	-	-
+PP_CS_ACUM_PRE_importe		9	double	-	-
+PP_CS_ACUM_PRE__rpr_ret		10	long	-	-
+# FIN DE SERVICIO PP_CS_ACUM_PRE
+
+# Identificadores para el servicio PP_CS_DAT_PRE
+# INICIO DE SERVICIO PP_CS_DAT_PRE
+PP_CS_DAT_PRE_numTelefono		11	string	-	-
+PP_CS_DAT_PRE_numCategorias		12	long	-	-
+PP_CS_DAT_PRE_categorias		13	string	-	-
+PP_CS_DAT_PRE_fechaDesde		14	string	-	-
+PP_CS_DAT_PRE_fechaHasta		15	string	-	-
+PP_CS_DAT_PRE_tipoRegistro		16	string	-	-
+PP_CS_DAT_PRE_mascaraURL		17	string	-	-
+PP_CS_DAT_PRE_importeMinimo		18	double	-	-
+PP_CS_DAT_PRE_orden		19	long	-	-
+PP_CS_DAT_PRE_codIdioma		20	string	-	-
+PP_CS_DAT_PRE_catUlt		21	string	-	-
+PP_CS_DAT_PRE_fechaUlt		22	string	-	-
+PP_CS_DAT_PRE_cidUlt		23	string	-	-
+PP_CS_DAT_PRE_nRegs		24	long	-	-
+PP_CS_DAT_PRE_tipLlamada		25	string	-	-
+PP_CS_DAT_PRE_tipoActiva		26	string	-	-
+PP_CS_DAT_PRE_descripcion		27	string	-	-
+PP_CS_DAT_PRE_fecha		28	string	-	-
+PP_CS_DAT_PRE_impLlamada		29	double	-	-
+PP_CS_DAT_PRE_impNoDctado		30	double	-	-
+PP_CS_DAT_PRE_fechaCaduc		31	string	-	-
+PP_CS_DAT_PRE_duracion		32	long	-	-
+PP_CS_DAT_PRE_cid		33	string	-	-
+PP_CS_DAT_PRE_hayMas		34	long	-	-
+PP_CS_DAT_PRE__rpr_ret		35	long	-	-
+# FIN DE SERVICIO PP_CS_DAT_PRE
+

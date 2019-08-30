@@ -1,0 +1,19 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_verlimdia.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_verlimdia_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2906000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_VERLIMD
+# INICIO DE SERVICIO PO_GE_VERLIMD
+PO_GE_VERLIMD_num_distribuidor		0	string	-	-
+PO_GE_VERLIMD_importe		1	long	-	-
+PO_GE_VERLIMD_moneda		2	short	-	-
+PO_GE_VERLIMD__rpr_ret		3	short	-	-
+# FIN DE SERVICIO PO_GE_VERLIMD
+

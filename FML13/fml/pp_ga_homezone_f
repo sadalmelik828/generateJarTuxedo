@@ -1,0 +1,171 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_homezone.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_homezone_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3282000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio GA_ALTHOMEZONE
+# INICIO DE SERVICIO GA_ALTHOMEZONE
+GA_ALTHOMEZONE_sMsisdn		0	string	-	-
+GA_ALTHOMEZONE_iNumLNS		1	long	-	-
+GA_ALTHOMEZONE_sListaLNS		2	string	-	-
+GA_ALTHOMEZONE_sCodPostal		3	string	-	-
+GA_ALTHOMEZONE_imp_coste		4	double	-	-
+GA_ALTHOMEZONE_sCodMoneda		5	string	-	-
+GA_ALTHOMEZONE_sCodUsuario		6	string	-	-
+GA_ALTHOMEZONE_sSecActuacion		7	string	-	-
+GA_ALTHOMEZONE__rpr_ret		8	long	-	-
+# FIN DE SERVICIO GA_ALTHOMEZONE
+
+# Identificadores para el servicio GA_BAJHOMEZONE
+# INICIO DE SERVICIO GA_BAJHOMEZONE
+GA_BAJHOMEZONE_sMsisdn		9	string	-	-
+GA_BAJHOMEZONE_imp_coste		10	double	-	-
+GA_BAJHOMEZONE_sCodMoneda		11	string	-	-
+GA_BAJHOMEZONE_sCodUsuario		12	string	-	-
+GA_BAJHOMEZONE_numMaxReseteos		13	long	-	-
+GA_BAJHOMEZONE_diasReseteo		14	long	-	-
+GA_BAJHOMEZONE_sSecActuacion		15	string	-	-
+GA_BAJHOMEZONE__rpr_ret		16	long	-	-
+# FIN DE SERVICIO GA_BAJHOMEZONE
+
+# Identificadores para el servicio GA_MODHOMEZONE
+# INICIO DE SERVICIO GA_MODHOMEZONE
+GA_MODHOMEZONE_sMsisdn		17	string	-	-
+GA_MODHOMEZONE_iNumLNS		18	long	-	-
+GA_MODHOMEZONE_sListaLNS		19	string	-	-
+GA_MODHOMEZONE_sCodPostal		20	string	-	-
+GA_MODHOMEZONE_imp_coste		21	double	-	-
+GA_MODHOMEZONE_sCodMoneda		22	string	-	-
+GA_MODHOMEZONE_sCodUsuario		23	string	-	-
+GA_MODHOMEZONE_sSecActuacion		24	string	-	-
+GA_MODHOMEZONE__rpr_ret		25	long	-	-
+# FIN DE SERVICIO GA_MODHOMEZONE
+
+# Identificadores para el servicio GA_CONHOMEZONE
+# INICIO DE SERVICIO GA_CONHOMEZONE
+GA_CONHOMEZONE_sMsisdn		26	string	-	-
+GA_CONHOMEZONE_numLNS		27	long	-	-
+GA_CONHOMEZONE_sListaLNS		28	string	-	-
+GA_CONHOMEZONE_sCodPostal		29	long	-	-
+GA_CONHOMEZONE_servicio_activo		30	long	-	-
+GA_CONHOMEZONE__rpr_ret		31	long	-	-
+# FIN DE SERVICIO GA_CONHOMEZONE
+
+# Identificadores para el servicio GA_CONS_HZ
+# INICIO DE SERVICIO GA_CONS_HZ
+GA_CONS_HZ_snum_telefono		32	string	-	-
+GA_CONS_HZ_ssec_actuacion		33	string	-	-
+GA_CONS_HZ_lnum_orden		34	long	-	-
+GA_CONS_HZ_lnum_LNs		35	long	-	-
+GA_CONS_HZ_stoken		36	string	-	-
+GA_CONS_HZ_aslista_LNs		37	string	-	-
+GA_CONS_HZ_scod_postal		38	string	-	-
+GA_CONS_HZ_shay_mas		39	string	-	-
+GA_CONS_HZ__rpr_ret		40	long	-	-
+# FIN DE SERVICIO GA_CONS_HZ
+
+# Identificadores para el servicio GA_CONFRAUDEHZ
+# INICIO DE SERVICIO GA_CONFRAUDEHZ
+GA_CONFRAUDEHZ_snum_telefono		41	string	-	-
+GA_CONFRAUDEHZ_sfec_ini		42	string	-	-
+GA_CONFRAUDEHZ_sfec_fin		43	string	-	-
+GA_CONFRAUDEHZ_lnum_regs		44	long	-	-
+GA_CONFRAUDEHZ_stoken		45	string	-	-
+GA_CONFRAUDEHZ_asnum_telefonos		46	string	-	-
+GA_CONFRAUDEHZ_alnum_intentos		47	long	-	-
+GA_CONFRAUDEHZ_asfec_fraudes		48	string	-	-
+GA_CONFRAUDEHZ_shay_mas		49	string	-	-
+GA_CONFRAUDEHZ__rpr_ret		50	long	-	-
+# FIN DE SERVICIO GA_CONFRAUDEHZ
+
+# Identificadores para el servicio GA_ALTHOMEZONE2
+# INICIO DE SERVICIO GA_ALTHOMEZONE2
+GA_ALTHOMEZONE2_num_telefono		51	string	-	-
+GA_ALTHOMEZONE2_lNumLNS		52	long	-	-
+GA_ALTHOMEZONE2_sListaLNS		53	string	-	-
+GA_ALTHOMEZONE2_sCodPostal		54	string	-	-
+GA_ALTHOMEZONE2_dimp_coste		55	double	-	-
+GA_ALTHOMEZONE2_sCodMoneda		56	string	-	-
+GA_ALTHOMEZONE2_sCodUsuario		57	string	-	-
+GA_ALTHOMEZONE2_smediaType		58	string	-	-
+GA_ALTHOMEZONE2_serReference		59	string	-	-
+GA_ALTHOMEZONE2stransaction_01		60	string	-	-
+GA_ALTHOMEZONE2_sSecActuacion		61	string	-	-
+GA_ALTHOMEZONE2__rpr_ret		62	long	-	-
+# FIN DE SERVICIO GA_ALTHOMEZONE2
+
+# Identificadores para el servicio GA_BAJHOMEZONE2
+# INICIO DE SERVICIO GA_BAJHOMEZONE2
+GA_BAJHOMEZONE2_num_telefono		63	string	-	-
+GA_BAJHOMEZONE2_dimp_coste		64	double	-	-
+GA_BAJHOMEZONE2_sCodMoneda		65	string	-	-
+GA_BAJHOMEZONE2_sCodUsuario		66	string	-	-
+GA_BAJHOMEZONE2_smediaType		67	string	-	-
+GA_BAJHOMEZONE2_serReference		68	string	-	-
+GA_BAJHOMEZONE2stransaction_01		69	string	-	-
+GA_BAJHOMEZONE2lnumMaxResete01		70	long	-	-
+GA_BAJHOMEZONE2_ldiasReseteo		71	long	-	-
+GA_BAJHOMEZONE2_sSecActuacion		72	string	-	-
+GA_BAJHOMEZONE2__rpr_ret		73	long	-	-
+# FIN DE SERVICIO GA_BAJHOMEZONE2
+
+# Identificadores para el servicio GA_MODHOMEZONE2
+# INICIO DE SERVICIO GA_MODHOMEZONE2
+GA_MODHOMEZONE2_num_telefono		74	string	-	-
+GA_MODHOMEZONE2_lNumLNS		75	long	-	-
+GA_MODHOMEZONE2_sListaLNS		76	string	-	-
+GA_MODHOMEZONE2_sCodPostal		77	string	-	-
+GA_MODHOMEZONE2_dimp_coste		78	double	-	-
+GA_MODHOMEZONE2_sCodMoneda		79	string	-	-
+GA_MODHOMEZONE2_sCodUsuario		80	string	-	-
+GA_MODHOMEZONE2_smediaType		81	string	-	-
+GA_MODHOMEZONE2_serReference		82	string	-	-
+GA_MODHOMEZONE2stransaction_01		83	string	-	-
+GA_MODHOMEZONE2_sSecActuacion		84	string	-	-
+GA_MODHOMEZONE2__rpr_ret		85	long	-	-
+# FIN DE SERVICIO GA_MODHOMEZONE2
+
+# Identificadores para el servicio GA_ALTHOMEZONE3
+# INICIO DE SERVICIO GA_ALTHOMEZONE3
+GA_ALTHOMEZONE3_num_telefono		86	string	-	-
+GA_ALTHOMEZONE3_lNumLNS		87	long	-	-
+GA_ALTHOMEZONE3_sListaLNS		88	string	-	-
+GA_ALTHOMEZONE3_sCodPostal		89	string	-	-
+GA_ALTHOMEZONE3_dimp_coste		90	double	-	-
+GA_ALTHOMEZONE3_sCodMoneda		91	string	-	-
+GA_ALTHOMEZONE3_sCodUsuario		92	string	-	-
+GA_ALTHOMEZONE3_sSecActuacion		93	string	-	-
+GA_ALTHOMEZONE3__rpr_ret		94	long	-	-
+# FIN DE SERVICIO GA_ALTHOMEZONE3
+
+# Identificadores para el servicio GA_BAJHOMEZONE3
+# INICIO DE SERVICIO GA_BAJHOMEZONE3
+GA_BAJHOMEZONE3_num_telefono		95	string	-	-
+GA_BAJHOMEZONE3_dimp_coste		96	double	-	-
+GA_BAJHOMEZONE3_sCodMoneda		97	string	-	-
+GA_BAJHOMEZONE3_sCodUsuario		98	string	-	-
+GA_BAJHOMEZONE3lnumMaxResete01		99	long	-	-
+GA_BAJHOMEZONE3_ldiasReseteo		100	long	-	-
+GA_BAJHOMEZONE3_sSecActuacion		101	string	-	-
+GA_BAJHOMEZONE3__rpr_ret		102	long	-	-
+# FIN DE SERVICIO GA_BAJHOMEZONE3
+
+# Identificadores para el servicio GA_MODHOMEZONE3
+# INICIO DE SERVICIO GA_MODHOMEZONE3
+GA_MODHOMEZONE3_num_telefono		103	string	-	-
+GA_MODHOMEZONE3_lNumLNS		104	long	-	-
+GA_MODHOMEZONE3_sListaLNS		105	string	-	-
+GA_MODHOMEZONE3_sCodPostal		106	string	-	-
+GA_MODHOMEZONE3_dimp_coste		107	double	-	-
+GA_MODHOMEZONE3_sCodMoneda		108	string	-	-
+GA_MODHOMEZONE3_sCodUsuario		109	string	-	-
+GA_MODHOMEZONE3_sSecActuacion		110	string	-	-
+GA_MODHOMEZONE3__rpr_ret		111	long	-	-
+# FIN DE SERVICIO GA_MODHOMEZONE3
+

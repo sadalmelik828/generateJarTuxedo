@@ -1,0 +1,169 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pm_ge_obtdat1_r.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pm_ge_obtdat1_r_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pm versión 1.0 
+#
+
+*base		3504000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio pm_ge_obacpet
+# INICIO DE SERVICIO pm_ge_obacpet
+pm_ge_obacpet_cod_usuario		0	string	-	-
+pm_ge_obacpet_cod_peticion		1	string	-	-
+pm_ge_obacpet_tip_solicitud		2	string	-	-
+pm_ge_obacpet_num_maxpeti		3	short	-	-
+pm_ge_obacpet_ind_maxpeti		4	string	-	-
+pm_ge_obacpet_cod_retorno		5	string	-	-
+# FIN DE SERVICIO pm_ge_obacpet
+
+# Identificadores para el servicio pm_ge_obnrnop
+# INICIO DE SERVICIO pm_ge_obnrnop
+pm_ge_obnrnop_cod_usuario		6	string	-	-
+pm_ge_obnrnop_cod_operador		7	string	-	-
+pm_ge_obnrnop_tex_nrn		8	string	-	-
+pm_ge_obnrnop_cod_retorno		9	string	-	-
+# FIN DE SERVICIO pm_ge_obnrnop
+
+# Identificadores para el servicio pm_ge_obnusec
+# INICIO DE SERVICIO pm_ge_obnusec
+pm_ge_obnusec_cod_usuario		10	string	-	-
+pm_ge_obnusec_num_secdia		11	long	-	-
+pm_ge_obnusec_cod_retorno		12	string	-	-
+# FIN DE SERVICIO pm_ge_obnusec
+
+# Identificadores para el servicio pm_ge_obopicc
+# INICIO DE SERVICIO pm_ge_obopicc
+pm_ge_obopicc_cod_usuario		13	string	-	-
+pm_ge_obopicc_tex_iccid		14	string	-	-
+pm_ge_obopicc_cod_operador		15	string	-	-
+pm_ge_obopicc_cod_retorno		16	string	-	-
+# FIN DE SERVICIO pm_ge_obopicc
+
+# Identificadores para el servicio pm_ge_obopnrn
+# INICIO DE SERVICIO pm_ge_obopnrn
+pm_ge_obopnrn_cod_usuario		17	string	-	-
+pm_ge_obopnrn_tex_nrn		18	string	-	-
+pm_ge_obopnrn_cod_operador		19	string	-	-
+pm_ge_obopnrn_nom_operador		20	string	-	-
+pm_ge_obopnrn_cod_retorno		21	string	-	-
+# FIN DE SERVICIO pm_ge_obopnrn
+
+# Identificadores para el servicio pm_ge_oboptlf
+# INICIO DE SERVICIO pm_ge_oboptlf
+pm_ge_oboptlf_cod_usuario		22	string	-	-
+pm_ge_oboptlf_tex_msisdn		23	string	-	-
+pm_ge_oboptlf_cod_operador		24	string	-	-
+pm_ge_oboptlf_cod_retorno		25	string	-	-
+# FIN DE SERVICIO pm_ge_oboptlf
+
+# Identificadores para el servicio pm_ge_obportf
+# INICIO DE SERVICIO pm_ge_obportf
+pm_ge_obportf_cod_usuario		26	string	-	-
+pm_ge_obportf_tex_msisdn		27	string	-	-
+pm_ge_obportf_cod_operador		28	string	-	-
+pm_ge_obportf_ind_petcurso		29	string	-	-
+pm_ge_obportf_cod_peticion		30	string	-	-
+pm_ge_obportf_num_peticion		31	long	-	-
+pm_ge_obportf_cod_retorno		32	string	-	-
+# FIN DE SERVICIO pm_ge_obportf
+
+# Identificadores para el servicio pm_ge_obprest
+# INICIO DE SERVICIO pm_ge_obprest
+pm_ge_obprest_cod_usuario		33	string	-	-
+pm_ge_obprest_cod_peticion		34	string	-	-
+pm_ge_obprest_cod_estado		35	string	-	-
+pm_ge_obprest_fec_proxestado		36	carray	-	-
+pm_ge_obprest_cod_retorno		37	string	-	-
+# FIN DE SERVICIO pm_ge_obprest
+
+# Identificadores para el servicio pm_ge_obretor
+# INICIO DE SERVICIO pm_ge_obretor
+pm_ge_obretor_cod_usuario		38	string	-	-
+pm_ge_obretor_pcod_retorno		39	string	-	-
+pm_ge_obretor_pdes_retorno		40	string	-	-
+pm_ge_obretor_cod_retorno		41	string	-	-
+# FIN DE SERVICIO pm_ge_obretor
+
+# Identificadores para el servicio pm_ge_obalimp
+# INICIO DE SERVICIO pm_ge_obalimp
+pm_ge_obalimp_cod_usuario		42	string	-	-
+pm_ge_obalimp_bun_peticion		43	long	-	-
+pm_ge_obalimp_but_msisdn		44	string	-	-
+pm_ge_obalimp_tex_msisdn		45	string	-	-
+pm_ge_obalimp_cod_oppropiet		46	string	-	-
+pm_ge_obalimp_cod_opdonante		47	string	-	-
+pm_ge_obalimp_cod_opreceptor		48	string	-	-
+pm_ge_obalimp_tex_nrnrecept		49	string	-	-
+pm_ge_obalimp_cod_peticion		50	string	-	-
+pm_ge_obalimp_fec_solicitud		51	carray	-	-
+pm_ge_obalimp_num_secdia		52	long	-	-
+pm_ge_obalimp_fec_vcambio		53	carray	-	-
+pm_ge_obalimp_fec_peticion		54	carray	-	-
+pm_ge_obalimp_cod_estado		55	string	-	-
+pm_ge_obalimp_fec_estado		56	carray	-	-
+pm_ge_obalimp_cod_retorno		57	string	-	-
+# FIN DE SERVICIO pm_ge_obalimp
+
+# Identificadores para el servicio pm_ge_obalexp
+# INICIO DE SERVICIO pm_ge_obalexp
+pm_ge_obalexp_cod_usuario		58	string	-	-
+pm_ge_obalexp_bun_peticion		59	long	-	-
+pm_ge_obalexp_but_msisdn		60	string	-	-
+pm_ge_obalexp_tex_msisdn		61	string	-	-
+pm_ge_obalexp_cod_oppropiet		62	string	-	-
+pm_ge_obalexp_cod_opdonante		63	string	-	-
+pm_ge_obalexp_cod_opreceptor		64	string	-	-
+pm_ge_obalexp_tex_nrnrecept		65	string	-	-
+pm_ge_obalexp_cod_peticion		66	string	-	-
+pm_ge_obalexp_fec_solicitud		67	carray	-	-
+pm_ge_obalexp_num_secdia		68	long	-	-
+pm_ge_obalexp_fec_vcambio		69	carray	-	-
+pm_ge_obalexp_fec_peticion		70	carray	-	-
+pm_ge_obalexp_cod_estado		71	string	-	-
+pm_ge_obalexp_cod_cauestado		72	string	-	-
+pm_ge_obalexp_fec_estado		73	carray	-	-
+pm_ge_obalexp_cod_retorno		74	string	-	-
+# FIN DE SERVICIO pm_ge_obalexp
+
+# Identificadores para el servicio pm_ge_obcbnrn
+# INICIO DE SERVICIO pm_ge_obcbnrn
+pm_ge_obcbnrn_num_peticion		75	long	-	-
+pm_ge_obcbnrn_cod_peticion		76	string	-	-
+pm_ge_obcbnrn_cod_estado		77	string	-	-
+pm_ge_obcbnrn_tex_msisdn		78	string	-	-
+pm_ge_obcbnrn_tex_nrnnue		79	string	-	-
+pm_ge_obcbnrn_cod_retorno		80	string	-	-
+# FIN DE SERVICIO pm_ge_obcbnrn
+
+# Identificadores para el servicio pm_ge_obconvc
+# INICIO DE SERVICIO pm_ge_obconvc
+pm_ge_obconvc_num_peticion		81	long	-	-
+pm_ge_obconvc_cod_estado		82	string	-	-
+pm_ge_obconvc_tex_msisdn		83	string	-	-
+pm_ge_obconvc_tex_nrnreceptor		84	string	-	-
+pm_ge_obconvc_tex_nrndonante		85	string	-	-
+pm_ge_obconvc_cod_opreceptor		86	string	-	-
+pm_ge_obconvc_cod_opdonante		87	string	-	-
+pm_ge_obconvc_cod_retorno		88	string	-	-
+# FIN DE SERVICIO pm_ge_obconvc
+
+# Identificadores para el servicio pm_ge_obbjimp
+# INICIO DE SERVICIO pm_ge_obbjimp
+pm_ge_obbjimp_num_peticion		89	long	-	-
+pm_ge_obbjimp_tex_msisdn		90	string	-	-
+pm_ge_obbjimp_cod_retorno		91	string	-	-
+# FIN DE SERVICIO pm_ge_obbjimp
+
+# Identificadores para el servicio pm_ge_obopers
+# INICIO DE SERVICIO pm_ge_obopers
+pm_ge_obopers_cod_usuario		92	string	-	-
+pm_ge_obopers_cod_operador		93	string	-	-
+pm_ge_obopers_nom_operador		94	string	-	-
+pm_ge_obopers_cod_retorno		95	string	-	-
+# FIN DE SERVICIO pm_ge_obopers
+

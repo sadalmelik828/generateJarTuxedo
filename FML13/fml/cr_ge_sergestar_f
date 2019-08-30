@@ -1,0 +1,91 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [cr_ge_sergestar.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# cr_ge_sergestar_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz crge_sergestar versión 1.0 
+#
+
+*base		1602000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio CR_GE_RECTAR
+# INICIO DE SERVICIO CR_GE_RECTAR
+CR_GE_RECTAR_msisdn		0	string	-	-
+CR_GE_RECTAR_clave_recarga		1	string	-	-
+CR_GE_RECTAR_codUsuario		2	string	-	-
+CR_GE_RECTAR_cod_idioma		3	string	-	-
+CR_GE_RECTAR_num_fallos_rec		4	short	-	-
+CR_GE_RECTAR_des_estado		5	string	-	-
+CR_GE_RECTAR__rpr_ret		6	long	-	-
+# FIN DE SERVICIO CR_GE_RECTAR
+
+# Identificadores para el servicio CR_GE_ANUREC
+# INICIO DE SERVICIO CR_GE_ANUREC
+CR_GE_ANUREC_msisdn		7	string	-	-
+CR_GE_ANUREC_clave_recarga		8	string	-	-
+CR_GE_ANUREC_codUsuario		9	string	-	-
+CR_GE_ANUREC_cod_idioma		10	string	-	-
+CR_GE_ANUREC_des_estado		11	string	-	-
+CR_GE_ANUREC__rpr_ret		12	long	-	-
+# FIN DE SERVICIO CR_GE_ANUREC
+
+# Identificadores para el servicio CR_GE_ANUCOD
+# INICIO DE SERVICIO CR_GE_ANUCOD
+CR_GE_ANUCOD_msisdn		13	string	-	-
+CR_GE_ANUCOD_cod_admin		14	string	-	-
+CR_GE_ANUCOD_causa_anula		15	string	-	-
+CR_GE_ANUCOD_codUsuario		16	string	-	-
+CR_GE_ANUCOD_cod_idioma		17	string	-	-
+CR_GE_ANUCOD_des_estado		18	string	-	-
+CR_GE_ANUCOD__rpr_ret		19	long	-	-
+# FIN DE SERVICIO CR_GE_ANUCOD
+
+# Identificadores para el servicio CR_GE_ANUFIC
+# INICIO DE SERVICIO CR_GE_ANUFIC
+CR_GE_ANUFIC_nomEntrada		20	string	-	-
+CR_GE_ANUFIC__rpr_ret		21	long	-	-
+# FIN DE SERVICIO CR_GE_ANUFIC
+
+# Identificadores para el servicio CR_GE_ANUFIC2
+# INICIO DE SERVICIO CR_GE_ANUFIC2
+CR_GE_ANUFIC2_nomEntrada		22	string	-	-
+CR_GE_ANUFIC2_codUsuario		23	string	-	-
+CR_GE_ANUFIC2__rpr_ret		24	long	-	-
+# FIN DE SERVICIO CR_GE_ANUFIC2
+
+# Identificadores para el servicio CR_GE_RECTAR2
+# INICIO DE SERVICIO CR_GE_RECTAR2
+CR_GE_RECTAR2_msisdn		25	string	-	-
+CR_GE_RECTAR2_clave_recarga		26	string	-	-
+CR_GE_RECTAR2_codUsuario		27	string	-	-
+CR_GE_RECTAR2_cod_idioma		28	string	-	-
+CR_GE_RECTAR2_flg_sist_rem		29	short	-	-
+CR_GE_RECTAR2_num_fallos_rec		30	short	-	-
+CR_GE_RECTAR2_des_estado		31	string	-	-
+CR_GE_RECTAR2__rpr_ret		32	long	-	-
+# FIN DE SERVICIO CR_GE_RECTAR2
+
+# Identificadores para el servicio CR_GE_RECCAL
+# INICIO DE SERVICIO CR_GE_RECCAL
+CR_GE_RECCAL_clave_inicial		33	string	-	-
+CR_GE_RECCAL_clave_recarga		34	string	-	-
+CR_GE_RECCAL_codUsuario		35	string	-	-
+CR_GE_RECCAL_cod_idioma		36	string	-	-
+CR_GE_RECCAL_des_estado		37	string	-	-
+CR_GE_RECCAL__rpr_ret		38	long	-	-
+# FIN DE SERVICIO CR_GE_RECCAL
+
+# Identificadores para el servicio CR_GE_ANUCOD2
+# INICIO DE SERVICIO CR_GE_ANUCOD2
+CR_GE_ANUCOD2_msisdn		39	string	-	-
+CR_GE_ANUCOD2_cod_admin		40	string	-	-
+CR_GE_ANUCOD2_causa_anula		41	string	-	-
+CR_GE_ANUCOD2_codUsuario		42	string	-	-
+CR_GE_ANUCOD2_cod_idioma		43	string	-	-
+CR_GE_ANUCOD2_des_estado		44	string	-	-
+CR_GE_ANUCOD2__rpr_ret		45	long	-	-
+# FIN DE SERVICIO CR_GE_ANUCOD2
+

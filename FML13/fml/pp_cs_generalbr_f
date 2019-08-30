@@ -1,0 +1,169 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_generalbr.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_generalbr_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pp_cs_generalbr versión 1.0 
+#
+
+*base		3120000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio BRCS_FMM_ABS
+# INICIO DE SERVICIO BRCS_FMM_ABS
+BRCS_FMM_ABS_numTelefono		0	string	-	-
+BRCS_FMM_ABS_fechaMin		1	string	-	-
+BRCS_FMM_ABS_fechaMax		2	string	-	-
+BRCS_FMM_ABS__rpr_ret		3	long	-	-
+# FIN DE SERVICIO BRCS_FMM_ABS
+
+# Identificadores para el servicio BRCS_FMM_CAT
+# INICIO DE SERVICIO BRCS_FMM_CAT
+BRCS_FMM_CAT_numTelefono		4	string	-	-
+BRCS_FMM_CAT_numCategorias		5	long	-	-
+BRCS_FMM_CAT_categorias		6	string	-	-
+BRCS_FMM_CAT_categ		7	string	-	-
+BRCS_FMM_CAT_fechaMin		8	string	-	-
+BRCS_FMM_CAT_fechaMax		9	string	-	-
+BRCS_FMM_CAT__rpr_ret		10	long	-	-
+# FIN DE SERVICIO BRCS_FMM_CAT
+
+# Identificadores para el servicio BRCS_ACUM_ABS
+# INICIO DE SERVICIO BRCS_ACUM_ABS
+BRCS_ACUM_ABS_numTelefono		11	string	-	-
+BRCS_ACUM_ABS_fechaDesde		12	string	-	-
+BRCS_ACUM_ABS_fechaHasta		13	string	-	-
+BRCS_ACUM_ABS_importe		14	long	-	-
+BRCS_ACUM_ABS__rpr_ret		15	long	-	-
+# FIN DE SERVICIO BRCS_ACUM_ABS
+
+# Identificadores para el servicio BRCS_ACUM_CAT
+# INICIO DE SERVICIO BRCS_ACUM_CAT
+BRCS_ACUM_CAT_numTelefono		16	string	-	-
+BRCS_ACUM_CAT_fechaDesde		17	string	-	-
+BRCS_ACUM_CAT_fechaHasta		18	string	-	-
+BRCS_ACUM_CAT_numCategorias		19	long	-	-
+BRCS_ACUM_CAT_categorias		20	string	-	-
+BRCS_ACUM_CAT_categ		21	string	-	-
+BRCS_ACUM_CAT_importe		22	long	-	-
+BRCS_ACUM_CAT__rpr_ret		23	long	-	-
+# FIN DE SERVICIO BRCS_ACUM_CAT
+
+# Identificadores para el servicio BRCS_DAT_GEN
+# INICIO DE SERVICIO BRCS_DAT_GEN
+BRCS_DAT_GEN_concatenado		24	long	-	-
+BRCS_DAT_GEN_numTelefono		25	string	-	-
+BRCS_DAT_GEN_fechaDesde		26	string	-	-
+BRCS_DAT_GEN_fechaHasta		27	string	-	-
+BRCS_DAT_GEN_mascara		28	string	-	-
+BRCS_DAT_GEN_importeMinimo		29	long	-	-
+BRCS_DAT_GEN_orden		30	long	-	-
+BRCS_DAT_GEN_codIdioma		31	string	-	-
+BRCS_DAT_GEN_numCategorias		32	long	-	-
+BRCS_DAT_GEN_categorias		33	string	-	-
+BRCS_DAT_GEN_ultElementoE		34	string	-	-
+BRCS_DAT_GEN_nRegs		35	long	-	-
+BRCS_DAT_GEN_categ		36	string	-	-
+BRCS_DAT_GEN_destinoOper		37	string	-	-
+BRCS_DAT_GEN_tipoPrepago		38	string	-	-
+BRCS_DAT_GEN_descripcion		39	string	-	-
+BRCS_DAT_GEN_fecha		40	string	-	-
+BRCS_DAT_GEN_duracion		41	long	-	-
+BRCS_DAT_GEN_importe		42	long	-	-
+BRCS_DAT_GEN_impAdicional		43	long	-	-
+BRCS_DAT_GEN_areaOrigen		44	long	-	-
+BRCS_DAT_GEN_areaDestino		45	long	-	-
+BRCS_DAT_GEN_clvConcat		46	string	-	-
+BRCS_DAT_GEN_cambioTarifa		47	string	-	-
+BRCS_DAT_GEN_infAdicional		48	string	-	-
+BRCS_DAT_GEN_ultElementoS		49	string	-	-
+BRCS_DAT_GEN_hayMas		50	long	-	-
+BRCS_DAT_GEN__rpr_ret		51	long	-	-
+# FIN DE SERVICIO BRCS_DAT_GEN
+
+# Identificadores para el servicio BRCS_DAT_GEN2
+# INICIO DE SERVICIO BRCS_DAT_GEN2
+BRCS_DAT_GEN2_concatenado		52	long	-	-
+BRCS_DAT_GEN2_numTelefono		53	string	-	-
+BRCS_DAT_GEN2_fechaDesde		54	string	-	-
+BRCS_DAT_GEN2_fechaHasta		55	string	-	-
+BRCS_DAT_GEN2_mascara		56	string	-	-
+BRCS_DAT_GEN2_importeMinimo		57	long	-	-
+BRCS_DAT_GEN2_orden		58	long	-	-
+BRCS_DAT_GEN2_codIdioma		59	string	-	-
+BRCS_DAT_GEN2_numCategorias		60	long	-	-
+BRCS_DAT_GEN2_categorias		61	string	-	-
+BRCS_DAT_GEN2_ultElementoE		62	string	-	-
+BRCS_DAT_GEN2_nRegs		63	long	-	-
+BRCS_DAT_GEN2_categ		64	string	-	-
+BRCS_DAT_GEN2_destinoOper		65	string	-	-
+BRCS_DAT_GEN2_tipoPrepago		66	string	-	-
+BRCS_DAT_GEN2_tipoLlamada		67	string	-	-
+BRCS_DAT_GEN2_descripcion		68	string	-	-
+BRCS_DAT_GEN2_fecha		69	string	-	-
+BRCS_DAT_GEN2_duracion		70	long	-	-
+BRCS_DAT_GEN2_dur_fact		71	long	-	-
+BRCS_DAT_GEN2_importe		72	long	-	-
+BRCS_DAT_GEN2_impAdicional		73	long	-	-
+BRCS_DAT_GEN2_areaOrigen		74	long	-	-
+BRCS_DAT_GEN2_areaDestino		75	long	-	-
+BRCS_DAT_GEN2_clvConcat		76	string	-	-
+BRCS_DAT_GEN2_cambioTarifa		77	string	-	-
+BRCS_DAT_GEN2_infAdicional		78	string	-	-
+BRCS_DAT_GEN2_ultElementoS		79	string	-	-
+BRCS_DAT_GEN2_hayMas		80	long	-	-
+BRCS_DAT_GEN2__rpr_ret		81	long	-	-
+# FIN DE SERVICIO BRCS_DAT_GEN2
+
+# Identificadores para el servicio BRCS_DAT_GEN3
+# INICIO DE SERVICIO BRCS_DAT_GEN3
+BRCS_DAT_GEN3_concatenado		82	long	-	-
+BRCS_DAT_GEN3_numTelefono		83	string	-	-
+BRCS_DAT_GEN3_fechaDesde		84	string	-	-
+BRCS_DAT_GEN3_fechaHasta		85	string	-	-
+BRCS_DAT_GEN3_mascara		86	string	-	-
+BRCS_DAT_GEN3_importeMinimo		87	long	-	-
+BRCS_DAT_GEN3_codIdioma		88	string	-	-
+BRCS_DAT_GEN3_numCategorias		89	long	-	-
+BRCS_DAT_GEN3_categorias		90	string	-	-
+BRCS_DAT_GEN3_ultElementoE		91	string	-	-
+BRCS_DAT_GEN3_nRegs		92	long	-	-
+BRCS_DAT_GEN3_categ		93	string	-	-
+BRCS_DAT_GEN3_destinoOper		94	string	-	-
+BRCS_DAT_GEN3_tipoPrepago		95	string	-	-
+BRCS_DAT_GEN3_tipoLlamada		96	string	-	-
+BRCS_DAT_GEN3_descripcion		97	string	-	-
+BRCS_DAT_GEN3_fecha		98	string	-	-
+BRCS_DAT_GEN3_duracion		99	long	-	-
+BRCS_DAT_GEN3_dur_fact		100	long	-	-
+BRCS_DAT_GEN3_importe		101	long	-	-
+BRCS_DAT_GEN3_impAdicional		102	long	-	-
+BRCS_DAT_GEN3_areaOrigen		103	long	-	-
+BRCS_DAT_GEN3_areaDestino		104	long	-	-
+BRCS_DAT_GEN3_clvConcat		105	string	-	-
+BRCS_DAT_GEN3_cambioTarifa		106	string	-	-
+BRCS_DAT_GEN3_infAdicional		107	string	-	-
+BRCS_DAT_GEN3_ultElementoS		108	string	-	-
+BRCS_DAT_GEN3_hayMas		109	long	-	-
+BRCS_DAT_GEN3__rpr_ret		110	long	-	-
+# FIN DE SERVICIO BRCS_DAT_GEN3
+
+# Identificadores para el servicio BRCS_OBT_CAT
+# INICIO DE SERVICIO BRCS_OBT_CAT
+BRCS_OBT_CAT_numCategorias		111	long	-	-
+BRCS_OBT_CAT_codigo		112	string	-	-
+BRCS_OBT_CAT_Descripcion		113	string	-	-
+BRCS_OBT_CAT__rpr_ret		114	long	-	-
+# FIN DE SERVICIO BRCS_OBT_CAT
+
+# Identificadores para el servicio BRCS_OBTCAT2
+# INICIO DE SERVICIO BRCS_OBTCAT2
+BRCS_OBTCAT2_codIdioma		115	string	-	-
+BRCS_OBTCAT2_numCategorias		116	long	-	-
+BRCS_OBTCAT2_codigo		117	string	-	-
+BRCS_OBTCAT2_Descripcion		118	string	-	-
+BRCS_OBTCAT2__rpr_ret		119	long	-	-
+# FIN DE SERVICIO BRCS_OBTCAT2
+

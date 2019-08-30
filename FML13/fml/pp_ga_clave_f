@@ -1,0 +1,135 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_ga_clave.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_ga_clave_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		3232000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_GA_CLAVALT
+# INICIO DE SERVICIO PP_GA_CLAVALT
+PP_GA_CLAVALT_szNumTelefono		0	string	-	-
+PP_GA_CLAVALT_szCodCuencli		1	string	-	-
+PP_GA_CLAVALT_lImporte		2	long	-	-
+PP_GA_CLAVALT_metodoEntrega		3	string	-	-
+PP_GA_CLAVALT_origen		4	string	-	-
+PP_GA_CLAVALT_datPerNombre		5	string	-	-
+PP_GA_CLAVALT_datPerApellido1		6	string	-	-
+PP_GA_CLAVALT_datPerApellido2		7	string	-	-
+PP_GA_CLAVALT_datPerTipoId		8	short	-	-
+PP_GA_CLAVALTdatPerIdentific01		9	string	-	-
+PP_GA_CLAVALT_datPerCalle		10	string	-	-
+PP_GA_CLAVALTdatPerNumeroCal01		11	string	-	-
+PP_GA_CLAVALT_datPerLocalidad		12	string	-	-
+PP_GA_CLAVALT_datPerProvincia		13	string	-	-
+PP_GA_CLAVALT_datPerCodPostal		14	string	-	-
+PP_GA_CLAVALTdatPerAclaracio01		15	string	-	-
+PP_GA_CLAVALT_ut_un		16	string	-	-
+PP_GA_CLAVALT_cod_usuario		17	string	-	-
+PP_GA_CLAVALT_cod_moneda		18	string	-	-
+PP_GA_CLAVALT__rpr_ret		19	long	-	-
+# FIN DE SERVICIO PP_GA_CLAVALT
+
+# Identificadores para el servicio PP_GA_CLAVBAJ
+# INICIO DE SERVICIO PP_GA_CLAVBAJ
+PP_GA_CLAVBAJ_szNumTelefono		20	string	-	-
+PP_GA_CLAVBAJ_szCodCuencli		21	string	-	-
+PP_GA_CLAVBAJ_cod_causbaja		22	string	-	-
+PP_GA_CLAVBAJ_cod_usuario		23	string	-	-
+PP_GA_CLAVBAJ__rpr_ret		24	long	-	-
+# FIN DE SERVICIO PP_GA_CLAVBAJ
+
+# Identificadores para el servicio PP_GA_CLAVMAS
+# INICIO DE SERVICIO PP_GA_CLAVMAS
+PP_GA_CLAVMAS_szMascara		25	string	-	-
+PP_GA_CLAVMAS__rpr_ret		26	long	-	-
+# FIN DE SERVICIO PP_GA_CLAVMAS
+
+# Identificadores para el servicio PP_GA_CLAVVAL
+# INICIO DE SERVICIO PP_GA_CLAVVAL
+PP_GA_CLAVVAL_szNumTelefono		27	string	-	-
+PP_GA_CLAVVAL_szClave		28	string	-	-
+PP_GA_CLAVVAL_origen		29	string	-	-
+PP_GA_CLAVVAL_tip_clave		30	string	-	-
+PP_GA_CLAVVAL_est_clave		31	string	-	-
+PP_GA_CLAVVAL_causa		32	string	-	-
+PP_GA_CLAVVAL__rpr_ret		33	long	-	-
+# FIN DE SERVICIO PP_GA_CLAVVAL
+
+# Identificadores para el servicio PP_GA_CLAVSOL
+# INICIO DE SERVICIO PP_GA_CLAVSOL
+PP_GA_CLAVSOL_szNumTelefono		34	string	-	-
+PP_GA_CLAVSOL_lImporte		35	long	-	-
+PP_GA_CLAVSOL_metodoEntrega		36	string	-	-
+PP_GA_CLAVSOL_origen		37	string	-	-
+PP_GA_CLAVSOL_datPerNombre		38	string	-	-
+PP_GA_CLAVSOL_datPerApellido1		39	string	-	-
+PP_GA_CLAVSOL_datPerApellido2		40	string	-	-
+PP_GA_CLAVSOL_datPerTipoId		41	short	-	-
+PP_GA_CLAVSOLdatPerIdentific01		42	string	-	-
+PP_GA_CLAVSOL_datPerCalle		43	string	-	-
+PP_GA_CLAVSOLdatPerNumeroCal01		44	string	-	-
+PP_GA_CLAVSOL_datPerLocalidad		45	string	-	-
+PP_GA_CLAVSOL_datPerProvincia		46	string	-	-
+PP_GA_CLAVSOL_datPerCodPostal		47	string	-	-
+PP_GA_CLAVSOLdatPerAclaracio01		48	string	-	-
+PP_GA_CLAVSOL_ut_un		49	string	-	-
+PP_GA_CLAVSOL_cod_usuario		50	string	-	-
+PP_GA_CLAVSOL_cod_moneda		51	string	-	-
+PP_GA_CLAVSOL__rpr_ret		52	long	-	-
+# FIN DE SERVICIO PP_GA_CLAVSOL
+
+# Identificadores para el servicio PP_GA_CLAVCON
+# INICIO DE SERVICIO PP_GA_CLAVCON
+PP_GA_CLAVCON_szNumTelefono		53	string	-	-
+PP_GA_CLAVCON_est_clave		54	string	-	-
+PP_GA_CLAVCON_tip_envio		55	string	-	-
+PP_GA_CLAVCON_num_int_fall		56	long	-	-
+PP_GA_CLAVCON_cod_clave_num		57	string	-	-
+PP_GA_CLAVCON_cod_clave_alf		58	string	-	-
+PP_GA_CLAVCON_fec_pet_clave		59	string	-	-
+PP_GA_CLAVCON_fec_camb_est		60	string	-	-
+PP_GA_CLAVCON_num_utiliz		61	long	-	-
+PP_GA_CLAVCON_num_cambios		62	long	-	-
+PP_GA_CLAVCON_entidad		63	string	-	-
+PP_GA_CLAVCON_ut_un		64	string	-	-
+PP_GA_CLAVCON__rpr_ret		65	long	-	-
+# FIN DE SERVICIO PP_GA_CLAVCON
+
+# Identificadores para el servicio PP_GA_MODCLA
+# INICIO DE SERVICIO PP_GA_MODCLA
+PP_GA_MODCLA_codAbonado		66	string	-	-
+PP_GA_MODCLA_num_telefono		67	string	-	-
+PP_GA_MODCLA_tipo_modifica		68	string	-	-
+PP_GA_MODCLA_icc		69	string	-	-
+PP_GA_MODCLA_clave_num		70	string	-	-
+PP_GA_MODCLA_clave_alf		71	string	-	-
+PP_GA_MODCLA_estado_entrega		72	string	-	-
+PP_GA_MODCLA_metodo_entrega		73	string	-	-
+PP_GA_MODCLA_origen		74	string	-	-
+PP_GA_MODCLA_codIdioma		75	string	-	-
+PP_GA_MODCLA_nombreEmpresa		76	string	-	-
+PP_GA_MODCLA_observaciones		77	string	-	-
+PP_GA_MODCLA_datNombre		78	string	-	-
+PP_GA_MODCLA_datApellido1		79	string	-	-
+PP_GA_MODCLA_datApellido2		80	string	-	-
+PP_GA_MODCLA_datTipoId		81	short	-	-
+PP_GA_MODCLA_datIdent		82	string	-	-
+PP_GA_MODCLA_datTipoCalle		83	string	-	-
+PP_GA_MODCLA_datCalle		84	string	-	-
+PP_GA_MODCLA_datNumCalle		85	string	-	-
+PP_GA_MODCLA_datLocalidad		86	string	-	-
+PP_GA_MODCLA_datProvincia		87	string	-	-
+PP_GA_MODCLA_datCP		88	string	-	-
+PP_GA_MODCLA_datAclara		89	string	-	-
+PP_GA_MODCLA_ut_un		90	string	-	-
+PP_GA_MODCLA_coste		91	double	-	-
+PP_GA_MODCLA_cod_moneda		92	string	-	-
+PP_GA_MODCLA_cod_usuario		93	string	-	-
+PP_GA_MODCLA_sec_actuacion		94	string	-	-
+PP_GA_MODCLA__rpr_ret		95	long	-	-
+# FIN DE SERVICIO PP_GA_MODCLA
+

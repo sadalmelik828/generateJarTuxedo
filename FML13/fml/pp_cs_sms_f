@@ -1,0 +1,72 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pp_cs_sms.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pp_cs_sms_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pp_cs_sms versión 1.0 
+#
+
+*base		3103000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PP_CS_FMM_SMS
+# INICIO DE SERVICIO PP_CS_FMM_SMS
+PP_CS_FMM_SMS_numTelefono		0	string	-	-
+PP_CS_FMM_SMS_fechaMin		1	string	-	-
+PP_CS_FMM_SMS_fechaMax		2	string	-	-
+PP_CS_FMM_SMS__rpr_ret		3	long	-	-
+# FIN DE SERVICIO PP_CS_FMM_SMS
+
+# Identificadores para el servicio PP_CS_ACUM_SMS
+# INICIO DE SERVICIO PP_CS_ACUM_SMS
+PP_CS_ACUM_SMS_numTelefono		4	string	-	-
+PP_CS_ACUM_SMS_nMeses		5	long	-	-
+PP_CS_ACUM_SMS_fecha		6	string	-	-
+PP_CS_ACUM_SMS_importe		7	double	-	-
+PP_CS_ACUM_SMS__rpr_ret		8	long	-	-
+# FIN DE SERVICIO PP_CS_ACUM_SMS
+
+# Identificadores para el servicio PP_CS_DAT_SMS
+# INICIO DE SERVICIO PP_CS_DAT_SMS
+PP_CS_DAT_SMS_numTelefono		9	string	-	-
+PP_CS_DAT_SMS_fechaDesde		10	string	-	-
+PP_CS_DAT_SMS_fechaHasta		11	string	-	-
+PP_CS_DAT_SMS_mascara		12	string	-	-
+PP_CS_DAT_SMS_importeMinimo		13	double	-	-
+PP_CS_DAT_SMS_orden		14	long	-	-
+PP_CS_DAT_SMS_codIdioma		15	string	-	-
+PP_CS_DAT_SMS_catUlt		16	string	-	-
+PP_CS_DAT_SMS_fechaUlt		17	string	-	-
+PP_CS_DAT_SMS_cidUlt		18	string	-	-
+PP_CS_DAT_SMS_nRegs		19	long	-	-
+PP_CS_DAT_SMS_numTelefonoB		20	string	-	-
+PP_CS_DAT_SMS_descripcion		21	string	-	-
+PP_CS_DAT_SMS_fecha		22	string	-	-
+PP_CS_DAT_SMS_importe		23	double	-	-
+PP_CS_DAT_SMS_hayMas		24	long	-	-
+PP_CS_DAT_SMS__rpr_ret		25	long	-	-
+# FIN DE SERVICIO PP_CS_DAT_SMS
+
+# Identificadores para el servicio PP_CS_DATX_SMS
+# INICIO DE SERVICIO PP_CS_DATX_SMS
+PP_CS_DATX_SMS_numTelefono		26	string	-	-
+PP_CS_DATX_SMS_fechaDesde		27	string	-	-
+PP_CS_DATX_SMS_fechaHasta		28	string	-	-
+PP_CS_DATX_SMS_mascara		29	string	-	-
+PP_CS_DATX_SMS_importeMinimo		30	double	-	-
+PP_CS_DATX_SMS_orden		31	long	-	-
+PP_CS_DATX_SMS_codIdioma		32	string	-	-
+PP_CS_DATX_SMS_catUlt		33	string	-	-
+PP_CS_DATX_SMS_fechaUlt		34	string	-	-
+PP_CS_DATX_SMS_cidUlt		35	string	-	-
+PP_CS_DATX_SMS_nRegs		36	long	-	-
+PP_CS_DATX_SMS_numTelefonoB		37	string	-	-
+PP_CS_DATX_SMS_descripcion		38	string	-	-
+PP_CS_DATX_SMS_fecha		39	string	-	-
+PP_CS_DATX_SMS_importe		40	double	-	-
+PP_CS_DATX_SMS_hayMas		41	long	-	-
+PP_CS_DATX_SMS__rpr_ret		42	long	-	-
+# FIN DE SERVICIO PP_CS_DATX_SMS
+

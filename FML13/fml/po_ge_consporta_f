@@ -1,0 +1,29 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [po_ge_consporta.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# po_ge_consporta_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+
+*base		2922000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio PO_GE_CONSPORTA
+# INICIO DE SERVICIO PO_GE_CONSPORTA
+PO_GE_CONSPORTA_num_items		0	long	-	-
+PO_GE_CONSPORTA_lmsisdn		1	string	-	-
+PO_GE_CONSPORTA_loperadora		2	long	-	-
+PO_GE_CONSPORTA__rpr_ret		3	short	-	-
+# FIN DE SERVICIO PO_GE_CONSPORTA
+
+# Identificadores para el servicio PO_GE_CONPORT2
+# INICIO DE SERVICIO PO_GE_CONPORT2
+PO_GE_CONPORT2_msisdn		4	string	-	-
+PO_GE_CONPORT2_num_items		5	long	-	-
+PO_GE_CONPORT2_lmsisdn		6	string	-	-
+PO_GE_CONPORT2_ltipodestino		7	long	-	-
+PO_GE_CONPORT2_llocalidad		8	long	-	-
+PO_GE_CONPORT2__rpr_ret		9	short	-	-
+# FIN DE SERVICIO PO_GE_CONPORT2
+

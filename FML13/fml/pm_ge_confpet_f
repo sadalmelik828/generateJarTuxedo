@@ -1,0 +1,22 @@
+#
+# Fichero generado por RProcC 2.8.0 Rev. B [pm_ge_confpet.idl]
+# Este fichero no debe editarse (se genera en cada compilación del archivo IDL)
+#
+# pm_ge_confpet_f : fichero de definición de los identificadores para los buffers FML de TUXEDO
+#
+# Interfaz pm versión 1.0 
+#
+
+*base		3503000
+#  nombre 		 valor 	 tipo 	 flags 	 comentario 
+# ========		=======	======	=======	============
+
+# Identificadores para el servicio pm_ge_confpet
+# INICIO DE SERVICIO pm_ge_confpet
+pm_ge_confpet_cod_usuario		0	string	-	-
+pm_ge_confpet_cod_peticion		1	string	-	-
+pm_ge_confpet_tex_msisdn		2	string	-	-
+pm_ge_confpet_fec_peticion		3	carray	-	-
+pm_ge_confpet_cod_retorno		4	string	-	-
+# FIN DE SERVICIO pm_ge_confpet
+

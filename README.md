@@ -16,7 +16,7 @@ This application convert tables FML32 from Tuxedo to files Java and generate a p
     - **conf** _contains config files por generate package java_
         - map.txt _example config file for map package java_
     - **fml** _contains all files FML32 for convert_
-        - * _Any file FML32 type_
+        - \* _Any file FML32 type_
     - **java** _Contains unordered POJO files to compile_
     - **log** _Contains log files with errors info_
     - **src** _Contains the structure of package with POJO's to compile_
